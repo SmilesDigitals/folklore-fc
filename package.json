@@ -13,10 +13,10 @@
     "@paypal/react-paypal-js": "^8.9.2",
     "clsx": "^2.1.1",
     "lucide-react": "^0.555.0",
-    "next": "16.0.6",
+    "next": "^16.0.8",
     "next-intl": "^4.5.8",
-    "react": "19.2.0",
-    "react-dom": "19.2.0",
+    "react": "^19.2.1",
+    "react-dom": "^19.2.1",
     "tailwind-merge": "^3.4.0"
   },
   "devDependencies": {
