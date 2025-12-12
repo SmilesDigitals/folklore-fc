@@ -92,7 +92,7 @@ export const menList: Product[] = [
     name: 'Brooklyn Concrete Tee',
     price: 42.00,
     currency: 'USD',
-    image: '/images/1.webp',
+    image: '/images/men/1.webp',
     region: 'en',
     gender: 'men',
     description: 'Gritty textures inspired by NYC street football.'
@@ -102,7 +102,7 @@ export const menList: Product[] = [
     name: 'LA Galaxy Retro',
     price: 48.00,
     currency: 'USD',
-    image: '/images/2.webp',
+    image: '/images/men/2.webp',
     region: 'en',
     gender: 'men',
     description: 'Sun-faded aesthetic for the West Coast lifestyle.'
@@ -112,7 +112,7 @@ export const menList: Product[] = [
     name: 'Miami Vibes Kit', // قمت بتسميته بدلاً من taet
     price: 50.00,
     currency: 'USD',
-    image: '/images/3.webp',
+    image: '/images/men/3.webp',
     region: 'en',
     gender: 'men',
     description: 'Neon lights and ocean breeze.'
@@ -122,7 +122,7 @@ export const menList: Product[] = [
     name: 'LA Logo Hoodie',
     price: 49.00,
     currency: 'USD',
-    image: '/images/7.webp',
+    image: '/images/men/7.webp',
     region: 'en',
     gender: 'men',
     description: 'Premium cotton hoodie with embroidered details.'
@@ -132,7 +132,7 @@ export const menList: Product[] = [
     name: 'NY Red Bulls Classic',
     price: 32.00,
     currency: 'USD',
-    image: '/images/5.webp',
+    image: '/images/men/5.webp',
     region: 'en',
     gender: 'men',
     description: 'Street ready design.'
@@ -142,7 +142,7 @@ export const menList: Product[] = [
     name: 'Chicago Fire Drill',
     price: 48.00,
     currency: 'USD',
-    image: '/images/9.webp',
+    image: '/images/men/9.webp',
     region: 'en',
     gender: 'men',
     description: 'Bold red aesthetic.'
@@ -152,7 +152,7 @@ export const menList: Product[] = [
     name: 'Seattle Sounders Rain',
     price: 48.00,
     currency: 'USD',
-    image: '/images/10.webp',
+    image: '/images/men/8.webp',
     region: 'en',
     gender: 'men',
     description: 'Water resistant training top.'
@@ -162,11 +162,72 @@ export const menList: Product[] = [
     name: 'Austin Verde Kit',
     price: 48.00,
     currency: 'USD',
-    image: '/images/11.webp',
+    image: '/images/men/11.webp',
     region: 'en',
     gender: 'men',
     description: 'Deep green roots.'
   },
+  {
+    id: 'us-11',
+    name: 'Austin Verde Kit',
+    price: 48.00,
+    currency: 'USD',
+    image: '/images/men/15.webp',
+    region: 'en',
+    gender: 'men',
+    description: 'Deep green roots.'
+  },
+  {
+    id: 'us-12',
+    name: 'Austin Verde Kit',
+    price: 48.00,
+    currency: 'USD',
+    image: '/images/men/12.webp',
+    region: 'en',
+    gender: 'men',
+    description: 'Deep green roots.'
+  },
+  {
+    id: 'us-13',
+    name: 'Austin Verde Kit',
+    price: 48.00,
+    currency: 'USD',
+    image: '/images/men/16.webp',
+    region: 'en',
+    gender: 'men',
+    description: 'Deep green roots.'
+  },
+  {
+    id: 'us-14',
+    name: 'Austin Verde Kit',
+    price: 48.00,
+    currency: 'USD',
+    image: '/images/men/14.webp',
+    region: 'en',
+    gender: 'men',
+    description: 'Deep green roots.'
+  },
+  {
+    id: 'us-15',
+    name: 'Austin Verde Kit',
+    price: 48.00,
+    currency: 'USD',
+    image: '/images/men/10.webp',
+    region: 'en',
+    gender: 'men',
+    description: 'Deep green roots.'
+  },
+  {
+    id: 'us-16',
+    name: 'Austin Verde Kit',
+    price: 48.00,
+    currency: 'USD',
+    image: '/images/men/13.webp',
+    region: 'en',
+    gender: 'men',
+    description: 'Deep green roots.'
+  },
+  
 
   // --- اليابان (JA) ---
   {

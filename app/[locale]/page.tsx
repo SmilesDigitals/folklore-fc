@@ -5,16 +5,18 @@ import Link from 'next/link';
 import { useParams } from 'next/navigation';
 import { 
   ShoppingBag, Menu, X, Instagram, Facebook, Mail, 
-  ArrowRight, Star, ShieldCheck, Truck 
+  ArrowRight, Star, ShieldCheck, Truck, Sparkles 
 } from 'lucide-react';
 import { useCart } from '../context/CartContext';
 import { products } from '../../lib/products';
 import { STORE_LOCKED } from '../../lib/config';
 import Waitlist from '../components/Waitlist';
 
-// --- القاموس ---
 const TRANSLATIONS: any = {
   en: {
+    // 👇 النص الجديد للشريط العلوي
+    topBar: 'Free Worldwide Shipping 🌍 | Buy 2 items, Get 10% OFF!',
+    
     home: 'Home', about: 'About', cart: 'Cart', signIn: 'Sign In',
     heroTitle: 'FOR THE\nCULTURE.',
     heroSubtitle: 'Folklore FC merges heritage with modern streetwear aesthetics.',
@@ -26,6 +28,8 @@ const TRANSLATIONS: any = {
     men: 'MEN', women: 'WOMEN', kids: 'KIDS', showAll: 'Show All', newArrivals: 'New Arrivals'
   },
   ar: {
+    topBar: 'شحن مجاني لجميع دول العالم 🌍 | اشتري قطعتين واحصل على خصم 10%!',
+    
     home: 'الرئيسية', about: 'من نحن', cart: 'السلة', signIn: 'دخول',
     heroTitle: 'لأجل\nالثقافة.',
     heroSubtitle: 'فولكلور إف سي يجمع بين التراث وجماليات أزياء الشارع الحديثة.',
@@ -36,9 +40,10 @@ const TRANSLATIONS: any = {
     shop: 'المتجر', help: 'المساعدة', shipping: 'الشحن والاسترجاع', contact: 'تواصل معنا', faq: 'الأسئلة الشائعة',
     men: 'رجال', women: 'نساء', kids: 'أطفال', showAll: 'عرض الكل', newArrivals: 'وصل حديثاً'
   },
-  fr: { men: 'HOMMES', women: 'FEMMES', kids: 'ENFANTS', showAll: 'Voir Tout', home: 'Accueil', about: 'À Propos', cart: 'Panier', signIn: 'Connexion', heroTitle: 'POUR LA\nCULTURE.', heroSubtitle: 'Folklore FC fusionne héritage et esthétique streetwear.', shopCollection: 'Voir la Collection', rights: 'Tous droits réservés.', subscribe: 'S\'abonner', footerText: 'Offres exclusives et accès anticipé.', pitchSide: 'Le Terrain', ourStory: 'Notre Histoire', readStory: 'Lire notre histoire', aboutText: 'Folklore FC est né de la rue...', shop: 'Boutique', help: 'Aide', shipping: 'Livraison', contact: 'Contactez-nous', faq: 'FAQ' },
-  es: { men: 'HOMBRES', women: 'MUJERES', kids: 'NIÑOS', showAll: 'Ver Todo', home: 'Inicio', about: 'Nosotros', cart: 'Carrito', signIn: 'Ingresar', heroTitle: 'POR LA\nCULTURA.', heroSubtitle: 'Folklore FC fusiona la herencia con la estética moderna.', shopCollection: 'Ver Colección', rights: 'Todos los derechos reservados.', subscribe: 'Suscribirse', footerText: 'Ofertas exclusivas.', pitchSide: 'El Campo', ourStory: 'Nuestra Historia', readStory: 'Leer historia', aboutText: 'Folklore FC nació en las calles...', shop: 'Tienda', help: 'Ayuda', shipping: 'Envíos', contact: 'Contacto', faq: 'FAQ' },
-  ja: { men: 'メンズ', women: 'レディース', kids: 'キッズ', showAll: 'すべて見る', home: 'ホーム', about: 'アバウト', cart: 'カート', signIn: 'ログイン', heroTitle: '文化の\nために。', heroSubtitle: 'Folklore FCは伝統とモダンを融合。', shopCollection: 'コレクションを見る', rights: '全著作権所有。', subscribe: '登録', footerText: '限定セール。', pitchSide: 'ピッチサイド', ourStory: '私たちの物語', readStory: '全文を読む', aboutText: 'Folklore FCはストリートから生まれました...', shop: 'ショップ', help: 'ヘルプ', shipping: '配送', contact: 'お問い合わせ', faq: 'FAQ' }
+  // ... (يمكنك إضافة الترجمات لباقي اللغات fr, es, ja لاحقاً)
+  fr: { topBar: 'Livraison Gratuite 🌍 | 2 articles achetés = 10% de réduction !', men: 'HOMMES', women: 'FEMMES', kids: 'ENFANTS', showAll: 'Voir Tout', home: 'Accueil', about: 'À Propos', cart: 'Panier', signIn: 'Connexion', heroTitle: 'POUR LA\nCULTURE.', heroSubtitle: 'Folklore FC fusionne héritage et esthétique streetwear.', shopCollection: 'Voir la Collection', rights: 'Tous droits réservés.', subscribe: 'S\'abonner', footerText: 'Offres exclusives et accès anticipé.', pitchSide: 'Le Terrain', ourStory: 'Notre Histoire', readStory: 'Lire notre histoire', aboutText: 'Folklore FC est né de la rue...', shop: 'Boutique', help: 'Aide', shipping: 'Livraison', contact: 'Contactez-nous', faq: 'FAQ' },
+  es: { topBar: 'Envío Gratis 🌍 | ¡Compra 2 y obtén 10% DTO!', men: 'HOMBRES', women: 'MUJERES', kids: 'NIÑOS', showAll: 'Ver Todo', home: 'Inicio', about: 'Nosotros', cart: 'Carrito', signIn: 'Ingresar', heroTitle: 'POR LA\nCULTURA.', heroSubtitle: 'Folklore FC fusiona la herencia con la estética moderna.', shopCollection: 'Ver Colección', rights: 'Todos los derechos reservados.', subscribe: 'Suscribirse', footerText: 'Ofertas exclusivas.', pitchSide: 'El Campo', ourStory: 'Nuestra Historia', readStory: 'Leer historia', aboutText: 'Folklore FC nació en las calles...', shop: 'Tienda', help: 'Ayuda', shipping: 'Envíos', contact: 'Contacto', faq: 'FAQ' },
+  ja: { topBar: '全世界送料無料 🌍 | 2点購入で10%OFF！', men: 'メンズ', women: 'レディース', kids: 'キッズ', showAll: 'すべて見る', home: 'ホーム', about: 'アバウト', cart: 'カート', signIn: 'ログイン', heroTitle: '文化の\nために。', heroSubtitle: 'Folklore FCは伝統とモダンを融合。', shopCollection: 'コレクションを見る', rights: '全著作権所有。', subscribe: '登録', footerText: '限定セール。', pitchSide: 'ピッチサイド', ourStory: '私たちの物語', readStory: '全文を読む', aboutText: 'Folklore FCはストリートから生まれました...', shop: 'ショップ', help: 'ヘルプ', shipping: '配送', contact: 'お問い合わせ', faq: 'FAQ' }
 };
 
 interface Product {
@@ -72,58 +77,73 @@ const Navbar = ({ t, locale }: { t: any, locale: string }) => {
   }, []);
 
   return (
-    <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? 'bg-[#09090b]/90 backdrop-blur-md shadow-sm border-b border-[#27272a] py-3' : 'bg-transparent py-5'}`}>
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between">
-          <div className="flex-shrink-0 cursor-pointer" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
-            <span className="text-2xl font-black tracking-tighter text-white">FOLKLORE FC</span>
-          </div>
-
-          <div className="hidden md:flex items-center space-x-8">
-            <button onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className="text-sm font-medium text-gray-300 hover:text-white transition-colors">{t.home}</button>
-            <button onClick={() => document.getElementById('men-section')?.scrollIntoView({ behavior: 'smooth' })} className="text-sm font-medium text-gray-300 hover:text-white transition-colors">{t.men}</button>
-            <button onClick={() => document.getElementById('women-section')?.scrollIntoView({ behavior: 'smooth' })} className="text-sm font-medium text-gray-300 hover:text-white transition-colors">{t.women}</button>
-            <button onClick={() => document.getElementById('kids-section')?.scrollIntoView({ behavior: 'smooth' })} className="text-sm font-medium text-gray-300 hover:text-white transition-colors">{t.kids}</button>
-            <Link href={`/${locale}/about`} className="text-sm font-medium text-gray-300 hover:text-white transition-colors">{t.about}</Link>
-          </div>
-
-          <div className="hidden md:flex items-center space-x-6">
-            <button onClick={toggleCart} className="relative text-white hover:opacity-70 transition-colors">
-              <ShoppingBag size={20} />
-              {cartCount > 0 && (
-                <span className="absolute -top-2 -right-2 bg-emerald-500 text-white text-[10px] font-bold h-4 w-4 flex items-center justify-center rounded-full">{cartCount}</span>
-              )}
-            </button>
-            <button onClick={() => alert("Coming Soon!")} className="flex items-center gap-2 px-4 py-2 rounded-full text-sm font-medium transition-all bg-white text-black hover:bg-gray-200">
-              {t.signIn}
-            </button>
-          </div>
-
-          <div className="md:hidden">
-            <button onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)} className="text-white">
-               {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
-            </button>
-          </div>
+    <>
+      {/* 👇 1. هذا هو الشريط العلوي الجديد */}
+      <div className="bg-emerald-600 text-white text-xs font-bold py-2 px-4 text-center tracking-wide fixed top-0 w-full z-[60]">
+        <div className="flex items-center justify-center gap-2 animate-pulse">
+           <Sparkles size={14} className="text-yellow-300 fill-yellow-300" />
+           <span>{t.topBar}</span>
+           <Sparkles size={14} className="text-yellow-300 fill-yellow-300" />
         </div>
       </div>
 
-      {isMobileMenuOpen && (
-        <div className="md:hidden bg-[#09090b] border-t border-[#27272a] absolute w-full shadow-lg z-50">
-          <div className="px-4 pt-2 pb-6 space-y-4">
-            <button onClick={() => {document.getElementById('men-section')?.scrollIntoView({ behavior: 'smooth' }); setIsMobileMenuOpen(false);}} className="block w-full text-left py-2 text-base font-medium text-white">{t.men}</button>
-            <button onClick={() => {document.getElementById('women-section')?.scrollIntoView({ behavior: 'smooth' }); setIsMobileMenuOpen(false);}} className="block w-full text-left py-2 text-base font-medium text-white">{t.women}</button>
-            <button onClick={() => {document.getElementById('kids-section')?.scrollIntoView({ behavior: 'smooth' }); setIsMobileMenuOpen(false);}} className="block w-full text-left py-2 text-base font-medium text-white">{t.kids}</button>
-            <Link href={`/${locale}/about`} className="block w-full text-left py-2 text-base font-medium text-white">{t.about}</Link>
-            <div onClick={() => { toggleCart(); setIsMobileMenuOpen(false); }} className="border-t border-[#27272a] pt-4 flex items-center justify-between cursor-pointer">
-              <span className="text-sm font-medium text-gray-400">{t.cart} ({cartCount})</span>
-              <ShoppingBag size={20} className="text-white"/>
+      {/* Navbar تم تعديل الـ top ليكون أسفل الشريط */}
+      <nav className={`fixed top-[32px] left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? 'bg-[#09090b]/90 backdrop-blur-md shadow-sm border-b border-[#27272a] py-3' : 'bg-transparent py-5'}`}>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex items-center justify-between">
+            <div className="flex-shrink-0 cursor-pointer" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
+              <span className="text-2xl font-black tracking-tighter text-white">FOLKLORE FC</span>
+            </div>
+
+            <div className="hidden md:flex items-center space-x-8">
+              <button onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className="text-sm font-medium text-gray-300 hover:text-white transition-colors">{t.home}</button>
+              <button onClick={() => document.getElementById('men-section')?.scrollIntoView({ behavior: 'smooth' })} className="text-sm font-medium text-gray-300 hover:text-white transition-colors">{t.men}</button>
+              <button onClick={() => document.getElementById('women-section')?.scrollIntoView({ behavior: 'smooth' })} className="text-sm font-medium text-gray-300 hover:text-white transition-colors">{t.women}</button>
+              <button onClick={() => document.getElementById('kids-section')?.scrollIntoView({ behavior: 'smooth' })} className="text-sm font-medium text-gray-300 hover:text-white transition-colors">{t.kids}</button>
+              <Link href={`/${locale}/about`} className="text-sm font-medium text-gray-300 hover:text-white transition-colors">{t.about}</Link>
+            </div>
+
+            <div className="hidden md:flex items-center space-x-6">
+              <button onClick={toggleCart} className="relative text-white hover:opacity-70 transition-colors">
+                <ShoppingBag size={20} />
+                {cartCount > 0 && (
+                  <span className="absolute -top-2 -right-2 bg-emerald-500 text-white text-[10px] font-bold h-4 w-4 flex items-center justify-center rounded-full">{cartCount}</span>
+                )}
+              </button>
+              <button onClick={() => alert("Coming Soon!")} className="flex items-center gap-2 px-4 py-2 rounded-full text-sm font-medium transition-all bg-white text-black hover:bg-gray-200">
+                {t.signIn}
+              </button>
+            </div>
+
+            <div className="md:hidden">
+              <button onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)} className="text-white">
+                {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
+              </button>
             </div>
           </div>
         </div>
-      )}
-    </nav>
+
+        {isMobileMenuOpen && (
+          <div className="md:hidden bg-[#09090b] border-t border-[#27272a] absolute w-full shadow-lg z-50">
+            <div className="px-4 pt-2 pb-6 space-y-4">
+              <button onClick={() => {document.getElementById('men-section')?.scrollIntoView({ behavior: 'smooth' }); setIsMobileMenuOpen(false);}} className="block w-full text-left py-2 text-base font-medium text-white">{t.men}</button>
+              <button onClick={() => {document.getElementById('women-section')?.scrollIntoView({ behavior: 'smooth' }); setIsMobileMenuOpen(false);}} className="block w-full text-left py-2 text-base font-medium text-white">{t.women}</button>
+              <button onClick={() => {document.getElementById('kids-section')?.scrollIntoView({ behavior: 'smooth' }); setIsMobileMenuOpen(false);}} className="block w-full text-left py-2 text-base font-medium text-white">{t.kids}</button>
+              <Link href={`/${locale}/about`} className="block w-full text-left py-2 text-base font-medium text-white">{t.about}</Link>
+              <div onClick={() => { toggleCart(); setIsMobileMenuOpen(false); }} className="border-t border-[#27272a] pt-4 flex items-center justify-between cursor-pointer">
+                <span className="text-sm font-medium text-gray-400">{t.cart} ({cartCount})</span>
+                <ShoppingBag size={20} className="text-white"/>
+              </div>
+            </div>
+          </div>
+        )}
+      </nav>
+    </>
   );
 };
+
+// ... (Footer, ProductCard, CategorySection تبقى كما هي دون تغيير)
+// (لكي لا يطول الكود سأختصر الباقي، لكن تأكد من إبقاء الأجزاء السفلية كما كانت في الملف السابق)
 
 const Footer = ({ t, locale }: { t: any, locale: string }) => {
   const [redirectUrl, setRedirectUrl] = useState('');
@@ -132,6 +152,7 @@ const Footer = ({ t, locale }: { t: any, locale: string }) => {
        setRedirectUrl(`${window.location.origin}/${locale}/thank-you`);
      }
   }, [locale]);
+
   return (
     <footer className="bg-[#09090b] text-white py-16 border-t border-[#27272a]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -140,15 +161,14 @@ const Footer = ({ t, locale }: { t: any, locale: string }) => {
             <h2 className="text-3xl font-black tracking-tighter">FOLKLORE FC</h2>
             <p className="text-gray-400 text-lg max-w-md leading-relaxed">{t.footerText}</p>
             <form className="flex flex-col sm:flex-row gap-3 max-w-md" action="https://formspree.io/f/mnnezrpv" method="POST">
-              <input type="hidden" name="_next" value={redirectUrl} />
               <div className="relative flex-grow">
                 <Mail className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-500" size={18} />
+                <input type="hidden" name="_next" value={redirectUrl} />
                 <input type="email" name="email" required placeholder="Email" className="w-full bg-[#18181b] border border-[#27272a] rounded-lg py-3 pl-10 pr-4 text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-white/20 transition-all"/>
               </div>
               <button className="bg-white text-black font-semibold py-3 px-6 rounded-lg hover:bg-gray-200 transition-colors">{t.subscribe}</button>
             </form>
           </div>
-
           <div className="lg:col-span-3 lg:col-start-8">
             <h3 className="font-bold text-lg mb-6 text-white">{t.shop}</h3>
             <ul className="space-y-4 text-gray-400">
@@ -157,7 +177,6 @@ const Footer = ({ t, locale }: { t: any, locale: string }) => {
               <li><button onClick={() => document.getElementById('kids-section')?.scrollIntoView({ behavior: 'smooth' })} className="hover:text-white transition-colors">{t.kids}</button></li>
             </ul>
           </div>
-
           <div className="lg:col-span-3">
              <h3 className="font-bold text-lg mb-6 text-white">{t.help}</h3>
             <ul className="space-y-4 text-gray-400">
@@ -205,28 +224,23 @@ const ProductCard = ({ product, locale }: { product: Product, locale: string }) 
   );
 };
 
-// --- مكون الفئة مع زر Show All السفلي ---
 const CategorySection = ({ title, products, locale, t, id, categoryKey }: { title: string, products: Product[], locale: string, t: any, id?: string, categoryKey: string }) => {
   return (
     <section id={id} className="py-20 bg-[#09090b] border-t border-[#27272a]">
       <div className="w-[90%] mx-auto">
         <div className="flex justify-between items-end mb-12">
           <h2 className="text-4xl font-black tracking-tighter text-white uppercase">{title}</h2>
+          <Link href={`/${locale}/shop/${categoryKey}`} className="hidden sm:flex items-center text-sm font-medium text-emerald-500 hover:text-emerald-400 gap-1 transition-colors">
+            {t.showAll} <ArrowRight size={16}/>
+          </Link>
         </div>
-
-        {/* شبكة المنتجات */}
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-y-12 gap-x-6">
           {products.slice(0, 8).map((product) => (
             <ProductCard key={product.id} product={product} locale={locale} />
           ))}
         </div>
-        
-        {/* زر Show All الكبير في الأسفل */}
         <div className="mt-16 text-center">
-           <Link 
-             href={`/${locale}/shop/${categoryKey}`} 
-             className="inline-flex items-center justify-center gap-2 bg-white text-black font-bold py-4 px-12 rounded-full hover:bg-emerald-500 hover:text-white transition-all transform hover:-translate-y-1 shadow-lg"
-           >
+           <Link href={`/${locale}/shop/${categoryKey}`} className="inline-flex items-center justify-center gap-2 bg-white text-black font-bold py-4 px-12 rounded-full hover:bg-emerald-500 hover:text-white transition-all transform hover:-translate-y-1 shadow-lg">
              {t.showAll} <ArrowRight size={20}/>
            </Link>
         </div>
@@ -235,20 +249,12 @@ const CategorySection = ({ title, products, locale, t, id, categoryKey }: { titl
   );
 };
 
-// --- Main Page Component ---
 export default function HomePage() {
   const params = useParams();
   const locale = (params?.locale as string) || 'en';
-  
-  if (STORE_LOCKED) {
-    return <Waitlist />;
-  }
-
+  if (STORE_LOCKED) { return <Waitlist />; }
   const t = TRANSLATIONS[locale] || TRANSLATIONS['en'];
-
-  // تصفية المنتجات حسب المنطقة
   const regionProducts = products.filter(p => !p.region || p.region === locale);
-
   const menProducts = regionProducts.filter(p => p.gender === 'men' || !p.gender); 
   const womenProducts = regionProducts.filter(p => p.gender === 'women');
   const kidsProducts = regionProducts.filter(p => p.gender === 'kids');
@@ -256,10 +262,8 @@ export default function HomePage() {
   return (
     <div className="min-h-screen flex flex-col font-sans bg-[#09090b] text-white" dir={locale === 'ar' ? 'rtl' : 'ltr'}>
       <Navbar t={t} locale={locale} />
-
-      <main className="flex-grow">
-        
-        {/* 1. Hero Section (Banner) - الأول */}
+      <main className="flex-grow pt-[32px]"> {/* Added padding top so navbar doesn't cover content */}
+        {/* 1. Hero Section (Banner) */}
         <section className="relative h-[90vh] w-full bg-black overflow-hidden">
           <img src="/images/home1.webp" alt="Hero Background" className="absolute inset-0 w-full h-full object-cover opacity-60"/>
           <div className="absolute inset-0 bg-gradient-to-t from-[#09090b] via-black/40 to-transparent opacity-90" />
@@ -288,7 +292,7 @@ export default function HomePage() {
           </div>
         </div>
 
-        {/* 2. Gallery Section (Pitchside) - الثاني */}
+        {/* 2. Gallery Section */}
         <section className="py-24 bg-[#09090b]">
            <div className="w-[90%] mx-auto">
              <div className="flex flex-col md:flex-row justify-between items-end mb-12"><div><h2 className="text-3xl font-bold tracking-tight text-white">{t.pitchSide}</h2><p className="mt-2 text-gray-400">Captured on 35mm film.</p></div></div>
@@ -300,10 +304,10 @@ export default function HomePage() {
            </div>
         </section>
 
-        {/* 3. Men Section - الثالث */}
+        {/* 3. Categories */}
         <CategorySection id="men-section" title={t.men} products={menProducts} locale={locale} t={t} categoryKey="men" />
-
-        {/* 4. Our Story (الصورة والنص) - الرابع */}
+        
+        {/* Our Story */}
         <section id="about" className="py-24 bg-[#09090b]">
           <div className="w-[90%] mx-auto">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
@@ -324,10 +328,8 @@ export default function HomePage() {
           </div>
         </section>
 
-        {/* 5. Women & Kids - الخامس والسادس */}
         <CategorySection id="women-section" title={t.women} products={womenProducts} locale={locale} t={t} categoryKey="women" />
         <CategorySection id="kids-section" title={t.kids} products={kidsProducts} locale={locale} t={t} categoryKey="kids" />
-
       </main>
       <Footer t={t} locale={locale} />
     </div>
