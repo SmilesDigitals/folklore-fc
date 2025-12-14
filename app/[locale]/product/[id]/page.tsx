@@ -1,4 +1,4 @@
-"use client";
+'use client';
 
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'next/navigation';
@@ -9,7 +9,8 @@ import { getProductById } from '../../../../lib/products';
 import { Product } from '../../../../types';
 import { useCart } from '../../../context/CartContext';
 
-const SIZES = ['S', 'M', 'L', 'XL', 'XXL'];
+// 👇 تم إضافة المقاسات الجديدة هنا
+const SIZES = ['S', 'M', 'L', 'XL', 'XXL', '3XL', '4XL', '5XL'];
 
 const BASE_COLORS = [
   { name: 'Black', class: 'bg-black border-white/20' },
@@ -36,8 +37,6 @@ export default function ProductPage() {
   const [quantity, setQuantity] = useState(1);
   const [isAdded, setIsAdded] = useState(false);
   const [showReviewForm, setShowReviewForm] = useState(false);
-  
-  // ✅ متغير جديد لحفظ رابط التوجيه
   const [redirectUrl, setRedirectUrl] = useState('');
 
   useEffect(() => {
@@ -46,7 +45,6 @@ export default function ProductPage() {
       setProduct(found as any);
     }
     
-    // ✅ هذا الكود يكتشف رابط موقعك الحالي تلقائياً (سواء كان localhost أو IP أو Vercel)
     if (typeof window !== 'undefined') {
       setRedirectUrl(`${window.location.origin}/${locale}/thank-you`);
     }
@@ -55,7 +53,6 @@ export default function ProductPage() {
   const handleAddToCart = () => {
     if (!selectedSize || !selectedColor || !product) return;
     addItem(product, selectedSize, selectedColor, quantity);
-    
     setIsAdded(true);
     setTimeout(() => setIsAdded(false), 2000);
   };
@@ -103,7 +100,7 @@ export default function ProductPage() {
         <div>
           <h1 className="text-4xl font-bold mb-2 text-white">{product.name}</h1>
           <p className="text-2xl text-emerald-500 mb-6 font-medium">
-            {product.price} {product.currency}
+             {product.price} {product.currency}
           </p>
           <p className="text-gray-400 mb-8 leading-relaxed">{product.description}</p>
 
@@ -116,7 +113,7 @@ export default function ProductPage() {
                   key={size}
                   onClick={() => setSelectedSize(size)}
                   className={`w-12 h-12 rounded-lg border flex items-center justify-center transition-all font-medium text-sm
-                    ${selectedSize === size 
+                  ${selectedSize === size 
                       ? 'bg-white text-black border-white shadow-lg scale-105' 
                       : 'border-[#27272a] bg-[#18181b] text-gray-400 hover:border-gray-500 hover:text-white'}`}
                 >
@@ -131,13 +128,14 @@ export default function ProductPage() {
             <h3 className="text-sm font-medium mb-3 text-gray-300">
               Select Color: <span className="text-emerald-400 ml-2">{selectedColor}</span>
             </h3>
+            
             <div className="flex flex-wrap gap-4">
               {currentColors.map((color) => (
                 <button
                   key={color.name}
                   onClick={() => setSelectedColor(color.name)}
                   className={`w-10 h-10 rounded-full border-2 transition-all ${color.class} 
-                    ${selectedColor === color.name 
+                  ${selectedColor === color.name 
                       ? 'ring-2 ring-white ring-offset-2 ring-offset-[#09090b] scale-110' 
                       : 'hover:scale-110 opacity-80 hover:opacity-100'}`}
                   title={color.name}
@@ -149,26 +147,27 @@ export default function ProductPage() {
           {/* منطقة الأزرار */}
           <div className="flex flex-col sm:flex-row gap-4 mt-8">
             <div className="flex items-center justify-between bg-[#18181b] border border-[#27272a] rounded-full px-4 h-14 w-full sm:w-auto min-w-[140px]">
-              <button onClick={decrementQty} className="p-2 text-gray-400 hover:text-white transition-colors hover:bg-[#27272a] rounded-full">
+               <button onClick={decrementQty} className="p-2 text-gray-400 hover:text-white transition-colors hover:bg-[#27272a] rounded-full">
                 <Minus size={20} />
               </button>
               <span className="font-bold text-white text-lg w-8 text-center">{quantity}</span>
               <button onClick={incrementQty} className="p-2 text-gray-400 hover:text-white transition-colors hover:bg-[#27272a] rounded-full">
-                <Plus size={20} />
+                 <Plus size={20} />
               </button>
             </div>
 
             <button
               onClick={handleAddToCart}
               disabled={!selectedSize || !selectedColor}
-              className={`flex-1 h-14 rounded-full font-bold text-lg flex items-center justify-center gap-2 transition-all duration-300
-                ${isAdded 
-                  ? 'bg-emerald-500 text-white scale-95' 
-                  : (selectedSize && selectedColor)
-                    ? 'bg-white text-black hover:bg-gray-200 hover:shadow-[0_0_20px_rgba(255,255,255,0.3)]' 
-                    : 'bg-[#27272a] text-gray-600 cursor-not-allowed'}`}
-            >
-              {isAdded ? <><Check className="w-6 h-6" /> Added</> : <><ShoppingBag className="w-5 h-5" /> Add to Cart</>}
+               className={`w-full h-14 rounded-full font-bold text-lg flex items-center justify-center gap-2 transition-all duration-300 ${
+               isAdded 
+                 ? 'bg-emerald-500 text-white scale-95' 
+                 : (selectedSize && selectedColor)
+                 ? 'bg-white text-black hover:bg-gray-200 hover:shadow-[0_0_20px_rgba(255,255,255,0.3)]' 
+                 : 'bg-[#27272a] text-gray-600 cursor-not-allowed'
+                   }`}
+                  >
+                {isAdded ? <><Check className="w-6 h-6" /> Added</> : <><ShoppingBag className="w-5 h-5" /> Add to Cart</>}
             </button>
           </div>
           
@@ -192,15 +191,12 @@ export default function ProductPage() {
             {showReviewForm && (
               <div className="bg-[#18181b] p-6 rounded-2xl border border-[#27272a] mb-8 animate-in fade-in slide-in-from-top-4">
                 <div className="flex justify-between items-center mb-4">
-                    <h3 className="font-bold text-white">Share your experience</h3>
+                     <h3 className="font-bold text-white">Share your experience</h3>
                     <button onClick={() => setShowReviewForm(false)} className="text-gray-500 hover:text-white"><X size={18}/></button>
                 </div>
                 
                 <form action="https://formspree.io/f/mnnezrpv" method="POST" className="space-y-4">
-                    
-                    {/* ✅ هنا نستخدم المتغير الجديد الذي يحتوي على الرابط الكامل الصحيح */}
                     <input type="hidden" name="_next" value={redirectUrl} />
-                    
                     <input type="hidden" name="product_name" value={product.name} />
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                         <input name="name" required placeholder="Your Name" className="bg-[#09090b] border border-[#27272a] p-3 rounded-lg text-white w-full outline-none focus:border-emerald-500" />
@@ -224,7 +220,7 @@ export default function ProductPage() {
                   <div key={review.id} className="bg-[#18181b] p-6 rounded-2xl border border-[#27272a]">
                     <div className="flex justify-between items-start mb-3">
                       <div>
-                        <h4 className="font-bold text-white">{review.user}</h4>
+                         <h4 className="font-bold text-white">{review.user}</h4>
                         <span className="text-xs text-gray-500">{review.date}</span>
                       </div>
                       <div className="flex gap-1">{renderStars(review.rating)}</div>

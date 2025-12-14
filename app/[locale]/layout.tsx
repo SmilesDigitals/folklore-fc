@@ -25,8 +25,8 @@ export default async function RootLayout({
   const direction = locale === 'ar' ? 'rtl' : 'ltr';
 
   return (
-    <html lang={locale} dir={direction}>
-      <body className={inter.className}>
+    <html lang={locale} dir={locale === 'ar' ? 'rtl' : 'ltr'} suppressHydrationWarning={true}>
+      <body className={inter.className} suppressHydrationWarning={true}>
         {/* حذفنا <RegionProvider> وأبقينا فقط StoreLayout */}
         <StoreLayout>
            {children}
