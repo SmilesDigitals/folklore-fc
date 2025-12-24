@@ -27,7 +27,7 @@ export const womenList: Product[] = [
     name: 'Marseille Docklands Hoodie',
     price: 85.00,
     currency: 'EUR',
-    image: '/images/WOMEN/3fr.webp',
+    image: '/images/women/3fr.webp',
     region: 'fr',
     gender: 'women',
     description: 'Raw energy from the southern coast football culture.'
@@ -37,7 +37,7 @@ export const womenList: Product[] = [
     name: 'Marseille Docklands Hoodie',
     price: 85.00,
     currency: 'EUR',
-    image: '/images/WOMEN/4fr.webp',
+    image: '/images/women/4fr.webp',
     region: 'fr',
     gender: 'women',
     description: 'Raw energy from the southern coast football culture.'
@@ -47,7 +47,7 @@ export const womenList: Product[] = [
     name: 'Marseille Docklands Hoodie',
     price: 85.00,
     currency: 'EUR',
-    image: '/images/WOMEN/5fr.webp',
+    image: '/images/women/5fr.webp',
     region: 'fr',
     gender: 'women',
     description: 'Raw energy from the southern coast football culture.'
@@ -57,7 +57,7 @@ export const womenList: Product[] = [
     name: 'Marseille Docklands Hoodie',
     price: 85.00,
     currency: 'EUR',
-    image: '/images/WOMEN/6fr.webp',
+    image: '/images/women/6fr.webp',
     region: 'fr',
     gender: 'women',
     description: 'Raw energy from the southern coast football culture.'
@@ -67,7 +67,7 @@ export const womenList: Product[] = [
     name: 'Marseille Docklands Hoodie',
     price: 85.00,
     currency: 'EUR',
-    image: '/images/WOMEN/7fr.webp',
+    image: '/images/women/7fr.webp',
     region: 'fr',
     gender: 'women',
     description: 'Raw energy from the southern coast football culture.'
@@ -77,7 +77,7 @@ export const womenList: Product[] = [
     name: 'Marseille Docklands Hoodie',
     price: 85.00,
     currency: 'EUR',
-    image: '/images/WOMEN/8fr.webp',
+    image: '/images/women/8fr.webp',
     region: 'fr',
     gender: 'women',
     description: 'Raw energy from the southern coast football culture.'
@@ -87,7 +87,7 @@ export const womenList: Product[] = [
     name: 'Marseille Docklands Hoodie',
     price: 85.00,
     currency: 'EUR',
-    image: '/images/WOMEN/9fr.webp',
+    image: '/images/women/9fr.webp',
     region: 'fr',
     gender: 'women',
     description: 'Raw energy from the southern coast football culture.'
@@ -97,7 +97,7 @@ export const womenList: Product[] = [
     name: 'Marseille Docklands Hoodie',
     price: 85.00,
     currency: 'EUR',
-    image: '/images/WOMEN/10fr.webp',
+    image: '/images/women/10fr.webp',
     region: 'fr',
     gender: 'women',
     description: 'Raw energy from the southern coast football culture.'
@@ -107,7 +107,7 @@ export const womenList: Product[] = [
     name: 'Marseille Docklands Hoodie',
     price: 85.00,
     currency: 'EUR',
-    image: '/images/WOMEN/11fr.webp',
+    image: '/images/women/11fr.webp',
     region: 'fr',
     gender: 'women',
     description: 'Raw energy from the southern coast football culture.'
@@ -130,7 +130,7 @@ export const womenList: Product[] = [
     name: 'Marseille Docklands Hoodie',
     price: 85.00,
     currency: 'EUR',
-    image: '/images/WOMEN/2us.webp',
+    image: '/images/women/2us.webp',
     region: 'en',
     gender: 'women',
     description: 'Raw energy from the southern coast football culture.'
@@ -140,7 +140,7 @@ export const womenList: Product[] = [
     name: 'Marseille Docklands Hoodie',
     price: 85.00,
     currency: 'EUR',
-    image: '/images/WOMEN/3us.webp',
+    image: '/images/women/3us.webp',
     region: 'en',
     gender: 'women',
     description: 'Raw energy from the southern coast football culture.'
@@ -150,7 +150,7 @@ export const womenList: Product[] = [
     name: 'Marseille Docklands Hoodie',
     price: 85.00,
     currency: 'EUR',
-    image: '/images/WOMEN/4us.webp',
+    image: '/images/women/4us.webp',
     region: 'en',
     gender: 'women',
     description: 'Raw energy from the southern coast football culture.'
@@ -160,7 +160,7 @@ export const womenList: Product[] = [
     name: 'Marseille Docklands Hoodie',
     price: 85.00,
     currency: 'EUR',
-    image: '/images/WOMEN/5us.webp',
+    image: '/images/women/5us.webp',
     region: 'en',
     gender: 'women',
     description: 'Raw energy from the southern coast football culture.'
@@ -170,7 +170,7 @@ export const womenList: Product[] = [
     name: 'Marseille Docklands Hoodie',
     price: 85.00,
     currency: 'EUR',
-    image: '/images/WOMEN/6us.webp',
+    image: '/images/women/6us.webp',
     region: 'en',
     gender: 'women',
     description: 'Raw energy from the southern coast football culture.'
@@ -180,7 +180,7 @@ export const womenList: Product[] = [
     name: 'Marseille Docklands Hoodie',
     price: 85.00,
     currency: 'EUR',
-    image: '/images/WOMEN/7us.webp',
+    image: '/images/women/7us.webp',
     region: 'en',
     gender: 'women',
     description: 'Raw energy from the southern coast football culture.'
@@ -190,7 +190,7 @@ export const womenList: Product[] = [
     name: 'Marseille Docklands Hoodie',
     price: 85.00,
     currency: 'EUR',
-    image: '/images/WOMEN/8us.webp',
+    image: '/images/women/8us.webp',
     region: 'en',
     gender: 'women',
     description: 'Raw energy from the southern coast football culture.'
@@ -200,7 +200,7 @@ export const womenList: Product[] = [
     name: 'Marseille Docklands Hoodie',
     price: 85.00,
     currency: 'EUR',
-    image: '/images/WOMEN/9us.webp',
+    image: '/images/women/9us.webp',
     region: 'en',
     gender: 'women',
     description: 'Raw energy from the southern coast football culture.'
@@ -210,7 +210,7 @@ export const womenList: Product[] = [
     name: 'Marseille Docklands Hoodie',
     price: 85.00,
     currency: 'EUR',
-    image: '/images/WOMEN/10us.webp',
+    image: '/images/women/10us.webp',
     region: 'en',
     gender: 'women',
     description: 'Raw energy from the southern coast football culture.'
@@ -220,7 +220,7 @@ export const womenList: Product[] = [
     name: 'Marseille Docklands Hoodie',
     price: 85.00,
     currency: 'EUR',
-    image: '/images/WOMEN/11us.webp',
+    image: '/images/women/11us.webp',
     region: 'en',
     gender: 'women',
     description: 'Raw energy from the southern coast football culture.'
@@ -230,7 +230,7 @@ export const womenList: Product[] = [
     name: 'Marseille Docklands Hoodie',
     price: 85.00,
     currency: 'EUR',
-    image: '/images/WOMEN/12us.webp',
+    image: '/images/women/12us.webp',
     region: 'en',
     gender: 'women',
     description: 'Raw energy from the southern coast football culture.'
@@ -240,7 +240,7 @@ export const womenList: Product[] = [
     name: 'Marseille Docklands Hoodie',
     price: 85.00,
     currency: 'EUR',
-    image: '/images/WOMEN/13us.webp',
+    image: '/images/women/13us.webp',
     region: 'en',
     gender: 'women',
     description: 'Raw energy from the southern coast football culture.'
@@ -253,7 +253,7 @@ export const womenList: Product[] = [
     name: 'Marseille Docklands Hoodie',
     price: 85.00,
     currency: 'EUR',
-    image: '/images/WOMEN/1ja.webp',
+    image: '/images/women/1ja.webp',
     region: 'ja',
     gender: 'women',
     description: 'Raw energy from the southern coast football culture.'
@@ -273,7 +273,7 @@ export const womenList: Product[] = [
     name: 'Marseille Docklands Hoodie',
     price: 85.00,
     currency: 'EUR',
-    image: '/images/WOMEN/3ja.webp',
+    image: '/images/women/3ja.webp',
     region: 'ja',
     gender: 'women',
     description: 'Raw energy from the southern coast football culture.'
@@ -283,7 +283,7 @@ export const womenList: Product[] = [
     name: 'Marseille Docklands Hoodie',
     price: 85.00,
     currency: 'EUR',
-    image: '/images/WOMEN/4ja.webp',
+    image: '/images/women/4ja.webp',
     region: 'ja',
     gender: 'women',
     description: 'Raw energy from the southern coast football culture.'
@@ -293,7 +293,7 @@ export const womenList: Product[] = [
     name: 'Marseille Docklands Hoodie',
     price: 85.00,
     currency: 'EUR',
-    image: '/images/WOMEN/5ja.webp',
+    image: '/images/women/5ja.webp',
     region: 'ja',
     gender: 'women',
     description: 'Raw energy from the southern coast football culture.'
@@ -303,7 +303,7 @@ export const womenList: Product[] = [
     name: 'Marseille Docklands Hoodie',
     price: 85.00,
     currency: 'EUR',
-    image: '/images/WOMEN/6ja.webp',
+    image: '/images/women/6ja.webp',
     region: 'ja',
     gender: 'women',
     description: 'Raw energy from the southern coast football culture.'
@@ -313,7 +313,7 @@ export const womenList: Product[] = [
     name: 'Marseille Docklands Hoodie',
     price: 85.00,
     currency: 'EUR',
-    image: '/images/WOMEN/7ja.webp',
+    image: '/images/women/7ja.webp',
     region: 'ja',
     gender: 'women',
     description: 'Raw energy from the southern coast football culture.'
@@ -323,7 +323,7 @@ export const womenList: Product[] = [
     name: 'Marseille Docklands Hoodie',
     price: 85.00,
     currency: 'EUR',
-    image: '/images/WOMEN/8ja.webp',
+    image: '/images/women/8ja.webp',
     region: 'ja',
     gender: 'women',
     description: 'Raw energy from the southern coast football culture.'
@@ -333,7 +333,7 @@ export const womenList: Product[] = [
     name: 'Marseille Docklands Hoodie',
     price: 85.00,
     currency: 'EUR',
-    image: '/images/WOMEN/9ja.webp',
+    image: '/images/women/9ja.webp',
     region: 'ja',
     gender: 'women',
     description: 'Raw energy from the southern coast football culture.'
@@ -343,7 +343,7 @@ export const womenList: Product[] = [
     name: 'Marseille Docklands Hoodie',
     price: 85.00,
     currency: 'EUR',
-    image: '/images/WOMEN/10ja.webp',
+    image: '/images/women/10ja.webp',
     region: 'ja',
     gender: 'women',
     description: 'Raw energy from the southern coast football culture.'
@@ -353,7 +353,7 @@ export const womenList: Product[] = [
     name: 'Marseille Docklands Hoodie',
     price: 85.00,
     currency: 'EUR',
-    image: '/images/WOMEN/11ja.webp',
+    image: '/images/women/11ja.webp',
     region: 'ja',
     gender: 'women',
     description: 'Raw energy from the southern coast football culture.'
@@ -363,7 +363,7 @@ export const womenList: Product[] = [
     name: 'Marseille Docklands Hoodie',
     price: 85.00,
     currency: 'EUR',
-    image: '/images/WOMEN/12ja.webp',
+    image: '/images/women/12ja.webp',
     region: 'ja',
     gender: 'women',
     description: 'Raw energy from the southern coast football culture.'
@@ -373,7 +373,7 @@ export const womenList: Product[] = [
     name: 'Marseille Docklands Hoodie',
     price: 85.00,
     currency: 'EUR',
-    image: '/images/WOMEN/13ja.webp',
+    image: '/images/women/13ja.webp',
     region: 'ja',
     gender: 'women',
     description: 'Raw energy from the southern coast football culture.'
@@ -383,7 +383,7 @@ export const womenList: Product[] = [
     name: 'Marseille Docklands Hoodie',
     price: 85.00,
     currency: 'EUR',
-    image: '/images/WOMEN/14ja.webp',
+    image: '/images/women/14ja.webp',
     region: 'ja',
     gender: 'women',
     description: 'Raw energy from the southern coast football culture.'
@@ -398,7 +398,7 @@ export const womenList: Product[] = [
     name: 'Marseille Docklands Hoodie',
     price: 85.00,
     currency: 'SAR',
-    image: '/images/WOMEN/1sa.webp',
+    image: '/images/women/1sa.webp',
     region: 'ar',
     gender: 'women',
     description: 'Raw energy from the southern coast football culture.'
@@ -408,7 +408,7 @@ export const womenList: Product[] = [
     name: 'Marseille Docklands Hoodie',
     price: 85.00,
     currency: 'SAR',
-    image: '/images/WOMEN/2sa.webp',
+    image: '/images/women/2sa.webp',
     region: 'ar',
     gender: 'women',
     description: 'Raw energy from the southern coast football culture.'
@@ -418,7 +418,7 @@ export const womenList: Product[] = [
     name: 'Marseille Docklands Hoodie',
     price: 85.00,
     currency: 'SAR',
-    image: '/images/WOMEN/3sa.webp',
+    image: '/images/women/3sa.webp',
     region: 'ar',
     gender: 'women',
     description: 'Raw energy from the southern coast football culture.'
@@ -428,7 +428,7 @@ export const womenList: Product[] = [
     name: 'Marseille Docklands Hoodie',
     price: 85.00,
     currency: 'SAR',
-    image: '/images/WOMEN/4sa.webp',
+    image: '/images/women/4sa.webp',
     region: 'ar',
     gender: 'women',
     description: 'Raw energy from the southern coast football culture.'
@@ -438,7 +438,7 @@ export const womenList: Product[] = [
     name: 'Marseille Docklands Hoodie',
     price: 85.00,
     currency: 'SAR',
-    image: '/images/WOMEN/5sa.webp',
+    image: '/images/women/5sa.webp',
     region: 'ar',
     gender: 'women',
     description: 'Raw energy from the southern coast football culture.'
@@ -448,7 +448,7 @@ export const womenList: Product[] = [
     name: 'Marseille Docklands Hoodie',
     price: 85.00,
     currency: 'SAR',
-    image: '/images/WOMEN/6sa.webp',
+    image: '/images/women/6sa.webp',
     region: 'ar',
     gender: 'women',
     description: 'Raw energy from the southern coast football culture.'
@@ -458,7 +458,7 @@ export const womenList: Product[] = [
     name: 'Marseille Docklands Hoodie',
     price: 85.00,
     currency: 'SAR',
-    image: '/images/WOMEN/7sa.webp',
+    image: '/images/women/7sa.webp',
     region: 'ar',
     gender: 'women',
     description: 'Raw energy from the southern coast football culture.'
@@ -468,7 +468,7 @@ export const womenList: Product[] = [
     name: 'Marseille Docklands Hoodie',
     price: 85.00,
     currency: 'SAR',
-    image: '/images/WOMEN/8sa.webp',
+    image: '/images/women/8sa.webp',
     region: 'ar',
     gender: 'women',
     description: 'Raw energy from the southern coast football culture.'
@@ -478,7 +478,7 @@ export const womenList: Product[] = [
     name: 'Marseille Docklands Hoodie',
     price: 85.00,
     currency: 'SAR',
-    image: '/images/WOMEN/9sa.webp',
+    image: '/images/women/9sa.webp',
     region: 'ar',
     gender: 'women',
     description: 'Raw energy from the southern coast football culture.'
@@ -488,7 +488,7 @@ export const womenList: Product[] = [
     name: 'Marseille Docklands Hoodie',
     price: 85.00,
     currency: 'SAR',
-    image: '/images/WOMEN/10sa.webp',
+    image: '/images/women/10sa.webp',
     region: 'ar',
     gender: 'women',
     description: 'Raw energy from the southern coast football culture.'
@@ -498,7 +498,7 @@ export const womenList: Product[] = [
     name: 'Marseille Docklands Hoodie',
     price: 85.00,
     currency: 'SAR',
-    image: '/images/WOMEN/11sa.webp',
+    image: '/images/women/11sa.webp',
     region: 'ar',
     gender: 'women',
     description: 'Raw energy from the southern coast football culture.'
@@ -508,7 +508,7 @@ export const womenList: Product[] = [
     name: 'Marseille Docklands Hoodie',
     price: 85.00,
     currency: 'SAR',
-    image: '/images/WOMEN/12sa.webp',
+    image: '/images/women/12sa.webp',
     region: 'ar',
     gender: 'women',
     description: 'Raw energy from the southern coast football culture.'
@@ -518,7 +518,7 @@ export const womenList: Product[] = [
     name: 'Marseille Docklands Hoodie',
     price: 85.00,
     currency: 'SAR',
-    image: '/images/WOMEN/13sa.webp',
+    image: '/images/women/13sa.webp',
     region: 'ar',
     gender: 'women',
     description: 'Raw energy from the southern coast football culture.'
@@ -528,7 +528,7 @@ export const womenList: Product[] = [
     name: 'Marseille Docklands Hoodie',
     price: 85.00,
     currency: 'SAR',
-    image: '/images/WOMEN/14sa.webp',
+    image: '/images/women/14sa.webp',
     region: 'ar',
     gender: 'women',
     description: 'Raw energy from the southern coast football culture.'
@@ -538,7 +538,7 @@ export const womenList: Product[] = [
     name: 'Marseille Docklands Hoodie',
     price: 85.00,
     currency: 'SAR',
-    image: '/images/WOMEN/15sa.webp',
+    image: '/images/women/15sa.webp',
     region: 'ar',
     gender: 'women',
     description: 'Raw energy from the southern coast football culture.'
@@ -553,7 +553,7 @@ export const womenList: Product[] = [
     name: 'Marseille Docklands Hoodie',
     price: 85.00,
     currency: 'EUR',
-    image: '/images/WOMEN/1es.webp',
+    image: '/images/women/1es.webp',
     region: 'es',
     gender: 'women',
     description: 'Raw energy from the southern coast football culture.'
@@ -563,7 +563,7 @@ export const womenList: Product[] = [
     name: 'Marseille Docklands Hoodie',
     price: 85.00,
     currency: 'EUR',
-    image: '/images/WOMEN/2es.webp',
+    image: '/images/women/2es.webp',
     region: 'es',
     gender: 'women',
     description: 'Raw energy from the southern coast football culture.'
@@ -573,7 +573,7 @@ export const womenList: Product[] = [
     name: 'Marseille Docklands Hoodie',
     price: 85.00,
     currency: 'EUR',
-    image: '/images/WOMEN/3es.webp',
+    image: '/images/women/3es.webp',
     region: 'es',
     gender: 'women',
     description: 'Raw energy from the southern coast football culture.'
@@ -583,7 +583,7 @@ export const womenList: Product[] = [
     name: 'Marseille Docklands Hoodie',
     price: 85.00,
     currency: 'EUR',
-    image: '/images/WOMEN/4es.webp',
+    image: '/images/women/4es.webp',
     region: 'es',
     gender: 'women',
     description: 'Raw energy from the southern coast football culture.'
@@ -593,7 +593,7 @@ export const womenList: Product[] = [
     name: 'Marseille Docklands Hoodie',
     price: 85.00,
     currency: 'EUR',
-    image: '/images/WOMEN/5es.webp',
+    image: '/images/women/5es.webp',
     region: 'es',
     gender: 'women',
     description: 'Raw energy from the southern coast football culture.'
@@ -603,7 +603,7 @@ export const womenList: Product[] = [
     name: 'Marseille Docklands Hoodie',
     price: 85.00,
     currency: 'EUR',
-    image: '/images/WOMEN/6es.webp',
+    image: '/images/women/6es.webp',
     region: 'es',
     gender: 'women',
     description: 'Raw energy from the southern coast football culture.'
@@ -613,7 +613,7 @@ export const womenList: Product[] = [
     name: 'Marseille Docklands Hoodie',
     price: 85.00,
     currency: 'EUR',
-    image: '/images/WOMEN/7es.webp',
+    image: '/images/women/7es.webp',
     region: 'es',
     gender: 'women',
     description: 'Raw energy from the southern coast football culture.'
@@ -623,7 +623,7 @@ export const womenList: Product[] = [
     name: 'Marseille Docklands Hoodie',
     price: 85.00,
     currency: 'EUR',
-    image: '/images/WOMEN/8es.webp',
+    image: '/images/women/8es.webp',
     region: 'es',
     gender: 'women',
     description: 'Raw energy from the southern coast football culture.'
@@ -633,7 +633,7 @@ export const womenList: Product[] = [
     name: 'Marseille Docklands Hoodie',
     price: 85.00,
     currency: 'EUR',
-    image: '/images/WOMEN/9es.webp',
+    image: '/images/women/9es.webp',
     region: 'es',
     gender: 'women',
     description: 'Raw energy from the southern coast football culture.'
@@ -643,7 +643,7 @@ export const womenList: Product[] = [
     name: 'Marseille Docklands Hoodie',
     price: 85.00,
     currency: 'EUR',
-    image: '/images/WOMEN/10es.webp',
+    image: '/images/women/10es.webp',
     region: 'es',
     gender: 'women',
     description: 'Raw energy from the southern coast football culture.'
@@ -653,7 +653,7 @@ export const womenList: Product[] = [
     name: 'Marseille Docklands Hoodie',
     price: 85.00,
     currency: 'EUR',
-    image: '/images/WOMEN/11es.webp',
+    image: '/images/women/11es.webp',
     region: 'es',
     gender: 'women',
     description: 'Raw energy from the southern coast football culture.'
@@ -663,7 +663,7 @@ export const womenList: Product[] = [
     name: 'Marseille Docklands Hoodie',
     price: 85.00,
     currency: 'EUR',
-    image: '/images/WOMEN/12es.webp',
+    image: '/images/women/12es.webp',
     region: 'es',
     gender: 'women',
     description: 'Raw energy from the southern coast football culture.'
@@ -673,7 +673,7 @@ export const womenList: Product[] = [
     name: 'Marseille Docklands Hoodie',
     price: 85.00,
     currency: 'EUR',
-    image: '/images/WOMEN/13es.webp',
+    image: '/images/women/13es.webp',
     region: 'es',
     gender: 'women',
     description: 'Raw energy from the southern coast football culture.'
@@ -683,7 +683,7 @@ export const womenList: Product[] = [
     name: 'Marseille Docklands Hoodie',
     price: 85.00,
     currency: 'EUR',
-    image: '/images/WOMEN/14es.webp',
+    image: '/images/women/14es.webp',
     region: 'es',
     gender: 'women',
     description: 'Raw energy from the southern coast football culture.'
@@ -693,7 +693,7 @@ export const womenList: Product[] = [
     name: 'Marseille Docklands Hoodie',
     price: 85.00,
     currency: 'EUR',
-    image: '/images/WOMEN/15es.webp',
+    image: '/images/women/15es.webp',
     region: 'es',
     gender: 'women',
     description: 'Raw energy from the southern coast football culture.'
@@ -703,7 +703,7 @@ export const womenList: Product[] = [
     name: 'Marseille Docklands Hoodie',
     price: 85.00,
     currency: 'EUR',
-    image: '/images/WOMEN/16es.webp',
+    image: '/images/women/16es.webp',
     region: 'es',
     gender: 'women',
     description: 'Raw energy from the southern coast football culture.'
@@ -713,7 +713,7 @@ export const womenList: Product[] = [
     name: 'Marseille Docklands Hoodie',
     price: 85.00,
     currency: 'EUR',
-    image: '/images/WOMEN/17es.webp',
+    image: '/images/women/17es.webp',
     region: 'es',
     gender: 'women',
     description: 'Raw energy from the southern coast football culture.'
@@ -723,7 +723,7 @@ export const womenList: Product[] = [
     name: 'Marseille Docklands Hoodie',
     price: 85.00,
     currency: 'EUR',
-    image: '/images/WOMEN/18es.webp',
+    image: '/images/women/18es.webp',
     region: 'es',
     gender: 'women',
     description: 'Raw energy from the southern coast football culture.'
@@ -733,7 +733,7 @@ export const womenList: Product[] = [
     name: 'Marseille Docklands Hoodie',
     price: 85.00,
     currency: 'EUR',
-    image: '/images/WOMEN/19es.webp',
+    image: '/images/women/19es.webp',
     region: 'es',
     gender: 'women',
     description: 'Raw energy from the southern coast football culture.'
@@ -743,7 +743,7 @@ export const womenList: Product[] = [
     name: 'Marseille Docklands Hoodie',
     price: 85.00,
     currency: 'EUR',
-    image: '/images/WOMEN/20es.webp',
+    image: '/images/women/20es.webp',
     region: 'es',
     gender: 'women',
     description: 'Raw energy from the southern coast football culture.'
@@ -753,7 +753,7 @@ export const womenList: Product[] = [
     name: 'Marseille Docklands Hoodie',
     price: 85.00,
     currency: 'EUR',
-    image: '/images/WOMEN/21es.webp',
+    image: '/images/women/21es.webp',
     region: 'es',
     gender: 'women',
     description: 'Raw energy from the southern coast football culture.'
@@ -763,7 +763,7 @@ export const womenList: Product[] = [
     name: 'Marseille Docklands Hoodie',
     price: 85.00,
     currency: 'EUR',
-    image: '/images/WOMEN/22es.webp',
+    image: '/images/women/22es.webp',
     region: 'es',
     gender: 'women',
     description: 'Raw energy from the southern coast football culture.'
