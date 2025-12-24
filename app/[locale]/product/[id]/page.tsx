@@ -3,13 +3,14 @@
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'next/navigation';
 import Link from 'next/link';
-import { ArrowLeft, Check, ShoppingBag, Plus, Minus, Star, X } from 'lucide-react';
+import { ArrowLeft, Check, ShoppingBag, Plus, Minus, Star, X, Ruler } from 'lucide-react'; // 👈 أضفنا Ruler هنا
 
 import { getProductById } from '../../../../lib/products';
 import { Product } from '../../../../types';
 import { useCart } from '../../../context/CartContext';
+import SizeGuideModal from '../../../components/SizeGuideModal'; // 👈 استيراد المكون الجديد
 
-// 👇 تم إضافة المقاسات الجديدة هنا
+// المقاسات
 const SIZES = ['S', 'M', 'L', 'XL', 'XXL', '3XL', '4XL', '5XL'];
 
 const BASE_COLORS = [
@@ -37,6 +38,7 @@ export default function ProductPage() {
   const [quantity, setQuantity] = useState(1);
   const [isAdded, setIsAdded] = useState(false);
   const [showReviewForm, setShowReviewForm] = useState(false);
+  const [isSizeGuideOpen, setIsSizeGuideOpen] = useState(false); // 👈 حالة فتح النافذة
   const [redirectUrl, setRedirectUrl] = useState('');
 
   useEffect(() => {
@@ -84,6 +86,10 @@ export default function ProductPage() {
 
   return (
     <div className="container mx-auto px-4 py-8">
+      
+      {/* 👈 استدعاء النافذة المنبثقة هنا */}
+      <SizeGuideModal isOpen={isSizeGuideOpen} onClose={() => setIsSizeGuideOpen(false)} />
+
       <Link href="/" className="inline-flex items-center text-sm text-gray-400 hover:text-white mb-8 transition-colors">
         <ArrowLeft className="w-4 h-4 mr-2" /> Back to Store
       </Link>
@@ -106,7 +112,18 @@ export default function ProductPage() {
 
           {/* اختيار المقاس */}
           <div className="mb-6">
-            <h3 className="text-sm font-medium mb-3 text-gray-300">Select Size</h3>
+            <div className="flex justify-between items-center mb-3">
+               <h3 className="text-sm font-medium text-gray-300">Select Size</h3>
+               
+               {/* 👈 زر دليل المقاسات الجديد */}
+               <button 
+                 onClick={() => setIsSizeGuideOpen(true)}
+                 className="text-xs text-emerald-500 flex items-center gap-1 hover:text-emerald-400 transition-colors"
+               >
+                 <Ruler size={14} /> Size Guide
+               </button>
+            </div>
+
             <div className="flex flex-wrap gap-3">
               {SIZES.map((size) => (
                 <button
