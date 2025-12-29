@@ -25,6 +25,10 @@ export interface Product {
   description?: string;
   category?: string;
   isNew?: boolean;
+  metaTitle?: string;
+  metaDescription?: string;
+  altText?: string;
+  keywords?: string[];
   // ✅ الإضافات الجديدة
   gender?: string; 
   reviews?: Review[];

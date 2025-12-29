@@ -11,6 +11,7 @@ import { useCart } from '../context/CartContext';
 import { products } from '../../lib/products';
 import { STORE_LOCKED } from '../../lib/config';
 import Waitlist from '../components/Waitlist';
+import { Product } from '../../types'; // استيراد التعريف الموحد الذي يحتوي على metaTitle وغيرها
 
 const TRANSLATIONS: any = {
   en: {
@@ -46,19 +47,6 @@ const TRANSLATIONS: any = {
   ja: { topBar: '全世界送料無料 🌍 | 2点購入で10%OFF！', men: 'メンズ', women: 'レディース', kids: 'キッズ', showAll: 'すべて見る', home: 'ホーム', about: 'アバウト', cart: 'カート', signIn: 'ログイン', heroTitle: '文化の\nために。', heroSubtitle: 'Folklore FCは伝統とモダンを融合。', shopCollection: 'コレクションを見る', rights: '全著作権所有。', subscribe: '登録', footerText: '限定セール。', pitchSide: 'ピッチサイド', ourStory: '私たちの物語', readStory: '全文を読む', aboutText: 'Folklore FCはストリートから生まれました...', shop: 'ショップ', help: 'ヘルプ', shipping: '配送', contact: 'お問い合わせ', faq: 'FAQ' }
 };
 
-interface Product {
-  id: string;
-  name: string;
-  price: number;
-  category?: string;
-  image: string;
-  isNew?: boolean;
-  locale?: string;
-  region?: string;
-  currency?: string;
-  gender?: string;
-  reviews?: any[];
-}
 
 const TikTokIcon = ({ className }: { className?: string }) => (
   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}><path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5" /></svg>
@@ -99,7 +87,7 @@ const Navbar = ({ t, locale }: { t: any, locale: string }) => {
               <button onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className="text-sm font-medium text-gray-300 hover:text-white transition-colors">{t.home}</button>
               <button onClick={() => document.getElementById('men-section')?.scrollIntoView({ behavior: 'smooth' })} className="text-sm font-medium text-gray-300 hover:text-white transition-colors">{t.men}</button>
               <button onClick={() => document.getElementById('women-section')?.scrollIntoView({ behavior: 'smooth' })} className="text-sm font-medium text-gray-300 hover:text-white transition-colors">{t.women}</button>
-              <button onClick={() => document.getElementById('kids-section')?.scrollIntoView({ behavior: 'smooth' })} className="text-sm font-medium text-gray-300 hover:text-white transition-colors">{t.kids}</button>
+              {/*<button onClick={() => document.getElementById('kids-section')?.scrollIntoView({ behavior: 'smooth' })} className="text-sm font-medium text-gray-300 hover:text-white transition-colors">{t.kids}</button>*/}
               <Link href={`/${locale}/about`} className="text-sm font-medium text-gray-300 hover:text-white transition-colors">{t.about}</Link>
             </div>
 
@@ -174,7 +162,7 @@ const Footer = ({ t, locale }: { t: any, locale: string }) => {
             <ul className="space-y-4 text-gray-400">
               <li><button onClick={() => document.getElementById('men-section')?.scrollIntoView({ behavior: 'smooth' })} className="hover:text-white transition-colors">{t.men}</button></li>
               <li><button onClick={() => document.getElementById('women-section')?.scrollIntoView({ behavior: 'smooth' })} className="hover:text-white transition-colors">{t.women}</button></li>
-              <li><button onClick={() => document.getElementById('kids-section')?.scrollIntoView({ behavior: 'smooth' })} className="hover:text-white transition-colors">{t.kids}</button></li>
+              {/*<li><button onClick={() => document.getElementById('kids-section')?.scrollIntoView({ behavior: 'smooth' })} className="hover:text-white transition-colors">{t.kids}</button></li>*/}
             </ul>
           </div>
           <div className="lg:col-span-3">
@@ -187,11 +175,41 @@ const Footer = ({ t, locale }: { t: any, locale: string }) => {
           </div>
         </div>
         <div className="border-t border-[#27272a] mt-16 pt-8 flex flex-col md:flex-row justify-between items-center gap-6">
-          <div className="flex items-center space-x-6">
-            <Instagram size={24} className="text-gray-400 hover:text-white cursor-pointer" />
-            <TikTokIcon className="w-6 h-6 text-gray-400 hover:text-white cursor-pointer" />
-            <Facebook size={24} className="text-gray-400 hover:text-white cursor-pointer" />
-          </div>
+          {/* Social Links Section */}
+            <div className="flex gap-6 mt-8">
+                <a 
+                    href="https://instagram.com/folklorefc" 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="w-10 h-10 rounded-full bg-[#18181b] border border-[#27272a] flex items-center justify-center text-gray-400 hover:text-white hover:border-white transition-all"
+                >
+                    <Instagram size={20} />
+                </a>
+                <a 
+                    href="https://facebook.com/folklorefc" 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="w-10 h-10 rounded-full bg-[#18181b] border border-[#27272a] flex items-center justify-center text-gray-400 hover:text-white hover:border-white transition-all"
+                >
+                    <Facebook size={20} />
+                </a>
+                <a 
+                    href="https://tiktok.com/@folklorefc" 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="w-10 h-10 rounded-full bg-[#18181b] border border-[#27272a] flex items-center justify-center text-gray-400 hover:text-white hover:border-white transition-all"
+                >
+                    <svg 
+                        viewBox="0 0 24 24" 
+                        width="20" 
+                        height="20" 
+                        fill="currentColor" 
+                        className="text-gray-400 hover:text-white"
+                    >
+                        <path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.9-.32-1.98-.23-2.81.33-.85.51-1.44 1.43-1.58 2.41-.14 1.01.23 2.06.94 2.78.73.74 1.78 1.1 2.8 1.04 1.02-.03 2.01-.49 2.63-1.3.46-.61.71-1.37.74-2.14-.02-3.53-.02-7.06-.02-10.59z" />
+                    </svg>
+                </a>
+            </div>
           <p className="text-zinc-500 text-sm">© {new Date().getFullYear()} Folklore FC. {t.rights}</p>
         </div>
       </div>
@@ -203,7 +221,12 @@ const ProductCard = ({ product, locale }: { product: Product, locale: string }) 
   return (
     <div className="group relative">
       <div className="relative aspect-[4/5] overflow-hidden rounded-xl bg-[#18181b] border border-[#27272a]">
-        <img src={product.image} alt={product.name} className="h-full w-full object-cover object-center transition-transform duration-500 group-hover:scale-105" loading="lazy"/>
+        <img 
+         src={product.image} 
+         alt={`${product.name} - Exclusive Football Heritage Streetwear Design`} 
+         className="h-full w-full object-cover object-center transition-transform duration-500 group-hover:scale-105" 
+        loading="lazy"
+        />
         {product.isNew && ( <span className="absolute top-3 left-3 bg-white text-black text-xs font-bold px-2 py-1 rounded">NEW SEASON</span> )}
         <div className="absolute bottom-4 right-4 opacity-0 translate-y-4 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300">
           <Link href={`/${locale}/product/${product.id}`} className="flex items-center justify-center bg-white text-black w-10 h-10 rounded-full shadow-lg hover:bg-emerald-400 transition-colors">
@@ -282,20 +305,45 @@ export default function HomePage() {
         </section>
 
         {/* Benefits Strip */}
-        <div className="bg-[#09090b] border-b border-[#27272a] py-6">
-          <div className="w-[90%] mx-auto">
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
-              <div className="flex items-center justify-center gap-3"><div className="p-2 bg-[#18181b] rounded-full"><Star className="text-white" size={20} /></div><span className="text-sm font-medium text-gray-300">Premium Quality</span></div>
-              <div className="flex items-center justify-center gap-3"><div className="p-2 bg-[#18181b] rounded-full"><ShieldCheck className="text-white" size={20} /></div><span className="text-sm font-medium text-gray-300">Official Merch</span></div>
-              <div className="flex items-center justify-center gap-3"><div className="p-2 bg-[#18181b] rounded-full"><Truck className="text-white" size={20} /></div><span className="text-sm font-medium text-gray-300">Global Shipping</span></div>
-            </div>
-          </div>
+<div className="bg-[#09090b] border-b border-[#27272a] py-6">
+  <div className="w-[90%] mx-auto">
+    <div className="grid grid-cols-3 md:grid-cols-3 gap-4 text-center">
+      
+      <div className="flex flex-col items-center gap-2">
+        <div className="p-2 bg-[#18181b] rounded-full">
+          <Star className="text-white" size={20} />
         </div>
+        <span className="text-xs md:text-sm font-medium text-gray-300">
+          Premium Quality
+        </span>
+      </div>
+
+      <div className="flex flex-col items-center gap-2">
+        <div className="p-2 bg-[#18181b] rounded-full">
+          <ShieldCheck className="text-white" size={20} />
+        </div>
+        <span className="text-xs md:text-sm font-medium text-gray-300">
+          Official Merch
+        </span>
+      </div>
+
+      <div className="flex flex-col items-center gap-2">
+        <div className="p-2 bg-[#18181b] rounded-full">
+          <Truck className="text-white" size={20} />
+        </div>
+        <span className="text-xs md:text-sm font-medium text-gray-300">
+          Global Shipping
+        </span>
+      </div>
+
+    </div>
+  </div>
+</div>
 
         {/* 2. Gallery Section */}
-        <section className="py-24 bg-[#09090b]">
+        <section className="py-12 bg-[#09090b]">
            <div className="w-[90%] mx-auto">
-             <div className="flex flex-col md:flex-row justify-between items-end mb-12"><div><h2 className="text-3xl font-bold tracking-tight text-white">{t.pitchSide}</h2><p className="mt-2 text-gray-400">Captured on 35mm film.</p></div></div>
+             
              <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                  <div className="relative aspect-[4/3] overflow-hidden rounded-lg group cursor-pointer border border-[#27272a]"><img src="/images/Pitchside1.webp" alt="Stadium" className="object-cover w-full h-full group-hover:scale-105 transition-transform duration-700 opacity-80 group-hover:opacity-100"/></div>
                  <div className="relative aspect-[4/3] overflow-hidden rounded-lg group cursor-pointer border border-[#27272a]"><img src="/images/Pitchside2.webp" alt="Fans" className="object-cover w-full h-full group-hover:scale-105 transition-transform duration-700 opacity-80 group-hover:opacity-100"/></div>
@@ -329,7 +377,7 @@ export default function HomePage() {
         </section>
 
         <CategorySection id="women-section" title={t.women} products={womenProducts} locale={locale} t={t} categoryKey="women" />
-        <CategorySection id="kids-section" title={t.kids} products={kidsProducts} locale={locale} t={t} categoryKey="kids" />
+        {/*<CategorySection id="kids-section" title={t.kids} products={kidsProducts} locale={locale} t={t} categoryKey="kids" />*/}
       </main>
       <Footer t={t} locale={locale} />
     </div>
