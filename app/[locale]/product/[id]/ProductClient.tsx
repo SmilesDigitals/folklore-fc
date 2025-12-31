@@ -58,27 +58,52 @@ export default function ProductClient({ id, locale }: { id: string, locale: stri
     <div className="container mx-auto px-4 py-8 bg-[#09090b] text-white min-h-screen">
       {/* Schema.org Product Metadata for Google */}
       <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org/",
-            "@type": "Product",
-            "name": product.metaTitle || product.name,
-            "image": [`https://folklorefc.com${product.image}`],
-            "description": product.metaDescription || product.description,
-            "sku": product.id,
-            "brand": { "@type": "Brand", "name": "Folklore FC" },
-            "offers": {
-              "@type": "Offer",
-              "url": `https://folklorefc.com/${locale}/product/${product.id}`,
-              "priceCurrency": product.currency,
-              "price": product.price,
-              "availability": "https://schema.org/InStock",
-              "itemCondition": "https://schema.org/NewCondition"
-            }
-          })
-        }}
-      />
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{
+    __html: JSON.stringify({
+      "@context": "https://schema.org/",
+      "@type": "Product",
+      "name": product.metaTitle || product.name,
+      "image": [`https://folklorefc.com${product.image}`],
+      "description": product.metaDescription || product.description,
+      "sku": product.id,
+      "brand": {
+        "@type": "Brand",
+        "name": "Folklore FC"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": `https://folklorefc.com/${locale}/product/${product.id}`,
+        "priceCurrency": product.currency,
+        "price": product.price,
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition",
+        // ✅ إضافة تفاصيل الشحن لإخفاء التحذير الأول
+        "shippingDetails": {
+          "@type": "OfferShippingDetails",
+          "shippingRate": {
+            "@type": "MonetaryAmount",
+            "value": "0", // 0 تعني شحن مجاني
+            "currency": product.currency
+          },
+          "shippingDestination": {
+            "@type": "DefinedRegion",
+            "addressCountry": ["SA", "JP", "US", "FR"] // الدول التي تشحن إليها
+          }
+        },
+        // ✅ إضافة سياسة الاسترجاع لإخفاء التحذير الثاني
+        "hasMerchantReturnPolicy": {
+          "@type": "MerchantReturnPolicy",
+          "applicableCountry": "SA",
+          "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnPeriod",
+          "merchantReturnDays": 30,
+          "returnMethod": "https://schema.org/ReturnByMail",
+          "fees": "https://schema.org/FreeReturn"
+        }
+      }
+    })
+  }}
+/>
 
       <SizeGuideModal isOpen={isSizeGuideOpen} onClose={() => setIsSizeGuideOpen(false)} gender={product.gender} />
       
