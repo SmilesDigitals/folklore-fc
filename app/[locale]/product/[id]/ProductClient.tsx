@@ -8,7 +8,7 @@ import { useCart } from '../../../context/CartContext';
 import SizeGuideModal from '../../../components/SizeGuideModal';
 import { Product } from '../../../../types';
 
-// الألوان الأساسية (تظهر للجميع)
+// الألوان الأساسية
 const BASE_COLORS = [
   { name: 'Black', class: 'bg-black border-white/20' },
   { name: 'White', class: 'bg-white border-gray-300' },
@@ -40,7 +40,7 @@ export default function ProductClient({ id, locale }: { id: string, locale: stri
     }
   }, [id]);
 
-  if (!product) return <div className="min-h-screen bg-[#09090b] flex items-center justify-center">Loading...</div>;
+  if (!product) return <div className="min-h-screen bg-[#09090b] flex items-center justify-center text-white">Loading...</div>;
 
   // تحديد الألوان بناءً على الجنس
   const availableColors = (product.gender === 'women' || product.gender === 'kids')
@@ -56,6 +56,30 @@ export default function ProductClient({ id, locale }: { id: string, locale: stri
 
   return (
     <div className="container mx-auto px-4 py-8 bg-[#09090b] text-white min-h-screen">
+      {/* Schema.org Product Metadata for Google */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org/",
+            "@type": "Product",
+            "name": product.metaTitle || product.name,
+            "image": [`https://folklorefc.com${product.image}`],
+            "description": product.metaDescription || product.description,
+            "sku": product.id,
+            "brand": { "@type": "Brand", "name": "Folklore FC" },
+            "offers": {
+              "@type": "Offer",
+              "url": `https://folklorefc.com/${locale}/product/${product.id}`,
+              "priceCurrency": product.currency,
+              "price": product.price,
+              "availability": "https://schema.org/InStock",
+              "itemCondition": "https://schema.org/NewCondition"
+            }
+          })
+        }}
+      />
+
       <SizeGuideModal isOpen={isSizeGuideOpen} onClose={() => setIsSizeGuideOpen(false)} gender={product.gender} />
       
       <Link href={`/${locale}`} className="inline-flex items-center text-sm text-gray-400 hover:text-white mb-8">
@@ -64,38 +88,65 @@ export default function ProductClient({ id, locale }: { id: string, locale: stri
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
         <div className="w-full max-w-[450px] mx-auto bg-[#18181b] rounded-2xl overflow-hidden aspect-[3/4] border border-[#27272a]">
-          <img src={product.image} alt={product.name} className="w-full h-full object-cover" />
+          <img src={product.image} alt={product.altText || product.name} className="w-full h-full object-cover" />
         </div>
 
         <div>
           <h1 className="text-4xl font-bold mb-2">{product.name}</h1>
-          <p className="text-2xl text-emerald-500 mb-6 font-medium">{product.price} {product.currency}</p>
+          
+          {/* قسم عرض السعر المزدوج في الصفحة الرئيسية */}
+<div className="mt-4 flex flex-col items-start">
+  {/* السعر الأساسي بالدولار - واضح وأنيق */}
+  <div className="flex items-center gap-1.5">
+    <span className="text-xl font-bold text-white">${product.price}</span>
+    <span className="text-[10px] text-zinc-500 uppercase font-medium">USD</span>
+  </div>
+
+  {/* السعر المحلي التقريبي - صغير وخافت جداً أسفل السعر الأساسي */}
+  {product.currency === 'USD' && (
+    <p className="text-xs text-zinc-600 mt-0.5 italic">
+      {(() => {
+        if (product.region === 'ar') return `≈ ${(product.price * 3.75).toFixed(0)} SAR`;
+        if (product.region === 'ja') return `≈ ${(product.price * 150).toLocaleString()} JPY`;
+        if (product.region === 'fr' || product.region === 'es') return `≈ ${(product.price * 0.92).toFixed(2)} EUR`;
+        return '';
+      })()}
+    </p>
+  )}
+</div>
+
           <p className="text-gray-400 mb-8 leading-relaxed">{product.description}</p>
 
           {/* اختيار المقاس */}
           <div className="mb-6">
             <div className="flex justify-between items-center mb-3">
-               <h3 className="text-sm font-medium">Select Size</h3>
-               <button onClick={() => setIsSizeGuideOpen(true)} className="text-xs text-emerald-500 flex items-center gap-1">
+               <h3 className="text-sm font-medium text-gray-200">Select Size</h3>
+               <button onClick={() => setIsSizeGuideOpen(true)} className="text-xs text-emerald-500 flex items-center gap-1 hover:text-emerald-400 transition-colors">
                   <Ruler size={14} /> Size Guide
                </button>
             </div>
             <div className="flex flex-wrap gap-3">
               {SIZES.map((size) => (
-                <button key={size} onClick={() => setSelectedSize(size)} className={`w-12 h-12 rounded-lg border transition-all ${selectedSize === size ? 'bg-white text-black border-white' : 'border-[#27272a] text-gray-400'}`}>{size}</button>
+                <button 
+                  key={size} 
+                  onClick={() => setSelectedSize(size)} 
+                  className={`w-12 h-12 rounded-lg border transition-all ${selectedSize === size ? 'bg-white text-black border-white' : 'border-[#27272a] text-gray-400 hover:border-gray-500'}`}
+                >
+                  {size}
+                </button>
               ))}
             </div>
           </div>
 
-          {/* اختيار اللون - الآن بـ 4 أو 6 خيارات */}
+          {/* اختيار اللون */}
           <div className="mb-8">
-            <h3 className="text-sm font-medium mb-3">Select Color: <span className="text-emerald-400">{selectedColor}</span></h3>
+            <h3 className="text-sm font-medium mb-3">Select Color: <span className="text-emerald-400">{selectedColor || '—'}</span></h3>
             <div className="flex flex-wrap gap-4">
               {availableColors.map((color) => (
                 <button 
                   key={color.name} 
                   onClick={() => setSelectedColor(color.name)} 
-                  className={`w-10 h-10 rounded-full border-2 ${color.class} ${selectedColor === color.name ? 'ring-2 ring-white ring-offset-2 ring-offset-[#09090b]' : ''}`} 
+                  className={`w-10 h-10 rounded-full border-2 ${color.class} ${selectedColor === color.name ? 'ring-2 ring-white ring-offset-2 ring-offset-[#09090b]' : 'border-transparent'}`} 
                   title={color.name}
                 />
               ))}
@@ -104,11 +155,15 @@ export default function ProductClient({ id, locale }: { id: string, locale: stri
 
           <div className="flex gap-4">
             <div className="flex items-center bg-[#18181b] border border-[#27272a] rounded-full px-4 h-14">
-               <button onClick={() => setQuantity(q => Math.max(1, q - 1))} className="p-2 text-gray-400"><Minus size={20} /></button>
+               <button onClick={() => setQuantity(q => Math.max(1, q - 1))} className="p-2 text-gray-400 hover:text-white"><Minus size={20} /></button>
                <span className="font-bold w-8 text-center">{quantity}</span>
-               <button onClick={() => setQuantity(q => q + 1)} className="p-2 text-gray-400"><Plus size={20} /></button>
+               <button onClick={() => setQuantity(q => q + 1)} className="p-2 text-gray-400 hover:text-white"><Plus size={20} /></button>
             </div>
-            <button onClick={handleAddToCart} disabled={!selectedSize || !selectedColor} className={`flex-1 h-14 rounded-full font-bold transition-all ${isAdded ? 'bg-emerald-500' : 'bg-white text-black'}`}>
+            <button 
+              onClick={handleAddToCart} 
+              disabled={!selectedSize || !selectedColor} 
+              className={`flex-1 h-14 rounded-full font-bold transition-all ${isAdded ? 'bg-emerald-500 text-white' : 'bg-white text-black hover:bg-gray-200 disabled:opacity-50 disabled:cursor-not-allowed'}`}
+            >
                 {isAdded ? 'Added to Cart' : 'Add to Cart'}
             </button>
           </div>

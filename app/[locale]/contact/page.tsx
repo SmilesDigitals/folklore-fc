@@ -91,11 +91,11 @@ export default function ContactPage() {
               </div>
               <div className="flex items-center gap-4 p-4 bg-[#18181b] rounded-xl border border-[#27272a]">
                 <Phone className="text-emerald-500" />
-                <span>+966 50 000 0000</span>
+                <span>+212707230031</span>
               </div>
               <div className="flex items-center gap-4 p-4 bg-[#18181b] rounded-xl border border-[#27272a]">
                 <MapPin className="text-emerald-500" />
-                <span>Riyadh, Saudi Arabia</span>
+                <span>Casablanca Morocco, </span>
               </div>
             </div>
           </div>
