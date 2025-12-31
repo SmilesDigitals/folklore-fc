@@ -78,27 +78,42 @@ export default function ProductClient({ id, locale }: { id: string, locale: stri
         "price": product.price,
         "availability": "https://schema.org/InStock",
         "itemCondition": "https://schema.org/NewCondition",
-        // ✅ إضافة تفاصيل الشحن لإخفاء التحذير الأول
         "shippingDetails": {
           "@type": "OfferShippingDetails",
           "shippingRate": {
             "@type": "MonetaryAmount",
-            "value": "0", // 0 تعني شحن مجاني
+            "value": "0",
             "currency": product.currency
           },
           "shippingDestination": {
             "@type": "DefinedRegion",
-            "addressCountry": ["SA", "JP", "US", "FR"] // الدول التي تشحن إليها
+            "addressCountry": ["SA", "AE", "US", "FR", "JP"]
+          },
+          // ✅ حل تحذير deliveryTime: إضافة وقت المعالجة والشحن
+          "deliveryTime": {
+            "@type": "ShippingDeliveryTime",
+            "handlingTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 1,
+              "maxValue": 3,
+              "unitCode": "DAY"
+            },
+            "transitTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 5,
+              "maxValue": 12,
+              "unitCode": "DAY"
+            }
           }
         },
-        // ✅ إضافة سياسة الاسترجاع لإخفاء التحذير الثاني
         "hasMerchantReturnPolicy": {
           "@type": "MerchantReturnPolicy",
           "applicableCountry": "SA",
+          // ✅ حل تحذير returnPolicyCategory: استخدام القيمة النصية المباشرة
           "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnPeriod",
           "merchantReturnDays": 30,
           "returnMethod": "https://schema.org/ReturnByMail",
-          "fees": "https://schema.org/FreeReturn"
+          "returnFees": "https://schema.org/FreeReturn"
         }
       }
     })
