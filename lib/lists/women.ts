@@ -388,7 +388,7 @@ export const womenList: Product[] = [
     name: '深海の宝 - Ocean Guardian',
     price: 39.99,
     currency: 'USD',
-    image: '/images/WOMEN/2ja.webp',
+    image: '/images/women/2ja.webp',
     region: 'ja',
     gender: 'women',
     category: 'Jersey',
