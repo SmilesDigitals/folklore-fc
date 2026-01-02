@@ -126,13 +126,16 @@ export default function ProductClient({ id, locale }: { id: string, locale: stri
           }
         },
         "hasMerchantReturnPolicy": {
-          "@type": "MerchantReturnPolicy",
-          "applicableCountry": "SA",
-          // ✅ تصحيح رابط Enum (يجب أن يكون الرابط دقيقاً)
-          "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnPeriod",
-          "merchantReturnDays": 30,
-          "returnMethod": "https://schema.org/ReturnByMail",
-          "returnFees": "https://schema.org/FreeReturn"
+         "@type": "MerchantReturnPolicy",
+         "applicableCountry": ["SA", "US", "FR", "JP", "AE"], // الدول التي تطبق عليها السياسة
+         // ✅ تصحيح الخطأ: استخدام القيمة النصية الدقيقة التي يطلبها جوجل
+         "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnPeriod",
+         "merchantReturnDays": 30,
+         "returnMethod": "https://schema.org/ReturnByMail",
+         "returnFees": "https://schema.org/FreeReturn",
+         // ✅ إضافة وقت استرداد المال الذي اخترته (5-7 أيام)
+         "refundType": "https://schema.org/FullRefund",
+         "merchantReturnLink": `https://folklorefc.com/${locale}/shipping`
         }
       }
     })
