@@ -13,6 +13,7 @@ import { STORE_LOCKED } from '../../lib/config';
 import Waitlist from '../components/Waitlist';
 import { Product } from '../../types';
 
+// ✅ القاموس الكامل لجميع اللغات المستهدفة
 const TRANSLATIONS: any = {
   en: {
     topBar: 'Free Worldwide Shipping 🌍 | Buy 2 items, Get 10% OFF!',
@@ -22,7 +23,7 @@ const TRANSLATIONS: any = {
     shopCollection: 'Shop Collection', rights: 'All rights reserved.',
     subscribe: 'Subscribe', footerText: 'Exclusive deals, early access, and first look at new products.',
     pitchSide: 'The Pitchside', ourStory: 'Our Story', readStory: 'Read our full story',
-    aboutText: 'Folklore FC was born from the streets, not the boardroom. We believe in the power of the beautiful game to unite cultures and tell stories.',
+    aboutText: 'Folklore FC was born from the streets, not the boardroom.',
     shop: 'Shop', help: 'Help', shipping: 'Shipping & Returns', contact: 'Contact Us', faq: 'FAQ',
     men: 'MEN', women: 'WOMEN', kids: 'KIDS', showAll: 'Show All', newArrivals: 'New Arrivals'
   },
@@ -34,11 +35,46 @@ const TRANSLATIONS: any = {
     shopCollection: 'تصفح المجموعة', rights: 'جميع الحقوق محفوظة.',
     subscribe: 'اشتراك', footerText: 'عروض حصرية، وصول مبكر، ونظرة أولى على المنتجات الجديدة.',
     pitchSide: 'من أرض الملعب', ourStory: 'قصتنا', readStory: 'اقرأ قصتنا الكاملة',
-    aboutText: 'ولد فولكلور إف سي من الشوارع، وليس من قاعات الاجتماعات. نحن نؤمن بقوة اللعبة الجميلة لتوحيد الثقافات ورواية القصص.',
+    aboutText: 'ولد فولكلور إف سي من الشوارع، وليس من قاعات الاجتماعات.',
     shop: 'المتجر', help: 'المساعدة', shipping: 'الشحن والاسترجاع', contact: 'تواصل معنا', faq: 'الأسئلة الشائعة',
     men: 'رجال', women: 'نساء', kids: 'أطفال', showAll: 'عرض الكل', newArrivals: 'وصل حديثاً'
+  },
+  es: {
+    topBar: 'Envío gratuito a todo el mundo 🌍 | ¡Compra 2 artículos, 10% DTO!',
+    home: 'Inicio', about: 'Sobre Nosotros', cart: 'Carrito', signIn: 'Entrar',
+    heroTitle: 'PARA LA\nCULTURA.',
+    heroSubtitle: 'Folklore FC fusiona la herencia con la estética del streetwear moderno.',
+    shopCollection: 'Comprar Colección', rights: 'Todos los derechos reservados.',
+    subscribe: 'Suscribirse', footerText: 'Ofertas exclusivas, acceso anticipado y novedades.',
+    pitchSide: 'Desde el Campo', ourStory: 'Nuestra Historia', readStory: 'Leer nuestra historia',
+    aboutText: 'Folklore FC nació en las calles, no en los despachos.',
+    shop: 'Tienda', help: 'Ayuda', shipping: 'Envío y Devoluciones', contact: 'Contacto', faq: 'FAQ',
+    men: 'HOMBRE', women: 'MUJER', kids: 'NIÑOS', showAll: 'Ver Todo', newArrivals: 'Novedades'
+  },
+  ja: {
+    topBar: '全世界送料無料 🌍 | 2点購入で10%OFF!',
+    home: 'ホーム', about: '私たちについて', cart: 'カート', signIn: 'ログイン',
+    heroTitle: 'カルチャーの\nために。',
+    heroSubtitle: 'Folklore FCは、ヘリテージと現代のストリートウェアの美学を融合させます。',
+    shopCollection: 'コレクションを見る', rights: '不許複製・無断転載を禁じます.',
+    subscribe: '購読する', footerText: '限定セール、早期アクセス、新製品の先行公開.',
+    pitchSide: 'ピッチサイド', ourStory: 'ストーリー', readStory: '全ストーリーを読む',
+    aboutText: 'Folklore FCは会議室ではなく、ストリートから生まれました.',
+    shop: 'ショップ', help: 'ヘルプ', shipping: '配送と返品', contact: 'お問い合わせ', faq: 'よくある質問',
+    men: 'メンズ', women: 'レディース', kids: 'キッズ', showAll: 'すべて見る', newArrivals: '新着商品'
+  },
+  fr: {
+    topBar: 'Livraison gratuite dans le monde 🌍 | -10% pour 2 articles !',
+    home: 'Accueil', about: 'À Propos', cart: 'Panier', signIn: 'Connexion',
+    heroTitle: 'POUR LA\nCULTURE.',
+    heroSubtitle: 'Folklore FC fusionne l\'héritage avec l\'esthétique moderne du streetwear.',
+    shopCollection: 'Acheter la Collection', rights: 'Tous droits réservés.',
+    subscribe: 'S\'abonner', footerText: 'Offres exclusives, accès anticipé et avant-premières.',
+    pitchSide: 'Le Pitchside', ourStory: 'Notre Histoire', readStory: 'Lire notre histoire',
+    aboutText: 'Folklore FC est né dans la rue, pas dans une salle de réunion.',
+    shop: 'Boutique', help: 'Aide', shipping: 'Livraison & Retours', contact: 'Contact', faq: 'FAQ',
+    men: 'HOMMES', women: 'FEMMES', kids: 'ENFANTS', showAll: 'Voir Tout', newArrivals: 'Nouveautés'
   }
-  // يمكن إضافة باقي اللغات هنا بنفس الطريقة
 };
 
 const TikTokIcon = ({ className }: { className?: string }) => (
