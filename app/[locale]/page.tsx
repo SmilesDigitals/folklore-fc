@@ -174,7 +174,7 @@ const Footer = ({ t, locale }: { t: any, locale: string }) => {
         {/* القسم السفلي: التواصل الاجتماعي والحقوق */}
         <div className="border-t border-[#27272a] mt-16 pt-8 flex flex-col md:flex-row justify-between items-center gap-6">
           <div className="flex gap-6">
-            <a href="https://instagram.com/folklorefc" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-[#18181b] border border-[#27272a] flex items-center justify-center text-gray-400 hover:text-white hover:border-white transition-all">
+            <a href="https://www.instagram.com/folklorefc.official/" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-[#18181b] border border-[#27272a] flex items-center justify-center text-gray-400 hover:text-white hover:border-white transition-all">
               <Instagram size={20} />
             </a>
             <a href="https://facebook.com/folklorefc" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-[#18181b] border border-[#27272a] flex items-center justify-center text-gray-400 hover:text-white hover:border-white transition-all">
