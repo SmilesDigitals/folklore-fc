@@ -273,7 +273,8 @@ export const menList: Product[] = [
     metaTitle: "Maillot Le Général | Tactique & Leadership Napoléon | Folklore FC",
     metaDescription: "Incarnez le leadership avec 'Le Général'. Un design inspiré par Napoléon Bonaparte mêlant tactique de guerre et football. Pour les capitaines.",
     altText: "Design de maillot avec portrait stylisé de Napoléon et schémas tactiques de football en arrière-plan.",
-    keywords: ["Napoléon football", "Tactique foot design", "Maillot capitaine", "Leadership sportif"]
+    keywords: ["T-shirt Napoléon football", "Maillot Le Général foot", "Streetwear héritage français", "Vêtement Blokecore France", "Cadeau supporter foot original", "T-shirt tactique football", "Design Napoléon Bonaparte foot", "Folklore FC Le Général", "T-shirt culture foot vintage", "Acheter t-shirt foot design", "Mode foot rétro France", "T-shirt capitaine Napoléon"
+]
   },
   {
     id: 'fr-3',
