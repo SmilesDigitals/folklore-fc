@@ -39,7 +39,7 @@ export default async function BlogListPage({ params }: { params: Promise<{ local
         </Link>
 
         <header className="mb-16">
-          <h1 className="text-6xl font-black tracking-tighter mb-4 uppercase italic italic">
+          <h1 className="text-3xl font-black tracking-tighter mb-4 uppercase italic italic">
             {titles[locale] || titles['en']}
           </h1>
           <div className="h-2 w-24 bg-emerald-500 rounded-full"></div>

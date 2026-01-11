@@ -94,22 +94,28 @@ export default function SizeGuideModal({ isOpen, onClose, gender }: SizeGuideMod
   if (!isOpen) return null;
 
   // بيانات مقاسات الرجال [cite: 68]
-  const menSizeData = [
+   const menSizeData = [
     { size: 'S', widthIn: '18', lengthIn: '28', widthCm: '46', lengthCm: '71' },
     { size: 'M', widthIn: '20', lengthIn: '29', widthCm: '51', lengthCm: '74' },
     { size: 'L', widthIn: '22', lengthIn: '30', widthCm: '56', lengthCm: '76' },
     { size: 'XL', widthIn: '24', lengthIn: '31', widthCm: '61', lengthCm: '79' },
     { size: '2XL', widthIn: '26', lengthIn: '32', widthCm: '66', lengthCm: '81' },
     { size: '3XL', widthIn: '28', lengthIn: '33', widthCm: '71', lengthCm: '84' },
+    { size: '4XL', widthIn: '30', lengthIn: '34', widthCm: '76', lengthCm: '86' },
+    { size: '5XL', widthIn: '32', lengthIn: '35', widthCm: '81', lengthCm: '89' },
   ];
 
-  // بيانات مقاسات النساء (تمت إضافتها للإصلاح) [cite: 69, 70]
+  // 2. بيانات النساء (Bella + Canvas 3001) - تحديث المقاسات من XS إلى 5XL
   const womenSizeData = [
-    { size: 'S', widthIn: '17.25', lengthIn: '25.5', widthCm: '44', lengthCm: '65' },
-    { size: 'M', widthIn: '19.25', lengthIn: '26', widthCm: '49', lengthCm: '66' },
-    { size: 'L', widthIn: '21.25', lengthIn: '27', widthCm: '54', lengthCm: '69' },
-    { size: 'XL', widthIn: '23.25', lengthIn: '28', widthCm: '59', lengthCm: '71' },
-    { size: '2XL', widthIn: '25.25', lengthIn: '28.5', widthCm: '64', lengthCm: '72' },
+    { size: 'XS', widthIn: '16.5', lengthIn: '27', widthCm: '42', lengthCm: '69' },
+    { size: 'S', widthIn: '18', lengthIn: '28', widthCm: '46', lengthCm: '71' },
+    { size: 'M', widthIn: '20', lengthIn: '29', widthCm: '51', lengthCm: '74' },
+    { size: 'L', widthIn: '22', lengthIn: '30', widthCm: '56', lengthCm: '76' },
+    { size: 'XL', widthIn: '24', lengthIn: '31', widthCm: '61', lengthCm: '79' },
+    { size: '2XL', widthIn: '26', lengthIn: '32', widthCm: '66', lengthCm: '81' },
+    { size: '3XL', widthIn: '28', lengthIn: '33', widthCm: '71', lengthCm: '84' },
+    { size: '4XL', widthIn: '30', lengthIn: '34', widthCm: '76', lengthCm: '86' },
+    { size: '5XL', widthIn: '32', lengthIn: '35', widthCm: '81', lengthCm: '89' },
   ];
 
   // المنطق الصحيح لاختيار البيانات بناءً على النوع 
