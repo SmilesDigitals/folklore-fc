@@ -8,11 +8,23 @@ import { GoogleAnalytics } from '@next/third-parties/google';
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  // 👈 يجب أن يكون هنا في المستوى الأول
   metadataBase: new URL('https://folklorefc.com'), 
   title: 'Folklore FC | Football Heritage & Streetwear Aesthetics',
   description: 'Merging football culture with traditional heritage. Premium streetwear for the stands.',
   keywords: 'Football culture, streetwear, soccer jerseys, heritage kits, football fashion',
+  
+  // 👈 هذا هو الجزء الجديد لإصلاح مشكلة الأرشفة
+  alternates: {
+    canonical: '/', 
+    languages: {
+      'en': '/en',
+      'ar': '/ar',
+      'fr': '/fr',
+      'es': '/es',
+      'ja': '/ja',
+    },
+  },
+
   openGraph: {
     title: 'Folklore FC - For the Culture',
     description: 'Exclusive football-inspired streetwear.',

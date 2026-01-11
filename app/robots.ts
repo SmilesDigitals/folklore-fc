@@ -5,7 +5,7 @@ export default function robots(): MetadataRoute.Robots {
     rules: [
       {
         userAgent: '*', // لجميع محركات البحث
-        allow: ['/', '/en/products/', '/api/og'], // السماح بالدخول للموقع والمنتجات وصور الـ OG
+        allow: ['/', '/*/product/', '/api/og'], // السماح لجميع اللغات بالدخول للمنتجات
         disallow: [
           '/*/cart',
           '/*/checkout',
