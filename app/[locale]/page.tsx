@@ -17,7 +17,7 @@ import { Product } from '../../types';
 const TRANSLATIONS: any = {
   en: {
     topBar: 'Free Worldwide Shipping 🌍 | Buy 2 items, Get 10% OFF!',
-    home: 'Home', about: 'About', cart: 'Cart', signIn: 'Sign In',
+    home: 'Home', about: 'About', cart: 'Cart', signIn: 'Sign In', blog: 'Blog',
     heroTitle: 'FOR THE\nCULTURE.',
     heroSubtitle: 'Folklore FC merges heritage with modern streetwear aesthetics.',
     shopCollection: 'Shop Collection', rights: 'All rights reserved.',
@@ -29,7 +29,7 @@ const TRANSLATIONS: any = {
   },
   ar: {
     topBar: 'شحن مجاني لجميع دول العالم 🌍 | اشتري قطعتين واحصل على خصم 10%!',
-    home: 'الرئيسية', about: 'من نحن', cart: 'السلة', signIn: 'دخول',
+    home: 'الرئيسية', about: 'من نحن', cart: 'السلة', signIn: 'دخول', blog: 'المدونة',
     heroTitle: 'لأجل\nالثقافة.',
     heroSubtitle: 'فولكلور إف سي يجمع بين التراث وجماليات أزياء الشارع الحديثة.',
     shopCollection: 'تصفح المجموعة', rights: 'جميع الحقوق محفوظة.',
@@ -41,7 +41,7 @@ const TRANSLATIONS: any = {
   },
   es: {
     topBar: 'Envío gratuito a todo el mundo 🌍 | ¡Compra 2 artículos, 10% DTO!',
-    home: 'Inicio', about: 'Sobre Nosotros', cart: 'Carrito', signIn: 'Entrar',
+    home: 'Inicio', about: 'Sobre Nosotros', cart: 'Carrito', signIn: 'Entrar', blog: 'Blog',
     heroTitle: 'PARA LA\nCULTURA.',
     heroSubtitle: 'Folklore FC fusiona la herencia con la estética del streetwear moderno.',
     shopCollection: 'Comprar Colección', rights: 'Todos los derechos reservados.',
@@ -53,7 +53,7 @@ const TRANSLATIONS: any = {
   },
   ja: {
     topBar: '全世界送料無料 🌍 | 2点購入で10%OFF!',
-    home: 'ホーム', about: '私たちについて', cart: 'カート', signIn: 'ログイン',
+    home: 'ホーム', about: '私たちについて', cart: 'カート', signIn: 'ログイン', blog: 'ブログ',
     heroTitle: 'カルチャーの\nために。',
     heroSubtitle: 'Folklore FCは、ヘリテージと現代のストリートウェアの美学を融合させます。',
     shopCollection: 'コレクションを見る', rights: '不許複製・無断転載を禁じます.',
@@ -65,7 +65,7 @@ const TRANSLATIONS: any = {
   },
   fr: {
     topBar: 'Livraison gratuite dans le monde 🌍 | -10% pour 2 articles !',
-    home: 'Accueil', about: 'À Propos', cart: 'Panier', signIn: 'Connexion',
+    home: 'Accueil', about: 'À Propos', cart: 'Panier', signIn: 'Connexion', blog: 'Blog',
     heroTitle: 'POUR LA\nCULTURE.',
     heroSubtitle: 'Folklore FC fusionne l\'héritage avec l\'esthétique moderne du streetwear.',
     shopCollection: 'Acheter la Collection', rights: 'Tous droits réservés.',
@@ -114,6 +114,11 @@ const Navbar = ({ t, locale }: { t: any, locale: string }) => {
               <button onClick={() => document.getElementById('men-section')?.scrollIntoView({ behavior: 'smooth' })} className="text-sm font-medium text-gray-300 hover:text-white transition-colors">{t.men}</button>
               <button onClick={() => document.getElementById('women-section')?.scrollIntoView({ behavior: 'smooth' })} className="text-sm font-medium text-gray-300 hover:text-white transition-colors">{t.women}</button>
               <Link href={`/${locale}/about`} className="text-sm font-medium text-gray-300 hover:text-white transition-colors">{t.about}</Link>
+              {/* رابط المدونة الجديد بجانب À Propos */}
+              <Link href={`/${locale}/blog`} className="text-sm font-medium text-gray-300 hover:text-white transition-colors flex items-center gap-1">
+               {t.blog}
+               <span className="h-1 w-1 bg-emerald-500 rounded-full"></span>
+              </Link>
             </div>
             <div className="hidden md:flex items-center space-x-6">
               <button onClick={toggleCart} className="relative text-white hover:opacity-70 transition-colors">
