@@ -18,3 +18,8 @@ Parce que chaque équipe a besoin d'un chef. Ce t-shirt est dédié à ceux qui 
 ## Qualité et Folklore
 
 Fabriqué avec soin, ce t-shirt utilise des matériaux premium pour garantir confort et durabilité. C'est le mélange parfait entre la **mode foot rétro** et le design contemporain.
+
+---
+
+**Prête à rejoindre le club des supporters branchés ?**
+[Commandez le modèle Le General ici](https://folklorefc.com/fr/product/fr-2)

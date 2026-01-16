@@ -1,36 +1,45 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "../globals.css";
-// لاحظ: حذفنا استيراد RegionProvider لأنه لم يعد ضرورياً
 import StoreLayout from "../components/StoreLayout";
 import { GoogleAnalytics } from '@next/third-parties/google';
 
 const inter = Inter({ subsets: ["latin"] });
 
-export const metadata = {
-  metadataBase: new URL('https://folklorefc.com'), 
-  title: 'Folklore FC | Football Heritage & Streetwear Aesthetics',
-  description: 'Merging football culture with traditional heritage. Premium streetwear for the stands.',
-  keywords: 'Football culture, streetwear, soccer jerseys, heritage kits, football fashion',
-  
-  // 👈 هذا هو الجزء الجديد لإصلاح مشكلة الأرشفة
-  alternates: {
-    canonical: '/', 
-    languages: {
-      'en': '/en',
-      'ar': '/ar',
-      'fr': '/fr',
-      'es': '/es',
-      'ja': '/ja',
-    },
-  },
+// 👈 الدالة الجديدة لإصلاح مشاكل الأرشفة ديناميكياً
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { locale } = await params;
+  const baseUrl = 'https://www.folklorefc.com';
 
-  openGraph: {
-    title: 'Folklore FC - For the Culture',
-    description: 'Exclusive football-inspired streetwear.',
-    images: ['/images/home1.webp'],
-  },
-};
+  return {
+    metadataBase: new URL(baseUrl),
+    title: {
+      template: '%s | Folklore FC',
+      default: 'Folklore FC | Football Heritage & Streetwear Aesthetics',
+    },
+    description: 'Merging football culture with traditional heritage. Premium streetwear for the stands.',
+    keywords: 'Football culture, streetwear, soccer jerseys, heritage kits, football fashion',
+    
+    // الحل النهائي لمشكلة Duplicate و Redirect error
+    alternates: {
+      canonical: `/${locale}`, 
+      languages: {
+        'en': '/en',
+        'ar': '/ar',
+        'fr': '/fr',
+        'es': '/es',
+        'ja': '/ja',
+        'x-default': '/en', // اللغة التي يتوجه لها الزوار من خارج هذه الدول
+      },
+    },
+
+    openGraph: {
+      title: 'Folklore FC - For the Culture',
+      description: 'Exclusive football-inspired streetwear.',
+      images: ['/images/home1.webp'],
+    },
+  };
+}
 
 type Props = {
   children: React.ReactNode;
@@ -42,12 +51,10 @@ export default async function RootLayout({
   params,
 }: Props) {
   const { locale } = await params;
-  const direction = locale === 'ar' ? 'rtl' : 'ltr';
-
+  
   return (
     <html lang={locale} dir={locale === 'ar' ? 'rtl' : 'ltr'} suppressHydrationWarning={true}>
       <body className={inter.className} suppressHydrationWarning={true}>
-        {/* حذفنا <RegionProvider> وأبقينا فقط StoreLayout */}
         <StoreLayout>
            {children}
            <GoogleAnalytics gaId="G-4CZRCW5K2W" />
