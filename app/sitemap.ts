@@ -2,7 +2,7 @@ import { MetadataRoute } from 'next';
 import { menList } from '../lib/lists/men';
 import { womenList } from '../lib/lists/women';
 
-const BASE_URL = 'https://folklorefc.com';
+const BASE_URL = 'https://www.folklorefc.com';
 const locales = ['en', 'ar', 'fr', 'es', 'ja'];
 
 export default function sitemap(): MetadataRoute.Sitemap {
