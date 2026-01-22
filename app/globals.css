@@ -52,50 +52,93 @@ body {
 
 
 /* --- Folklore FC Blog Typography --- */
+/* --- Folklore FC Blog Typography --- */
 .blog-content-area {
   font-family: var(--font-geist-sans), sans-serif;
+  color: #e4e4e7; /* zinc-200 */
 }
 
+/* Headings */
 .blog-content-area h2 {
-  font-size: clamp(2rem, 5vw, 3.5rem);
+  font-size: clamp(1.75rem, 4vw, 2.5rem);
   font-weight: 900;
-  line-height: 0.95;
-  margin-top: 5rem;
-  margin-bottom: 2rem;
+  line-height: 1.1;
+  margin-top: 4rem;
+  margin-bottom: 1.5rem;
   color: #fff;
   text-transform: uppercase;
-  letter-spacing: -0.05em;
+  letter-spacing: -0.02em;
   font-style: italic;
-  border-left: 4px solid #10b981;
-  padding-left: 1.5rem;
+  position: relative;
 }
 
+.blog-content-area h3 {
+  font-size: 1.5rem;
+  font-weight: 800;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+/* Paragraphs */
 .blog-content-area p {
-  font-size: 1.15rem;
+  font-size: 1.125rem; /* 18px */
   line-height: 1.8;
   margin-bottom: 2rem;
-  color: #d1d1d6;
+  color: #d4d4d8; /* zinc-300 */
   font-weight: 400;
 }
 
-/* تمييز الكلمات المهمة بلون البراند */
-.blog-content-area strong {
+/* Links */
+.blog-content-area a {
   color: #10b981;
-  font-weight: 900;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  font-weight: 600;
+  transition: color 0.2s;
 }
 
-/* تنسيق الاقتباسات إذا استخدمتها */
+.blog-content-area a:hover {
+  color: #34d399;
+}
+
+/* Lists */
+.blog-content-area ul, .blog-content-area ol {
+  margin-bottom: 2rem;
+  padding-left: 1.5rem;
+  color: #d4d4d8;
+  font-size: 1.125rem;
+}
+
+.blog-content-area li {
+  margin-bottom: 0.75rem;
+  padding-left: 0.5rem;
+}
+
+/* Strong / Emphasis */
+.blog-content-area strong {
+  color: #fff;
+  font-weight: 700;
+}
+
+/* Blockquotes */
 .blog-content-area blockquote {
-  border-right: 0;
-  border-left: 0;
-  padding: 2rem 0;
-  margin: 4rem 0;
-  border-top: 1px solid #27272a;
-  border-bottom: 1px solid #27272a;
+  border-left: 4px solid #10b981;
+  padding-left: 2rem;
+  margin: 3rem 0;
   font-style: italic;
-  font-size: 1.5rem;
-  text-align: center;
-  color: white;
+  font-size: 1.25rem;
+  color: #fff;
+  font-weight: 500;
+  background: rgba(255,255,255,0.03);
+  padding: 2rem;
+  border-radius: 0 1rem 1rem 0;
+}
+
+/* Images in MDX (if any) */
+.blog-content-area img {
+  border-radius: 0.75rem;
+  margin: 3rem 0;
+  width: 100%;
+  border: 1px solid #27272a;
 }

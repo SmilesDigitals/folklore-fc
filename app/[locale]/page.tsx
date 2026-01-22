@@ -3,9 +3,9 @@
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { useParams } from 'next/navigation';
-import { 
-  ShoppingBag, Menu, X, Instagram, Facebook, Mail, 
-  ArrowRight, Star, ShieldCheck, Truck, Sparkles 
+import {
+  ShoppingBag, Menu, X, Instagram, Facebook, Mail,
+  ArrowRight, Star, ShieldCheck, Truck, Sparkles
 } from 'lucide-react';
 import { useCart } from '../context/CartContext';
 import { products } from '../../lib/products';
@@ -100,9 +100,9 @@ const Navbar = ({ t, locale }: { t: any, locale: string }) => {
       {/* Top Bar - شريط الإعلانات العلوي */}
       <div className="bg-emerald-600 text-white text-xs font-bold py-2 px-4 text-center tracking-wide fixed top-0 w-full z-[60]">
         <div className="flex items-center justify-center gap-2">
-           <Sparkles size={14} className="text-yellow-300 fill-yellow-300 animate-pulse" />
-           <span>{t.topBar}</span>
-           <Sparkles size={14} className="text-yellow-300 fill-yellow-300 animate-pulse" />
+          <Sparkles size={14} className="text-yellow-300 fill-yellow-300 animate-pulse" />
+          <span>{t.topBar}</span>
+          <Sparkles size={14} className="text-yellow-300 fill-yellow-300 animate-pulse" />
         </div>
       </div>
 
@@ -112,9 +112,9 @@ const Navbar = ({ t, locale }: { t: any, locale: string }) => {
           <div className="flex items-center justify-between">
             {/* الشعار */}
             <div className="flex-shrink-0 cursor-pointer" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
-               <span className="text-2xl font-black tracking-tighter text-white uppercase italic">FOLKLORE FC</span>
+              <span className="text-2xl font-black tracking-tighter text-white uppercase italic">FOLKLORE FC</span>
             </div>
-     
+
             {/* Desktop Menu - الروابط في شاشة الكمبيوتر */}
             <div className="hidden md:flex items-center space-x-8">
               <button onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className="text-sm font-bold text-gray-300 hover:text-white transition-colors uppercase tracking-widest">{t.home}</button>
@@ -135,7 +135,7 @@ const Navbar = ({ t, locale }: { t: any, locale: string }) => {
                   <span className="absolute -top-2 -right-2 bg-emerald-500 text-white text-[10px] font-black h-4 w-4 flex items-center justify-center rounded-full shadow-lg">{cartCount}</span>
                 )}
               </button>
-              
+
               <button onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)} className="md:hidden text-white transition-transform active:scale-90">
                 {isMobileMenuOpen ? <X size={28} /> : <Menu size={28} />}
               </button>
@@ -151,7 +151,7 @@ const Navbar = ({ t, locale }: { t: any, locale: string }) => {
             <button onClick={() => { document.getElementById('women-section')?.scrollIntoView({ behavior: 'smooth' }); setIsMobileMenuOpen(false); }} className="text-xl font-black text-left uppercase tracking-tighter italic">{t.women}</button>
             <Link href={`/${locale}/about`} onClick={() => setIsMobileMenuOpen(false)} className="text-xl font-black text-left uppercase tracking-tighter italic">{t.about}</Link>
             <Link href={`/${locale}/blog`} onClick={() => setIsMobileMenuOpen(false)} className="text-xl font-black text-left uppercase tracking-tighter italic text-emerald-500">{t.blog}</Link>
-            
+
             <button onClick={() => alert("Coming Soon!")} className="mt-4 bg-white text-black font-black py-4 rounded-xl uppercase tracking-widest text-sm">
               {t.signIn}
             </button>
@@ -166,44 +166,44 @@ const Footer = ({ t, locale }: { t: any, locale: string }) => {
   const [redirectUrl, setRedirectUrl] = useState('');
 
   useEffect(() => {
-     if (typeof window !== 'undefined') {
-       setRedirectUrl(`${window.location.origin}/${locale}/thank-you`);
-     }
+    if (typeof window !== 'undefined') {
+      setRedirectUrl(`${window.location.origin}/${locale}/thank-you`);
+    }
   }, [locale]);
 
   return (
     <footer className="bg-[#09090b] text-white py-16 border-t border-[#27272a]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-12 lg:gap-8">
-          
+
           {/* القسم الأيسر: الشعار والاشتراك */}
           <div className="lg:col-span-6 space-y-8">
             <h2 className="text-3xl font-black tracking-tighter italic">FOLKLORE FC</h2>
-            
+
             {/* النص الذي طلبته */}
             <p className="text-gray-400 text-lg max-w-md leading-relaxed">
               {t.footerText}
             </p>
 
             {/* ✅ خانة الـ Email وزر الاشتراك */}
-            <form 
-              className="flex flex-col sm:flex-row gap-3 max-w-md" 
-              action="https://formspree.io/f/mnnezrpv" 
+            <form
+              className="flex flex-col sm:flex-row gap-3 max-w-md"
+              action="https://formspree.io/f/mnnezrpv"
               method="POST"
             >
               <div className="relative flex-grow">
                 <Mail className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-500" size={18} />
                 <input type="hidden" name="_next" value={redirectUrl} />
-                <input 
-                  type="email" 
-                  name="email" 
-                  required 
-                  placeholder="Your Email Address" 
+                <input
+                  type="email"
+                  name="email"
+                  required
+                  placeholder="Your Email Address"
                   className="w-full bg-[#18181b] border border-[#27272a] rounded-lg py-3 pl-10 pr-4 text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-emerald-500/50 transition-all"
                 />
               </div>
-              <button 
-                type="submit" 
+              <button
+                type="submit"
                 className="bg-white text-black font-bold py-3 px-8 rounded-lg hover:bg-emerald-500 hover:text-white transition-all whitespace-nowrap"
               >
                 {t.subscribe}
@@ -237,11 +237,11 @@ const Footer = ({ t, locale }: { t: any, locale: string }) => {
             <a href="https://www.instagram.com/folklorefc.official/" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-[#18181b] border border-[#27272a] flex items-center justify-center text-gray-400 hover:text-white hover:border-white transition-all">
               <Instagram size={20} />
             </a>
-            <a href="https://facebook.com/folklorefc" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-[#18181b] border border-[#27272a] flex items-center justify-center text-gray-400 hover:text-white hover:border-white transition-all">
+            <a href="https://www.facebook.com/profile.php?id=61586932982800" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-[#18181b] border border-[#27272a] flex items-center justify-center text-gray-400 hover:text-white hover:border-white transition-all">
               <Facebook size={20} />
             </a>
             <a href="https://tiktok.com/@folklorefc" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-[#18181b] border border-[#27272a] flex items-center justify-center text-gray-400 hover:text-white hover:border-white transition-all">
-               <TikTokIcon className="w-5 h-5" />
+              <TikTokIcon className="w-5 h-5" />
             </a>
           </div>
           <p className="text-zinc-500 text-sm">© {new Date().getFullYear()} Folklore FC. {t.rights}</p>
@@ -258,14 +258,14 @@ const ProductCard = ({ product, locale }: { product: Product, locale: string }) 
       {/* ✅ تغليف حاوية الصورة بالكامل برابط */}
       <Link href={`/${locale}/product/${product.id}`} className="cursor-pointer">
         <div className="relative aspect-[4/5] overflow-hidden rounded-xl bg-[#18181b] border border-[#27272a]">
-          <img 
-           src={product.image} 
-           alt={product.name} 
-           className="h-full w-full object-cover object-center transition-transform duration-500 group-hover:scale-105" 
-           loading="lazy"
+          <img
+            src={product.image}
+            alt={product.name}
+            className="h-full w-full object-cover object-center transition-transform duration-500 group-hover:scale-105"
+            loading="lazy"
           />
-          {product.isNew && ( <span className="absolute top-3 left-3 bg-white text-black text-xs font-bold px-2 py-1 rounded">NEW SEASON</span> )}
-          
+          {product.isNew && (<span className="absolute top-3 left-3 bg-white text-black text-xs font-bold px-2 py-1 rounded">NEW SEASON</span>)}
+
           {/* تم تغيير الرابط الداخلي للسهم إلى div لتجنب تداخل الروابط (Nested Links) وهو خطأ برمي */}
           <div className="absolute bottom-4 right-4 opacity-0 translate-y-4 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300">
             <div className="flex items-center justify-center bg-white text-black w-10 h-10 rounded-full shadow-lg hover:bg-emerald-400 transition-colors">
@@ -282,14 +282,14 @@ const ProductCard = ({ product, locale }: { product: Product, locale: string }) 
           </h3>
           <p className="mt-1 text-sm text-gray-400">{product.category || 'Football Kit'}</p>
         </div>
-        
+
         {/* قسم التسعير المزدوج المطور */}
         <div className="text-right">
           <div className="flex items-center justify-end gap-1">
-             <span className="text-sm font-bold text-emerald-400">${product.price}</span>
-             <span className="text-[10px] text-gray-500 uppercase">USD</span>
+            <span className="text-sm font-bold text-emerald-400">${product.price}</span>
+            <span className="text-[10px] text-gray-500 uppercase">USD</span>
           </div>
-          
+
           {product.currency === 'USD' && (
             <p className="text-[10px] text-zinc-600 italic font-medium mt-0.5">
               {(() => {
@@ -314,7 +314,7 @@ const CategorySection = ({ title, products, locale, t, id, categoryKey }: { titl
           <h2 className="text-4xl font-black tracking-tighter text-white uppercase">{title}</h2>
           {/* رابط صغير في الأعلى للشاشات الكبيرة */}
           <Link href={`/${locale}/shop/${categoryKey}`} className="hidden sm:flex items-center text-sm font-medium text-emerald-500 hover:text-emerald-400 gap-1 transition-colors">
-            {t.showAll} <ArrowRight size={16}/>
+            {t.showAll} <ArrowRight size={16} />
           </Link>
         </div>
 
@@ -327,13 +327,13 @@ const CategorySection = ({ title, products, locale, t, id, categoryKey }: { titl
 
         {/* ✅ الزر الذي كان مفقوداً: Show All Button في الأسفل */}
         <div className="mt-16 text-center">
-           <Link 
-             href={`/${locale}/shop/${categoryKey}`} 
-             className="inline-flex items-center justify-center gap-2 bg-white text-black font-bold py-4 px-12 rounded-full hover:bg-emerald-500 hover:text-white transition-all transform hover:-translate-y-1 shadow-lg group"
-           >
-             {t.showAll} 
-             <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
-           </Link>
+          <Link
+            href={`/${locale}/shop/${categoryKey}`}
+            className="inline-flex items-center justify-center gap-2 bg-white text-black font-bold py-4 px-12 rounded-full hover:bg-emerald-500 hover:text-white transition-all transform hover:-translate-y-1 shadow-lg group"
+          >
+            {t.showAll}
+            <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
+          </Link>
         </div>
       </div>
     </section>
@@ -345,7 +345,7 @@ export default function HomePage() {
   const locale = (params?.locale as string) || 'en';
 
   if (STORE_LOCKED) { return <Waitlist />; }
-  
+
   const t = TRANSLATIONS[locale] || TRANSLATIONS['en'];
   const regionProducts = products.filter(p => !p.region || p.region === locale);
   const menProducts = regionProducts.filter(p => p.gender === 'men' || !p.gender);
@@ -357,7 +357,7 @@ export default function HomePage() {
       <main className="flex-grow pt-[32px]">
         {/* Banner Section */}
         <section className="relative h-[90vh] w-full bg-black overflow-hidden">
-          <img src="/images/home1.webp" alt="Hero Background" className="absolute inset-0 w-full h-full object-cover opacity-60"/>
+          <img src="/images/home1.webp" alt="Hero Background" className="absolute inset-0 w-full h-full object-cover opacity-60" />
           <div className="absolute inset-0 bg-gradient-to-t from-[#09090b] via-black/40 to-transparent opacity-90" />
           <div className="relative h-full w-[90%] mx-auto flex flex-col justify-end pb-24 sm:pb-32">
             <h1 className="text-5xl md:text-7xl lg:text-8xl font-black text-white tracking-tighter mb-6 whitespace-pre-line">{t.heroTitle}</h1>

@@ -1,23 +1,29 @@
 import { MetadataRoute } from 'next';
 
+const BASE_URL = 'https://www.folklorefc.com';
+
 export default function robots(): MetadataRoute.Robots {
   return {
     rules: [
       {
-        userAgent: '*', // لجميع محركات البحث
-        allow: ['/', '/*/product/', '/api/og'], // السماح لجميع اللغات بالدخول للمنتجات
+        userAgent: '*',
+        allow: ['/', '/*/product/', '/*/blog/', '/api/og'],
         disallow: [
           '/*/cart',
           '/*/checkout',
           '/*/thank-you',
+          '/*/about',
+          '/*/shipping',
+          '/*/contact',
+          '/*/faq',
           '/api/auth/', // منع روابط التحقق فقط
         ],
       },
       {
-        userAgent: ['AdsBot-Google', 'Googlebot-Image'], // زواحف جوجل الخاصة بالإعلانات والصور
-        allow: '/', // منحها إذن كامل للزحف
+        userAgent: ['AdsBot-Google', 'Googlebot-Image'],
+        allow: '/',
       }
     ],
-    sitemap: 'https://folklorefc.com/sitemap.xml',
+    sitemap: `${BASE_URL}/sitemap.xml`,
   };
 }
