@@ -77,9 +77,7 @@ const TRANSLATIONS: any = {
   }
 };
 
-const TikTokIcon = ({ className }: { className?: string }) => (
-  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}><path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5" /></svg>
-);
+
 
 const Navbar = ({ t, locale }: { t: any, locale: string }) => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -162,94 +160,7 @@ const Navbar = ({ t, locale }: { t: any, locale: string }) => {
   );
 };
 
-const Footer = ({ t, locale }: { t: any, locale: string }) => {
-  const [redirectUrl, setRedirectUrl] = useState('');
 
-  useEffect(() => {
-    if (typeof window !== 'undefined') {
-      setRedirectUrl(`${window.location.origin}/${locale}/thank-you`);
-    }
-  }, [locale]);
-
-  return (
-    <footer className="bg-[#09090b] text-white py-16 border-t border-[#27272a]">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-12 lg:gap-8">
-
-          {/* القسم الأيسر: الشعار والاشتراك */}
-          <div className="lg:col-span-6 space-y-8">
-            <h2 className="text-3xl font-black tracking-tighter italic">FOLKLORE FC</h2>
-
-            {/* النص الذي طلبته */}
-            <p className="text-gray-400 text-lg max-w-md leading-relaxed">
-              {t.footerText}
-            </p>
-
-            {/* ✅ خانة الـ Email وزر الاشتراك */}
-            <form
-              className="flex flex-col sm:flex-row gap-3 max-w-md"
-              action="https://formspree.io/f/mnnezrpv"
-              method="POST"
-            >
-              <div className="relative flex-grow">
-                <Mail className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-500" size={18} />
-                <input type="hidden" name="_next" value={redirectUrl} />
-                <input
-                  type="email"
-                  name="email"
-                  required
-                  placeholder="Your Email Address"
-                  className="w-full bg-[#18181b] border border-[#27272a] rounded-lg py-3 pl-10 pr-4 text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-emerald-500/50 transition-all"
-                />
-              </div>
-              <button
-                type="submit"
-                className="bg-white text-black font-bold py-3 px-8 rounded-lg hover:bg-emerald-500 hover:text-white transition-all whitespace-nowrap"
-              >
-                {t.subscribe}
-              </button>
-            </form>
-          </div>
-
-          {/* روابط المتجر */}
-          <div className="lg:col-span-3 lg:col-start-8">
-            <h3 className="font-bold text-lg mb-6 text-white uppercase text-xs tracking-widest text-emerald-500">{t.shop}</h3>
-            <ul className="space-y-4 text-gray-400">
-              <li><button onClick={() => document.getElementById('men-section')?.scrollIntoView({ behavior: 'smooth' })} className="hover:text-white transition-colors">{t.men}</button></li>
-              <li><button onClick={() => document.getElementById('women-section')?.scrollIntoView({ behavior: 'smooth' })} className="hover:text-white transition-colors">{t.women}</button></li>
-            </ul>
-          </div>
-
-          {/* روابط الدعم */}
-          <div className="lg:col-span-3">
-            <h3 className="font-bold text-lg mb-6 text-white uppercase text-xs tracking-widest text-emerald-500">{t.help}</h3>
-            <ul className="space-y-4 text-gray-400">
-              <li><Link href={`/${locale}/shipping`} className="hover:text-white transition-colors">{t.shipping}</Link></li>
-              <li><Link href={`/${locale}/contact`} className="hover:text-white transition-colors">{t.contact}</Link></li>
-              <li><Link href={`/${locale}/faq`} className="hover:text-white transition-colors">{t.faq}</Link></li>
-            </ul>
-          </div>
-        </div>
-
-        {/* القسم السفلي: التواصل الاجتماعي والحقوق */}
-        <div className="border-t border-[#27272a] mt-16 pt-8 flex flex-col md:flex-row justify-between items-center gap-6">
-          <div className="flex gap-6">
-            <a href="https://www.instagram.com/folklorefc.official/" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-[#18181b] border border-[#27272a] flex items-center justify-center text-gray-400 hover:text-white hover:border-white transition-all">
-              <Instagram size={20} />
-            </a>
-            <a href="https://www.facebook.com/profile.php?id=61586932982800" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-[#18181b] border border-[#27272a] flex items-center justify-center text-gray-400 hover:text-white hover:border-white transition-all">
-              <Facebook size={20} />
-            </a>
-            <a href="https://tiktok.com/@folklorefc" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-[#18181b] border border-[#27272a] flex items-center justify-center text-gray-400 hover:text-white hover:border-white transition-all">
-              <TikTokIcon className="w-5 h-5" />
-            </a>
-          </div>
-          <p className="text-zinc-500 text-sm">© {new Date().getFullYear()} Folklore FC. {t.rights}</p>
-        </div>
-      </div>
-    </footer>
-  );
-};
 
 // ✅ المكون الذي تم تعديله لعرض السعر المزدوج
 const ProductCard = ({ product, locale }: { product: Product, locale: string }) => {
@@ -371,7 +282,6 @@ export default function HomePage() {
         <CategorySection id="men-section" title={t.men} products={menProducts} locale={locale} t={t} categoryKey="men" />
         <CategorySection id="women-section" title={t.women} products={womenProducts} locale={locale} t={t} categoryKey="women" />
       </main>
-      <Footer t={t} locale={locale} />
     </div>
   );
 }

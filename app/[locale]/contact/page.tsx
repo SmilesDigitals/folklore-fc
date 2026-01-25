@@ -95,10 +95,10 @@ export default function ContactPage() {
   async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
     setStatus('submitting');
-    
+
     const form = e.currentTarget;
     const formData = new FormData(form);
-    
+
     try {
       const response = await fetch("https://formspree.io/f/mnnezrpv", {
         method: 'POST',
@@ -121,7 +121,7 @@ export default function ContactPage() {
     <div className="min-h-screen bg-[#09090b] text-white p-8" dir={isRtl ? 'rtl' : 'ltr'}>
       <div className="max-w-5xl mx-auto py-12">
         <Link href={`/${locale}`} className="inline-flex items-center text-gray-400 hover:text-white mb-8 transition-colors">
-          <ArrowLeft className={`w-4 h-4 ${isRtl ? 'ml-2 rotate-180' : 'mr-2'}`} /> 
+          <ArrowLeft className={`w-4 h-4 ${isRtl ? 'ml-2 rotate-180' : 'mr-2'}`} />
           {t.back}
         </Link>
 
@@ -138,11 +138,11 @@ export default function ContactPage() {
               </div>
               <div className="flex items-center gap-4 p-5 bg-[#18181b] rounded-2xl border border-[#27272a] hover:border-emerald-500/50 transition-colors">
                 <Phone className="text-emerald-500" size={24} />
-                <span dir="ltr" className="font-semibold">+212 707 230 031</span>
+                <span dir="ltr" className="font-semibold">0707230031</span>
               </div>
               <div className="flex items-center gap-4 p-5 bg-[#18181b] rounded-2xl border border-[#27272a] hover:border-emerald-500/50 transition-colors">
                 <MapPin className="text-emerald-500" size={24} />
-                <span className="font-semibold">Casablanca, Morocco</span>
+                <span className="font-semibold">Travessía Prat de la Riba, 91–95</span>
               </div>
             </div>
           </div>
@@ -158,8 +158,8 @@ export default function ContactPage() {
                   <h2 className="text-3xl font-black">{t.successTitle}</h2>
                   <p className="text-gray-400 max-w-[280px] mx-auto leading-relaxed">{t.successMsg}</p>
                 </div>
-                <button 
-                  onClick={() => setStatus('idle')} 
+                <button
+                  onClick={() => setStatus('idle')}
                   className="px-8 py-3 bg-[#09090b] border border-[#27272a] rounded-xl text-sm font-bold hover:bg-white hover:text-black transition-all"
                 >
                   {isRtl ? 'إرسال رسالة أخرى' : 'Send another message'}
@@ -182,8 +182,8 @@ export default function ContactPage() {
                   {/* ✅ تمت إضافة خاصية name="message" */}
                   <textarea name="message" rows={4} required className="w-full bg-[#09090b] border border-[#27272a] rounded-xl p-4 text-white focus:ring-2 focus:ring-emerald-500 outline-none transition-all placeholder:text-gray-600 resize-none" placeholder={t.placeholderMsg} />
                 </div>
-                
-                <button 
+
+                <button
                   disabled={status === 'submitting'}
                   type="submit"
                   className="w-full bg-white text-black font-black py-5 rounded-xl hover:bg-emerald-500 hover:text-white transition-all active:scale-95 disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-3 shadow-lg shadow-emerald-500/10"
@@ -195,7 +195,7 @@ export default function ContactPage() {
                     </>
                   ) : t.send}
                 </button>
-                
+
                 {status === 'error' && (
                   <p className="text-red-500 text-sm font-medium mt-3 text-center">{t.errorMsg}</p>
                 )}
