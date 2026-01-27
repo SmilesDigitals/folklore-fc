@@ -20,33 +20,58 @@ const TRANSLATIONS: any = {
     questions: [
       {
         category: 'payment',
-        q: 'What payment methods do you accept?',
-        a: 'We primarily use **PayPal** for secure, instant transactions worldwide. If you do not have a PayPal account, you can often check out as a guest using your credit card through the PayPal gateway.'
+        q: 'How can I pay for my order?',
+        a: 'We currently accept PayPal as the primary payment method on our website. All payments are processed securely through PayPal to ensure your safety and privacy.'
       },
       {
         category: 'payment',
-        q: 'I am having trouble paying with PayPal. What can I do?',
-        a: 'We understand that sometimes technical issues happen. That is why we introduced **"Checkout via WhatsApp"**. Simply select this option at checkout, and your order details will be sent directly to our support team. We will help you complete the payment manually using alternative methods suitable for your region.'
+        q: 'What should I do if I face a payment issue?',
+        a: 'If you experience any issues during payment, please contact us via WhatsApp for immediate assistance. Our support team will guide you through the process or help resolve the issue.'
+      },
+      {
+        category: 'payment',
+        q: 'Do you offer Cash on Delivery (COD)?',
+        a: 'No, we do not offer cash on delivery. All orders must be paid online at checkout using PayPal.'
+      },
+      {
+        category: 'payment',
+        q: 'Can I cancel or modify my order?',
+        a: 'Orders can only be canceled or modified before production begins. Once production has started, changes or cancellations are no longer possible.'
+      },
+      {
+        category: 'shipping',
+        q: 'How long does order processing take?',
+        a: 'Order processing (handling time) takes 1–2 business days. This includes order verification, production, and preparation for shipment.'
+      },
+      {
+        category: 'shipping',
+        q: 'How long does shipping take?',
+        a: 'Estimated shipping (transit) times after dispatch are:<br/><br/><strong>USA, Canada, UK, Europe, Japan:</strong> 3–8 business days<br/><strong>Gulf countries (including Saudi Arabia):</strong> 6–12 business days<br/><br/>Please note that delivery times are estimates and may vary.'
       },
       {
         category: 'shipping',
         q: 'Do you ship internationally?',
-        a: 'Yes! Folklore FC ships to over 190 countries worldwide. We believe football culture belongs to everyone, everywhere.'
+        a: 'Yes, we ship internationally. Customers are responsible for any customs duties, taxes, or import fees required by their country.'
       },
       {
         category: 'shipping',
-        q: 'How long will my order take to arrive?',
-        a: 'Standard international shipping takes **7-14 business days**. Express shipping (DHL/FedEx) takes **3-5 business days**. Processing time before shipping is usually 1-2 days.'
+        q: 'Can I track my order?',
+        a: 'Yes. Once your order is shipped, you will receive a confirmation email with tracking information (when available).'
+      },
+      {
+        category: 'shipping',
+        q: 'Why might my order be delayed?',
+        a: 'Delays may occur due to customs clearance, shipping carrier delays, weather conditions, or other factors beyond our control.'
       },
       {
         category: 'returns',
-        q: 'Can I return or exchange an item?',
-        a: 'Absolutely. You have **30 days** from the delivery date to return items. They must be unworn, unwashed, and with original tags attached. Contact us to start the process.'
+        q: 'What is your return and refund policy?',
+        a: 'We accept returns and exchanges under specific conditions. If the issue is caused by us (damaged, defective, or wrong item), we cover all costs. If the return is due to customer preference or error, the customer covers return shipping costs. All return or exchange requests must be reported within 7 days of receiving the product. For full details, please refer to our Return & Refund Policy.'
       },
       {
         category: 'other',
-        q: 'How do I contact customer support?',
-        a: 'You can reach us anytime via the **"Contact Us"** page, or send us a direct message on Instagram. For urgent order issues, using the WhatsApp button is the fastest way.'
+        q: 'Are the product images exactly the same as the final product?',
+        a: 'We strive for accuracy, but slight variations in color or print placement may occur due to the production process and screen differences.'
       }
     ],
     stillHaveQuestions: 'Still have questions?',
@@ -65,33 +90,58 @@ const TRANSLATIONS: any = {
     questions: [
       {
         category: 'payment',
-        q: 'ما هي طرق الدفع المتاحة؟',
-        a: 'نستخدم بشكل أساسي **PayPal** لضمان معاملات آمنة وفورية عالمياً. إذا لم يكن لديك حساب PayPal، يمكنك غالباً الدفع كضيف باستخدام بطاقتك الائتمانية عبر بوابة PayPal.'
+        q: 'كيف يمكنني الدفع لطلبي؟',
+        a: 'نحن نقبل حاليًا PayPal كطريقة دفع أساسية على موقعنا. تتم جميع المدفوعات بشكل آمن من خلال PayPal لضمان سلامتك وخصوصيتك.'
       },
       {
         category: 'payment',
-        q: 'أواجه مشكلة في الدفع عبر PayPal. ماذا أفعل؟',
-        a: 'نحن نتفهم حدوث مشاكل تقنية أحياناً. لهذا السبب وفرنا خيار **"إتمام الطلب عبر WhatsApp"**. اختر هذا الخيار عند الدفع، وسيتم إرسال تفاصيل طلبك لفريق الدعم لدينا. سنقوم بمساعدتك لإتمام الدفع يدوياً بطرق بديلة تناسبك.'
+        q: 'ماذا يجب أن أفعل إذا واجهت مشكلة في الدفع؟',
+        a: 'إذا واجهت أي مشاكل أثناء الدفع، يرجى الاتصال بنا عبر WhatsApp للحصول على مساعدة فورية. سيقوم فريق الدعم لدينا بإرشادك خلال العملية أو المساعدة في حل المشكلة.'
+      },
+      {
+        category: 'payment',
+        q: 'هل تقدمون خدمة الدفع عند الاستلام (COD)؟',
+        a: 'لا، نحن لا نقدم خدمة الدفع عند الاستلام. يجب دفع جميع الطلبات عبر الإنترنت عند تسجيل الخروج باستخدام PayPal.'
+      },
+      {
+        category: 'payment',
+        q: 'هل يمكنني إلغاء طلبي أو تعديله؟',
+        a: 'لا يمكن إلغاء الطلبات أو تعديلها إلا قبل بدء الإنتاج. بمجرد بدء الإنتاج، لم تعد التغييرات أو الإلغاءات ممكنة.'
       },
       {
         category: 'shipping',
-        q: 'هل تشحون لجميع دول العالم؟',
-        a: 'نعم! فولكلور إف سي يشحن لأكثر من 190 دولة حول العالم. نحن نؤمن بأن ثقافة كرة القدم ملك للجميع.'
+        q: 'كم تستغرق معالجة الطلب؟',
+        a: 'تستغرق معالجة الطلب (وقت المناولة) 1-2 يوم عمل. وهذا يشمل التحقق من الطلب والإنتاج والإعداد للشحن.'
       },
       {
         category: 'shipping',
-        q: 'كم يستغرق وصول الطلب؟',
-        a: 'الشحن الدولي العادي يستغرق **7-14 يوم عمل**. الشحن السريع (DHL/FedEx) يستغرق **3-5 أيام عمل**. تجهيز الطلب يستغرق عادة 1-2 يوم.'
+        q: 'كم يستغرق الشحن؟',
+        a: 'أوقات الشحن المقدرة (العبور) بعد الإرسال هي:<br/><br/><strong>الولايات المتحدة الأمريكية وكندا والمملكة المتحدة وأوروبا واليابان:</strong> 3-8 أيام عمل<br/><strong>دول الخليج (بما في ذلك المملكة العربية السعودية):</strong> 6-12 يوم عمل<br/><br/>يرجى ملاحظة أن أوقات التسليم تقديرية وقد تختلف.'
+      },
+      {
+        category: 'shipping',
+        q: 'هل تشحنون دولياً؟',
+        a: 'نعم، نحن نشحن دوليًا. يتحمل العملاء مسؤولية أي رسوم جمركية أو ضرائب أو رسوم استيراد تطلبها بلادهم.'
+      },
+      {
+        category: 'shipping',
+        q: 'هل يمكنني تتبع طلبي؟',
+        a: 'نعم. بمجرد شحن طلبك، ستتلقى رسالة تأكيد إلكترونية تحتوي على معلومات التتبع (عند توفرها).'
+      },
+      {
+        category: 'shipping',
+        q: 'لماذا قد يتأخر طلبي؟',
+        a: 'قد يحدث تأخير بسبب التخليص الجمركي أو تأخيرات شركة الشحن أو الظروف الجوية أو عوامل أخرى خارجة عن سيطرتنا.'
       },
       {
         category: 'returns',
-        q: 'هل يمكنني إرجاع أو استبدال المنتج؟',
-        a: 'بالتأكيد. لديك **30 يوماً** من تاريخ الاستلام لإرجاع المنتجات. يجب أن تكون غير ملبوسة، غير مغسولة، وبالعلامات الأصلية. تواصل معنا لبدء الإجراءات.'
+        q: 'ما هي سياسة الإرجاع والاسترداد الخاصة بكم؟',
+        a: 'نقبل الإرجاع والاستبدال بموجب شروط معينة. إذا كانت المشكلة ناتجة عنا (عنصر تالف أو معيب أو خاطئ)، فإننا نغطي جميع التكاليف. إذا كان الإرجاع بسبب تفضيل العميل أو خطأه، فإن العميل يغطي تكاليف شحن الإرجاع. يجب الإبلاغ عن جميع طلبات الإرجاع أو الاستبدال في غضون 7 أيام من استلام المنتج. للحصول على التفاصيل الكاملة، يرجى الرجوع إلى سياسة الإرجاع والاسترداد الخاصة بنا.'
       },
       {
         category: 'other',
-        q: 'كيف أتواصل مع خدمة العملاء؟',
-        a: 'يمكنك مراسلتنا في أي وقت عبر صفحة **"تواصل معنا"**، أو عبر رسائل إنستغرام. للمشاكل العاجلة، استخدام زر الواتساب هو الطريقة الأسرع.'
+        q: 'هل صور المنتج مطابقة تماماً للمنتج النهائي؟',
+        a: 'نسعى جاهدين لتحري الدقة، ولكن قد تحدث اختلافات طفيفة في اللون أو موضع الطباعة بسبب عملية الإنتاج واختلافات الشاشة.'
       }
     ],
     stillHaveQuestions: 'لا يزال لديك أسئلة؟',
@@ -110,33 +160,58 @@ const TRANSLATIONS: any = {
     questions: [
       {
         category: 'payment',
-        q: 'Quels moyens de paiement acceptez-vous ?',
-        a: 'Nous utilisons principalement **PayPal** pour des transactions sécurisées. Vous pouvez souvent payer par carte de crédit via PayPal sans créer de compte.'
+        q: 'Comment puis-je payer ma commande ?',
+        a: 'Nous acceptons actuellement PayPal comme principal moyen de paiement sur notre site Web. Tous les paiements sont traités en toute sécurité via PayPal pour garantir votre sécurité et votre confidentialité.'
       },
       {
         category: 'payment',
-        q: 'J\'ai des problèmes avec PayPal. Que faire ?',
-        a: 'Nous comprenons les soucis techniques. C\'est pourquoi nous proposons **"Commander via WhatsApp"**. Choisissez cette option et notre équipe vous aidera à finaliser le paiement manuellement avec d\'autres méthodes.'
+        q: 'Que dois-je faire si je rencontre un problème de paiement ?',
+        a: 'Si vous rencontrez des problèmes lors du paiement, veuillez nous contacter via WhatsApp pour une assistance immédiate. Notre équipe de support vous guidera tout au long du processus ou vous aidera à résoudre le problème.'
+      },
+      {
+        category: 'payment',
+        q: 'Proposez-vous le paiement à la livraison (COD) ?',
+        a: 'Non, nous ne proposons pas le paiement à la livraison. Toutes les commandes doivent être payées en ligne au moment du paiement via PayPal.'
+      },
+      {
+        category: 'payment',
+        q: 'Puis-je annuler ou modifier ma commande ?',
+        a: 'Les commandes ne peuvent être annulées ou modifiées qu\'avant le début de la production. Une fois la production commencée, les modifications ou annulations ne sont plus possibles.'
       },
       {
         category: 'shipping',
-        q: 'Livrez-vous à l\'international ?',
-        a: 'Oui ! Nous livrons dans plus de 190 pays. La culture du football est universelle.'
+        q: 'Combien de temps prend le traitement de la commande ?',
+        a: 'Le traitement de la commande (délai de manutention) prend 1 à 2 jours ouvrables. Cela comprend la vérification de la commande, la production et la préparation de l\'expédition.'
       },
       {
         category: 'shipping',
-        q: 'Quels sont les délais de livraison ?',
-        a: 'La livraison standard prend **7-14 jours ouvrables**. La livraison express (DHL/FedEx) prend **3-5 jours ouvrables**.'
+        q: 'Combien de temps prend l\'expédition ?',
+        a: 'Les délais d\'expédition (transit) estimés après expédition sont :<br/><br/><strong>États-Unis, Canada, Royaume-Uni, Europe, Japon :</strong> 3–8 jours ouvrables<br/><strong>Pays du Golfe (y compris l\'Arabie Saoudite) :</strong> 6–12 jours ouvrables<br/><br/>Veuillez noter que les délais de livraison sont des estimations et peuvent varier.'
+      },
+      {
+        category: 'shipping',
+        q: 'Expédiez-vous à l\'international ?',
+        a: 'Oui, nous expédions à l\'international. Les clients sont responsables de tous les droits de douane, taxes ou frais d\'importation exigés par leur pays.'
+      },
+      {
+        category: 'shipping',
+        q: 'Puis-je suivre ma commande ?',
+        a: 'Oui. Une fois votre commande expédiée, vous recevrez un e-mail de confirmation avec les informations de suivi (si disponibles).'
+      },
+      {
+        category: 'shipping',
+        q: 'Pourquoi ma commande pourrait-elle être retardée ?',
+        a: 'Des retards peuvent survenir en raison du dédouanement, des retards des transporteurs, des conditions météorologiques ou d\'autres facteurs indépendants de notre volonté.'
       },
       {
         category: 'returns',
-        q: 'Puis-je retourner un article ?',
-        a: 'Absolument. Vous avez **30 jours** pour retourner les articles non portés et avec les étiquettes d\'origine.'
+        q: 'Quelle est votre politique de retour et de remboursement ?',
+        a: 'Nous acceptons les retours et les échanges sous certaines conditions. Si le problème vient de nous (article endommagé, défectueux ou erroné), nous couvrons tous les frais. Si le retour est dû à la préférence ou à l\'erreur du client, le client couvre les frais d\'expédition de retour. Toutes les demandes de retour ou d\'échange doivent être signalées dans les 7 jours suivant la réception du produit. Pour plus de détails, veuillez consulter notre Politique de Retour et Remboursement.'
       },
       {
         category: 'other',
-        q: 'Comment contacter le service client ?',
-        a: 'Via la page **"Contactez-nous"** ou WhatsApp pour une réponse rapide.'
+        q: 'Les images des produits sont-elles exactement les mêmes que le produit final ?',
+        a: 'Nous nous efforçons d\'être précis, mais de légères variations de couleur ou de placement d\'impression peuvent survenir en raison du processus de production et des différences d\'écran.'
       }
     ],
     stillHaveQuestions: 'Vous avez encore des questions ?',
@@ -155,33 +230,58 @@ const TRANSLATIONS: any = {
     questions: [
       {
         category: 'payment',
-        q: '¿Qué métodos de pago aceptan?',
-        a: 'Utilizamos principalmente **PayPal**. También puedes pagar con tarjeta a través de PayPal como invitado.'
+        q: '¿Cómo puedo pagar mi pedido?',
+        a: 'Actualmente aceptamos PayPal como método de pago principal en nuestro sitio web. Todos los pagos se procesan de forma segura a través de PayPal para garantizar su seguridad y privacidad.'
       },
       {
         category: 'payment',
-        q: 'Tengo problemas con PayPal. ¿Qué hago?',
-        a: 'Ofrecemos **"Pagar vía WhatsApp"**. Selecciona esta opción y nuestro equipo te ayudará a completar el pago manualmente con otros métodos.'
+        q: '¿Qué debo hacer si tengo un problema con el pago?',
+        a: 'Si experimenta algún problema durante el pago, contáctenos a través de WhatsApp para recibir asistencia inmediata. Nuestro equipo de soporte lo guiará a través del proceso o lo ayudará a resolver el problema.'
+      },
+      {
+        category: 'payment',
+        q: '¿Ofrecen pago contra reembolso (COD)?',
+        a: 'No, no ofrecemos pago contra reembolso. Todos los pedidos deben pagarse en línea al finalizar la compra mediante PayPal.'
+      },
+      {
+        category: 'payment',
+        q: '¿Puedo cancelar o modificar mi pedido?',
+        a: 'Los pedidos solo se pueden cancelar o modificar antes de que comience la producción. Una vez que ha comenzado la producción, los cambios o cancelaciones ya no son posibles.'
+      },
+      {
+        category: 'shipping',
+        q: '¿Cuánto tiempo lleva el procesamiento del pedido?',
+        a: 'El procesamiento del pedido (tiempo de manipulación) demora entre 1 y 2 días hábiles. Esto incluye la verificación del pedido, la producción y la preparación para el envío.'
+      },
+      {
+        category: 'shipping',
+        q: '¿Cuánto tiempo tarda el envío?',
+        a: 'Los tiempos de envío (tránsito) estimados después del despacho son:<br/><br/><strong>EE. UU., Canadá, Reino Unido, Europa, Japón:</strong> 3–8 días hábiles<br/><strong>Países del Golfo (incluida Arabia Saudita):</strong> 6–12 días hábiles<br/><br/>Tenga en cuenta que los tiempos de entrega son estimaciones y pueden variar.'
       },
       {
         category: 'shipping',
         q: '¿Hacen envíos internacionales?',
-        a: '¡Sí! Enviamos a más de 190 países.'
+        a: 'Sí, hacemos envíos internacionales. Los clientes son responsables de los derechos de aduana, impuestos o tarifas de importación que requiera su país.'
       },
       {
         category: 'shipping',
-        q: '¿Cuánto tarda en llegar mi pedido?',
-        a: 'El envío estándar tarda **7-14 días hábiles**. El envío exprés tarda **3-5 días hábiles**.'
+        q: '¿Puedo rastrear mi pedido?',
+        a: 'Sí. Una vez que se envíe su pedido, recibirá un correo electrónico de confirmación con información de seguimiento (cuando esté disponible).'
+      },
+      {
+        category: 'shipping',
+        q: '¿Por qué podría retrasarse mi pedido?',
+        a: 'Pueden ocurrir retrasos debido al despacho de aduanas, retrasos del transportista, condiciones climáticas u otros factores fuera de nuestro control.'
       },
       {
         category: 'returns',
-        q: '¿Puedo devolver un producto?',
-        a: 'Sí, tienes **30 días**. Los artículos deben estar sin usar y con etiquetas.'
+        q: '¿Cuál es su política de devoluciones y reembolsos?',
+        a: 'Aceptamos devoluciones y cambios bajo condiciones específicas. Si el problema es causado por nosotros (artículo dañado, defectuoso o incorrecto), cubrimos todos los costos. Si la devolución se debe a la preferencia o error del cliente, el cliente cubre los costos de envío de devolución. Todas las solicitudes de devolución o cambio deben informarse dentro de los 7 días posteriores a la recepción del producto. Para obtener detalles completos, consulte nuestra Política de Devoluciones y Reembolsos.'
       },
       {
         category: 'other',
-        q: '¿Cómo contacto con soporte?',
-        a: 'A través de la página de contacto o WhatsApp.'
+        q: '¿Son las imágenes del producto exactamente iguales al producto final?',
+        a: 'Nos esforzamos por la precisión, pero pueden ocurrir ligeras variaciones en el color o la ubicación de la impresión debido al proceso de producción y las diferencias de pantalla.'
       }
     ],
     stillHaveQuestions: '¿Aún tienes dudas?',
@@ -200,33 +300,58 @@ const TRANSLATIONS: any = {
     questions: [
       {
         category: 'payment',
-        q: 'どのような支払い方法がありますか？',
-        a: '主に**PayPal**を使用しています。アカウントがなくてもクレジットカードで支払いが可能です。'
+        q: '注文の支払い方法は？',
+        a: '現在、当社のウェブサイトでの主な支払い方法としてPayPalを受け入れています。すべての支払いはPayPalを通じて安全に処理され、安全性とプライバシーが確保されます。'
       },
       {
         category: 'payment',
-        q: 'PayPalで支払いができません。どうすればいいですか？',
-        a: '技術的な問題に対応するため、**「WhatsApp経由で注文」**を導入しました。このオプションを選択すると、サポートチームが別の支払い方法を手動でご案内します。'
+        q: '支払いに問題が発生した場合はどうすればよいですか？',
+        a: '支払い中に問題が発生した場合は、WhatsApp経由でご連絡ください。サポートチームがプロセスをご案内するか、問題の解決をお手伝いします。'
+      },
+      {
+        category: 'payment',
+        q: '代金引換（COD）はありますか？',
+        a: 'いいえ、代金引換は提供していません。すべての注文は、チェックアウト時にPayPalを使用してオンラインで支払う必要があります。'
+      },
+      {
+        category: 'payment',
+        q: '注文をキャンセルまたは変更できますか？',
+        a: '注文は、生産が開始される前にのみキャンセルまたは変更できます。生産が開始されると、変更またはキャンセルはできなくなります。'
+      },
+      {
+        category: 'shipping',
+        q: '注文処理にはどのくらい時間がかかりますか？',
+        a: '注文処理（取り扱い時間）には1〜2営業日かかります。これには、注文の確認、生産、および発送の準備が含まれます。'
+      },
+      {
+        category: 'shipping',
+        q: '配送にはどのくらい時間がかかりますか？',
+        a: '発送後の推定配送（輸送）時間は次のとおりです：<br/><br/><strong>米国、カナダ、英国、ヨーロッパ、日本：</strong> 3〜8営業日<br/><strong>湾岸諸国（サウジアラビアを含む）：</strong> 6〜12営業日<br/><br/>納期は推定であり、異なる場合があることに注意してください。'
       },
       {
         category: 'shipping',
         q: '海外発送はしていますか？',
-        a: 'はい！世界190カ国以上に発送しています。'
+        a: 'はい、海外発送を行っています。お客様は、自国で必要とされる関税、税金、または輸入手数料に対して責任を負います。'
       },
       {
         category: 'shipping',
-        q: '注文からどれくらいで届きますか？',
-        a: '通常配送は**7〜14営業日**、速達（DHL/FedEx）は**3〜5営業日**かかります。'
+        q: '注文を追跡できますか？',
+        a: 'はい。注文が発送されると、追跡情報（利用可能な場合）を含む確認メールが届きます。'
+      },
+      {
+        category: 'shipping',
+        q: '注文が遅れる可能性があるのはなぜですか？',
+        a: '通関手続き、配送業者の遅延、気象条件、または当社の管理外のその他の要因により、遅延が発生する場合があります。'
       },
       {
         category: 'returns',
-        q: '返品や交換はできますか？',
-        a: 'はい、到着から**30日以内**であれば可能です。未使用、未洗濯、タグ付きの状態である必要があります。'
+        q: '返品および返金ポリシーは何ですか？',
+        a: '特定の条件下で返品および交換を受け付けます。問題が当社（破損、欠陥、または間違った商品）に起因する場合、当社はすべての費用を負担します。返品がお客様の好みまたはエラーによる場合、お客様は返品送料を負担します。すべての返品または交換のリクエストは、商品を受け取ってから7日以内に報告する必要があります。詳細については、返品および返金ポリシーをご覧ください。'
       },
       {
         category: 'other',
-        q: 'カスタマーサポートへの連絡方法は？',
-        a: 'お問い合わせページ、またはWhatsAppをご利用ください。'
+        q: '商品画像は最終製品とまったく同じですか？',
+        a: '正確さを期すよう努めていますが、製造プロセスや画面の違いただし、色や印刷位置にわずかな違いが生じる場合があります。'
       }
     ],
     stillHaveQuestions: 'まだ質問がありますか？',
@@ -238,7 +363,7 @@ const TRANSLATIONS: any = {
 const FAQItem = ({ question, answer, isOpen, onClick }: { question: string, answer: string, isOpen: boolean, onClick: () => void }) => {
   return (
     <div className="border-b border-[#27272a]">
-      <button 
+      <button
         onClick={onClick}
         className="w-full py-6 flex items-center justify-between text-left focus:outline-none group"
       >
@@ -249,12 +374,10 @@ const FAQItem = ({ question, answer, isOpen, onClick }: { question: string, answ
           {isOpen ? <Minus className="w-5 h-5 text-emerald-500" /> : <Plus className="w-5 h-5 text-gray-400 group-hover:text-white" />}
         </div>
       </button>
-      <div 
+      <div
         className={`overflow-hidden transition-all duration-300 ease-in-out ${isOpen ? 'max-h-96 opacity-100 mb-6' : 'max-h-0 opacity-0'}`}
       >
-        <p className="text-gray-400 leading-relaxed text-base">
-          {answer}
-        </p>
+        <p className="text-gray-400 leading-relaxed text-base" dangerouslySetInnerHTML={{ __html: answer }} />
       </div>
     </div>
   );
@@ -286,8 +409,8 @@ export default function FAQPage() {
   return (
     <div className="min-h-screen bg-[#09090b] text-white p-8" dir={isRtl ? 'rtl' : 'ltr'}>
       <div className="max-w-4xl mx-auto py-12">
-        <Link href="/" className={`inline-flex items-center text-gray-400 hover:text-white mb-12 transition-colors ${isRtl ? 'flex-row-reverse' : ''}`}>
-          <ArrowLeft className={`w-4 h-4 ${isRtl ? 'ml-2 rotate-180' : 'mr-2'}`} /> 
+        <Link href={`/${locale}`} className={`inline-flex items-center text-gray-400 hover:text-white mb-12 transition-colors ${isRtl ? 'flex-row-reverse' : ''}`}>
+          <ArrowLeft className={`w-4 h-4 ${isRtl ? 'ml-2 rotate-180' : 'mr-2'}`} />
           {t.back}
         </Link>
 
@@ -314,7 +437,7 @@ export default function FAQPage() {
                     // نحتاج لحساب Index فريد لكل سؤال في الصفحة
                     const globalIndex = t.questions.indexOf(item);
                     return (
-                      <FAQItem 
+                      <FAQItem
                         key={idx}
                         question={item.q}
                         answer={item.a}
@@ -332,7 +455,7 @@ export default function FAQPage() {
         {/* قسم المساعدة الإضافي */}
         <div className="mt-20 text-center bg-gradient-to-b from-[#18181b] to-[#09090b] border border-[#27272a] rounded-2xl p-12">
           <h3 className="text-2xl font-bold mb-4">{t.stillHaveQuestions}</h3>
-          <Link 
+          <Link
             href={`/${locale}/contact`}
             className="inline-flex items-center justify-center bg-white text-black font-bold py-4 px-8 rounded-full hover:bg-emerald-500 hover:text-white transition-all transform hover:-translate-y-1 shadow-lg"
           >

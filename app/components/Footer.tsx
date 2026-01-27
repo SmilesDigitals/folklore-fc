@@ -15,8 +15,10 @@ const footerTranslations = {
         shop: "Shop",
         policies: "Policies",
         privacy: "Privacy Policy",
-        terms: "Terms of Service",
-        refund: "Refund Policy",
+        terms: "Terms & Conditions",
+        refund: "Return & Refund Policy",
+        shipping: "Shipping Policy",
+        faq: "FAQ",
         contact: "Contact Us",
         rights: "All rights reserved.",
         description: "Merging football culture with traditional heritage.",
@@ -28,8 +30,10 @@ const footerTranslations = {
         shop: "المتجر",
         policies: "السياسات",
         privacy: "سياسة الخصوصية",
-        terms: "شروط الخدمة",
-        refund: "سياسة الاسترجاع",
+        terms: "الشروط والأحكام",
+        refund: "سياسة الاسترجاع والاسترداد",
+        shipping: "سياسة الشحن",
+        faq: "الأسئلة الشائعة",
         contact: "تواصل معنا",
         rights: "جميع الحقوق محفوظة.",
         description: "دمج ثقافة كرة القدم مع التراث التقليدي.",
@@ -41,8 +45,10 @@ const footerTranslations = {
         shop: "Boutique",
         policies: "Politiques",
         privacy: "Politique de confidentialité",
-        terms: "Conditions d'utilisation",
-        refund: "Politique de remboursement",
+        terms: "Conditions générales",
+        refund: "Politique de retour et remboursement",
+        shipping: "Politique d'expédition",
+        faq: "FAQ",
         contact: "Contactez-nous",
         rights: "Tous droits réservés.",
         description: "Fusionner la culture du football avec le patrimoine traditionnel.",
@@ -54,8 +60,10 @@ const footerTranslations = {
         shop: "Tienda",
         policies: "Políticas",
         privacy: "Política de privacidad",
-        terms: "Términos de servicio",
-        refund: "Política de reembolso",
+        terms: "Términos y condiciones",
+        refund: "Política de devoluciones y reembolsos",
+        shipping: "Política de envíos",
+        faq: "Preguntas frecuentes",
         contact: "Contáctenos",
         rights: "Todos los derechos reservados.",
         description: "Fusionando la cultura del fútbol con el patrimonio tradicional.",
@@ -68,7 +76,9 @@ const footerTranslations = {
         policies: "ポリシー",
         privacy: "プライバシーポリシー",
         terms: "利用規約",
-        refund: "返金ポリシー",
+        refund: "返品・返金ポリシー",
+        shipping: "配送ポリシー",
+        faq: "よくある質問",
         contact: "お問い合わせ",
         rights: "全著作権所有。",
         description: "サッカー文化と伝統的な遺産を融合させる。",
@@ -157,13 +167,15 @@ export default function Footer() {
                     </ul>
                 </div>
 
-                {/* Legal/Policies */}
                 <div className="space-y-4">
                     <h3 className="text-white font-bold uppercase tracking-widest text-sm text-emerald-500">{t.policies}</h3>
                     <ul className="space-y-2 text-sm text-gray-400">
                         <li><Link href={`/${locale}/policies/privacy-policy`} className="hover:text-emerald-500 transition-colors">{t.privacy}</Link></li>
                         <li><Link href={`/${locale}/policies/terms-of-service`} className="hover:text-emerald-500 transition-colors">{t.terms}</Link></li>
                         <li><Link href={`/${locale}/policies/refund-policy`} className="hover:text-emerald-500 transition-colors">{t.refund}</Link></li>
+                        <li><Link href={`/${locale}/policies/shipping-policy`} className="hover:text-emerald-500 transition-colors">{t.shipping}</Link></li>
+                        <li><Link href={`/${locale}/faq`} className="hover:text-emerald-500 transition-colors">{t.faq}</Link></li>
+                        <li><Link href={`/${locale}/about`} className="hover:text-emerald-500 transition-colors">{t.about}</Link></li>
                     </ul>
                 </div>
 
