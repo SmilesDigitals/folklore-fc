@@ -7,6 +7,7 @@ import { Star, AlertCircle, CheckCircle } from 'lucide-react';
 export default function ReviewForm({ productId, t }: { productId: string, t: any }) {
     // Removed Auth Context
     const [name, setName] = useState('');
+    const [email, setEmail] = useState('');
     const [rating, setRating] = useState(0);
     const [hoverRating, setHoverRating] = useState(0);
     const [comment, setComment] = useState('');
@@ -15,6 +16,14 @@ export default function ReviewForm({ productId, t }: { productId: string, t: any
 
     const handleSubmit = async (e: React.FormEvent) => {
         e.preventDefault();
+
+        // Validation
+        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        if (!emailRegex.test(email)) {
+            setMessage({ type: 'error', text: 'Please enter a valid email address.' });
+            return;
+        }
+
         if (rating === 0 || !name.trim()) return;
 
         setIsSubmitting(true);
@@ -27,6 +36,7 @@ export default function ReviewForm({ productId, t }: { productId: string, t: any
             rating: rating,
             comment: comment,
             user_name: name,
+            user_email: email, // New field
             status: 'pending'
         });
 
@@ -40,6 +50,7 @@ export default function ReviewForm({ productId, t }: { productId: string, t: any
             setRating(0);
             setComment('');
             setName('');
+            setEmail('');
         }
     };
 
@@ -63,6 +74,18 @@ export default function ReviewForm({ productId, t }: { productId: string, t: any
                         onChange={(e) => setName(e.target.value)}
                         className="w-full bg-[#09090b] border border-[#27272a] rounded-xl p-4 text-white placeholder-gray-600 focus:border-emerald-500 focus:ring-1 focus:ring-emerald-500 transition-all outline-none"
                         placeholder="Enter your name"
+                        required
+                    />
+                </div>
+
+                <div className="mb-6">
+                    <label className="block text-gray-400 text-sm font-medium mb-2">Email Address</label>
+                    <input
+                        type="email"
+                        value={email}
+                        onChange={(e) => setEmail(e.target.value)}
+                        className="w-full bg-[#09090b] border border-[#27272a] rounded-xl p-4 text-white placeholder-gray-600 focus:border-emerald-500 focus:ring-1 focus:ring-emerald-500 transition-all outline-none"
+                        placeholder="name@example.com"
                         required
                     />
                 </div>
@@ -101,7 +124,7 @@ export default function ReviewForm({ productId, t }: { productId: string, t: any
 
                 <button
                     type="submit"
-                    disabled={isSubmitting || rating === 0 || !name.trim()}
+                    disabled={isSubmitting || rating === 0 || !name.trim() || !email.trim()}
                     className="bg-white text-black font-bold py-3 px-8 rounded-full hover:bg-gray-200 transition-all disabled:opacity-50 disabled:cursor-not-allowed"
                 >
                     {isSubmitting ? 'Submitting...' : 'Submit Review'}
