@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "../globals.css";
 import StoreLayout from "../components/StoreLayout";
 import { GoogleAnalytics } from '@next/third-parties/google';
+import { AuthProvider } from '../context/AuthContext';
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -19,10 +20,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     },
     description: 'Merging football culture with traditional heritage. Premium streetwear for the stands.',
     keywords: 'Football culture, streetwear, soccer jerseys, heritage kits, football fashion',
-    
+
     // الحل النهائي لمشكلة Duplicate و Redirect error
     alternates: {
-      canonical: `/${locale}`, 
+      canonical: `/${locale}`,
       languages: {
         'en': '/en',
         'ar': '/ar',
@@ -51,14 +52,16 @@ export default async function RootLayout({
   params,
 }: Props) {
   const { locale } = await params;
-  
+
   return (
     <html lang={locale} dir={locale === 'ar' ? 'rtl' : 'ltr'} suppressHydrationWarning={true}>
       <body className={inter.className} suppressHydrationWarning={true}>
-        <StoreLayout>
-           {children}
-           <GoogleAnalytics gaId="G-4CZRCW5K2W" />
-        </StoreLayout>
+        <AuthProvider>
+          <StoreLayout>
+            {children}
+            <GoogleAnalytics gaId="G-4CZRCW5K2W" />
+          </StoreLayout>
+        </AuthProvider>
       </body>
     </html>
   );

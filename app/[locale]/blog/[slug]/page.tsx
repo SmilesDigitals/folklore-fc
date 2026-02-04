@@ -23,7 +23,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ local
     '@context': 'https://schema.org',
     '@type': 'Article',
     headline: post.metadata.title,
-    description: post.metadata.description,
+    description: post.metadata.description || post.metadata.excerpt,
     image: post.metadata.image ? `https://folklorefc.com${post.metadata.image}` : undefined,
     datePublished: post.metadata.date,
     author: {
@@ -61,7 +61,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ local
       availability: `https://schema.org/${post.metadata.schema.availability || 'InStock'}`
     },
     image: post.metadata.image ? `https://folklorefc.com${post.metadata.image}` : undefined,
-    description: post.metadata.description
+    description: post.metadata.description || post.metadata.excerpt
   } : null;
 
   return (
@@ -133,7 +133,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ local
             {/* Description / Lead */}
             <div className="relative pl-6 lg:pl-8 py-1 border-l-2 border-emerald-500 max-w-md">
               <p className="text-gray-100 lg:text-gray-400 text-base lg:text-xl leading-relaxed italic font-medium drop-shadow-md lg:drop-shadow-none">
-                {post.metadata.description}
+                {post.metadata.description || post.metadata.excerpt}
               </p>
             </div>
           </div>
