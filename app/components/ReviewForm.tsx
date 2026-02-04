@@ -2,12 +2,11 @@
 
 import React, { useState } from 'react';
 import { supabase } from '../../lib/supabase';
-import { useAuth } from '../context/AuthContext';
 import { Star, AlertCircle, CheckCircle } from 'lucide-react';
-import GoogleAuthButton from './GoogleAuthButton';
 
 export default function ReviewForm({ productId, t }: { productId: string, t: any }) {
-    const { user } = useAuth();
+    // Removed Auth Context
+    const [name, setName] = useState('');
     const [rating, setRating] = useState(0);
     const [hoverRating, setHoverRating] = useState(0);
     const [comment, setComment] = useState('');
@@ -16,18 +15,19 @@ export default function ReviewForm({ productId, t }: { productId: string, t: any
 
     const handleSubmit = async (e: React.FormEvent) => {
         e.preventDefault();
-        if (!user || rating === 0) return;
+        if (rating === 0 || !name.trim()) return;
 
         setIsSubmitting(true);
         setMessage(null);
 
+        // Insert review as Guest (user_id is null, name is provided manually)
         const { error } = await supabase.from('reviews').insert({
             product_id: productId,
-            user_id: user.id,
+            user_id: null, // Guest user
             rating: rating,
             comment: comment,
-            user_name: user.user_metadata.full_name || 'Anonymous',
-            status: 'pending' // Default is pending, but good to be explicit
+            user_name: name,
+            status: 'pending'
         });
 
         setIsSubmitting(false);
@@ -39,20 +39,9 @@ export default function ReviewForm({ productId, t }: { productId: string, t: any
             setMessage({ type: 'success', text: 'Thank you! Your review has been submitted for approval.' });
             setRating(0);
             setComment('');
+            setName('');
         }
     };
-
-    if (!user) {
-        return (
-            <div className="bg-[#18181b] p-6 rounded-2xl border border-[#27272a] text-center">
-                <h3 className="text-lg font-bold mb-4">Leave a Review</h3>
-                <p className="text-gray-400 mb-6">Please sign in to share your thoughts about this product.</p>
-                <div className="flex justify-center">
-                    <GoogleAuthButton t={t} />
-                </div>
-            </div>
-        );
-    }
 
     return (
         <div className="bg-[#18181b] p-6 rounded-2xl border border-[#27272a]">
@@ -66,6 +55,18 @@ export default function ReviewForm({ productId, t }: { productId: string, t: any
             )}
 
             <form onSubmit={handleSubmit}>
+                <div className="mb-6">
+                    <label className="block text-gray-400 text-sm font-medium mb-2">Your Name</label>
+                    <input
+                        type="text"
+                        value={name}
+                        onChange={(e) => setName(e.target.value)}
+                        className="w-full bg-[#09090b] border border-[#27272a] rounded-xl p-4 text-white placeholder-gray-600 focus:border-emerald-500 focus:ring-1 focus:ring-emerald-500 transition-all outline-none"
+                        placeholder="Enter your name"
+                        required
+                    />
+                </div>
+
                 <div className="mb-6">
                     <label className="block text-gray-400 text-sm font-medium mb-2">Rating</label>
                     <div className="flex gap-1">
@@ -100,7 +101,7 @@ export default function ReviewForm({ productId, t }: { productId: string, t: any
 
                 <button
                     type="submit"
-                    disabled={isSubmitting || rating === 0}
+                    disabled={isSubmitting || rating === 0 || !name.trim()}
                     className="bg-white text-black font-bold py-3 px-8 rounded-full hover:bg-gray-200 transition-all disabled:opacity-50 disabled:cursor-not-allowed"
                 >
                     {isSubmitting ? 'Submitting...' : 'Submit Review'}

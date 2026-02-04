@@ -4,7 +4,7 @@ import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { ShoppingBag, Menu, X, Sparkles, User as UserIcon } from 'lucide-react';
 import { useCart } from '../context/CartContext';
-import GoogleAuthButton from './GoogleAuthButton';
+
 
 export default function Navbar({ t, locale }: { t: any, locale: string }) {
     const [isScrolled, setIsScrolled] = useState(false);
@@ -56,9 +56,7 @@ export default function Navbar({ t, locale }: { t: any, locale: string }) {
 
                         {/* Cart & Mobile Toggle - الأزرار الجانبية */}
                         <div className="flex items-center space-x-6">
-                            <div className="hidden md:block">
-                                <GoogleAuthButton t={t} />
-                            </div>
+
                             <button onClick={toggleCart} className="relative text-white hover:text-emerald-500 transition-colors">
                                 <ShoppingBag size={22} />
                                 {cartCount > 0 && (
@@ -83,9 +81,7 @@ export default function Navbar({ t, locale }: { t: any, locale: string }) {
                         <Link href={`/${locale}/blog`} onClick={() => setIsMobileMenuOpen(false)} className="text-xl font-black text-left uppercase tracking-tighter italic text-emerald-500">{t.blog}</Link>
 
                         {/* زر التسجيل في الموبايل (استبدال الزر القديم) */}
-                        <div className="mt-8 pt-8 border-t border-[#27272a]">
-                            <GoogleAuthButton t={t} />
-                        </div>
+
                     </div>
                 )}
             </nav>
