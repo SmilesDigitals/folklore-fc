@@ -1,13 +1,23 @@
 import createNextIntlPlugin from 'next-intl/plugin';
- 
+
+import type { NextConfig } from 'next';
+
 const withNextIntl = createNextIntlPlugin();
- 
-/** @type {import('next').NextConfig} */
-const nextConfig = {
+
+const nextConfig: NextConfig = {
     // يمكنك إضافة أي إعدادات للمتجر هنا مستقبلاً
     images: {
-        domains: ['folklorefc.com'], // أضف دومين موقعك هنا لاحقاً لضمان عمل الصور
+        remotePatterns: [
+            {
+                protocol: 'https',
+                hostname: 'folklorefc.com',
+            },
+            {
+                protocol: 'https',
+                hostname: '*.googleusercontent.com', // For Google Auth profile pictures
+            }
+        ],
     },
 };
- 
+
 export default withNextIntl(nextConfig);
