@@ -5,7 +5,6 @@ import { supabase } from '../../lib/supabase';
 import { Star, AlertCircle, CheckCircle } from 'lucide-react';
 
 export default function ReviewForm({ productId, t }: { productId: string, t: any }) {
-    // Removed Auth Context
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
     const [rating, setRating] = useState(0);
@@ -24,76 +23,91 @@ export default function ReviewForm({ productId, t }: { productId: string, t: any
             return;
         }
 
-        if (rating === 0 || !name.trim()) return;
+        if (rating === 0 || !name.trim()) {
+            setMessage({ type: 'error', text: 'Please provide a rating and your name.' });
+            return;
+        }
 
         setIsSubmitting(true);
         setMessage(null);
 
-        // Insert review as Guest (user_id is null, name is provided manually)
-        const { error } = await supabase.from('reviews').insert({
-            product_id: productId,
-            user_id: null, // Guest user
-            rating: rating,
-            comment: comment,
-            user_name: name,
-            user_email: email, // New field
-            status: 'pending'
-        });
+        try {
+            // Insert review as Guest
+            const { error } = await supabase.from('reviews').insert({
+                product_id: productId,
+                user_id: null, // Guest user
+                rating: rating,
+                comment: comment,
+                user_name: name,
+                user_email: email,
+                status: 'pending'
+            });
 
-        setIsSubmitting(false);
+            if (error) throw error;
 
-        if (error) {
-            setMessage({ type: 'error', text: 'Error submitting review. Please try again.' });
-            console.error('❌ Supabase Insert Error:', error);
-            alert(`Debug Error: ${error.message} (Code: ${error.code})`);
-        } else {
             setMessage({ type: 'success', text: 'Thank you! Your review has been submitted for approval.' });
+            // Reset form
             setRating(0);
             setComment('');
             setName('');
             setEmail('');
+
+        } catch (error: any) {
+            console.error('❌ Supabase Insert Error:', error);
+            setMessage({
+                type: 'error',
+                text: error.message || 'Failed to submit review. Please try again later.'
+            });
+        } finally {
+            setIsSubmitting(false);
         }
     };
 
     return (
-        <div className="bg-[#18181b] p-6 rounded-2xl border border-[#27272a]">
-            <h3 className="text-xl font-bold mb-6">Write a Review</h3>
+        <div className="bg-[#18181b] p-8 rounded-3xl border border-[#27272a] shadow-2xl">
+            <h3 className="text-2xl font-bold mb-2 text-white">Write a Review</h3>
+            <p className="text-gray-400 mb-8 text-sm">Share your experience with the community.</p>
 
             {message && (
-                <div className={`p-4 rounded-xl mb-6 flex items-center gap-2 ${message.type === 'success' ? 'bg-emerald-500/10 text-emerald-500 border border-emerald-500/20' : 'bg-red-500/10 text-red-500 border border-red-500/20'}`}>
-                    {message.type === 'success' ? <CheckCircle size={20} /> : <AlertCircle size={20} />}
-                    {message.text}
+                <div className={`p-4 rounded-xl mb-8 flex items-start gap-3 backdrop-blur-md ${message.type === 'success'
+                        ? 'bg-emerald-500/10 text-emerald-400 border border-emerald-500/20'
+                        : 'bg-red-500/10 text-red-400 border border-red-500/20'
+                    }`}>
+                    {message.type === 'success' ? <CheckCircle size={20} className="shrink-0 mt-0.5" /> : <AlertCircle size={20} className="shrink-0 mt-0.5" />}
+                    <span className="text-sm font-medium">{message.text}</span>
                 </div>
             )}
 
-            <form onSubmit={handleSubmit}>
-                <div className="mb-6">
-                    <label className="block text-gray-400 text-sm font-medium mb-2">Your Name</label>
-                    <input
-                        type="text"
-                        value={name}
-                        onChange={(e) => setName(e.target.value)}
-                        className="w-full bg-[#09090b] border border-[#27272a] rounded-xl p-4 text-white placeholder-gray-600 focus:border-emerald-500 focus:ring-1 focus:ring-emerald-500 transition-all outline-none"
-                        placeholder="Enter your name"
-                        required
-                    />
+            <form onSubmit={handleSubmit} className="space-y-6">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div className="space-y-2">
+                        <label className="block text-xs font-semibold uppercase tracking-wider text-gray-500">Name</label>
+                        <input
+                            type="text"
+                            value={name}
+                            onChange={(e) => setName(e.target.value)}
+                            className="w-full bg-[#09090b] border border-[#27272a] rounded-xl p-3.5 text-white placeholder-gray-600 focus:border-emerald-500 focus:ring-1 focus:ring-emerald-500 transition-all outline-none text-sm"
+                            placeholder="Your name"
+                            required
+                        />
+                    </div>
+
+                    <div className="space-y-2">
+                        <label className="block text-xs font-semibold uppercase tracking-wider text-gray-500">Email</label>
+                        <input
+                            type="email"
+                            value={email}
+                            onChange={(e) => setEmail(e.target.value)}
+                            className="w-full bg-[#09090b] border border-[#27272a] rounded-xl p-3.5 text-white placeholder-gray-600 focus:border-emerald-500 focus:ring-1 focus:ring-emerald-500 transition-all outline-none text-sm"
+                            placeholder="your@email.com"
+                            required
+                        />
+                    </div>
                 </div>
 
-                <div className="mb-6">
-                    <label className="block text-gray-400 text-sm font-medium mb-2">Email Address</label>
-                    <input
-                        type="email"
-                        value={email}
-                        onChange={(e) => setEmail(e.target.value)}
-                        className="w-full bg-[#09090b] border border-[#27272a] rounded-xl p-4 text-white placeholder-gray-600 focus:border-emerald-500 focus:ring-1 focus:ring-emerald-500 transition-all outline-none"
-                        placeholder="name@example.com"
-                        required
-                    />
-                </div>
-
-                <div className="mb-6">
-                    <label className="block text-gray-400 text-sm font-medium mb-2">Rating</label>
-                    <div className="flex gap-1">
+                <div className="space-y-3">
+                    <label className="block text-xs font-semibold uppercase tracking-wider text-gray-500">Rating</label>
+                    <div className="flex gap-2">
                         {[1, 2, 3, 4, 5].map((star) => (
                             <button
                                 key={star}
@@ -101,34 +115,39 @@ export default function ReviewForm({ productId, t }: { productId: string, t: any
                                 onClick={() => setRating(star)}
                                 onMouseEnter={() => setHoverRating(star)}
                                 onMouseLeave={() => setHoverRating(0)}
-                                className="focus:outline-none transition-colors"
+                                className="focus:outline-none transition-transform hover:scale-110 active:scale-95"
                             >
                                 <Star
-                                    size={24}
-                                    className={`${(hoverRating || rating) >= star ? 'fill-yellow-400 text-yellow-400' : 'text-gray-600'} transition-colors`}
+                                    size={28}
+                                    className={`${(hoverRating || rating) >= star ? 'fill-yellow-400 text-yellow-400' : 'text-[#27272a]'} transition-colors duration-200`}
                                 />
                             </button>
                         ))}
                     </div>
                 </div>
 
-                <div className="mb-6">
-                    <label className="block text-gray-400 text-sm font-medium mb-2">Review</label>
+                <div className="space-y-2">
+                    <label className="block text-xs font-semibold uppercase tracking-wider text-gray-500">Your Review</label>
                     <textarea
                         value={comment}
                         onChange={(e) => setComment(e.target.value)}
-                        className="w-full bg-[#09090b] border border-[#27272a] rounded-xl p-4 text-white placeholder-gray-600 focus:border-emerald-500 focus:ring-1 focus:ring-emerald-500 transition-all outline-none resize-none min-h-[120px]"
-                        placeholder="Tell us what you think about the product..."
+                        className="w-full bg-[#09090b] border border-[#27272a] rounded-xl p-4 text-white placeholder-gray-600 focus:border-emerald-500 focus:ring-1 focus:ring-emerald-500 transition-all outline-none resize-none min-h-[140px] text-sm leading-relaxed"
+                        placeholder="What did you like or dislike? How was the quality?"
                         required
                     />
                 </div>
 
                 <button
                     type="submit"
-                    disabled={isSubmitting || rating === 0 || !name.trim() || !email.trim()}
-                    className="bg-white text-black font-bold py-3 px-8 rounded-full hover:bg-gray-200 transition-all disabled:opacity-50 disabled:cursor-not-allowed"
+                    disabled={isSubmitting}
+                    className="w-full bg-white text-black font-bold py-4 px-8 rounded-xl hover:bg-gray-200 active:scale-[0.99] transition-all disabled:opacity-50 disabled:cursor-not-allowed flex justify-center items-center shadow-[0_0_20px_rgba(255,255,255,0.1)] hover:shadow-[0_0_30px_rgba(255,255,255,0.2)]"
                 >
-                    {isSubmitting ? 'Submitting...' : 'Submit Review'}
+                    {isSubmitting ? (
+                        <span className="flex items-center gap-2">
+                            <span className="w-4 h-4 border-2 border-black/30 border-t-black rounded-full animate-spin" />
+                            Submitting...
+                        </span>
+                    ) : 'Submit Review'}
                 </button>
             </form>
         </div>

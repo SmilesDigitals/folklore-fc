@@ -1,23 +1,14 @@
 
 import { createBrowserClient } from '@supabase/ssr';
 
-const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
-const supabaseAnonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
+// Define the Supabase URL and Anon Key from environment variables
+const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL!;
+const supabaseAnonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!;
 
-// Fallback to avoid crash if env vars are missing
-if (!supabaseUrl || !supabaseAnonKey) {
-    console.warn('⚠️ Supabase Environment Variables are missing! Check your Vercel Config.');
-}
-
-const url = supabaseUrl || 'https://placeholder.supabase.co';
-const key = supabaseAnonKey || 'placeholder-key';
-
-if (typeof window !== 'undefined') {
-    console.log('🔌 Supabase Client Init:', {
-        url: url.substring(0, 15) + '...',
-        isPlaceholder: url.includes('placeholder')
-    });
+// Ensure keys are present (for debugging purposes)
+if (typeof window !== 'undefined' && (!supabaseUrl || !supabaseAnonKey)) {
+    console.error('❌ Supabase Keys Missing! Check .env.local');
 }
 
 // Create a single supabase client for interacting with your database
-export const supabase = createBrowserClient(url, key);
+export const supabase = createBrowserClient(supabaseUrl, supabaseAnonKey);
