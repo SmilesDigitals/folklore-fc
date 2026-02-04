@@ -12,5 +12,12 @@ if (!supabaseUrl || !supabaseAnonKey) {
 const url = supabaseUrl || 'https://placeholder.supabase.co';
 const key = supabaseAnonKey || 'placeholder-key';
 
+if (typeof window !== 'undefined') {
+    console.log('🔌 Supabase Client Init:', {
+        url: url.substring(0, 15) + '...',
+        isPlaceholder: url.includes('placeholder')
+    });
+}
+
 // Create a single supabase client for interacting with your database
 export const supabase = createBrowserClient(url, key);

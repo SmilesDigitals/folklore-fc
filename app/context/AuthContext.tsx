@@ -48,7 +48,12 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
                 redirectTo: `${window.location.origin}/auth/callback`,
             },
         });
-        if (error) console.error('Error signing in:', error.message);
+        if (error) {
+            console.error('❌ Error signing in:', error.message);
+            alert(`Login Failed: ${error.message}`);
+        } else {
+            console.log('✅ Redirecting to Google...');
+        }
     };
 
     const signOut = async () => {
