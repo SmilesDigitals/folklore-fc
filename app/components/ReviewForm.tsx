@@ -44,7 +44,8 @@ export default function ReviewForm({ productId, t }: { productId: string, t: any
 
         if (error) {
             setMessage({ type: 'error', text: 'Error submitting review. Please try again.' });
-            console.error(error);
+            console.error('❌ Supabase Insert Error:', error);
+            alert(`Debug Error: ${error.message} (Code: ${error.code})`);
         } else {
             setMessage({ type: 'success', text: 'Thank you! Your review has been submitted for approval.' });
             setRating(0);
