@@ -5,7 +5,7 @@ import Link from 'next/link';
 import { ShoppingBag, Menu, X, Sparkles, User as UserIcon } from 'lucide-react';
 import { useCart } from '../context/CartContext';
 import { useAuth } from '../context/AuthContext';
-import AuthModal from './AuthModal';
+import { useAuth } from '../context/AuthContext';
 
 
 export default function Navbar({ t, locale }: { t: any, locale: string }) {
@@ -26,7 +26,7 @@ export default function Navbar({ t, locale }: { t: any, locale: string }) {
 
     return (
         <>
-            <AuthModal t={t} />
+
 
             {/* Top Bar - شريط الإعلانات العلوي */}
             <div className="bg-emerald-600 text-white text-xs font-bold py-2 px-4 text-center tracking-wide fixed top-0 w-full z-[60]">

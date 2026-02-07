@@ -7,6 +7,8 @@ import { useParams } from 'next/navigation';
 
 import Footer from './Footer';
 
+import AuthModal from './AuthModal';
+
 export default function StoreLayout({ children }: { children: React.ReactNode }) {
   const params = useParams();
   const locale = (params?.locale as string) || 'en';
@@ -15,6 +17,7 @@ export default function StoreLayout({ children }: { children: React.ReactNode })
   return (
     <CartProvider>
       <div className="min-h-screen bg-[#09090b] text-white selection:bg-emerald-500 selection:text-white" dir={isRtl ? 'rtl' : 'ltr'}>
+        <AuthModal />
 
         {/* حذفنا الـ <nav> من هنا لكي لا يظهر فوق الـ Logo */}
 
