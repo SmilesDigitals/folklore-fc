@@ -21,7 +21,25 @@ const CartContext = createContext<CartContextType | undefined>(undefined);
 export function CartProvider({ children }: { children: ReactNode }) {
   const [items, setItems] = useState<CartItem[]>([]);
   const [isOpen, setIsOpen] = useState(false);
-  
+
+  // تحميل السلة من localStorage عند بدء التشغيل
+  useEffect(() => {
+    const savedCart = localStorage.getItem('cartItems');
+    if (savedCart) {
+      try {
+        setItems(JSON.parse(savedCart));
+      } catch (error) {
+        console.error("Failed to parse cart items from localStorage", error);
+        setItems([]);
+      }
+    }
+  }, []);
+
+  // حفظ السلة في localStorage عند أي تغيير
+  useEffect(() => {
+    localStorage.setItem('cartItems', JSON.stringify(items));
+  }, [items]);
+
   // الحسابات الرياضية للخصم
   const [subtotal, setSubtotal] = useState(0);
   const [discount, setDiscount] = useState(0);
@@ -63,12 +81,12 @@ export function CartProvider({ children }: { children: ReactNode }) {
         );
       }
 
-      return [...prevItems, { 
-        ...product, 
-        selectedSize, 
-        selectedColor, 
-        quantity, 
-        cartId: `${product.id}-${selectedSize}-${selectedColor}-${Date.now()}` 
+      return [...prevItems, {
+        ...product,
+        selectedSize,
+        selectedColor,
+        quantity,
+        cartId: `${product.id}-${selectedSize}-${selectedColor}-${Date.now()}`
       }];
     });
     setIsOpen(true);
@@ -80,24 +98,24 @@ export function CartProvider({ children }: { children: ReactNode }) {
 
   const updateQuantity = (cartId: string, qty: number) => {
     setItems(prevItems => prevItems.map(item => {
-        if (item.cartId === cartId) {
-            return { ...item, quantity: Math.max(1, qty) };
-        }
-        return item;
+      if (item.cartId === cartId) {
+        return { ...item, quantity: Math.max(1, qty) };
+      }
+      return item;
     }));
   };
 
   return (
-    <CartContext.Provider value={{ 
-      items, 
-      isOpen, 
-      toggleCart, 
-      addItem, 
-      removeItem, 
+    <CartContext.Provider value={{
+      items,
+      isOpen,
+      toggleCart,
+      addItem,
+      removeItem,
       updateQuantity,
       subtotal,    // تصدير القيم الجديدة
-      discount, 
-      finalTotal 
+      discount,
+      finalTotal
     }}>
       {children}
     </CartContext.Provider>

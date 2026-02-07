@@ -5,7 +5,7 @@ import Link from 'next/link';
 import { X, Trash2, Plus, Minus, ArrowRight, Tag } from 'lucide-react';
 import { useCart } from '../context/CartContext';
 import { useAuth } from '../context/AuthContext';
-import { useParams } from 'next/navigation';
+import { useParams, useRouter } from 'next/navigation';
 
 export default function CartSidebar() {
   const {
@@ -21,6 +21,7 @@ export default function CartSidebar() {
   const { user, openAuthModal } = useAuth();
 
   const params = useParams();
+  const router = useRouter();
   const locale = (params?.locale as string) || 'en';
 
   if (!isOpen) return null;
@@ -107,7 +108,7 @@ export default function CartSidebar() {
               onClick={() => {
                 toggleCart();
                 if (user) {
-                  window.location.href = `/${locale}/checkout`;
+                  router.push(`/${locale}/checkout`);
                 } else {
                   openAuthModal('checkout');
                 }
@@ -118,7 +119,7 @@ export default function CartSidebar() {
             </button>
           </div>
         )}
-      </div>
+      </div >
     </>
   );
 }
