@@ -67,7 +67,9 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
 
     const signInWithGoogle = React.useCallback(async () => {
         // Fix for checkout redirect: Use current pathname to preserve locale (e.g. /ar/checkout)
-        const next = authIntent === 'checkout' ? window.location.pathname : (authIntent || '/');
+        const currentPath = window.location.pathname;
+        // If we are on checkout page (any locale), ALWAYS return there, regardless of how modal was opened
+        const next = currentPath.includes('/checkout') ? currentPath : (authIntent || '/');
 
         const { error } = await supabase.auth.signInWithOAuth({
             provider: 'google',
