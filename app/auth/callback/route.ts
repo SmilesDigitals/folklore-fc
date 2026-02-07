@@ -32,7 +32,10 @@ export async function GET(request: Request) {
         const { error } = await supabase.auth.exchangeCodeForSession(code);
 
         if (!error) {
-            return NextResponse.redirect(`${origin}${next}`);
+            // Valid session, redirect to next path
+            // Ensure next starts with / to prevent "domain.comnext" concatenation errors
+            const safeNext = next.startsWith('/') ? next : `/${next}`;
+            return NextResponse.redirect(`${origin}${safeNext}`);
         }
     }
 

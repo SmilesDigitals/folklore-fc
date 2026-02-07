@@ -77,26 +77,33 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
         // 2. Determine Next Path
         let nextPath = '/';
 
+        // Check if we are on ANY checkout page (including dynamic ones like /checkout/123)
         if (currentPath.includes('/checkout')) {
-            // If already on checkout, stay there (preserve locale)
             nextPath = currentPath;
-        } else if (authIntent) {
-            // If intent exists (e.g. 'checkout' from cart), prepend locale if missing
-            // Ensure authIntent starts with / if not present
+        } else if (authIntent === 'checkout') {
+            // Redirecting to checkout from elsewhere (e.g. Cart)
+            nextPath = `/${currentLocale}/checkout`;
+        } else if (authIntent && authIntent !== 'checkout') {
+            // Other intents
             const intentPath = authIntent.startsWith('/') ? authIntent : `/${authIntent}`;
             nextPath = `/${currentLocale}${intentPath}`;
         } else {
-            // Default to home with locale
-            nextPath = `/${currentLocale}`;
+            // Default behavior: return to current page or home
+            // If just logging in from a random page, usually better to return to that page
+            // But per previous requirements, let's Stick to currentPath if it makes sense, or Home.
+            // For now, let's default to currentPath to be safe and robust as requested "capture full pathname"
+            nextPath = currentPath === '/' || currentPath === `/${currentLocale}` ? currentPath : currentPath;
         }
 
-        // 3. Construct Redirect URL with encoding and proper slashes
+        // 3. Construct Redirect URL with strict encoding
         // Ensure nextPath starts with /
         if (!nextPath.startsWith('/')) {
             nextPath = `/${nextPath}`;
         }
 
-        const redirectUrl = `${origin}/auth/callback?next=${encodeURIComponent(nextPath)}`;
+        // Encode the next path to prevent breaking the URL
+        const encodedNext = encodeURIComponent(nextPath);
+        const redirectUrl = `${origin}/auth/callback?next=${encodedNext}`;
 
         const { error } = await supabase.auth.signInWithOAuth({
             provider: 'google',
