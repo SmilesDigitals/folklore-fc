@@ -60,7 +60,7 @@ export default function AuthModal({ t }: { t?: any }) {
                 // Success is handled by onAuthStateChange in AuthContext which closes modal
             } else if (mode === 'forgot') {
                 const { error } = await supabase.auth.resetPasswordForEmail(email, {
-                    redirectTo: `${window.location.origin}/auth/update-password`,
+                    redirectTo: `${window.location.origin}/auth/callback?next=/auth/update-password`,
                 });
                 if (error) throw error;
                 setMessage({ type: 'success', text: 'Password reset link sent! Check your email.' });

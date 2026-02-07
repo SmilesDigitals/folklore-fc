@@ -55,17 +55,17 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
         return () => subscription.unsubscribe();
     }, []);
 
-    const openAuthModal = (intent?: string) => {
+    const openAuthModal = React.useCallback((intent?: string) => {
         setAuthIntent(intent || null);
         setIsAuthModalOpen(true);
-    };
+    }, []);
 
-    const closeAuthModal = () => {
+    const closeAuthModal = React.useCallback(() => {
         setIsAuthModalOpen(false);
         setAuthIntent(null);
-    };
+    }, []);
 
-    const signInWithGoogle = async () => {
+    const signInWithGoogle = React.useCallback(async () => {
         const { error } = await supabase.auth.signInWithOAuth({
             provider: 'google',
             options: {
@@ -76,11 +76,11 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
             console.error('❌ Error signing in:', error.message);
             alert(`Login Failed: ${error.message}`);
         }
-    };
+    }, [authIntent]);
 
-    const signOut = async () => {
+    const signOut = React.useCallback(async () => {
         await supabase.auth.signOut();
-    };
+    }, []);
 
     return (
         <AuthContext.Provider value={{

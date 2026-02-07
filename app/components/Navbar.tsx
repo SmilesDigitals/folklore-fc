@@ -5,7 +5,7 @@ import Link from 'next/link';
 import { ShoppingBag, Menu, X, Sparkles, User as UserIcon } from 'lucide-react';
 import { useCart } from '../context/CartContext';
 import { useAuth } from '../context/AuthContext';
-import { useAuth } from '../context/AuthContext';
+
 
 
 export default function Navbar({ t, locale }: { t: any, locale: string }) {
