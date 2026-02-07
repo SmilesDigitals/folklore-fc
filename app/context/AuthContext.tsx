@@ -66,10 +66,13 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
     }, []);
 
     const signInWithGoogle = React.useCallback(async () => {
+        // Fix for checkout redirect: Use current pathname to preserve locale (e.g. /ar/checkout)
+        const next = authIntent === 'checkout' ? window.location.pathname : (authIntent || '/');
+
         const { error } = await supabase.auth.signInWithOAuth({
             provider: 'google',
             options: {
-                redirectTo: `${window.location.origin}/auth/callback${authIntent ? `?next=${authIntent}` : ''}`,
+                redirectTo: `${window.location.origin}/auth/callback?next=${next}`,
             },
         });
         if (error) {
