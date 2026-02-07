@@ -4,20 +4,22 @@ import React from 'react';
 import Link from 'next/link';
 import { X, Trash2, Plus, Minus, ArrowRight, Tag } from 'lucide-react';
 import { useCart } from '../context/CartContext';
+import { useAuth } from '../context/AuthContext';
 import { useParams } from 'next/navigation';
 
 export default function CartSidebar() {
-  const { 
-    items, 
-    isOpen, 
-    toggleCart, 
-    removeItem, 
+  const {
+    items,
+    isOpen,
+    toggleCart,
+    removeItem,
     updateQuantity,
-    subtotal, 
-    discount, 
-    finalTotal 
+    subtotal,
+    discount,
+    finalTotal
   } = useCart();
-  
+  const { user, openAuthModal } = useAuth();
+
   const params = useParams();
   const locale = (params?.locale as string) || 'en';
 
@@ -25,11 +27,11 @@ export default function CartSidebar() {
 
   return (
     <>
-      <div 
+      <div
         className="fixed inset-0 bg-black/50 backdrop-blur-sm z-[60]"
         onClick={toggleCart}
       />
-      
+
       <div className="fixed top-0 right-0 h-full w-full max-w-md bg-[#09090b] border-l border-[#27272a] shadow-2xl z-[70] transform transition-transform duration-300 flex flex-col">
         {/* Header */}
         <div className="p-6 border-b border-[#27272a] flex items-center justify-between">
@@ -79,18 +81,18 @@ export default function CartSidebar() {
         {/* Footer & Checkout */}
         {items.length > 0 && (
           <div className="p-6 border-t border-[#27272a] bg-[#09090b]">
-            
+
             {/* تفاصيل السعر والخصم */}
             <div className="space-y-3 mb-6">
               <div className="flex justify-between text-gray-400">
                 <span>Subtotal</span>
                 <span>{subtotal.toFixed(2)} USD</span>
               </div>
-              
+
               {/* يظهر فقط إذا كان هناك خصم */}
               {discount > 0 && (
                 <div className="flex justify-between text-emerald-500 font-medium animate-in fade-in slide-in-from-right-4">
-                  <span className="flex items-center gap-1"><Tag size={14}/> Bundle Discount (10%)</span>
+                  <span className="flex items-center gap-1"><Tag size={14} /> Bundle Discount (10%)</span>
                   <span>- {discount.toFixed(2)} USD</span>
                 </div>
               )}
@@ -101,13 +103,19 @@ export default function CartSidebar() {
               </div>
             </div>
 
-            <Link 
-              href={`/${locale}/checkout`} 
-              onClick={toggleCart}
+            <button
+              onClick={() => {
+                toggleCart();
+                if (user) {
+                  window.location.href = `/${locale}/checkout`;
+                } else {
+                  openAuthModal('checkout');
+                }
+              }}
               className="w-full bg-white text-black font-bold py-4 rounded-full flex items-center justify-center gap-2 hover:bg-emerald-500 hover:text-white transition-all"
             >
               Checkout <ArrowRight size={20} />
-            </Link>
+            </button>
           </div>
         )}
       </div>

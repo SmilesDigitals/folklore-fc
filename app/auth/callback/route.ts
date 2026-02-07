@@ -12,8 +12,8 @@ export async function GET(request: Request) {
         const cookieStore = await cookies();
 
         const supabase = createServerClient(
-            'https://wytzyudcxbxousyxvlzy.supabase.co',
-            'sb_publishable_eMT0XV42PS3K6Cyb8YxdIw_PpGhGABR',
+            process.env.NEXT_PUBLIC_SUPABASE_URL!,
+            process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!,
             {
                 cookies: {
                     get(name: string) {

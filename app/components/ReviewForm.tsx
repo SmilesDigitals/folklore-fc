@@ -1,12 +1,22 @@
 'use client';
 
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { supabase } from '../../lib/supabase';
-import { Star, AlertCircle, CheckCircle } from 'lucide-react';
+import { Star, AlertCircle, CheckCircle, Lock } from 'lucide-react';
+import { useAuth } from '../context/AuthContext';
 
 export default function ReviewForm({ productId, t }: { productId: string, t: any }) {
+    const { user, openAuthModal } = useAuth();
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
+
+    // Update state when user changes
+    useEffect(() => {
+        if (user) {
+            setName(user.user_metadata.full_name || '');
+            setEmail(user.email || '');
+        }
+    }, [user]);
     const [rating, setRating] = useState(0);
     const [hoverRating, setHoverRating] = useState(0);
     const [comment, setComment] = useState('');
@@ -18,7 +28,11 @@ export default function ReviewForm({ productId, t }: { productId: string, t: any
 
         // Validation
         const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-        if (!emailRegex.test(email)) {
+        // Trim and lowercase for consistency
+        const cleanEmail = email.trim().toLowerCase();
+
+        if (!cleanEmail || !emailRegex.test(cleanEmail)) {
+            console.error('Validation failed for email:', cleanEmail);
             setMessage({ type: 'error', text: 'Please enter a valid email address.' });
             return;
         }
@@ -63,6 +77,35 @@ export default function ReviewForm({ productId, t }: { productId: string, t: any
         }
     };
 
+    // If user is not logged in, show restricted access view
+    if (!user) {
+        return (
+            <div className="bg-[#18181b] p-8 rounded-3xl border border-[#27272a] shadow-2xl text-center">
+                <div className="flex justify-center mb-4">
+                    <div className="bg-[#27272a] p-4 rounded-full">
+                        <Lock size={32} className="text-gray-400" />
+                    </div>
+                </div>
+                <h3 className="text-2xl font-bold mb-2 text-white">Write a Review</h3>
+                <p className="text-gray-400 mb-6 text-sm max-w-md mx-auto">
+                    Please sign in to share your experience with the community. Verified purchases help us improve.
+                </p>
+
+                <div className="flex flex-col gap-3 justify-center items-center">
+                    <button
+                        onClick={() => openAuthModal()}
+                        className="bg-white text-black font-bold py-3 px-8 rounded-full hover:bg-emerald-500 hover:text-white transition-all w-full max-w-xs"
+                    >
+                        Sign In to Review
+                    </button>
+                    <p className="text-xs text-gray-500">
+                        It only takes a moment!
+                    </p>
+                </div>
+            </div>
+        );
+    }
+
     return (
         <div className="bg-[#18181b] p-8 rounded-3xl border border-[#27272a] shadow-2xl">
             <h3 className="text-2xl font-bold mb-2 text-white">Write a Review</h3>
@@ -70,8 +113,8 @@ export default function ReviewForm({ productId, t }: { productId: string, t: any
 
             {message && (
                 <div className={`p-4 rounded-xl mb-8 flex items-start gap-3 backdrop-blur-md ${message.type === 'success'
-                        ? 'bg-emerald-500/10 text-emerald-400 border border-emerald-500/20'
-                        : 'bg-red-500/10 text-red-400 border border-red-500/20'
+                    ? 'bg-emerald-500/10 text-emerald-400 border border-emerald-500/20'
+                    : 'bg-red-500/10 text-red-400 border border-red-500/20'
                     }`}>
                     {message.type === 'success' ? <CheckCircle size={20} className="shrink-0 mt-0.5" /> : <AlertCircle size={20} className="shrink-0 mt-0.5" />}
                     <span className="text-sm font-medium">{message.text}</span>
@@ -97,9 +140,9 @@ export default function ReviewForm({ productId, t }: { productId: string, t: any
                         <input
                             type="email"
                             value={email}
-                            onChange={(e) => setEmail(e.target.value)}
-                            className="w-full bg-[#09090b] border border-[#27272a] rounded-xl p-3.5 text-white placeholder-gray-600 focus:border-emerald-500 focus:ring-1 focus:ring-emerald-500 transition-all outline-none text-sm"
-                            placeholder="your@email.com"
+                            readOnly
+                            className="w-full bg-[#09090b] border border-[#27272a] rounded-xl p-3.5 text-white placeholder-gray-600 opacity-50 cursor-not-allowed outline-none text-sm"
+                            placeholder={user?.email || "your@email.com"}
                             required
                         />
                     </div>
@@ -147,7 +190,7 @@ export default function ReviewForm({ productId, t }: { productId: string, t: any
                             <span className="w-4 h-4 border-2 border-black/30 border-t-black rounded-full animate-spin" />
                             Submitting...
                         </span>
-                    ) : 'Submit Review'}
+                    ) : 'Submit Verified Review'}
                 </button>
             </form>
         </div>

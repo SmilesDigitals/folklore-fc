@@ -48,6 +48,6 @@ export function middleware(request: NextRequest) {
 }
 
 export const config = {
-  // استثناء ملفات الصور والنظام لزيادة السرعة [cite: 49]
-  matcher: ['/((?!api|_next|.*\\..*).*)']
+  // استثناء ملفات الصور والنظام و auth لزيادة السرعة ومنع التداخل
+  matcher: ['/((?!api|_next|auth|.*\\..*).*)']
 };
