@@ -185,7 +185,7 @@ export default function Footer() {
                     <ul className="space-y-2 text-sm text-gray-400">
                         <li><Link href={`/${locale}/contact`} className="hover:text-emerald-500 transition-colors">{t.contact}</Link></li>
                         <li>support@folklorefc.com</li>
-                        <li dir="ltr">0707230031</li>
+                        <li dir="ltr">+212707230031</li>
                     </ul>
                 </div>
 

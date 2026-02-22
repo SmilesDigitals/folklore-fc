@@ -12,7 +12,17 @@ export const menList: Product[] = [
     region: 'ar',
     gender: 'men',
     category: 'Jersey',
-    description: "جسد طاقة اللعب اللامتناهية مع 'تيار القمة'. تصميم يدمج فن الخط العربي مع إضاءة النيون العصرية.",
+    description: `جسد طاقة اللعب اللامتناهية مع تيشرت "تيار القمة" بتصميم يدمج فن الخط العربي مع إضاءة النيون العصرية. قطعة فنية تجمع بين أصالة اللغة وروح المستقبل لتناسب إطلالات الـ streetwear أو تشجيع فريقك بكل حماس.
+
+مصنوع من قطن ناعم عالي الجودة يمنحك راحة وتهوية ممتازة طوال اليوم، مع طباعة متينة تحافظ على وهج النيون حتى بعد الغسيل المتكرر.
+
+المميزات:
+قماش قطني مريح وخفيف مناسب للاستخدام اليومي
+تصميم يجمع بين الخط العربي والنيون العصري
+مناسب للـ streetwear أو حضور مباريات كرة القدم
+قصة عصرية تناسب مختلف الأذواق
+طباعة عالية الجودة مقاومة للتلاشي
+خيار رائع للاستخدام الشخصي أو كهدية مميزة`,
     metaTitle: "تيشيرت تيار القمة نيون | ستريت وير خط عربي | Folklore FC",
     metaDescription: "اكتشف تيشيرت تيار القمة بتصميم الخط العربي والنيون. مزيج بين الأصالة والحداثة لمحبي الستريت وير في السعودية. اطلبه الآن.",
     altText: "تيشيرت أسود رجالي بكلمات عربية مضيئة بالنيون الأخضر بأسلوب ستريت وير عصري.",
@@ -27,11 +37,21 @@ export const menList: Product[] = [
     region: 'ar',
     gender: 'men',
     category: 'Jersey',
-    description: "استرجع عبق الماضي مع 'طريق النصر'. تصميم كلاسيكي يصور رحلة اللاعب في قلب الصحراء الشاسعة.",
-    metaTitle: "تيشيرت طريق النصر كلاسيك | تراث الصحراء السعودية | Folklore FC",
-    metaDescription: "عش هيبة الماضي مع تيشيرت طريق النصر. تصميم فينتج يروي قصة التحدي في قلب الصحراء. جودة قطنية فخمة وتوصيل سريع.",
-    altText: "تصميم فينتج على تيشيرت يظهر لاعباً في الصحراء مع جملة طريق النصر بألوان تراثية.",
-    keywords: ["تيشيرت فينتج سعودي", "تراث الصحراء", "ملابس اليوم الوطني", "أزياء رجالية تراثية"]
+    description: `استرجع عبق الماضي مع قميص "طريق النصر" بتصميم كلاسيكي يجسد رحلة اللاعب في قلب الصحراء بروح التحدي والإصرار. قطعة مميزة تجمع بين الهوية الرياضية والأسلوب العصري لتناسب إطلالات الـ streetwear أو تشجيع فريقك في مدرجات كرة القدم.
+
+مصنوع من قطن ناعم عالي الجودة يمنحك راحة وتهوية ممتازة طوال اليوم، مع طباعة متينة تحافظ على وضوح التصميم حتى بعد الغسيل المتكرر.
+
+المميزات:
+قماش قطني مريح وخفيف مناسب للاستخدام اليومي
+تصميم مستوحى من أجواء الصحراء وروح الفوز
+مناسب للـ streetwear أو حضور مباريات كرة القدم
+قصة عصرية تناسب مختلف الأذواق
+طباعة عالية الجودة مقاومة للتلاشي
+خيار رائع للاستخدام الشخصي أو كهدية مميزة`,
+    metaTitle: "تيشيرت تراث الصحراء | أصالة سعودية | Folklore FC",
+    metaDescription: "تيشيرت يجسد روح المغامرة في الصحراء السعودية بتصميم هندسي فريد. قطعة مثالية لمن يعتز بجذوره ويبحث عن التميز في الـ streetwear.",
+    altText: "تيشيرت بيج رجالي مرسوم عليه جمل وتشكيلات رملية بأسلوب فني هندسي.",
+    keywords: ["تراث سعودي", "تيشيرت صحراوي", "ملابس رياضية تراثية", "تصميم هندسي"]
   },
   {
     id: 'ksa-3',
@@ -42,11 +62,21 @@ export const menList: Product[] = [
     region: 'ar',
     gender: 'men',
     category: 'Jersey',
-    description: "تصميم 'عزم الرجال' يعكس القوة والعزيمة داخل الملعب بمظهر تكتيكي مستوحى من الشموخ السعودي.",
-    metaTitle: "تيشيرت عزم الرجال التكتيكي | قوة الشموخ السعودي | Folklore FC",
-    metaDescription: "عبر عن قوتك بتصميم عزم الرجال. تيشيرت تكتيكي يجمع بين الهوية الوطنية وروح المحارب. مثالي للنادي والإطلالات الجريئة.",
-    altText: "تيشيرت رجالي بتصميم عسكري تكتيكي يدمج شعارات سعودية ورموز كروية قوية.",
-    keywords: ["تيشيرت تكتيكي رجالي", "عزم الرجال", "ملابس رياضية قوية", "KSA Tactical Wear"]
+    description: `عبر عن قوتك مع تيشرت "عزم الرجال" بتصميم يعكس القوة والعزيمة داخل الملعب بمظهر تكتيكي مستوحى من الشموخ السعودي. قطعة قوية تجمع بين الهوية الوطنية والأسلوب العسكري الحديث لتناسب إطلالات الـ streetwear الجريئة أو الملاعب.
+
+مصنوع من قطن ناعم عالي الجودة يمنحك راحة وتهوية ممتازة طوال اليوم، مع طباعة متينة تحافظ على دقة التفاصيل حتى بعد الغسيل المتكرر.
+
+المميزات:
+قماش قطني مريح وخفيف مناسب للاستخدام اليومي
+تصميم تكتيكي يعكس العزيمة والشموخ
+مناسب للـ streetwear أو حضور مباريات كرة القدم
+قصة عصرية تناسب مختلف الأذواق
+طباعة عالية الجودة مقاومة للتلاشي
+خيار رائع للاستخدام الشخصي أو كهدية مميزة`,
+    metaTitle: "تيشيرت إصرار تكتيكي | قوة الملعب | Folklore FC",
+    metaDescription: "عبر عن قوتك وعزيمتك مع تيشيرت إصرار. تصميم تكتيكي حاد يناسب اللاعبين الذين لا يتنازلون عن الفوز. جودة استثنائية.",
+    altText: "تيشيرت أسود يظهر لاعباً سعودياً بتعبيرات قوية بأسلوب رسم تكتيكي حاد.",
+    keywords: ["إصرار تكتيكي", "ملابس مدربين", "قوة سعودية", "تيشيرت لاعبين"]
   },
   {
     id: 'ksa-4',
@@ -57,11 +87,21 @@ export const menList: Product[] = [
     region: 'ar',
     gender: 'men',
     category: 'Jersey',
-    description: "عندما تنبض كرة القدم في العروق. تصميم مستقبلي يظهر 'جوهر القوة' كقلب تكنولوجي ينبض بشغف اللعبة.",
-    metaTitle: "تيشيرت جوهر القوة سايبر | قلب كروي مستقبلي | Folklore FC",
-    metaDescription: "تيشيرت جوهر القوة لمحبي التصاميم المستقبلية. قلب ميكانيكي مدمج بالهوية السعودية الأصيلة. قطعة حصرية من فولكلور إف سي.",
-    altText: "تصميم قلب آلي (سايبورغ) ينبض باللون الأخضر وسط تيشيرت أسود فخم.",
-    keywords: ["تيشيرت سايبربانك", "جوهر القوة", "ملابس رجالية مستقبلية", "تصميم مبتكر"]
+    description: `عندما تنبض كرة القدم في العروق، اختر تيشرت "جوهر القوة". تصميم مستقبلي يظهر قلباً تكنولوجياً ينبض بشغف اللعبة. قطعة فريدة تجمع بين الخيال العلمي والهوية الرياضية لتناسب إطلالات الـ streetwear المبتكرة.
+
+مصنوع من قطن ناعم عالي الجودة يمنحك راحة وتهوية ممتازة طوال اليوم، مع طباعة متينة تحافظ على حيوية الألوان حتى بعد الغسيل المتكرر.
+
+المميزات:
+قماش قطني مريح وخفيف مناسب للاستخدام اليومي
+تصميم مستقبلي (سايبورغ) يجسد نبض اللعبة
+مناسب للـ streetwear أو حضور مباريات كرة القدم
+قصة عصرية تناسب مختلف الأذواق
+طباعة عالية الجودة مقاومة للتلاشي
+خيار رائع للاستخدام الشخصي أو كهدية مميزة`,
+    metaTitle: "تيشيرت قلب السايبورغ | تكنولوجيا المستقبل | Folklore FC",
+    metaDescription: "تيشيرت يربط بين شغف كرة القدم وتكنولوجيا المستقبل. تصميم مذهل لقلب محرك مع كرة قدم، يعبر عن اللاعب الذي لا يعرف التعب.",
+    altText: "تيشيرت أبيض يظهر قلباً آلياً (سايبورغ) يندمج مع كرة قدم بأسلوب مستقبلي.",
+    keywords: ["سايبورغ سعودي", "ملابس مستقبلية", "تيشيرت تقني", "فنون الخيال العلمي"]
   },
   {
     id: 'ksa-5',
@@ -72,11 +112,21 @@ export const menList: Product[] = [
     region: 'ar',
     gender: 'men',
     category: 'Jersey',
-    description: "احتفاءٌ بأرض الحرمين ومعالم المملكة الشامخة. يجمع بين الصقر كرمز للقوة والمعالم العمرانية الحديثة.",
-    metaTitle: "تيشيرت الصقور الخضر | تراث ومعالم المملكة | Folklore FC",
-    metaDescription: "ارتدِ فخر الانتماء مع تيشيرت الصقور الخضر. يدمج بين قوة الصقر ومعالم الرياض وجدة الحديثة. تصميم يعبر عن رؤية المملكة.",
-    altText: "رسم فني يجمع صقراً محلقاً فوق أبراج الرياض وناطحات السحاب على تيشيرت أبيض.",
-    keywords: ["الصقور الخضر", "تيشيرت معالم السعودية", "فخر المملكة", "ملابس وطنية رجالية"]
+    description: `احتفِ بأرض الحرمين مع تيشرت "الصقور الخضر" الذي يجمع بين الصقر كرمز للقوة والمعالم العمرانية الحديثة للمملكة. قطعة وطنية بامتياز تجمع بين الفخر بالتراث والتطور العمراني لتناسب الأعياد الوطنية والتشجيع.
+
+مصنوع من قطن ناعم عالي الجودة يمنحك راحة وتهوية ممتازة طوال اليوم، مع طباعة متينة تحافظ على وضوح المعالم حتى بعد الغسيل المتكرر.
+
+المميزات:
+قماش قطني مريح وخفيف مناسب للاستخدام اليومي
+تصميم يدمج رمز الصقر مع معالم المملكة الحديثة
+مناسب للـ streetwear أو حضور مباريات كرة القدم
+قصة عصرية تناسب مختلف الأذواق
+طباعة عالية الجودة مقاومة للتلاشي
+خيار رائع للاستخدام الشخصي أو كهدية مميزة`,
+    metaTitle: "تيشيرت الصقر السعودي | سرعة ورؤية | Folklore FC",
+    metaDescription: "تحلق عالياً مع تيشيرت الصقر. يمثل السرعة والحدة التي يتميز بها الصقر العربي في الملاعب. تصميم ذهبي ملكي فاخر.",
+    altText: "تيشيرت أسود عليه رسم لصقر ذهبي يمسك بكرة قدم بمخالبه بأسلوب فني راقٍ.",
+    keywords: ["صقور السعودية", "تيشيرت صقر", "ملابس فخمة", "سرعة الصقور"]
   },
   {
     id: 'ksa-6',
@@ -87,11 +137,21 @@ export const menList: Product[] = [
     region: 'ar',
     gender: 'men',
     category: 'Jersey',
-    description: "فن 'صناعة اللعب' يتجسد في الكلمات العربية التي تشكل جسد اللاعب وحركته الانسيابية.",
-    metaTitle: "تيشيرت صانع اللعب | فن الخط العربي الكروي | Folklore FC",
-    metaDescription: "لأصحاب المهارة العالية. تيشيرت صانع اللعب يدمج بين انسيابية الخط العربي وجماليات كرة القدم. قطعة فنية راقية.",
-    altText: "تيشيرت يظهر لاعباً مرسوماً بالكامل من كلمات الخط العربي أثناء ركل الكرة.",
-    keywords: ["تيشيرت خط عربي", "صانع اللعب", "ملابس فنية رجالية", "أزياء سعودية فاخرة"]
+    description: `تميز بأسلوب "صانع اللعب" حيث يتجسد الفن في الكلمات العربية التي تشكل جسد اللاعب وحركته الانسيابية. قطعة فنية راقية تجمع بين جماليات الخط العربي وديناميكية كرة القدم لتناسب إطلالات الـ streetwear الأنيقة.
+
+مصنوع من قطن ناعم عالي الجودة يمنحك راحة وتهوية ممتازة طوال اليوم، مع طباعة متينة تحافظ على دقة الخطوط حتى بعد الغسيل المتكرر.
+
+المميزات:
+قماش قطني مريح وخفيف مناسب للاستخدام اليومي
+تصميم فني يشكل اللاعب من حروف الخط العربي
+مناسب للـ streetwear أو حضور مباريات كرة القدم
+قصة عصرية تناسب مختلف الأذواق
+طباعة عالية الجودة مقاومة للتلاشي
+خيار رائع للاستخدام الشخصي أو كهدية مميزة`,
+    metaTitle: "تيشيرت صانع الألعاب | فن التمريرة | Folklore FC",
+    metaDescription: "تيشيرت يحتفي بمبدعي خط الوسط. تصميم يدمج بين الخط العربي ومسارات التمرير الذكية ليعبر عن ذكاء اللعب السعودي.",
+    altText: "تيشيرت رمادي يظهر خطوط تكتيكية للتمرير تتداخل مع كلمات عربية تعبر عن المهارة.",
+    keywords: ["صانع ألعاب", "فن كرة القدم", "ذكاء تكتيكي", "تيشيرت مهارة"]
   },
   {
     id: 'ksa-7',
@@ -102,11 +162,21 @@ export const menList: Product[] = [
     region: 'ar',
     gender: 'men',
     category: 'Jersey',
-    description: "مزيج فاخر من الأخضر والذهبي يبرز جمالية الخط العربي بأسلوب الـ Splatter الفني المعاصر.",
-    metaTitle: "تيشيرت المهارة الذهبية | فخامة الأخضر والذهب | Folklore FC",
-    metaDescription: "تيشيرت المهارة الذهبية يجمع بين التميز والأسلوب الفني المعاصر. تصميم ذهبي فخم يعبر عن الموهبة السعودية الفطرية.",
-    altText: "تيشيرت أسود عليه بقع ألوان ذهبية وخضراء مع كلمات عربية منقوشة بدقة.",
-    keywords: ["تيشيرت ذهبي رجالي", "المهارة الذهبية", "ستريت وير فخم", "ملابس هيب هوب سعودي"]
+    description: `تألق مع تيشرت "المهارة الذهبية" الذي يمزج بين الأخضر والذهبي بأسلوب الـ Splatter الفني المعاصر. قطعة شبابية تجمع بين الفخامة والعشوائية الفنية لتناسب إطلالات الـ streetwear الجريئة والمميزة.
+
+مصنوع من قطن ناعم عالي الجودة يمنحك راحة وتهوية ممتازة طوال اليوم، مع طباعة متينة تحافظ على لمعان الألوان حتى بعد الغسيل المتكرر.
+
+المميزات:
+قماش قطني مريح وخفيف مناسب للاستخدام اليومي
+تصميم فني بأسلوب رذاذ الطلاء بالأخضر والذهبي
+مناسب للـ streetwear أو حضور مباريات كرة القدم
+قصة عصرية تناسب مختلف الأذواق
+طباعة عالية الجودة مقاومة للتلاشي
+خيار رائع للاستخدام الشخصي أو كهدية مميزة`,
+    metaTitle: "تيشيرت المهارة الذهبية | فخامة خضراء | Folklore FC",
+    metaDescription: "ارتدي ألوان الوطن بفخامة. تيشيرت يمزج بين الأخضر السعودي والخط الذهبي في تصميم يعبر عن العزة والشموخ الرياضي.",
+    altText: "تيشيرت أسود فخم عليه رذاذ طلاء ذهبي وأخضر وأحرف عربية فنية متداخلة.",
+    keywords: ["أخضر وذهبي", "تيشيرت فخم", "وطنية سعودية", "خط عربي ذهبي"]
   },
   {
     id: 'ksa-8',
@@ -117,11 +187,21 @@ export const menList: Product[] = [
     region: 'ar',
     gender: 'men',
     category: 'Jersey',
-    description: "مستوحى من القلاع والحصون التاريخية، يجسد قوة الدفاع وحماية العرين بدمج العمارة التراثية بالمرمى.",
-    metaTitle: "تيشيرت سد منيع | حصون الدفاع السعودية | Folklore FC",
-    metaDescription: "جسد الثبات والإصرار مع تيشيرت سد منيع. تصميم يربط عراقة الحصون التاريخية بقوة المدافع في الملعب. تسوق الآن.",
-    altText: "تصميم يظهر قلعة سعودية قديمة تتحول إلى مرمى كرة قدم منيع على تيشيرت أبيض.",
-    keywords: ["تيشيرت تراثي", "سد منيع", "حصون السعودية", "ملابس دفاع كرة قدم"]
+    description: `جسد الثبات مع تيشرت "سد منيع" المستوحى من القلاع والحصون التاريخية، ليعبر عن قوة الدفاع وحماية العرين. قطعة ملحمية تجمع بين عراقة العمارة التراثية وصلابة كرة القدم لتناسب المشجعين الأوفياء.
+
+مصنوع من قطن ناعم عالي الجودة يمنحك راحة وتهوية ممتازة طوال اليوم، مع طباعة متينة تحافظ على تفاصيل الحصن حتى بعد الغسيل المتكرر.
+
+المميزات:
+قماش قطني مريح وخفيف مناسب للاستخدام اليومي
+تصميم يربط بين الحصون التاريخية والدفاع القوي
+مناسب للـ streetwear أو حضور مباريات كرة القدم
+قصة عصرية تناسب مختلف الأذواق
+طباعة عالية الجودة مقاومة للتلاشي
+خيار رائع للاستخدام الشخصي أو كهدية مميزة`,
+    metaTitle: "تيشيرت الدفاع الحصين | قلعة المصمك | Folklore FC",
+    metaDescription: "كن حائط الصد المنيع. تيشيرت مستوحى من قوة القلاع السعودية والتاريخ العريق، ليعبر عن روح القتال والدفاع في الملعب.",
+    altText: "تيشيرت أبيض يصور قلعة طينية قديمة تخرج منها كرة قدم صخرية بأسلوب فني قوي.",
+    keywords: ["دفاع سعودي", "قلعة المصمك", "روح القتال", "تيشيرت قوة"]
   },
   {
     id: 'ksa-9',
@@ -132,11 +212,21 @@ export const menList: Product[] = [
     region: 'ar',
     gender: 'men',
     category: 'Jersey',
-    description: "يدمج بين ثقافة الحذاء الرياضي (Sneaker Culture) وكرة القدم بأسلوب الـ Graffiti لروح التحدي.",
-    metaTitle: "تيشيرت جسارة غرافيتي | ثقافة الشارع السعودية | Folklore FC",
-    metaDescription: "للجريئين فقط. تيشيرت جسارة يجمع بين فن الغرافيتي وثقافة الأحذية الرياضية في ملاعب الشارع السعودية. تصميم مليء بالطاقة.",
-    altText: "رسم غرافيتي ملون لحذاء رياضي يطأ كرة قدم مع كلمة جسارة بخط عريض.",
-    keywords: ["تيشيرت غرافيتي", "جسارة", "Streetwear KSA", "ملابس شبابية الرياض"]
+    description: `عش روح التحدي مع تيشرت "جسارة" الذي يدمج بين ثقافة الأحذية الرياضية (Sneaker Culture) وكرة القدم بأسلوب الـ Graffiti. قطعة عصرية جريئة تعكس نبض الشارع وحيوية الشباب لتناسب محبي الـ Urban Style.
+
+مصنوع من قطن ناعم عالي الجودة يمنحك راحة وتهوية ممتازة طوال اليوم، مع طباعة متينة تحافظ على حيوية الجرافيتي حتى بعد الغسيل المتكرر.
+
+المميزات:
+قماش قطني مريح وخفيف مناسب للاستخدام اليومي
+تصميم جرافيتي يدمج السنيكرز بكرة القدم
+مناسب للـ streetwear أو حضور مباريات كرة القدم
+قصة عصرية تناسب مختلف الأذواق
+طباعة عالية الجودة مقاومة للتلاشي
+خيار رائع للاستخدام الشخصي أو كهدية مميزة`,
+    metaTitle: "تيشيرت جسارة | فن الشارع السعودي | Folklore FC",
+    metaDescription: "عبر عن روح الشباب مع تيشيرت جسارة. تصميم جرافيتي جريء يمزج بين ثقافة السنيكرز وكرة القدم بلمسة عصرية.",
+    altText: "رسم جرافيتي ملون يظهر حذاء سنيكرز يطا كرة قدم مع كلمة 'جسارة' بالخط العربي العصري.",
+    keywords: ["جرافيتي سعودي", "ستريت وير الرياض", "فن الشارع", "تيشيرت شبابي"]
   },
   {
     id: 'ksa-10',
@@ -147,11 +237,21 @@ export const menList: Product[] = [
     region: 'ar',
     gender: 'men',
     category: 'Jersey',
-    description: "تصميم مستقبلي باللون الأخضر النيون يصور اللاعب كموجة طاقة لا تتوقف تعزف ألحان الفوز.",
-    metaTitle: "تيشيرت تردد النصر | طاقة الفوز الخضراء | Folklore FC",
-    metaDescription: "استشعر إيقاع المدرجات مع تيشيرت تردد النصر. تصميم مستقبلي يجسد موجات الطاقة والانتصار بلمسة نيون خضراء.",
-    altText: "تيشيرت أسود يظهر ذبذبات طاقة خضراء على شكل لاعب كرة قدم مندفع.",
-    keywords: ["تيشيرت نيون", "تردد النصر", "ملابس جيم رجالية", "أزياء رياضية حديثة"]
+    description: `استشعر الفوز مع تيشرت "تردد النصر" بتصميم مستقبلي باللون الأخضر النيون يصور اللاعب كموجة طاقة لا تتوقف. قطعة ديناميكية تجمع بين السرعة والتكنولوجيا لتناسب إطلالات الجيم والـ streetwear الرياضي.
+
+مصنوع من قطن ناعم عالي الجودة يمنحك راحة وتهوية ممتازة طوال اليوم، مع طباعة متينة تحافظ على إشراق النيون حتى بعد الغسيل المتكرر.
+
+المميزات:
+قماش قطني مريح وخفيف مناسب للاستخدام اليومي
+تصميم موجات صوتية نيون تعبر عن طاقة اللاعب
+مناسب للـ streetwear أو حضور مباريات كرة القدم
+قصة عصرية تناسب مختلف الأذواق
+طباعة عالية الجودة مقاومة للتلاشي
+خيار رائع للاستخدام الشخصي أو كهدية مميزة`,
+    metaTitle: "تيشيرت تردد النصر | طاقة النيون الخضراء | Folklore FC",
+    metaDescription: "اشعر بنبض الفوز مع تيشيرت تردد النصر. تصميم نيون صاخب يجسد السرعة والطاقة المتفجرة للاعب السعودي المعاصر.",
+    altText: "تيشيرت أسود بخطوط نيون خضراء وزرقاء سريعة تشكل حركة لاعب كرة قدم.",
+    keywords: ["تيشيرت نيون أخضر", "سرعة كرة قدم", "طاقة سعودية", "ملابس جيم الرياض"]
   },
   {
     id: 'ksa-11',
@@ -162,11 +262,21 @@ export const menList: Product[] = [
     region: 'ar',
     gender: 'men',
     category: 'Jersey',
-    description: "يجمع بين شراسة الأسد ومهارة اللاعب السعودي، مع لمسات فنية صاخبة تعبر عن القوة والهيمنة.",
-    metaTitle: "تيشيرت ليث الميدان | قوة الأسد السعودي | Folklore FC",
-    metaDescription: "زئير الملاعب في قميص واحد. تيشيرت ليث الميدان يعبر عن الهيمنة والشراسة الرياضية بتصميم فني مذهل. اطلبه اليوم.",
-    altText: "رسم قوي لرأس أسد يندمج مع ملامح لاعب كرة قدم غاضب ومصمم على الفوز.",
-    keywords: ["تيشيرت أسد", "ليث الميدان", "ملابس رجالية قوية", "تصميم وحوش رياضي"]
+    description: `أظهر شراستك في الملعب مع تيشرت "ليث الميدان" الذي يجمع بين هيبة الأسد ومهارة اللاعب السعودي. قطعة قوية بتصميم فني صاخب يعبر عن الهيمنة والسيطرة لتناسب الشخصيات القيادية والجريئة.
+
+مصنوع من قطن ناعم عالي الجودة يمنحك راحة وتهوية ممتازة طوال اليوم، مع طباعة متينة تحافظ على قوة الملامح حتى بعد الغسيل المتكرر.
+
+المميزات:
+قماش قطني مريح وخفيف مناسب للاستخدام اليومي
+تدمج بين وجه الأسد وملامح اللاعب القوي
+مناسب للـ streetwear أو حضور مباريات كرة القدم
+قصة عصرية تناسب مختلف الأذواق
+طباعة عالية الجودة مقاومة للتلاشي
+خيار رائع للاستخدام الشخصي أو كهدية مميزة`,
+    metaTitle: "تيشيرت ليث الميدان | زئير الملاعب | Folklore FC",
+    metaDescription: "انطلق بقوة الأسد. تيشيرت ليث الميدان يجمع بين مهابة الأسد ومهارة اللاعب السعودي في تصميم يعكس الهيبة والسيطرة.",
+    altText: "رسم فني قوي يدمج وجه أسد بملامح لاعب كرة قدم سعودي بأسلوب فني مبدع.",
+    keywords: ["أسد الملاعب", "زئير سعودي", "أزياء رياضية قوية", "تيشيرت الهجوم"]
   },
   {
     id: 'ksa-12',
@@ -177,11 +287,21 @@ export const menList: Product[] = [
     region: 'ar',
     gender: 'men',
     category: 'Jersey',
-    description: "ركلة مقصية أسطورية يمتزج فيها السيف والدرع بكرة القدم أمام حصون المملكة التاريخية.",
-    metaTitle: "تيشيرت فرسان الصحراء | ملاحم البطولة السعودية | Folklore FC",
-    metaDescription: "أعد إحياء الأساطير مع تيشيرت فرسان الصحراء. تصميم يجمع بين الفروسية العربية ومهارة الكرة بأسلوب ملحمي فريد.",
-    altText: "لاعب يقوم بركلة مقصية وبجانبه سيف ودرع عربي قديم مع قلعة في الخلفية.",
-    keywords: ["فرسان الصحراء", "تيشيرت ملحمي", "ملابس تراثية مطورة", "أساطير الكرة"]
+    description: `سافر عبر الزمن مع تيشرت "فرسان الصحراء" حيث تمتزج الركلة المقصية الأسطورية مع السيوف والدروع أمام حصون المملكة. قطعة تراثية ملحمية تجمع بين الفروسية العربية ومهارات كرة القدم الحديثة لتناسب محبي التاريخ والرياضة.
+
+مصنوع من قطن ناعم عالي الجودة يمنحك راحة وتهوية ممتازة طوال اليوم، مع طباعة متينة تحافظ على دقة المشهد حتى بعد الغسيل المتكرر.
+
+المميزات:
+قماش قطني مريح وخفيف مناسب للاستخدام اليومي
+تصميم ملحمي يربط الفروسية بكرة القدم
+مناسب للـ streetwear أو حضور مباريات كرة القدم
+قصة عصرية تناسب مختلف الأذواق
+طباعة عالية الجودة مقاومة للتلاشي
+خيار رائع للاستخدام الشخصي أو كهدية مميزة`,
+    metaTitle: "تيشيرت أساطير الفرسان | ملحمة الصحراء | Folklore FC",
+    metaDescription: "احتفِ ببطولات الماضي. تصميم يربط بين الركلة المقصية والسيوف التراثية في ملحمة فنية تجسد شجاعة اللاعب السعودي.",
+    altText: "رسم ملحمي للاعب يؤدي ركلة مقصية بجانب سيف ودرع عربي مع حصن في الخلفية.",
+    keywords: ["تيشيرت أساطير سعودية", "ملحمة الصحراء", "تراث رياضي", "فرسان كرة القدم"]
   },
   {
     id: 'ksa-13',
@@ -192,11 +312,21 @@ export const menList: Product[] = [
     region: 'ar',
     gender: 'men',
     category: 'Jersey',
-    description: "يستخدم الخط العربي الانسيابي لرسم حركة اللاعب، مما يخلق قطعة فنية راقية تحتفي بالهوية.",
-    metaTitle: "تيشيرت فخر الانتماء | رقي الخط العربي | Folklore FC",
-    metaDescription: "بساطة التصميم وعمق المعنى. تيشيرت فخر الانتماء يجسد الهوية السعودية عبر جماليات الخط العربي. فخامة وأصالة.",
-    altText: "تيشيرت أبيض بلمسات خط عربي ذهبي تشكل قوام لاعب رياضي متميز.",
-    keywords: ["تيشيرت فخر الانتماء", "خط عربي فاخر", "ملابس هدايا سعودية", "ستريت وير راقي"]
+    description: `ارتدِ هويتك مع تيشرت "فخر الانتماء" الذي يستخدم الخط العربي الانسيابي لرسم حركة اللاعب. قطعة فنية تعبر عن الاعتزاز بالثقافة والهوية السعودية بأسلوب بصري راقٍ ومميز.
+
+مصنوع من قطن ناعم عالي الجودة يمنحك راحة وتهوية ممتازة طوال اليوم، مع طباعة متينة تحافظ على أناقة الخطوط حتى بعد الغسيل المتكرر.
+
+المميزات:
+قماش قطني مريح وخفيف مناسب للاستخدام اليومي
+تصميم بالخط العربي يعبر عن الهوية والانتماء
+مناسب للـ streetwear أو حضور مباريات كرة القدم
+قصة عصرية تناسب مختلف الأذواق
+طباعة عالية الجودة مقاومة للتلاشي
+خيار رائع للاستخدام الشخصي أو كهدية مميزة`,
+    metaTitle: "تيشيرت فخر الانتماء | فن الخط العربي | Folklore FC",
+    metaDescription: "ارتدِ هويتك بفخر. تيشيرت فخر الانتماء يعبر عن الاعتزاز بالثقافة السعودية من خلال خط عربي انسيابي يصور جسد اللاعب.",
+    altText: "تيشيرت أبيض بلمسات خط عربي ذهبي تشكل ملامح لاعب رياضي محترف.",
+    keywords: ["تيشيرت خط عربي", "هوية سعودية", "أزياء تراثية عصرية", "ستريت وير ثقافي"]
   },
   {
     id: 'ksa-14',
@@ -207,11 +337,21 @@ export const menList: Product[] = [
     region: 'ar',
     gender: 'men',
     category: 'Jersey',
-    description: "من قلب الكثبان الرملية إلى منصات التتويج. تصميم كلاسيكي يجمع بين الطبيعة وفن الكرة.",
-    metaTitle: "تيشيرت روح الصحراء | هدوء وأصالة الرمال | Folklore FC",
-    metaDescription: "تيشيرت روح الصحراء يجسد الطبيعة الخلابة للمملكة في قالب رياضي كلاسيكي. مثالي لمن يقدر الهدوء والتميز التراثي.",
-    altText: "تيشيرت بألوان ترابية ورملية يظهر كثباناً تتحول تدريجياً إلى ملعب كرة قدم.",
-    keywords: ["روح الصحراء", "تيشيرت رملي", "ملابس رياضية كلاسيك", "ألوان ترابية"]
+    description: `من قلب الرمال إلى الذهب، يأتي تيشرت "روح الصحراء" بتصميم كلاسيكي يجمع بين جمال الطبيعة الصحراوية وفنون الكرة. قطعة هادئة وأنيقة بألوان ترابية تعكس الأصالة والارتباط بالأرض.
+
+مصنوع من قطن ناعم عالي الجودة يمنحك راحة وتهوية ممتازة طوال اليوم، مع طباعة متينة تحافظ على دفء الألوان حتى بعد الغسيل المتكرر.
+
+المميزات:
+قماش قطني مريح وخفيف مناسب للاستخدام اليومي
+تصميم بألوان ترابية مستوحى من الكثبان الرملية
+مناسب للـ streetwear أو حضور مباريات كرة القدم
+قصة عصرية تناسب مختلف الأذواق
+طباعة عالية الجودة مقاومة للتلاشي
+خيار رائع للاستخدام الشخصي أو كهدية مميزة`,
+    metaTitle: "تيشيرت روح الصحراء | ألوان الأرض | Folklore FC",
+    metaDescription: "من قلب الرمال إلى الذهب. تصميم هادئ وأنيق بألوان ترابية مستوحاة من كثبان المملكة ليعكس الأصالة والارتباط بالأرض.",
+    altText: "تيشيرت بيج بألوان ترابية يظهر كثبان رملية تتحول تدريجياً إلى ملعب كرة قدم.",
+    keywords: ["روح الصحراء", "ألوان ترابية", "أناقة سعودية كلاسيكية", "تيشيرت الكثبان"]
   },
   {
     id: 'ksa-15',
@@ -222,11 +362,21 @@ export const menList: Product[] = [
     region: 'ar',
     gender: 'men',
     category: 'Jersey',
-    description: "خلفية من الزخارف الهندسية الإسلامية الفاخرة تبرز هيبة اللاعب وتفانيه في الملعب.",
-    metaTitle: "تيشيرت سيد الساحة | زخارف إسلامية ملكية | Folklore FC",
-    metaDescription: "تيشيرت سيد الساحة لمن يبحث عن الفخامة. تصميم يدمج الزخارف الهندسية الإسلامية مع هيبة نجوم الكرة. تميز في كل مباراة.",
-    altText: "تيشيرت أسود بذهب وزخارف هندسية معقدة تحيط برسم لاعب مسيطر على الكرة.",
-    keywords: ["سيد الساحة", "زخارف إسلامية", "تيشيرت ملكي رجالي", "ملابس مناسبات رياضية"]
+    description: `تألق بفخامة تيشرت "سيد الساحة"، حيث تبرز الزخارف الهندسية الإسلامية هيبة اللاعب وتفانيه. قطعة ملكية تجمع بين التراث الإسلامي العريق وروح القيادة في الملعب لتناسب المناسبات المميزة.
+
+مصنوع من قطن ناعم عالي الجودة يمنحك راحة وتهوية ممتازة طوال اليوم، مع طباعة متينة تحافظ على دقة الزخارف حتى بعد الغسيل المتكرر.
+
+المميزات:
+قماش قطني مريح وخفيف مناسب للاستخدام اليومي
+تصميم غني بالزخارف الهندسية الإسلامية
+مناسب للـ streetwear أو حضور مباريات كرة القدم
+قصة عصرية تناسب مختلف الأذواق
+طباعة عالية الجودة مقاومة للتلاشي
+خيار رائع للاستخدام الشخصي أو كهدية مميزة`,
+    metaTitle: "تيشيرت سيد الساحة | فن هندسي ملكي | Folklore FC",
+    metaDescription: "فخامة ملكية في الملعب. تصميم غني بالزخارف الهندسية الإسلامية ليعكس الدقة والروح القيادية للاعب البطل.",
+    altText: "تيشيرت أسود ملكي بلمسات ذهبية وزخارف هندسية إسلامية معقدة تحيط باللاعب.",
+    keywords: ["تيشيرت ملكي سعودي", "زخارف إسلامية رياضية", "قيادة الملاعب", "أزياء فخمة"]
   },
   {
     id: 'ksa-16',
@@ -237,11 +387,21 @@ export const menList: Product[] = [
     region: 'ar',
     gender: 'men',
     category: 'Jersey',
-    description: "تصميم يجمع بين ناطحات السحاب الحديثة والقلاع التاريخية مع لاعب يمثل الجيل الجديد.",
-    metaTitle: "تيشيرت فن الكرة السعودية | الرياض بين الماضي والمستقبل | Folklore FC",
-    metaDescription: "تيشيرت فن الكرة يروي قصة تطور الرياضة في المملكة. دمج مذهل بين ناطحات السحاب والتاريخ بأسلوب Streetwear عالمي.",
-    altText: "تيشيرت أبيض يظهر تداخلاً فنياً بين قلعة المصمك وأبراج مركز الملك عبدالله المالي وكرة قدم.",
-    keywords: ["فن الكرة", "تيشيرت الرياض", "ستريت وير سعودي عالمي", "تصميم جرافيك كرة قدم"]
+    description: `اجمع بين الماضي والمستقبل مع تيشرت "فن الكرة السعودية". تصميم فني يدمج ناطحات السحاب الحديثة في الرياض مع القلاع التاريخية، يتوسطها لاعب يمثل طموح الجيل الجديد. قطعة تروي قصة وطن طموح.
+
+مصنوع من قطن ناعم عالي الجودة يمنحك راحة وتهوية ممتازة طوال اليوم، مع طباعة متينة تحافظ على جمالية التفاصيل حتى بعد الغسيل المتكرر.
+
+المميزات:
+قماش قطني مريح وخفيف مناسب للاستخدام اليومي
+تصميم يجمع بين العمارة التراثية والحديثة في الرياض
+مناسب للـ streetwear أو حضور مباريات كرة القدم
+قصة عصرية تناسب مختلف الأذواق
+طباعة عالية الجودة مقاومة للتلاشي
+خيار رائع للاستخدام الشخصي أو كهدية مميزة`,
+    metaTitle: "تيشيرت فن الكرة | إرث ورؤية | Folklore FC",
+    metaDescription: "قصة وطن طموح. عمل فني يدمج حصون الرياض التاريخية مع ناطحات السحاب الحديثة ليعبر عن طموح الجيل الجديد.",
+    altText: "تيشيرت أبيض يظهر مزيجاً فنياً بين قلعة المصمك ومركز الملك عبدالله المالي مع كرة قدم في المنتصف.",
+    keywords: ["تيشيرت فن الكرة السعودية", "رؤية الرياض", "تراث ومستقبل", "ستريت وير سعودي"]
   },
 
   // --- فرنسا الاحترافية (FR Men - SEO & AI Optimized) ---
@@ -254,11 +414,21 @@ export const menList: Product[] = [
     region: 'fr',
     gender: 'men',
     category: 'Jersey',
-    description: "Fusion unique entre l'arène antique et le terrain moderne. Un casque de gladiateur sculpté dans l'âme du football.",
-    metaTitle: "Maillot Gladiateur Moderne | Héritage Foot France | Folklore FC",
-    metaDescription: "Le match est une bataille épique. Découvrez le maillot Gladiateur Moderne. Fusion unique entre histoire antique et football français. Style premium.",
-    altText: "T-shirt gris avec un casque de gladiateur romain intégrant un ballon de football, style statue classique.",
-    keywords: ["Maillot gladiateur", "Foot héritage", "T-shirt homme stylé", "France streetwear"]
+    description: `Incarnez l'esprit combatif avec le t-shirt "Gladiateur Moderne". Une fusion audacieuse entre l'arène antique et le terrain moderne, symbolisant la force et l'honneur du jeu. Une pièce puissante pour ceux qui voient chaque match comme une bataille.
+
+Fabriqué en coton doux de haute qualité, offrant un confort exceptionnel et une excellente respirabilité toute la journée, avec une impression durable qui conserve l'éclat du design même après de nombreux lavages.
+
+Caractéristiques :
+Tissu en coton confortable et léger, adapté à un usage quotidien
+Design fusionnant gladiateur et football
+Idéal pour le streetwear ou les matchs de football
+Coupe moderne "Oversized" adaptée à toutes les silhouettes
+Impression haute définition résistante à la décoloration
+Excellent choix pour un usage personnel ou comme cadeau unique`,
+    metaTitle: "Maillot Foot Gladiateur Moderne | Héritage & Streetwear | Folklore FC",
+    metaDescription: "Incarnez l'esprit combatif avec le t-shirt 'Gladiateur Moderne'. Une fusion audacieuse entre l'arène antique et le terrain moderne, symbolisant force et honneur.",
+    altText: "Casque de gladiateur romain fusionné avec un ballon de football sur un t-shirt gris clair Folklore FC.",
+    keywords: ["Maillot gladiateur moderne", "Héritage football France", "Streetwear foot stylé", "Équipement buteur élite"]
   },
   {
     id: 'fr-2',
@@ -269,12 +439,21 @@ export const menList: Product[] = [
     region: 'fr',
     gender: 'men',
     category: 'Jersey',
-    description: "Inspiré par Napoléon, ce design mêle cartographie tactique et esprit de leadership sur le terrain.",
-    metaTitle: "Maillot Le Général | Tactique & Leadership Napoléon | Folklore FC",
-    metaDescription: "Incarnez le leadership avec 'Le Général'. Un design inspiré par Napoléon Bonaparte mêlant tactique de guerre et football. Pour les capitaines.",
-    altText: "Design de maillot avec portrait stylisé de Napoléon et schémas tactiques de football en arrière-plan.",
-    keywords: ["T-shirt Napoléon football", "Maillot Le Général foot", "Streetwear héritage français", "Vêtement Blokecore France", "Cadeau supporter foot original", "T-shirt tactique football", "Design Napoléon Bonaparte foot", "Folklore FC Le Général", "T-shirt culture foot vintage", "Acheter t-shirt foot design", "Mode foot rétro France", "T-shirt capitaine Napoléon"
-]
+    description: `Menez le jeu avec autorité grâce au t-shirt "Le Général". Un design inspiré par Napoléon qui allie génie tactique et leadership sur le terrain. Pour les capitaines qui dirigent leur équipe vers la gloire.
+
+Fabriqué en coton doux de haute qualité, offrant un confort exceptionnel et une excellente respirabilité toute la journée, avec une impression durable qui conserve la précision des détails même après de nombreux lavages.
+
+Caractéristiques :
+Tissu en coton confortable et léger, adapté à un usage quotidien
+Design tactique inspiré par Napoléon
+Idéal pour le streetwear ou les matchs de football
+Coupe moderne "Oversized" adaptée à toutes les silhouettes
+Impression haute définition résistante à la décoloration
+Excellent choix pour un usage personnel ou comme cadeau unique`,
+    metaTitle: "Maillot Le Général Napoléon | Leadership Tactique | Folklore FC",
+    metaDescription: "Dirigez le jeu avec autorité. Inspiré par Napoléon Bonaparte, ce design mêle génie tactique et leadership sur le terrain. Pour les capitaines.",
+    altText: "Illustration de style vintage de Napoléon Bonaparte avec des schémas tactiques de football.",
+    keywords: ["Maillot Napoléon foot", "Leadership tactique football", "Mode sportive Le Général", "Culture foot vintage France"]
   },
   {
     id: 'fr-3',
@@ -285,11 +464,21 @@ export const menList: Product[] = [
     region: 'fr',
     gender: 'men',
     category: 'Jersey',
-    description: "Un design minimaliste utilisant les rayures emblématiques de la marinière pour former un ballon de foot en 3D.",
-    metaTitle: "Maillot Marinière Football | Style Parisien 3D | Folklore FC",
-    metaDescription: "L'élégance à la française. Découvrez notre maillot Marinière revisité avec un effet 3D. Le mariage parfait entre mode parisienne et passion du foot.",
-    altText: "T-shirt blanc avec rayures bleues horizontales formant un ballon de foot sphérique au centre.",
-    keywords: ["Marinière football", "Mode Parisienne", "T-shirt foot chic", "Minimalisme français"]
+    description: `L'élégance à la française rencontre le ballon rond avec le t-shirt "France Mode". La célèbre marinière revisitée en 3D pour un look chic et sportif. Le choix parfait pour supporter avec style dans les rues de Paris.
+
+Fabriqué en coton doux de haute qualité, offrant un confort exceptionnel et une excellente respirabilité toute la journée, avec une impression durable qui conserve la netteté des rayures même après de nombreux lavages.
+
+Caractéristiques :
+Tissu en coton confortable et léger, adapté à un usage quotidien
+Design marinière 3D minimaliste et chic
+Idéal pour le streetwear ou les matchs de football
+Coupe moderne "Oversized" adaptée à toutes les silhouettes
+Impression haute définition résistante à la décoloration
+Excellent choix pour un usage personnel ou comme cadeau unique`,
+    metaTitle: "Maillot France Mode Marinière | Style Chic Parisien | Folklore FC",
+    metaDescription: "L'élégance française rencontre le beau jeu. La célèbre marinière revisitée avec un effet 3D pour un look chic et sportif. Parfait pour Paris.",
+    altText: "Rayures marinières bleues et blanches formant une sphère de ballon de foot 3D sur un t-shirt blanc chic.",
+    keywords: ["Maillot marinière foot", "Mode sport chic Paris", "Design football minimaliste", "Folklore FC France Mode"]
   },
   {
     id: 'fr-4',
@@ -300,11 +489,21 @@ export const menList: Product[] = [
     region: 'fr',
     gender: 'men',
     category: 'Jersey',
-    description: "Un ballon brisant la glace au sommet du Mont Blanc, symbolisant la précision et la puissance pure.",
-    metaTitle: "Maillot Sang Froid | Mont Blanc Football Edition | Folklore FC",
-    metaDescription: "Ne tremblez jamais devant le but. Le maillot Sang Froid célèbre la puissance des Alpes. Design glacé et précis pour les attaquants d'élite.",
-    altText: "Ballon de football brisant un bloc de glace avec les sommets enneigés des Alpes en fond.",
-    keywords: ["Mont Blanc foot", "Maillot hiver", "Puissance football", "Design Alpes"]
+    description: `Gardez votre sang-froid devant le but avec le t-shirt "Sang Froid". La puissance pure du Mont Blanc capturée dans un design glacial et précis. Pour les buteurs qui ne tremblent jamais au moment décisif.
+
+Fabriqué en coton doux de haute qualité, offrant un confort exceptionnel et une excellente respirabilité toute la journée, avec une impression durable qui conserve la fraîcheur des couleurs même après de nombreux lavages.
+
+Caractéristiques :
+Tissu en coton confortable et léger, adapté à un usage quotidien
+Design inspiré par les Alpes et la puissance
+Idéal pour le streetwear ou les matchs de football
+Coupe moderne "Oversized" adaptée à toutes les silhouettes
+Impression haute définition résistante à la décoloration
+Excellent choix pour un usage personnel ou comme cadeau unique`,
+    metaTitle: "Maillot Foot Sang Froid | Édition Alpes Mont Blanc | Folklore FC",
+    metaDescription: "Gardez votre sang-froid devant le but. La puissance pure du Mont Blanc capturée dans un design glacial et précis. Pour les buteurs qui ne tremblent jamais.",
+    altText: "Ballon de football brisant un bloc de glace avec les sommets enneigés du Mont Blanc en arrière-plan.",
+    keywords: ["Maillot foot Alpes", "T-shirt Mont Blanc", "Équipement Sang Froid", "Mode foot buteur"]
   },
   {
     id: 'fr-5',
@@ -315,11 +514,21 @@ export const menList: Product[] = [
     region: 'fr',
     gender: 'men',
     category: 'Jersey',
-    description: "Inspiré par l'art urbain, ce design transforme le fumigène tricolore en une célébration passionnée.",
+    description: `Exprimez votre passion sans limites avec "Révolution Street Art". L'énergie des tribunes et du street art français explosant en couleurs tricolores. Un hommage vibrant à la culture Ultra et à la ferveur des stades.
+
+Fabriqué en coton doux de haute qualité, offrant un confort exceptionnel et une excellente respirabilité toute la journée, avec une impression durable qui conserve l'intensité des couleurs même après de nombreux lavages.
+
+Caractéristiques :
+Tissu en coton confortable et léger, adapté à un usage quotidien
+Design street art aux couleurs tricolores
+Idéal pour le streetwear ou les matchs de football
+Coupe moderne "Oversized" adaptée à toutes les silhouettes
+Impression haute définition résistante à la décoloration
+Excellent choix pour un usage personnel ou comme cadeau unique`,
     metaTitle: "Maillot Révolution Street Art | Culture Ultra France | Folklore FC",
-    metaDescription: "L'esprit de la rue rencontre le stade. Maillot Révolution inspiré par le street art français et la ferveur des ultras. Vivez la passion tricolore.",
-    altText: "Silhouette d'un supporter lançant un fumigène avec de la fumée bleue, blanche et rouge style graffiti.",
-    keywords: ["Street art foot", "Ultra France", "Maillot révolution", "Graffiti football"]
+    metaDescription: "Exprimez votre passion sans limites. L'énergie des tribunes et du street art français explosant en couleurs tricolores. Un hommage vibrant à la culture Ultra.",
+    altText: "Silhouette graffiti tricolore d'un supporter tenant un fumigène bleu, blanc et rouge sur un t-shirt streetwear Folklore FC.",
+    keywords: ["Street art foot français", "Maillot culture Ultra", "Révolution tricolore sport", "Graffiti football art"]
   },
   {
     id: 'fr-6',
@@ -330,11 +539,21 @@ export const menList: Product[] = [
     region: 'fr',
     gender: 'men',
     category: 'Jersey',
-    description: "Le Coq Gaulois réinventé avec une élégance moderne et des motifs royaux tricolores.",
-    metaTitle: "Maillot Coq Royal | Allez Les Bleus Heritage | Folklore FC",
-    metaDescription: "Portez fièrement le symbole national. Le Coq Royal allie motifs baroques et fierté tricolore. Une pièce de collection indispensable.",
-    altText: "Emblème majestueux d'un coq bleu avec dorures royales sur un ballon de foot classique.",
-    keywords: ["Coq Gaulois", "Allez les bleus", "Maillot France royal", "Fierté nationale"]
+    description: `Portez fièrement l'emblème national avec "Coq Royal". Une réinterprétation majestueuse du Coq Gaulois mêlant modernité et héritage royal aux motifs baroques. L'élégance ultime pour les supporters des Bleus.
+
+Fabriqué en coton doux de haute qualité, offrant un confort exceptionnel et une excellente respirabilité toute la journée, avec une impression durable qui conserve la richesse des dorures même après de nombreux lavages.
+
+Caractéristiques :
+Tissu en coton confortable et léger, adapté à un usage quotidien
+Design royal du Coq Gaulois
+Idéal pour le streetwear ou les matchs de football
+Coupe moderne "Oversized" adaptée à toutes les silhouettes
+Impression haute définition résistante à la décoloration
+Excellent choix pour un usage personnel ou comme cadeau unique`,
+    metaTitle: "Maillot Coq Royal | Héritage Baroque Français | Folklore FC",
+    metaDescription: "Portez fièrement l'emblème national. Une réinterprétation majestueuse du Coq Gaulois mêlant modernité et héritage royal baroque. Élégance suprême.",
+    altText: "emblème majestueux de coq bleu avec détails baroques dorés sur un ballon de foot classique Folklore FC.",
+    keywords: ["Maillot Coq Gaulois", "T-shirt foot royal français", "Mode baroque sport", "Fierté nationale France"]
   },
   {
     id: 'fr-7',
@@ -345,11 +564,21 @@ export const menList: Product[] = [
     region: 'fr',
     gender: 'men',
     category: 'Jersey',
-    description: "Inspiré par l'architecture gothique de Paris, plaçant une gargouille protectrice sur la cage de but.",
-    metaTitle: "Maillot Gardien Gothique | Architecture Paris Foot | Folklore FC",
-    metaDescription: "L'invincibilité du gardien. Design inspiré des gargouilles de Notre-Dame protégeant les cages. Style sombre et sophistiqué pour l'éternité.",
-    altText: "Illustration d'une gargouille en pierre accroupie sur un filet de but de football, style gothique parisien.",
-    keywords: ["Notre-Dame foot", "Style gothique Paris", "Maillot gardien", "Architecture maillot"]
+    description: `Défendez votre camp avec "Le Gardien Gothique". Inspiré par les gargouilles de Notre-Dame, ce design incarne la protection éternelle des cages avec une touche sombre et sophistiquée. Pour les gardiens invincibles.
+
+Fabriqué en coton doux de haute qualité, offrant un confort exceptionnel et une excellente respirabilité toute la journée, avec une impression durable qui conserve les contrastes sombres même après de nombreux lavages.
+
+Caractéristiques :
+Tissu en coton confortable et léger, adapté à un usage quotidien
+Design gothique inspiré de Notre-Dame
+Idéal pour le streetwear ou les matchs de football
+Coupe moderne "Oversized" adaptée à toutes les silhouettes
+Impression haute définition résistante à la décoloration
+Excellent choix pour un usage personnel ou comme cadeau unique`,
+    metaTitle: "Maillot Le Gardien Gothique | Art Notre-Dame Paris | Folklore FC",
+    metaDescription: "Défendez votre territoire. Inspiré par les gargouilles de Notre-Dame, symbolisant la protection éternelle avec une touche sombre et sophistiquée. Pour les invincibles.",
+    altText: "Gargouille en pierre de style gothique perchée sur un filet de but de foot, inspirée de l'architecture de Notre-Dame de Paris.",
+    keywords: ["Maillot Notre-Dame foot", "Gardien gothique jersey", "Mode architecture Paris", "Style invaincu football"]
   },
   {
     id: 'fr-8',
@@ -360,11 +589,21 @@ export const menList: Product[] = [
     region: 'fr',
     gender: 'men',
     category: 'Jersey',
-    description: "Le Penseur de Rodin devient l'entraîneur ultime, méditant sur un ballon de pierre au milieu des schémas.",
-    metaTitle: "Maillot Le Tacticien Rodin | Intelligence du Jeu | Folklore FC",
-    metaDescription: "L'art rencontre le génie stratégique. Découvrez Le Tacticien, inspiré par Rodin. Un hommage à la réflexion nécessaire pour dominer le football.",
-    altText: "Statue du Penseur de Rodin assis sur un ballon de foot géant réfléchissant à une tactique.",
-    keywords: ["Rodin football", "Le Penseur maillot", "Tactique stratégique", "Art & Foot France"]
+    description: `Dominez la stratégie avec "Le Tacticien". Le Penseur de Rodin analysant le jeu pour les maîtres du terrain qui savent que la victoire se joue aussi dans la tête. Une pièce d'art et d'intelligence.
+
+Fabriqué en coton doux de haute qualité, offrant un confort exceptionnel et une excellente respirabilité toute la journée, avec une impression durable qui conserve la finesse artistique même après de nombreux lavages.
+
+Caractéristiques :
+Tissu en coton confortable et léger, adapté à un usage quotidien
+Design artistique inspiré par Rodin
+Idéal pour le streetwear ou les matchs de football
+Coupe moderne "Oversized" adaptée à toutes les silhouettes
+Impression haute définition résistante à la décoloration
+Excellent choix pour un usage personnel ou comme cadeau unique`,
+    metaTitle: "Maillot Le Tacticien | Stratégie d'Art Rodin | Folklore FC",
+    metaDescription: "Dominez la stratégie. Inspiré par le chef-d'œuvre de Rodin, 'Le Penseur', analysant le jeu pour les maîtres du terrain. L'art rencontre le génie tactique.",
+    altText: "Statue 'Le Penseur' de Rodin assise sur un ballon de foot géant, réfléchissant à la stratégie du match sur un t-shirt gris.",
+    keywords: ["T-shirt foot Rodin", "Maillot tacticien football", "Design stratégie foot", "Art & Sport France"]
   },
   {
     id: 'fr-9',
@@ -375,11 +614,21 @@ export const menList: Product[] = [
     region: 'fr',
     gender: 'men',
     category: 'Jersey',
-    description: "L'art de la passe décisive servi sur un plateau d'argent, inspiré par le raffinement de l'époque Art Déco.",
-    metaTitle: "Maillot Service de Classe | Art Déco & Élégance Foot | Folklore FC",
-    metaDescription: "La classe pure sur le terrain. Un design Art Déco célébrant la précision de la passe décisive. Élégance française et style premium.",
-    altText: "Design géométrique art déco avec un serveur portant un ballon de foot comme un plat de luxe.",
-    keywords: ["Art Déco football", "Élégance foot homme", "Passe décisive", "Luxury streetwear"]
+    description: `L'élégance à l'état pur avec "Service de Classe". Un hommage au style Art Déco célébrant la passe décisive parfaite servie sur un plateau. Pour les joueurs qui allient technique et raffinement.
+
+Fabriqué en coton doux de haute qualité, offrant un confort exceptionnel et une excellente respirabilité toute la journée, avec une impression durable qui conserve le style rétro même après de nombreux lavages.
+
+Caractéristiques :
+Tissu en coton confortable et léger, adapté à un usage quotidien
+Design Art Déco élégant
+Idéal pour le streetwear ou les matchs de football
+Coupe moderne "Oversized" adaptée à toutes les silhouettes
+Impression haute définition résistante à la décoloration
+Excellent choix pour un usage personnel ou comme cadeau unique`,
+    metaTitle: "Maillot Service de Classe | Élégance Art Déco | Folklore FC",
+    metaDescription: "Élégance pure. Un hommage au style Art Déco, célébrant la passe décisive parfaite servie sur un plateau d'argent. Pour les joueurs raffinés.",
+    altText: "Design géométrique Art Déco avec un majordome en smoking portant un ballon de foot sur un plateau de luxe en argent.",
+    keywords: ["Maillot Art Déco foot", "T-shirt technique élégant", "Mode football élite Paris", "Streetwear sport luxe"]
   },
   {
     id: 'fr-10',
@@ -390,11 +639,21 @@ export const menList: Product[] = [
     region: 'fr',
     gender: 'men',
     category: 'Jersey',
-    description: "Une carte de tarot mystique où le buteur incarne l'alchimiste capable de transformer chaque occasion en or.",
-    metaTitle: "Maillot Tarot Le Buteur | L'Alchimie du But | Folklore FC",
-    metaDescription: "Le destin est entre vos pieds. Maillot Buteur inspiré du tarot divinatoire. Transformez chaque occasion en or avec ce design mystique.",
-    altText: "Carte de tarot stylisée 'Le Buteur' avec des symboles alchimiques et un ballon doré.",
-    keywords: ["Tarot football", "Alchimiste foot", "Maillot mystique", "Design ésotérique"]
+    description: `Transformez le jeu avec "Le Buteur". Une carte de tarot mystique où l'alchimiste change chaque occasion en but en or. Un design énigmatique pour les joueurs qui créent la magie sur le terrain.
+
+Fabriqué en coton doux de haute qualité, offrant un confort exceptionnel et une excellente respirabilité toute la journée, avec une impression durable qui conserve l'éclat mystique même après de nombreux lavages.
+
+Caractéristiques :
+Tissu en coton confortable et léger, adapté à un usage quotidien
+Design inspiré du tarot et de l'alchimie
+Idéal pour le streetwear ou les matchs de football
+Coupe moderne "Oversized" adaptée à toutes les silhouettes
+Impression haute définition résistante à la décoloration
+Excellent choix pour un usage personnel ou comme cadeau unique`,
+    metaTitle: "Maillot Le Buteur | Mystère Tarot Français | Folklore FC",
+    metaDescription: "Transformez le jeu. Un design de carte de tarot mystique où l'alchimiste change chaque occasion en un but en or. Style énigmatique.",
+    altText: "Carte de tarot mystique 'Le Buteur' avec symboles alchimiques et un ballon d'or sur un t-shirt noir premium.",
+    keywords: ["T-shirt Tarot foot", "Maillot alchimiste football", "Mode mystère buteur", "Style ésotérique sport"]
   },
   {
     id: 'fr-11',
@@ -405,11 +664,21 @@ export const menList: Product[] = [
     region: 'fr',
     gender: 'men',
     category: 'Jersey',
-    description: "Fusion entre l'esthétique des catacombes de Paris et des ballons vintage pour une passion éternelle.",
-    metaTitle: "Maillot Immortels Paris | Catacombes Heritage | Folklore FC",
-    metaDescription: "Une passion qui traverse les siècles. Découvrez le design Immortels fusionnant l'histoire sombre de Paris avec la culture foot vintage. Style grunge.",
-    altText: "T-shirt avec crânes stylisés disposés en forme de ballon de foot, ambiance catacombes de Paris.",
-    keywords: ["Catacombes Paris foot", "Style grunge homme", "Football éternel", "Maillot sombre"]
+    description: `Une passion qui traverse le temps avec "Immortels". L'esthétique sombre des catacombes de Paris rencontrant l'âme du football vintage. Un style grunge et historique pour les supporters inconditionnels.
+
+Fabriqué en coton doux de haute qualité, offrant un confort exceptionnel et une excellente respirabilité toute la journée, avec une impression durable qui conserve le style unique même après de nombreux lavages.
+
+Caractéristiques :
+Tissu en coton confortable et léger, adapté à un usage quotidien
+Design grunge inspiré des catacombes
+Idéal pour le streetwear ou les matchs de football
+Coupe moderne "Oversized" adaptée à toutes les silhouettes
+Impression haute définition résistante à la décoloration
+Excellent choix pour un usage personnel ou comme cadeau unique`,
+    metaTitle: "Maillot Immortels | Art Héritage Catacombes | Folklore FC",
+    metaDescription: "Une passion qui transcende le temps. Fusion de l'esthétique sombre des catacombes de Paris avec l'âme du football vintage. Style grunge et historique.",
+    altText: "Crânes stylisés disposés en forme de ballon de foot dans une atmosphère sombre inspirée des catacombes de Paris.",
+    keywords: ["T-shirt catacombes Paris", "Maillot Immortels héritage", "Mode sport âme vintage", "Art foot grunge"]
   },
   // --- إسبانيا الاحترافية (ES Men - SEO & AI Optimized) ---
   {
@@ -421,11 +690,21 @@ export const menList: Product[] = [
     region: 'es',
     gender: 'men',
     category: 'Jersey',
-    description: "La historia se encuentra con el campo. El legendario galeón 'Armada Invencible' reinventado, lanzando balones de fútbol.",
-    metaTitle: "Camiseta Armada Invencible | Herencia Fútbol España | Folklore FC",
-    metaDescription: "Domina el campo con la Edición Herencia. Diseño inspirado en la Armada Invencible y la gloria marítima de España. Calidad premium para hombres.",
-    altText: "Galeón español histórico lanzando balones de fútbol desde sus cañones, estilo grabado antiguo sobre camiseta premium.",
-    keywords: ["Armada Invencible fútbol", "Camiseta herencia España", "Moda urbana hombre", "Galeón español jersey"]
+    description: `Revive la gloria histórica con la camiseta "Armada Invencible".Un diseño que reinventa el legendario galeón lanzando balones de fútbol, fusionando la historia con el campo de juego.Una prenda épica para quienes conquistan cada partido.
+
+Fabricado con algodón suave de alta calidad que te brinda comodidad y excelente transpirabilidad todo el día, con una impresión duradera que mantiene la nitidez del diseño incluso después de lavados frecuentes.
+
+      Características:
+    Tejido de algodón cómodo y ligero, adecuado para uso diario
+Diseño histórico inspirado en la Armada Invencible
+Adecuado para streetwear o asistir a partidos de fútbol
+Corte moderno "Oversized" que se adapta a diferentes gustos
+Impresión de alta calidad resistente a la decoloración
+Excelente opción para uso personal o como regalo único`,
+    metaTitle: "Camiseta Armada Invencible | Herencia Naval Española | Folklore FC",
+    metaDescription: "Conquista el campo con la edición Armada Invencible. Un tributo a la gloria marítima histórica de España y el espíritu inquebrantable del campo. Calidad premium.",
+    altText: "Gran galeón español disparando balones de fútbol desde cañones, estilo de grabado histórico en una camiseta blanca vintage.",
+    keywords: ["Camiseta Armada Invencible", "Herencia española fútbol", "Ropa deportiva marítima", "Diseño vintage España"]
   },
   {
     id: 'es-2',
@@ -436,11 +715,21 @@ export const menList: Product[] = [
     region: 'es',
     gender: 'men',
     category: 'Jersey',
-    description: "Dominando las montañas como una leyenda. Una silueta imponente que representa el impacto masivo del fútbol español.",
-    metaTitle: "Camiseta El Gigante | Dominio Absoluto Fútbol | Folklore FC",
-    metaDescription: "Representa la fuerza del fútbol español con 'El Gigante'. Un diseño imponente para hombres que dominan el juego con pasión y presencia.",
-    altText: "Silueta gigante de un futbolista sobre montañas españolas bajo un sol radiante de victoria.",
-    keywords: ["Camiseta gigante fútbol", "Dominio absoluto España", "Streetwear hombre", "Diseño épico fútbol"]
+    description: `Representa la fuerza del fútbol español con "El Gigante".Una silueta imponente que domina las montañas, simbolizando el impacto masivo y la presencia en el campo.Para los que juegan con grandeza.
+
+Fabricado con algodón suave de alta calidad que te brinda comodidad y excelente transpirabilidad todo el día, con una impresión duradera que mantiene la fuerza de la imagen incluso después de lavados frecuentes.
+
+    Características:
+  Tejido de algodón cómodo y ligero, adecuado para uso diario
+Diseño imponente que simboliza el dominio absoluto
+Adecuado para streetwear o asistir a partidos de fútbol
+Corte moderno "Oversized" que se adapta a diferentes gustos
+Impresión de alta calidad resistente a la decoloración
+Excelente opción para uso personal o como regalo único`,
+    metaTitle: "Camiseta El Gigante | Poder y Presencia Dominante | Folklore FC",
+    metaDescription: "Representa la fuerza masiva del fútbol español. El Gigante presenta una silueta imponente dominando las cumbres, simbolizando impacto absoluto.",
+    altText: "Silueta gigante de un futbolista asomando sobre los Pirineos bajo un sol dorado de victoria.",
+    keywords: ["Poder fútbol español", "Camiseta El Gigante", "Ropa delantero dominante", "T-shirt gráfico fútbol"]
   },
   {
     id: 'es-3',
@@ -452,10 +741,10 @@ export const menList: Product[] = [
     gender: 'men',
     category: 'Jersey',
     description: "El arte del control total. Un matador dominando el balón con su capote, simbolizando la elegancia y precisión técnica.",
-    metaTitle: "Camiseta Maestro Matador | Control y Elegancia Fútbol | Folklore FC",
-    metaDescription: "Domina el balón como un maestro. Diseño inspirado en la elegancia del matador y el genio técnico de los mediocampistas españoles.",
-    altText: "Matador de toros usando su capote rojo para controlar un balón de fútbol con estilo artístico.",
-    keywords: ["Maestro fútbol", "Control del balón", "Estilo matador", "Camiseta técnica elegante"]
+    metaTitle: "Camiseta Maestro Matador | Precisión Técnica y Gracia | Folklore FC",
+    metaDescription: "El arte del control total. Inspirado en el genio técnico de los mediocampistas españoles y la elegancia del matador. Domina el juego.",
+    altText: "Torero usando un capote rojo para controlar magistralmente un balón de fútbol, estilo de boceto artístico y elegante.",
+    keywords: ["Camiseta Maestro fútbol", "Jersey control técnico", "Matador fútbol España", "Equipement mediocentro elegante"]
   },
   {
     id: 'es-4',
@@ -466,11 +755,21 @@ export const menList: Product[] = [
     region: 'es',
     gender: 'men',
     category: 'Jersey',
-    description: "El corazón de España en un diseño. Fusión entre la fuerza del toro bravío, el ritmo del flamenco y la garra del jugador.",
-    metaTitle: "Camiseta Sangre y Arena | Pasión y Furia Roja | Folklore FC",
-    metaDescription: "La esencia pura de España. Fusión de toro, flamenco y fútbol en el diseño 'Sangre y Arena'. Siente la garra de la Furia Roja.",
-    altText: "Diseño vibrante que combina un toro bravo, una guitarra de flamenco y un futbolista en acción.",
-    keywords: ["Sangre y Arena fútbol", "Furia Roja", "Cultura española hombre", "Camiseta pasión flamenca"]
+    description: `Siente el corazón de España con "Sangre y Arena".Una fusión vibrante entre la fuerza del toro, el ritmo del flamenco y la garra del jugador.Pasión pura para los que viven el fútbol intensamente.
+
+Fabricado con algodón suave de alta calidad que te brinda comodidad y excelente transpirabilidad todo el día, con una impresión duradera que mantiene la intensidad de los colores incluso después de lavados frecuentes.
+
+    Características:
+  Tejido de algodón cómodo y ligero, adecuado para uso diario
+Diseño que une toro, flamenco y fútbol
+Adecuado para streetwear o asistir a partidos de fútbol
+Corte moderno "Oversized" que se adapta a diferentes gustos
+Impresión de alta calidad resistente a la decoloración
+Excelente opción para uso personal o como regalo único`,
+    metaTitle: "Camiseta Sangre y Arena | Corazón y Furia Flamenca | Folklore FC",
+    metaDescription: "Siente el pulso de España. Sangre y Arena fusiona la fuerza del toro con el ritmo del flamenco. Pasión pura para el jugador intenso.",
+    altText: "Fusión vibrante de un toro cargando, una guitarra flamenca y un delantero en movimiento, colores rojo y arena abstractos.",
+    keywords: ["Fútbol Sangre y Arena", "Camiseta pasión española", "Estilo fútbol flamenco", "Ropa Furia Roja"]
   },
   {
     id: 'es-5',
@@ -481,11 +780,21 @@ export const menList: Product[] = [
     region: 'es',
     gender: 'men',
     category: 'Jersey',
-    description: "Un tributo a la ciudad del arte y el fútbol. Inspirado en el estilo de Gaudí, combina la Sagrada Família y el Arco del Triunfo.",
-    metaTitle: "Camiseta Espíritu de Barcelona | Arte Gaudí Fútbol | Folklore FC",
-    metaDescription: "Homenaje a Barcelona y Gaudí. Camiseta con diseño de mosaico modernista que celebra la herencia cultural de la ciudad condal.",
-    altText: "Mosaico estilo Gaudí representando la Sagrada Família y elementos icónicos de Barcelona con un balón central.",
-    keywords: ["Barcelona fútbol", "Gaudí mosaico", "Moda urbana Barcelona", "Arquitectura y fútbol"]
+    description: `Rinde homenaje al arte con "Espíritu de Barcelona".Un tributo al estilo de Gaudí que combina la Sagrada Familia y el Arco del Triunfo en un mosaico futbolístico único.Cultura y deporte en una sola prenda.
+
+Fabricado con algodón suave de alta calidad que te brinda comodidad y excelente transpirabilidad todo el día, con una impresión duradera que mantiene la belleza del mosaico incluso después de lavados frecuentes.
+
+    Características:
+  Tejido de algodón cómodo y ligero, adecuado para uso diario
+Diseño artístico inspirado en Gaudí y Barcelona
+Adecuado para streetwear o asistir a partidos de fútbol
+Corte moderno "Oversized" que se adapta a diferentes gustos
+Impresión de alta calidad resistente a la decoloración
+Excelente opción para uso personal o como regalo único`,
+    metaTitle: "Camiseta Espíritu de Barcelona | Tributo Mosaico Gaudí | Folklore FC",
+    metaDescription: "Un tributo al genio arquitectónico de Gaudí. Esta camiseta estilo mosaico celebra la herencia cultural de Barcelona y el talento artístico del fútbol.",
+    altText: "Mosaico trencadís estilo Gaudí representando la Sagrada Família y un balón de fútbol, colores vibrantes en tejido premium.",
+    keywords: ["Camiseta Gaudí Barcelona", "Jersey fútbol mosaico", "Estilo deportivo modernista", "Streetwear cultura catalana"]
   },
   {
     id: 'es-6',
@@ -496,11 +805,21 @@ export const menList: Product[] = [
     region: 'es',
     gender: 'men',
     category: 'Jersey',
-    description: "Lleva el legado de los campeones. Un escudo magistral que une la ornamentación real con el espíritu del juego moderno.",
-    metaTitle: "Camiseta Leyenda Imperial | Escudo Real Fútbol | Folklore FC",
-    metaDescription: "Juega con nobleza y coraje. El diseño Leyenda Imperial fusiona la heráldica real con la pasión del fútbol moderno para hombres.",
-    altText: "Escudo heráldico imperial ornamentado con motivos de fútbol y coronas reales sobre fondo oscuro.",
-    keywords: ["Leyenda Imperial", "Escudo real fútbol", "Nobleza deportiva", "Camiseta premium hombre"]
+    description: `Porta el legado de los campeones con "Leyenda Imperial".Un escudo magistral que une la ornamentación real con el espíritu del juego moderno.Para quienes defienden sus colores con nobleza.
+
+Fabricado con algodón suave de alta calidad que te brinda comodidad y excelente transpirabilidad todo el día, con una impresión duradera que mantiene los detalles reales incluso después de lavados frecuentes.
+
+    Características:
+  Tejido de algodón cómodo y ligero, adecuado para uso diario
+Diseño de escudo real con toques modernos
+Adecuado para streetwear o asistir a partidos de fútbol
+Corte moderno "Oversized" que se adapta a diferentes gustos
+Impresión de alta calidad resistente a la decoloración
+Excelente opción para uso personal o como regalo único`,
+    metaTitle: "Camiseta Leyenda Imperial | Heráldica Real y Honor | Folklore FC",
+    metaDescription: "Lleva el legado de los campeones. El diseño Leyenda Imperial fusiona la ornamentación real con el espíritu moderno del juego. Para nobles defensores.",
+    altText: "Escudo heráldico imperial ornamentado con elementos de cresta de fútbol y coronas reales sobre un fondo oscuro premium.",
+    keywords: ["Camiseta Real fútbol", "Equipación fútbol imperial", "Heráldica española", "Moda deportiva noble"]
   },
   {
     id: 'es-7',
@@ -511,11 +830,21 @@ export const menList: Product[] = [
     region: 'es',
     gender: 'men',
     category: 'Jersey',
-    description: "El arte moderno se encuentra con la tradición. Una representación geométrica del jugador, el toro y la guitarra española.",
-    metaTitle: "Camiseta Furia Geométrica | Arte Abstracto Español | Folklore FC",
-    metaDescription: "Vanguardia y tradición. Un diseño abstracto y geométrico que celebra la cultura polifacética de España en el campo de juego.",
-    altText: "Composición geométrica abstracta con formas de toro, guitarra y futbolista en colores rojo y amarillo.",
-    keywords: ["Arte abstracto fútbol", "Geometría española", "Streetwear vanguardista", "Diseño cultural moderno"]
+    description: `La vanguardia llega al campo con "Furia Geométrica".Una representación abstracta del jugador, el toro y la guitarra española donde el arte moderno se encuentra con la tradición.Estilo único para destacar.
+
+Fabricado con algodón suave de alta calidad que te brinda comodidad y excelente transpirabilidad todo el día, con una impresión duradera que mantiene la nitidez de las formas incluso después de lavados frecuentes.
+
+    Características:
+  Tejido de algodón cómodo y ligero, adecuado para uso diario
+Diseño geométrico que fusiona iconos españoles
+Adecuado para streetwear o asistir a partidos de fútbol
+Corte moderno "Oversized" que se adapta a diferentes gustos
+Impresión de alta calidad resistente a la decoloración
+Excelente opción para uso personal o como regalo único`,
+    metaTitle: "Camiseta Furia Geométrica | Arte Abstracto España | Folklore FC",
+    metaDescription: "La vanguardia llega al campo. Una representación geométrica del jugador, el toro y la guitarra, donde el arte moderno saluda a la tradición.",
+    altText: "Composición abstracta geométrica mezclando formas de toro, guitarra y futbolista en tonos rojos y amarillos intensos.",
+    keywords: ["Camiseta fútbol abstracta", "Arte geométrico español", "Equipación fútbol Modernista", "Moda deportiva cubista"]
   },
   {
     id: 'es-8',
@@ -526,11 +855,21 @@ export const menList: Product[] = [
     region: 'es',
     gender: 'men',
     category: 'Jersey',
-    description: "Donde el fútbol se convierte en arte eterno. Inspirado en Dalí, con un balón fundiéndose sobre la portería.",
-    metaTitle: "Camiseta Arte y Gol Dalí | Fútbol Surrealista | Folklore FC",
-    metaDescription: "El fútbol es una obra maestra. Camiseta inspirada en el genio de Salvador Dalí con estética surrealista. Para los que ven más allá del juego.",
-    altText: "Balón de fútbol fundiéndose al estilo de los relojes de Dalí sobre un poste de portería en un paisaje desértico.",
-    keywords: ["Salvador Dalí fútbol", "Surrealismo deportivo", "Arte eterno", "Camiseta coleccionista"]
+    description: `Donde el fútbol se vuelve eterno con "Arte y Gol".Inspirado en el surrealismo de Dalí, con un balón fundiéndose sobre la portería.Una obra maestra para los soñadores del balón.
+
+Fabricado con algodón suave de alta calidad que te brinda comodidad y excelente transpirabilidad todo el día, con una impresión duradera que mantiene el estilo artístico incluso después de lavados frecuentes.
+
+    Características:
+  Tejido de algodón cómodo y ligero, adecuado para uso diario
+Diseño surrealista inspirado en Dalí
+Adecuado para streetwear o asistir a partidos de fútbol
+Corte moderno "Oversized" que se adapta a diferentes gustos
+Impresión de alta calidad resistente a la decoloración
+Excelente opción para uso personal o como regalo único`,
+    metaTitle: "Camiseta de Fútbol Salvador Dalí | Arte y Gol | Folklore FC",
+    metaDescription: "El fútbol como obra maestra. Inspirado en el genio surrealista de Salvador Dalí, con un balón fundiéndose sobre la portería. Para los soñadores del juego.",
+    altText: "Balón de fútbol fundiéndose al estilo característico de Dalí sobre un poste de portería en un paisaje desértico onírico.",
+    keywords: ["Arte fútbol Dalí", "Camiseta fútbol surrealista", "Ropa Salvador Dalí", "Moda deportiva artística"]
   },
   {
     id: 'es-9',
@@ -541,11 +880,21 @@ export const menList: Product[] = [
     region: 'es',
     gender: 'men',
     category: 'Jersey',
-    description: "El fútbol es una fe en España. Diseño que rinde homenaje a la cultura de la Semana Santa sevillana.",
+    description: `Celebra la devoción por el juego con "Sagrada Pasión".Un diseño que rinde homenaje a la cultura de la Semana Santa sevillana, uniendo fe y fútbol.Para quienes sienten los colores como una religión.
+
+Fabricado con algodón suave de alta calidad que te brinda comodidad y excelente transpirabilidad todo el día, con una impresión duradera que mantiene la riqueza de los detalles incluso después de lavados frecuentes.
+
+    Características:
+  Tejido de algodón cómodo y ligero, adecuado para uso diario
+Diseño inspirado en la herencia de Sevilla
+Adecuado para streetwear o asistir a partidos de fútbol
+Corte moderno "Oversized" que se adapta a diferentes gustos
+Impresión de alta calidad resistente a la decoloración
+Excelente opción para uso personal o como regalo único`,
     metaTitle: "Camiseta Sagrada Pasión | Herencia de Sevilla | Folklore FC",
-    metaDescription: "La unión de fe y fútbol. Camiseta inspirada en la Semana Santa de Sevilla. Un tributo a la tradición espiritual y el fervor del estadio.",
-    altText: "Iconografía de estilo sacro sevillano rodeando un balón de fútbol con detalles de orfebrería dorada.",
-    keywords: ["Semana Santa Sevilla", "Pasión sagrada fútbol", "Cultura andaluza", "Diseño religioso deportivo"]
+    metaDescription: "Donde la fe se encuentra con el fútbol. Inspirado en las tradiciones de la Semana Santa de Sevilla. Un tributo a la devoción espiritual y el fervor del estadio.",
+    altText: "Motivos iconográficos sagrados rodeando un balón de fútbol con detalles ornamentales dorados, inspirado en la herencia de Sevilla.",
+    keywords: ["Semana Santa Sevilla", "Jersey fútbol espiritual", "Camiseta cultura andaluza", "Arte deportivo religioso"]
   },
   {
     id: 'es-10',
@@ -556,11 +905,21 @@ export const menList: Product[] = [
     region: 'es',
     gender: 'men',
     category: 'Jersey',
-    description: "Siente la energía indomable de la selección. Un mapa de España que estalla en color con un impacto de balón.",
-    metaTitle: "Camiseta La Furia Explosión | Energía Selección España | Folklore FC",
-    metaDescription: "Pasión vibrante en cada fibra. Mapa de España con explosión de colores nacionales. Representa el fútbol dinámico de la selección española.",
-    altText: "Mapa de España con una explosión central de pintura roja y amarilla causada por un balón de fútbol.",
-    keywords: ["La Furia España", "Camiseta selección española", "Explosión nacional", "Moda deportiva vibrante"]
+    description: `Siente la energía indomable con "La Furia".Un mapa de España que estalla en color tras el impacto de un balón, representando la pasión explosiva de la selección.Energía pura en cada hilo.
+
+Fabricado con algodón suave de alta calidad que te brinda comodidad y excelente transpirabilidad todo el día, con una impresión duradera que mantiene la vibración de los colores incluso después de lavados frecuentes.
+
+    Características:
+  Tejido de algodón cómodo y ligero, adecuado para uso diario
+Diseño explosivo con el mapa de España
+Adecuado para streetwear o asistir a partidos de fútbol
+Corte moderno "Oversized" que se adapta a diferentes gustos
+Impresión de alta calidad resistente a la decoloración
+Excelente opción para uso personal o como regalo único`,
+    metaTitle: "Camiseta La Furia Explosión | Energía Nacional de España | Folklore FC",
+    metaDescription: "Pasión vibrante en cada fibra. Un mapa de España explotando en colores nacionales tras el impacto del balón. Representando la energía dinámica de La Roja.",
+    altText: "Mapa de España con una explosión central de pintura roja y amarilla desencadenada por un balón de fútbol a alta velocidad.",
+    keywords: ["Camiseta Furia Roja", "Selección española fútbol", "Diseño deportivo explosivo", "Streetwear fútbol vibrante"]
   },
   {
     id: 'es-11',
@@ -571,11 +930,21 @@ export const menList: Product[] = [
     region: 'es',
     gender: 'men',
     category: 'Jersey',
-    description: "Inspirado en el coraje histórico, celebra la valentía necesaria para conquistar la gloria.",
-    metaTitle: "Camiseta Valor Leyenda | Coraje Histórico Fútbol | Folklore FC",
-    metaDescription: "Inspirada en los héroes históricos de España. Un diseño que celebra la valentía y el honor en el terreno de juego. Para campeones.",
-    altText: "Caballero español a caballo con bandera nacional frente a un gran estadio de fútbol clásico.",
-    keywords: ["Valor fútbol", "Leyenda del estadio", "Honor español", "Camiseta épica hombre"]
+    description: `Conquista la gloria con "Valor".Inspirado en el coraje histórico, este diseño celebra la valentía y el honor necesarios para ser una leyenda en el estadio.Para los héroes de cada partido.
+
+Fabricado con algodón suave de alta calidad que te brinda comodidad y excelente transpirabilidad todo el día, con una impresión duradera que mantiene la fuerza del diseño incluso después de lavados frecuentes.
+
+    Características:
+  Tejido de algodón cómodo y ligero, adecuado para uso diario
+Diseño histórico que evoca valor y honor
+Adecuado para streetwear o asistir a partidos de fútbol
+Corte moderno "Oversized" que se adapta a diferentes gustos
+Impresión de alta calidad resistente a la decoloración
+Excelente opción para uso personal o como regalo único`,
+    metaTitle: "Camiseta Valor Leyenda | Valor Histórico Español | Folklore FC",
+    metaDescription: "Conquista la gloria con Valor. Inspirado en los héroes históricos españoles, este diseño celebra la valentía y el honor necesarios para ser leyenda.",
+    altText: "Caballero español a caballo con un estandarte nacional frente a un estadio de fútbol monumental clásico.",
+    keywords: ["Camiseta fútbol Valor", "Deporte coraje histórico", "Ropa honor español", "Equipación héroe épico"]
   },
   {
     id: 'es-12',
@@ -586,11 +955,21 @@ export const menList: Product[] = [
     region: 'es',
     gender: 'men',
     category: 'Jersey',
-    description: "Un collage dinámico que captura la esencia del país: Gaudí, el toro y la técnica del jugador.",
-    metaTitle: "Camiseta Mosaico de Pasión | Esencia Furia Roja | Folklore FC",
-    metaDescription: "Toda España en una imagen. Collage dinámico con elementos de Gaudí, el toro bravo y la técnica futbolística. Streetwear de impacto.",
-    altText: "Collage artístico con cabeza de toro, patrones de Gaudí y siluetas de futbolistas en colores nacionales.",
-    keywords: ["Mosaico de pasión", "Furia Roja streetwear", "Iconos españoles", "Diseño collage fútbol"]
+    description: `Toda la esencia del país en "Mosaico de Pasión".Un collage dinámico que captura a Gaudí, el toro y la técnica del jugador.La prenda definitiva para mostrar tu amor por el fútbol español.
+
+Fabricado con algodón suave de alta calidad que te brinda comodidad y excelente transpirabilidad todo el día, con una impresión duradera que mantiene la diversidad de colores incluso después de lavados frecuentes.
+
+    Características:
+  Tejido de algodón cómodo y ligero, adecuado para uso diario
+Diseño tipo collage con iconos culturales
+Adecuado para streetwear o asistir a partidos de fútbol
+Corte moderno "Oversized" que se adapta a diferentes gustos
+Impresión de alta calidad resistente a la decoloración
+Excelente opción para uso personal o como regalo único`,
+    metaTitle: "Camiseta Mosaico de Pasión | Esencia de La Furia Roja | Folklore FC",
+    metaDescription: "El alma de la nación en una imagen. Un collage dinámico capturando el arte de Gaudí, el toro bravo y la maestría técnica. El streetwear español definitivo.",
+    altText: "Collage artístico que presenta una cabeza de toro, patrones de Gaudí y siluetas de fútbol en colores nacionales.",
+    keywords: ["Mosaico pasión española", "Collage Furia Roja", "Streetwear fútbol Gaudí", "Iconos culturales fútbol"]
   },
   {
     id: 'es-13',
@@ -601,11 +980,21 @@ export const menList: Product[] = [
     region: 'es',
     gender: 'men',
     category: 'Jersey',
-    description: "El toro, símbolo de poder, decorado con patrones tradicionales españoles sobre el fondo de un estadio.",
-    metaTitle: "Camiseta Toro Sagrado | Poder Tradicional Fútbol | Folklore FC",
-    metaDescription: "Fuerza y tradición. El icónico toro español decorado con patrones clásicos. Un diseño que une el espíritu de la arena con el césped.",
-    altText: "Cabeza de toro decorada con patrones ornamentales españoles sobre fondo de luces de estadio.",
-    keywords: ["Toro sagrado", "Símbolo de poder", "Patrones tradicionales", "Streetwear España premium"]
+    description: `El poder de la tradición con "Toro Sagrado".El símbolo supremo de fuerza decorado con patrones tradicionales españoles sobre el fondo de un estadio.Impón respeto dentro y fuera del campo.
+
+Fabricado con algodón suave de alta calidad que te brinda comodidad y excelente transpirabilidad todo el día, con una impresión duradera que mantiene la majestuosidad del diseño incluso después de lavados frecuentes.
+
+    Características:
+  Tejido de algodón cómodo y ligero, adecuado para uso diario
+Diseño del toro con patrones tradicionales
+Adecuado para streetwear o asistir a partidos de fútbol
+Corte moderno "Oversized" que se adapta a diferentes gustos
+Impresión de alta calidad resistente a la decoloración
+Excelente opción para uso personal o como regalo único`,
+    metaTitle: "Camiseta Toro Sagrado | Poder y Fuerza Tradicional | Folklore FC",
+    metaDescription: "El poder de la tradición. El icónico toro español decorado con patrones ornamentales clásicos frente a un estadio. Impón respeto.",
+    altText: "Cabeza de toro majestuosa decorada con patrones ornamentales tradicionales españoles bajo los focos del estadio.",
+    keywords: ["Fútbol Toro Sagrado", "Símbolo poder español", "Jersey patrón tradicional", "Streetwear España premium"]
   },
   {
     id: 'es-14',
@@ -616,11 +1005,21 @@ export const menList: Product[] = [
     region: 'es',
     gender: 'men',
     category: 'Jersey',
-    description: "La elegancia del matador aplicada al balón vintage. Cada toque es arte y cada pase es un poema.",
-    metaTitle: "Camiseta Olé el Fútbol | Estilo Clásico y Arte | Folklore FC",
-    metaDescription: "Puro arte español. Camiseta que celebra la 'faena' perfecta del mediocampista con estilo clásico y vintage. Olé por el buen fútbol.",
-    altText: "Balón de fútbol vintage con una montera de torero encima y salpicaduras de arte clásico.",
-    keywords: ["Olé el fútbol", "Estilo clásico español", "Arte y fútbol", "Camiseta vintage hombre"]
+    description: `Clase y tradición con "Olé el Fútbol".La elegancia del matador aplicada a un balón vintage, donde cada toque es arte y cada pase un poema.Para los puristas del buen juego.
+
+Fabricado con algodón suave de alta calidad que te brinda comodidad y excelente transpirabilidad todo el día, con una impresión duradera que mantiene el estilo clásico incluso después de lavados frecuentes.
+
+    Características:
+  Tejido de algodón cómodo y ligero, adecuado para uso diario
+Diseño vintage inspirado en el arte del toreo
+Adecuado para streetwear o asistir a partidos de fútbol
+Corte moderno "Oversized" que se adapta a diferentes gustos
+Impresión de alta calidad resistente a la decoloración
+Excelente opción para uso personal o como regalo único`,
+    metaTitle: "Camiseta Clásica Olé de Fútbol | El Arte del Bello Juego | Folklore FC",
+    metaDescription: "Clase y tradición. Celebrando la 'faena' del mediocampista con un estilo clásico vintage. Para los puristas que juegan por el Olé.",
+    altText: "Obra de arte de estilo vintage que aplica la gracia de un matador a un balón de fútbol clásico, elegante y atemporal.",
+    keywords: ["Camiseta Olé fútbol", "Fútbol clásico español", "Arte deportivo vintage", "Ropa mediocentro maestro"]
   },
   // --- أمريكا الاحترافية (EN Men - SEO & AI Optimized) ---
   {
@@ -632,11 +1031,21 @@ export const menList: Product[] = [
     region: 'en',
     gender: 'men',
     category: 'Jersey',
-    description: "Honoring the ancestral strength and spiritual connection to the land. This design blends Native American warrior heritage with the competitive drive of modern soccer.",
-    metaTitle: "Native Warrior Soccer Jersey | Indigenous Heritage Kit | Folklore FC",
-    metaDescription: "Honor the guardians of the field with the Native Warrior jersey. A powerful blend of ancestral strength and modern soccer performance. Shop the legacy.",
-    altText: "Native American warrior with traditional headdress merged with a soccer ball, vintage artistic style on a white t-shirt.",
-    keywords: ["Native American soccer", "Heritage jersey", "Indigenous sports apparel", "Warrior spirit football"]
+    description: `Honor the ancestral strength with the "Native Warrior" shirt.A powerful design that blends Indigenous heritage with the competitive drive of modern soccer.A distinctive piece that combines cultural pride with modern style, perfect for streetwear or cheering in the stands.
+
+Made from high - quality soft cotton that gives you comfort and excellent breathability all day long, with a durable print that maintains the design's clarity even after repeated washing.
+
+Features:
+Comfortable and light cotton fabric suitable for daily use
+Design inspired by Native American warrior heritage
+Suitable for streetwear or attending soccer matches
+Modern "Oversized" cut that fits various body types
+High - quality fade - resistant print
+Great choice for personal use or as a unique gift`,
+    metaTitle: "Native Warrior Soccer Jersey | Indigenous Heritage & Strength | Folklore FC",
+    metaDescription: "Honor the ancestral strength of the field. The Native Warrior jersey blends Indigenous heritage with modern soccer drive. A tribute to the original guardians.",
+    altText: "Indigenous warrior with traditional headdress merged with a soccer ball, vintage artistic engraving on a premium t-shirt.",
+    keywords: ["Native American sports heritage", "Indigenous football shirt", "Warrior spirit streetwear", "Cultural history soccer jersey"]
   },
   {
     id: 'us-2',
@@ -647,11 +1056,21 @@ export const menList: Product[] = [
     region: 'en',
     gender: 'men',
     category: 'Jersey',
-    description: "For the defenders who leave nothing to chance. Inspired by the rugged grit of the American frontier, symbolizing an impenetrable backline.",
-    metaTitle: "Steel Trap Defense Jersey | Unbreakable Soccer Gear | Folklore FC",
-    metaDescription: "Shut down the opposition with the Steel Trap jersey. Inspired by the grit of the American frontier. Perfect for the defenders who dominate the pitch.",
-    altText: "Mechanical steel trap with a soccer ball inside, rustic and rugged aesthetic on a dark men's jersey.",
-    keywords: ["Defensive soccer shirt", "American frontier style", "Rugged sportswear", "Steel Trap football"]
+    description: `Leave nothing to chance with the "Steel Trap" shirt.Inspired by the rugged grit of the American frontier, this design symbolizes an impenetrable defense.A distinctive piece that combines tough resilience with modern style, perfect for streetwear or cheering in the stands.
+
+Made from high - quality soft cotton that gives you comfort and excellent breathability all day long, with a durable print that maintains the design's clarity even after repeated washing.
+
+Features:
+Comfortable and light cotton fabric suitable for daily use
+Design inspired by the rugged American frontier
+Suitable for streetwear or attending soccer matches
+Modern "Oversized" cut that fits various body types
+High - quality fade - resistant print
+Great choice for personal use or as a unique gift`,
+    metaTitle: "Steel Trap Defense Jersey | Rugged American Frontier | Folklore FC",
+    metaDescription: "Leave nothing to chance. Inspired by the rugged grit of the American frontier, the Steel Trap symbolizes an impenetrable and resilient defense.",
+    altText: "Mechanical steel trap capturing a soccer ball, rustic and weathered frontier aesthetic on a dark heavy-cotton shirt.",
+    keywords: ["Defensive soccer streetwear", "Rugged frontier sports", "Iron-grip football gear", "American heritage defense shirt"]
   },
   {
     id: 'us-3',
@@ -662,11 +1081,21 @@ export const menList: Product[] = [
     region: 'en',
     gender: 'men',
     category: 'Jersey',
-    description: "Catch the spirit of the Wild West. Combining the thrill of the rodeo with the passion of the pitch, featuring a cowboy taming the beautiful game.",
-    metaTitle: "Rodeo Soul Cowboy Jersey | Wild West Soccer Apparel | Folklore FC",
-    metaDescription: "Ride the game with Rodeo Soul. A unique fusion of rodeo thrill and soccer passion. Built for the fearless who stay on top of the pitch.",
-    altText: "Cowboy riding a bucking soccer ball like a rodeo bronco, classic western illustration style.",
-    keywords: ["Cowboy soccer", "Rodeo sports shirt", "Wild West streetwear", "American rodeo football"]
+    description: `Catch the spirit of the Wild West with the "Rodeo Soul" shirt.Combining the thrill of the rodeo with the passion of the pitch, featuring a cowboy taming the beautiful game.A distinctive piece that combines western flair with modern style, perfect for streetwear or cheering in the stands.
+
+Made from high - quality soft cotton that gives you comfort and excellent breathability all day long, with a durable print that maintains the design's clarity even after repeated washing.
+
+Features:
+Comfortable and light cotton fabric suitable for daily use
+Design inspired by the Wild West rodeo spirit
+Suitable for streetwear or attending soccer matches
+Modern "Oversized" cut that fits various body types
+High - quality fade - resistant print
+Great choice for personal use or as a unique gift`,
+    metaTitle: "Rodeo Soul Cowboy Jersey | Wild West Spirit & Skill | Folklore FC",
+    metaDescription: "Tame the game with Rodeo Soul. A unique fusion of Wild West western flair and soccer passion. Built for the fearless playmakers who own the pitch.",
+    altText: "Action illustration of a cowboy riding a bucking soccer ball like a bronco, classic Americana western art style.",
+    keywords: ["Cowboy soccer shirt", "Rodeo spirit streetwear", "Wild West football design", "Americana sports apparel"]
   },
   {
     id: 'us-4',
@@ -677,11 +1106,21 @@ export const menList: Product[] = [
     region: 'en',
     gender: 'men',
     category: 'Jersey',
-    description: "Dedicated to the grind and the hustle. Inspired by legendary lumberjacks, representing raw power and relentless effort.",
-    metaTitle: "Timber! Lumberjack Soccer Jersey | Hard Work & Hustle | Folklore FC",
-    metaDescription: "Chop down the competition. The Timber! jersey celebrates the relentless grind of American lumberjacks. For players who value hard work and power.",
-    altText: "Lumberjack axe embedded in a wooden soccer ball with wood chips flying, vintage industrial style.",
-    keywords: ["Lumberjack sports apparel", "Work ethic soccer", "Hard work tee", "American grit streetwear"]
+    description: `Dedicate yourself to the grind with the "Timber!" shirt.Inspired by legendary lumberjacks, this design represents raw power and relentless effort.A distinctive piece that combines hard work ethic with modern style, perfect for streetwear or cheering in the stands.
+
+Made from high - quality soft cotton that gives you comfort and excellent breathability all day long, with a durable print that maintains the design's clarity even after repeated washing.
+
+Features:
+Comfortable and light cotton fabric suitable for daily use
+Design inspired by American lumberjack heritage
+Suitable for streetwear or attending soccer matches
+Modern "Oversized" cut that fits various body types
+High - quality fade - resistant print
+Great choice for personal use or as a unique gift`,
+    metaTitle: "Timber! Lumberjack Soccer Jersey | American Grit & Hard Work | Folklore FC",
+    metaDescription: "Dedicate yourself to the grind. Inspired by legendary American lumberjacks, the Timber! jersey represents raw power and relentless industrial effort.",
+    altText: "Vintage industrial style graphic of a lumberjack axe embedded in a wooden soccer ball with flying splinters.",
+    keywords: ["Lumberjack sports gear", "Work ethic football", "Industrial grit streetwear", "American worker soccer shirt"]
   },
   {
     id: 'us-5',
@@ -692,11 +1131,21 @@ export const menList: Product[] = [
     region: 'en',
     gender: 'men',
     category: 'Jersey',
-    description: "A powerful fusion of national pride and indigenous heritage. Representing the speed and pursuit of excellence in American soccer.",
-    metaTitle: "Patriot Warrior USA Jersey | Stars & Stripes Football | Folklore FC",
-    metaDescription: "Run to glory with the Patriot Warrior. A fusion of indigenous heritage and American pride. High-impact design for the elite athlete.",
-    altText: "Indigenous warrior in full stride against a backdrop of stars and stripes, patriotic soccer theme.",
-    keywords: ["USA patriotic soccer", "Warrior football jersey", "American pride sports", "Stars and stripes kit"]
+    description: `Run to glory with the "Patriot Warrior" shirt.A powerful fusion of national pride and indigenous heritage, representing the speed and pursuit of excellence.A distinctive piece that combines patriotic spirit with modern style, perfect for streetwear or cheering in the stands.
+
+Made from high - quality soft cotton that gives you comfort and excellent breathability all day long, with a durable print that maintains the design's clarity even after repeated washing.
+
+Features:
+Comfortable and light cotton fabric suitable for daily use
+Design inspired by patriotic and indigenous themes
+Suitable for streetwear or attending soccer matches
+Modern "Oversized" cut that fits various body types
+High - quality fade - resistant print
+Great choice for personal use or as a unique gift`,
+    metaTitle: "Patriot Warrior USA Jersey | Stars, Stripes & Heritage | Folklore FC",
+    metaDescription: "Run to glory with the Patriot Warrior. A powerful fusion of national stars and stripes with indigenous speed. A tribute to American pursuit of excellence.",
+    altText: "Indigenous warrior in a dynamic sprint against a backdrop of the American flag's stars and stripes, patriotic theme.",
+    keywords: ["USA patriotic football", "Stars and stripes jersey", "Warrior athlete gear", "American pride streetwear"]
   },
   {
     id: 'us-6',
@@ -707,11 +1156,21 @@ export const menList: Product[] = [
     region: 'en',
     gender: 'men',
     category: 'Jersey',
-    description: "Focus, aim, and execute. Celebrating the mastery of the frontier bowman, translating precision to the perfect strike.",
-    metaTitle: "Frontier Archer Soccer Shirt | Precision Strike Gear | Folklore FC",
-    metaDescription: "Never miss the mark. The Frontier Archer jersey is designed for clinical finishers who value the precision of the legendary American bowman.",
-    altText: "Native American archer aiming at a goal, precision-themed graphic on a white men's soccer t-shirt.",
-    keywords: ["Precision strike football", "Archer soccer design", "Clinical finisher gear", "Frontier sports"]
+    description: `Focus, aim, and execute with the "Frontier Archer" shirt.Celebrating the mastery of the frontier bowman, this design translates precision to the perfect strike.A distinctive piece that combines historical skill with modern style, perfect for streetwear or cheering in the stands.
+
+Made from high - quality soft cotton that gives you comfort and excellent breathability all day long, with a durable print that maintains the design's clarity even after repeated washing.
+
+Features:
+Comfortable and light cotton fabric suitable for daily use
+Design inspired by the frontier archer's precision
+Suitable for streetwear or attending soccer matches
+Modern "Oversized" cut that fits various body types
+High - quality fade - resistant print
+Great choice for personal use or as a unique gift`,
+    metaTitle: "Frontier Archer Soccer Jersey | Precision & Clinical Strike | Folklore FC",
+    metaDescription: "Focus, aim, and score. Celebrating the mastery of the frontier bowman, this design honors clinical finishers who value historical precision on the pitch.",
+    altText: "Detailed illustration of a frontier archer aiming at a goal, translating historical marksmanship to soccer precision.",
+    keywords: ["Precision strike soccer", "Frontier archer design", "Clinical finisher gear", "American history football"]
   },
   {
     id: 'us-7',
@@ -722,11 +1181,21 @@ export const menList: Product[] = [
     region: 'en',
     gender: 'men',
     category: 'Jersey',
-    description: "Where the dust of the desert meets the green of the goal. Cowboy-inspired design celebrating the historic legacy of the frontier.",
-    metaTitle: "Western Legacy Soccer Jersey | Desert Gold Edition | Folklore FC",
-    metaDescription: "Step into the boots of a legend. The Western Legacy jersey brings the rugged spirit of the desert to the modern soccer pitch. Vintage gold style.",
-    altText: "Cowboy boots kicking a golden soccer ball in a desert landscape, sepia-toned vintage aesthetic.",
-    keywords: ["Western soccer legacy", "Desert football shirt", "Cowboy boots sports", "Vintage Americana"]
+    description: `Experience where the desert meets the goal with the "Western Legacy" shirt.A cowboy - inspired design celebrating the historic legacy of the frontier.A distinctive piece that combines vintage Americana with modern style, perfect for streetwear or cheering in the stands.
+
+Made from high - quality soft cotton that gives you comfort and excellent breathability all day long, with a durable print that maintains the design's clarity even after repeated washing.
+
+Features:
+Comfortable and light cotton fabric suitable for daily use
+Design inspired by the historic Western frontier
+Suitable for streetwear or attending soccer matches
+Modern "Oversized" cut that fits various body types
+High - quality fade - resistant print
+Great choice for personal use or as a unique gift`,
+    metaTitle: "Western Legacy Soccer Jersey | Desert Gold & Frontier Art | Folklore FC",
+    metaDescription: "Where the desert meets the goal. A cowboy-inspired design celebrating the historic legacy of the Wild West. Vintage Americana for the modern fan.",
+    altText: "Sepia-toned vintage landscape of cowboy boots kicking a golden soccer ball amidst desert cacti and mesas.",
+    keywords: ["Western soccer legacy", "Desert gold football", "Vintage Americana streetwear", "Cowboy boots sports shirt"]
   },
   {
     id: 'us-8',
@@ -737,11 +1206,21 @@ export const menList: Product[] = [
     region: 'en',
     gender: 'men',
     category: 'Jersey',
-    description: "Unleash the heat of the road. A high-octane tribute to the rebellious American spirit, featuring a flaming skeleton.",
-    metaTitle: "Ghost Rider Soccer Jersey | Flaming Skeleton USA | Folklore FC",
-    metaDescription: "Play with burning passion. The Ghost Rider USA jersey is a tribute to the rebel spirit. High-octane design for players who ignite the pitch.",
-    altText: "Flaming skeleton riding a motorcycle with soccer ball wheels, dark and rebellious motorcycle club aesthetic.",
-    keywords: ["Ghost Rider football", "Rebel soccer jersey", "Biker style sports", "Flaming skeleton shirt"]
+    description: `Unleash the heat of the road with the "Ghost Rider USA" shirt.A high - octane tribute to the rebellious American spirit, featuring a flaming skeleton.A distinctive piece that combines biker culture with modern style, perfect for streetwear or cheering in the stands.
+
+Made from high - quality soft cotton that gives you comfort and excellent breathability all day long, with a durable print that maintains the design's clarity even after repeated washing.
+
+Features:
+Comfortable and light cotton fabric suitable for daily use
+Design inspired by the rebellious biker spirit
+Suitable for streetwear or attending soccer matches
+Modern "Oversized" cut that fits various body types
+High - quality fade - resistant print
+Great choice for personal use or as a unique gift`,
+    metaTitle: "Ghost Rider Soccer Jersey | Flaming Skeleton Rebel Style | Folklore FC",
+    metaDescription: "Fuel your passion for the road. The Ghost Rider USA jersey is a high-octane tribute to the rebel spirit, featuring iconic biker culture aesthetics.",
+    altText: "Flaming skeleton riding a motorcycle with flaming soccer ball wheels, rebellious biker club style.",
+    keywords: ["Ghost Rider football shirt", "Rebel soccer fashion", "Biker culture sports", "Flaming skeleton design kit"]
   },
   {
     id: 'us-9',
@@ -752,11 +1231,21 @@ export const menList: Product[] = [
     region: 'en',
     gender: 'men',
     category: 'Jersey',
-    description: "Inspired by the rebellious energy of the stands. Features a Wild West outlaw lighting up the pitch with passion.",
-    metaTitle: "Wanted for Pyro Jersey | Outlaw Soccer Supporter | Folklore FC",
-    metaDescription: "For the supporters who live for the heat. The Wanted for Pyro jersey combines Wild West outlaw vibes with modern stadium passion.",
-    altText: "Vintage 'Wanted' poster of a cowboy holding a flare in a soccer stadium, gritty outlaw style.",
-    keywords: ["Soccer pyro shirt", "Outlaw football gear", "Ultra culture USA", "Wild West supporter"]
+    description: `Light up the pitch with the "Wanted for Pyro" shirt.Inspired by the rebellious energy of the stands, featuring a Wild West outlaw lighting up the game with passion.A distinctive piece that combines ultra culture with modern style, perfect for streetwear or cheering in the stands.
+
+Made from high - quality soft cotton that gives you comfort and excellent breathability all day long, with a durable print that maintains the design's clarity even after repeated washing.
+
+Features:
+Comfortable and light cotton fabric suitable for daily use
+Design inspired by Wild West outlaws and fan passion
+Suitable for streetwear or attending soccer matches
+Modern "Oversized" cut that fits various body types
+High - quality fade - resistant print
+Great choice for personal use or as a unique gift`,
+    metaTitle: "Wanted for Pyro Supporter Jersey | Wild West Outlaw Heart | Folklore FC",
+    metaDescription: "For the supporters who bring the heat. The Wanted for Pyro jersey combines Wild West outlaw vibes with the energy of the modern soccer stadium.",
+    altText: "Gritty vintage 'Wanted' poster showing a cowboy with a stadium flare, blending outlaw and ultra cultures.",
+    keywords: ["Soccer supporter shirt", "Outlaw passion gear", "Ultra culture football", "Wild West fan design"]
   },
   {
     id: 'us-10',
@@ -767,11 +1256,21 @@ export const menList: Product[] = [
     region: 'en',
     gender: 'men',
     category: 'Jersey',
-    description: "The ultimate recruitment for your squad. Uncle Sam swaps his recruitment poster for a legendary strike.",
-    metaTitle: "Uncle Sam Soccer Jersey | All-American Legend | Folklore FC",
-    metaDescription: "I want YOU to win. Uncle Sam reimagined as a soccer legend. A classic American icon for the modern football culture. Join the squad.",
-    altText: "Uncle Sam in his classic hat performing a bicycle kick, parody of the recruitment poster.",
-    keywords: ["Uncle Sam soccer", "All-American football", "Iconic US sports shirt", "Patriotic soccer tee"]
+    description: `Join the ultimate squad with the "Uncle Sam" shirt.Uncle Sam swaps his recruitment poster for a legendary strike in this iconic design.A distinctive piece that combines national symbols with modern style, perfect for streetwear or cheering in the stands.
+
+Made from high - quality soft cotton that gives you comfort and excellent breathability all day long, with a durable print that maintains the design's clarity even after repeated washing.
+
+Features:
+Comfortable and light cotton fabric suitable for daily use
+Design inspired by the iconic Uncle Sam
+Suitable for streetwear or attending soccer matches
+Modern "Oversized" cut that fits various body types
+High - quality fade - resistant print
+Great choice for personal use or as a unique gift`,
+    metaTitle: "Uncle Sam Soccer Legend Jersey | Patriotic American Icon | Folklore FC",
+    metaDescription: "I want YOU to win. Reimagining Uncle Sam as a modern soccer legend. A classic All-American icon for the contemporary football community.",
+    altText: "Parody of the Uncle Sam recruitment poster featuring the icon performing a bicycle kick in red, white and blue.",
+    keywords: ["Uncle Sam football shirt", "All-American soccer jersey", "Patriotic icon sports", "Classic US culture tee"]
   },
   {
     id: 'us-11',
@@ -782,11 +1281,21 @@ export const menList: Product[] = [
     region: 'en',
     gender: 'men',
     category: 'Jersey',
-    description: "Sharp, fast, and dangerous. Inspired by the Mojave Desert's apex predator, representing an impenetrable defense.",
-    metaTitle: "Diamondback Soccer Jersey | Lethal Defense Mojave | Folklore FC",
-    metaDescription: "Strike when they least expect it. The Diamondback jersey represents the lethal precision of the Mojave predator. Impenetrable defense gear.",
-    altText: "Rattlesnake coiled around a soccer ball, desert-themed dark graphic on men's t-shirt.",
-    keywords: ["Rattlesnake soccer", "Mojave sports apparel", "Aggressive defense shirt", "Desert predator jersey"]
+    description: `Strike fast and hard with the "Lethal Defense" shirt.Inspired by the Mojave Desert's apex predator, this design represents an impenetrable defense. A distinctive piece that combines aggressive nature with modern style, perfect for streetwear or cheering in the stands.
+
+Made from high - quality soft cotton that gives you comfort and excellent breathability all day long, with a durable print that maintains the design's clarity even after repeated washing.
+
+Features:
+Comfortable and light cotton fabric suitable for daily use
+Design inspired by the Diamondback rattlesnake
+Suitable for streetwear or attending soccer matches
+Modern "Oversized" cut that fits various body types
+High - quality fade - resistant print
+Great choice for personal use or as a unique gift`,
+    metaTitle: "Lethal Defense Diamondback Jersey | Mojave Desert Predator | Folklore FC",
+    metaDescription: "Strike with desert precision. The Diamondback jersey represents the lethal spirit of the Mojave's apex predator. Built for impenetrable defense.",
+    altText: "Detailed illustration of a Diamondback rattlesnake coiled around a soccer ball, Mojave desert theme.",
+    keywords: ["Rattlesnake football shirt", "Mojave defense gear", "Predator sports apparel", "Aggressive soccer design"]
   },
   {
     id: 'us-12',
@@ -797,11 +1306,21 @@ export const menList: Product[] = [
     region: 'en',
     gender: 'men',
     category: 'Jersey',
-    description: "Where the ring meets the pitch. Celebrating the grit of American boxing, for strikers who play with heavy intensity.",
-    metaTitle: "Hard Hitting FC Jersey | Boxing Inspired Football | Folklore FC",
-    metaDescription: "Deliver the total knockout. For strikers who play with the intensity of an American boxer. Grit, power, and high-impact style.",
-    altText: "Boxing gloves holding a soccer ball with a 'KO' stamp, industrial vintage boxing gym aesthetic.",
-    keywords: ["Boxing soccer shirt", "Hard hitting football", "Combat sports streetwear", "Knockout edition jersey"]
+    description: `Step into the ring with the "Hard Hitting FC" shirt.Celebrating the grit of American boxing, for strikers who play with heavy intensity.A distinctive piece that combines combat sports heritage with modern style, perfect for streetwear or cheering in the stands.
+
+Made from high - quality soft cotton that gives you comfort and excellent breathability all day long, with a durable print that maintains the design's clarity even after repeated washing.
+
+Features:
+Comfortable and light cotton fabric suitable for daily use
+Design inspired by American boxing heritage
+Suitable for streetwear or attending soccer matches
+Modern "Oversized" cut that fits various body types
+High - quality fade - resistant print
+Great choice for personal use or as a unique gift`,
+    metaTitle: "Hard Hitting FC Boxing Jersey | Combat Sports Intensity | Folklore FC",
+    metaDescription: "Deliver the total knockout. Celebrating the grit of American boxing heritage for strikers who play with heavy intensity and high-impact style.",
+    altText: "Vintage boxing gym aesthetic with boxing gloves holding a soccer ball and a KO stamp.",
+    keywords: ["Boxing inspired soccer", "Combat sports streetwear", "Hard hitting football", "High-impact workout shirt"]
   },
   {
     id: 'us-13',
@@ -812,11 +1331,21 @@ export const menList: Product[] = [
     region: 'en',
     gender: 'men',
     category: 'Jersey',
-    description: "A breathtaking bicycle kick fused with indigenous warrior aesthetics, honoring the roots of American athleticism.",
-    metaTitle: "Native Pride Bicycle Kick Jersey | Heritage Sports Art | Folklore FC",
-    metaDescription: "Honoring the original guardians. The Native Pride jersey features a breathtaking bicycle kick in a warrior aesthetic. Deep roots, soaring spirit.",
-    altText: "Indigenous athlete performing a bicycle kick with feathers and traditional patterns trailing, high-art style.",
-    keywords: ["Native American bicycle kick", "Heritage sports art", "Indigenous pride jersey", "Athletic warrior shirt"]
+    description: `Honor the roots of athleticism with the "Native Pride" shirt.A breathtaking bicycle kick fused with indigenous warrior aesthetics.A distinctive piece that combines ancestral art with modern style, perfect for streetwear or cheering in the stands.
+
+Made from high - quality soft cotton that gives you comfort and excellent breathability all day long, with a durable print that maintains the design's clarity even after repeated washing.
+
+Features:
+Comfortable and light cotton fabric suitable for daily use
+Design inspired by Indigenous warrior aesthetics
+Suitable for streetwear or attending soccer matches
+Modern "Oversized" cut that fits various body types
+High - quality fade - resistant print
+Great choice for personal use or as a unique gift`,
+    metaTitle: "Native Pride Bicycle Kick Jersey | Indigenous Heritage Art | Folklore FC",
+    metaDescription: "Honoring the original athletic guardians. A breathtaking bicycle kick design fused with ancestral Indigenous warrior aesthetics and deep roots.",
+    altText: "Action shot of an indigenous athlete performing a bicycle kick with feathers and traditional patterns trailing.",
+    keywords: ["Indigenous sports art", "Native American football", "Heritage athlete jersey", "Bicycle kick streetwear"]
   },
   {
     id: 'us-14',
@@ -827,11 +1356,21 @@ export const menList: Product[] = [
     region: 'en',
     gender: 'men',
     category: 'Jersey',
-    description: "For the players with explosive power. Inspired by historic American artillery, symbolizing long-range strikers.",
-    metaTitle: "Heavy Artillery Soccer Shirt | Long Range Striker | Folklore FC",
-    metaDescription: "Unleash thunderous shots. The Heavy Artillery jersey is built for long-range strikers. Inspired by historic American power and precision.",
-    altText: "Vintage American cannon firing a soccer ball, smoke and fire effects, industrial grey shirt.",
-    keywords: ["Long range strike", "Artillery soccer", "Explosive power football", "Historic US military style"]
+    description: `Unleash explosive power with the "Heavy Artillery" shirt.Inspired by historic American artillery, symbolizing long - range strikers who dominate the field.A distinctive piece that combines military history with modern style, perfect for streetwear or cheering in the stands.
+
+Made from high - quality soft cotton that gives you comfort and excellent breathability all day long, with a durable print that maintains the design's clarity even after repeated washing.
+
+Features:
+Comfortable and light cotton fabric suitable for daily use
+Design inspired by historic American artillery
+Suitable for streetwear or attending soccer matches
+Modern "Oversized" cut that fits various body types
+High - quality fade - resistant print
+Great choice for personal use or as a unique gift`,
+    metaTitle: "Heavy Artillery Soccer Jersey | Long Range Power & Precision | Folklore FC",
+    metaDescription: "Unleash explosive thunder. The Heavy Artillery jersey celebrates long-range strikers. Inspired by historic American military power and precision.",
+    altText: "Vintage American artillery cannon firing a soccer ball with smoke and fire effects on a grey shirt.",
+    keywords: ["Long range striker jersey", "Artillery soccer shirt", "Explosive football power", "Historic military sports"]
   },
   {
     id: 'us-15',
@@ -842,11 +1381,21 @@ export const menList: Product[] = [
     region: 'en',
     gender: 'men',
     category: 'Jersey',
-    description: "A grand celebration of American landmarks from the Golden Gate to the Statue of Liberty.",
+    description: `Celebrate the nation with the "Liberty Pitch" shirt.A grand celebration of American landmarks from the Golden Gate to the Statue of Liberty.A distinctive piece that combines coast - to - coast pride with modern style, perfect for streetwear or cheering in the stands.
+
+Made from high - quality soft cotton that gives you comfort and excellent breathability all day long, with a durable print that maintains the design's clarity even after repeated washing.
+
+Features:
+Comfortable and light cotton fabric suitable for daily use
+Design inspired by iconic American landmarks
+Suitable for streetwear or attending soccer matches
+Modern "Oversized" cut that fits various body types
+High - quality fade - resistant print
+Great choice for personal use or as a unique gift`,
     metaTitle: "Liberty Pitch USA Jersey | Coast to Coast Landmarks | Folklore FC",
-    metaDescription: "Unite under one flag. The Liberty Pitch jersey celebrates iconic American landmarks from coast to coast. A tribute to US football culture.",
-    altText: "Collage of US landmarks like the Golden Gate Bridge and Statue of Liberty with a central soccer ball.",
-    keywords: ["USA landmarks soccer", "Coast to coast football", "American heritage jersey", "National pride shirt"]
+    metaDescription: "Unite under the stars and stripes. Celebrating iconic American landmarks from the Golden Gate to Liberty. A tribute to US football culture.",
+    altText: "Artistic collage of US landmarks including the Golden Gate Bridge and Statue of Liberty with a central ball.",
+    keywords: ["American landmarks football", "Coast to coast soccer", "National pride jersey", "US heritage sports shirt"]
   },
   {
     id: 'us-16',
@@ -857,11 +1406,21 @@ export const menList: Product[] = [
     region: 'en',
     gender: 'men',
     category: 'Jersey',
-    description: "Lead the charge on the field. Inspired by the founding spirit of 1776, for the captains and leaders.",
-    metaTitle: "1776 Revolutionary Soccer Jersey | Founding Spirit Gear | Folklore FC",
-    metaDescription: "Lead your squad to victory. Inspired by the spirit of 1776. For the captains who fight for every inch of the pitch. Join the revolution.",
-    altText: "Revolutionary War soldier with a soccer ball, vintage parchment style with 1776 typography.",
-    keywords: ["1776 soccer shirt", "Revolutionary football", "Founding fathers sports", "Captain's jersey USA"]
+    description: `Lead the charge with the "Revolutionary Squad" shirt.Inspired by the founding spirit of 1776, designed for the captains and leaders of the game.A distinctive piece that combines historical patriotism with modern style, perfect for streetwear or cheering in the stands.
+
+Made from high - quality soft cotton that gives you comfort and excellent breathability all day long, with a durable print that maintains the design's clarity even after repeated washing.
+
+Features:
+Comfortable and light cotton fabric suitable for daily use
+Design inspired by the revolutionary spirit of 1776
+Suitable for streetwear or attending soccer matches
+Modern "Oversized" cut that fits various body types
+High - quality fade - resistant print
+Great choice for personal use or as a unique gift`,
+    metaTitle: "1776 Revolutionary Soccer Jersey | Founding Spirit | Folklore FC",
+    metaDescription: "Lead the charge with the Revolutionary Squad. Inspired by the founding spirit of 1776. For the captains and leaders who fight for every inch of the pitch.",
+    altText: "Artistic parchment-style design of a Revolutionary War soldier with a soccer ball, iconic 1776 typography.",
+    keywords: ["1776 football jersey", "Revolutionary War sports", "Founding fathers soccer", "Captain's leadership gear"]
   },
   {
     id: 'us-17',
@@ -872,11 +1431,21 @@ export const menList: Product[] = [
     region: 'en',
     gender: 'men',
     category: 'Jersey',
-    description: "Celebrating the industrial heart of America, where every goal is forged through heat and hard work.",
-    metaTitle: "Forged in Steel Soccer Jersey | Industrial Work Ethic | Folklore FC",
-    metaDescription: "Success is earned. The Forged in Steel jersey celebrates the American industrial heartland. For players with a blue-collar work ethic.",
-    altText: "Molten steel being poured into a soccer ball mold, industrial factory setting, dark metallic colors.",
-    keywords: ["Industrial soccer", "Blue collar football", "Hard work sports gear", "Forged in steel shirt"]
+    description: `Celebrate the industrial heart with the "Forged in Steel" shirt.Where every goal is forged through heat and hard work, honoring the American worker.A distinctive piece that combines industrial grit with modern style, perfect for streetwear or cheering in the stands.
+
+Made from high - quality soft cotton that gives you comfort and excellent breathability all day long, with a durable print that maintains the design's clarity even after repeated washing.
+
+Features:
+Comfortable and light cotton fabric suitable for daily use
+Design inspired by the American industrial heartland
+Suitable for streetwear or attending soccer matches
+Modern "Oversized" cut that fits various body types
+High - quality fade - resistant print
+Great choice for personal use or as a unique gift`,
+    metaTitle: "Forged in Steel Soccer Jersey | Industrial Heartland Grit | Folklore FC",
+    metaDescription: "Success is earned, not given. The Forged in Steel jersey celebrates the American industrial heartland and the blue-collar work ethic that built a nation.",
+    altText: "Dramatic industrial artwork showing molten steel being poured into a soccer ball mold in a dark factory.",
+    keywords: ["Industrial soccer shirt", "Blue collar football", "Steelworker sports gear", "American worker heritage tee"]
   },
   {
     id: 'us-18',
@@ -887,11 +1456,21 @@ export const menList: Product[] = [
     region: 'en',
     gender: 'men',
     category: 'Jersey',
-    description: "Unstoppable momentum. Inspired by the legendary American steam locomotives that built the nation.",
-    metaTitle: "Iron Horse Locomotive Jersey | Unstoppable Momentum | Folklore FC",
-    metaDescription: "Full steam ahead. The Iron Horse jersey represents the power of American locomotives. Drive through the opposition with pure momentum.",
-    altText: "Steam train engine Charging forward with a soccer ball as the headlight, vintage steam engine aesthetic.",
-    keywords: ["Locomotive soccer", "Iron Horse football", "Unstoppable momentum", "Vintage train sports"]
+    description: `Gain unstoppable momentum with the "Iron Horse" shirt.Inspired by the legendary American steam locomotives that built the nation.A distinctive piece that combines powerful engineering with modern style, perfect for streetwear or cheering in the stands.
+
+Made from high - quality soft cotton that gives you comfort and excellent breathability all day long, with a durable print that maintains the design's clarity even after repeated washing.
+
+Features:
+Comfortable and light cotton fabric suitable for daily use
+Design inspired by legendary steam locomotives
+Suitable for streetwear or attending soccer matches
+Modern "Oversized" cut that fits various body types
+High - quality fade - resistant print
+Great choice for personal use or as a unique gift`,
+    metaTitle: "Iron Horse Locomotive Jersey | Full Steam Momentum | Folklore FC",
+    metaDescription: "Full steam ahead. Inspired by the legendary steam locomotives that built the USA. Pure engineering power for players with unstoppable momentum.",
+    altText: "Vintage steam locomotive charging forward with a soccer ball as its main headlight, industrial steam aesthetic.",
+    keywords: ["Locomotive football jersey", "Iron Horse soccer shirt", "Steam engine sports", "American railroad heritage"]
   },
   {
     id: 'us-19',
@@ -902,11 +1481,21 @@ export const menList: Product[] = [
     region: 'en',
     gender: 'men',
     category: 'Jersey',
-    description: "Silent, precise, and lethal. 'The Hitman' symbolizes the artistic precision of a striker who needs only one shot.",
-    metaTitle: "The Hitman Soccer Jersey | Clinical Finisher Style | Folklore FC",
-    metaDescription: "One shot, one goal. The Hitman jersey is for the precise strikers. Artistic precision meets lethal finishing. Pure class in every strike.",
-    altText: "Violin case holding a golden soccer ball and clinical finishing tools, 1920s mobster aesthetic.",
-    keywords: ["The Hitman soccer", "Clinical finisher shirt", "Precise striker jersey", "Classy football apparel"]
+    description: `Be silent, precise, and lethal with "The Hitman" shirt.Symbolizing the artistic precision of a striker who needs only one shot to change the game.A distinctive piece that combines noir aesthetics with modern style, perfect for streetwear or cheering in the stands.
+
+Made from high - quality soft cotton that gives you comfort and excellent breathability all day long, with a durable print that maintains the design's clarity even after repeated washing.
+
+Features:
+Comfortable and light cotton fabric suitable for daily use
+Design inspired by the precision of a 1920s hitman
+Suitable for streetwear or attending soccer matches
+Modern "Oversized" cut that fits various body types
+High - quality fade - resistant print
+Great choice for personal use or as a unique gift`,
+    metaTitle: "The Hitman Soccer Jersey | Clinical Finisher Noir Style | Folklore FC",
+    metaDescription: "One shot, one goal. 'The Hitman' symbolizes the artistic precision of a clinical striker. A sophisticated noir design for the game's elite finishers.",
+    altText: "Mobster-style violin case holding a golden soccer ball and tactical tools, 1920s noir aesthetic.",
+    keywords: ["Hitman football shirt", "Clinical striker gear", "Noir style soccer jersey", "Precision finisher fashion"]
   },
   {
     id: 'us-20',
@@ -917,11 +1506,21 @@ export const menList: Product[] = [
     region: 'en',
     gender: 'men',
     category: 'Jersey',
-    description: "Where entertainment meets athleticism. Celebrating the high-flying energy of American pro-wrestling.",
+    description: `Celebrate where entertainment meets athleticism with the "Soccer Slam" shirt.Capturing the high - flying energy of American pro - wrestling.A distinctive piece that combines showmanship with modern style, perfect for streetwear or cheering in the stands.
+
+Made from high - quality soft cotton that gives you comfort and excellent breathability all day long, with a durable print that maintains the design's clarity even after repeated washing.
+
+Features:
+Comfortable and light cotton fabric suitable for daily use
+Design inspired by American pro - wrestling energy
+Suitable for streetwear or attending soccer matches
+Modern "Oversized" cut that fits various body types
+High - quality fade - resistant print
+Great choice for personal use or as a unique gift`,
     metaTitle: "Soccer Slam Wrestling Jersey | All-American Showman | Folklore FC",
-    metaDescription: "Dominate the arena. The Soccer Slam jersey celebrates the energy of American pro-wrestling. For the showmen who play with patriotic flair.",
-    altText: "Wrestler in a mask holding a soccer ball above his head in a stadium ring, bright patriotic colors.",
-    keywords: ["Wrestling soccer", "All-American showman", "Pro-wrestling football", "High-energy sports shirt"]
+    metaDescription: "Dominate the arena. Capturing the high-flying energy of American pro-wrestling. For the showmen who play with patriotic flair and unstoppable energy.",
+    altText: "Action-packed wrestler graphic in a mask holding a soccer ball aloft, vibrant red, white and blue colors.",
+    keywords: ["Pro wrestling soccer", "Wrestling inspired jersey", "Sports entertainment shirt", "High energy football gear"]
   },
   {
     id: 'us-21',
@@ -932,11 +1531,21 @@ export const menList: Product[] = [
     region: 'en',
     gender: 'men',
     category: 'Jersey',
-    description: "Inspired by the 1950s American greaser subculture. A gritty, back-alley design for the rebellious spirit.",
-    metaTitle: "Game Over Greaser Jersey | Street Rebel Soccer | Folklore FC",
-    metaDescription: "It's game over for the rest. Inspired by the 1950s rebel culture. Gritty streetwear for the players who own the back-alley pitch.",
-    altText: "Rebellious 50s greaser leaning against a brick wall holding a soccer ball, gritty black and white style.",
-    keywords: ["Greaser soccer", "Street rebel football", "50s Americana shirt", "Rebellious sports gear"]
+    description: `Embrace the rebellious spirit with the "Game Over" shirt.Inspired by the 1950s American greaser subculture, offering a gritty, back - alley design.A distinctive piece that combines retro cool with modern style, perfect for streetwear or cheering in the stands.
+
+Made from high - quality soft cotton that gives you comfort and excellent breathability all day long, with a durable print that maintains the design's clarity even after repeated washing.
+
+Features:
+Comfortable and light cotton fabric suitable for daily use
+Design inspired by 1950s greaser subculture
+Suitable for streetwear or attending soccer matches
+Modern "Oversized" cut that fits various body types
+High - quality fade - resistant print
+Great choice for personal use or as a unique gift`,
+    metaTitle: "Game Over Greaser Jersey | 50s Street Rebel Edition | Folklore FC",
+    metaDescription: "Inspired by the 1950s American greaser subculture. A gritty, back-alley rebel design for the players who own the streets and the game.",
+    altText: "Gritty black and white illustration of a 1950s greaser leaning against a brick wall with a soccer ball.",
+    keywords: ["Greaser soccer fashion", "50s rebel football", "Back-alley sports shirt", "Retro Americana streetwear"]
   },
   {
     id: 'us-22',
@@ -947,11 +1556,21 @@ export const menList: Product[] = [
     region: 'en',
     gender: 'men',
     category: 'Jersey',
-    description: "Mastering the frontier. A cowboy taming a bucking bronco while delivering a legendary kick across the canyon.",
-    metaTitle: "Canyon Kickoff Western Jersey | Frontier Mastery | Folklore FC",
-    metaDescription: "Tame the frontier. The Canyon Kickoff jersey celebrates the fearless spirit of the West. A legendary kick across the desert canyons.",
-    altText: "Cowboy kicking a ball across a deep red rock canyon, cinematic Wild West landscape.",
-    keywords: ["Canyon soccer", "Western kickoff shirt", "Grand Canyon sports", "Wild West football"]
+    description: `Master the frontier with the "Canyon Kickoff" shirt.Featuring a cowboy taming a bucking bronco while delivering a legendary kick across the canyon.A distinctive piece that combines wild adventure with modern style, perfect for streetwear or cheering in the stands.
+
+Made from high - quality soft cotton that gives you comfort and excellent breathability all day long, with a durable print that maintains the design's clarity even after repeated washing.
+
+Features:
+Comfortable and light cotton fabric suitable for daily use
+Design inspired by the Wild West canyon landscapes
+Suitable for streetwear or attending soccer matches
+Modern "Oversized" cut that fits various body types
+High - quality fade - resistant print
+Great choice for personal use or as a unique gift`,
+    metaTitle: "Canyon Kickoff Western Jersey | Frontier Adventure | Folklore FC",
+    metaDescription: "Master the frontier. A cowboy taming a bucking bronco while delivering a legendary kick across the canyon. Cinematic Wild West adventure for the pitch.",
+    altText: "Epic cinematic design showing a cowboy kicking a ball across a deep Arizona-style red rock canyon.",
+    keywords: ["Canyon soccer shirt", "Western adventure jersey", "Grand Canyon football", "Desert landscape sports gear"]
   },
   {
     id: 'us-23',
@@ -962,11 +1581,21 @@ export const menList: Product[] = [
     region: 'en',
     gender: 'men',
     category: 'Jersey',
-    description: "Ready at a minute's notice. Honoring the colonial soldiers, blending the Liberty Bell with the modern stadium.",
-    metaTitle: "Minutemen FC Soccer Jersey | Revolutionary Spirit | Folklore FC",
-    metaDescription: "Ready for the call. The Minutemen FC jersey honors American leadership and sacrifice. Blending history with the modern stadium.",
-    altText: "Liberty Bell with a soccer ball as the clapper, colonial soldier silhouette in the background.",
-    keywords: ["Minutemen soccer", "Liberty Bell football", "Revolutionary War shirt", "US history sports"]
+    description: `Be ready at a minute's notice with the "Minutemen FC" shirt. Honoring the colonial soldiers, blending the Liberty Bell with the modern stadium experience. A distinctive piece that combines historical duty with modern style, perfect for streetwear or cheering in the stands.
+
+Made from high - quality soft cotton that gives you comfort and excellent breathability all day long, with a durable print that maintains the design's clarity even after repeated washing.
+
+Features:
+Comfortable and light cotton fabric suitable for daily use
+Design inspired by the colonial Minutemen and Liberty Bell
+Suitable for streetwear or attending soccer matches
+Modern "Oversized" cut that fits various body types
+High - quality fade - resistant print
+Great choice for personal use or as a unique gift`,
+    metaTitle: "Minutemen FC Soccer Jersey | Revolutionary Spirit & Gear | Folklore FC",
+    metaDescription: "Honoring the colonial Minutemen and the Liberty Bell. A distinctive piece blending historical duty with the modern stadium experience.",
+    altText: "Iconic Liberty Bell design with a soccer ball clapper and colonial soldier silhouette in the background.",
+    keywords: ["Minutemen football jersey", "Liberty Bell soccer", "Revolutionary War sports shirt", "Philadelphia heritage gear"]
   },
   {
     id: 'us-24',
@@ -977,11 +1606,21 @@ export const menList: Product[] = [
     region: 'en',
     gender: 'men',
     category: 'Jersey',
-    description: "Nature's unstoppable fury. Capturing the raw energy of a Great Plains tornado swirling around the goal.",
-    metaTitle: "Tornado Force Soccer Jersey | Great Plains Storm | Folklore FC",
-    metaDescription: "Bring the chaos. The Storm the Pitch jersey captures the whirlwind speed of a Great Plains tornado. Unstoppable energy gear.",
-    altText: "Massive tornado made of soccer balls swirling over a green pitch with a dramatic sky.",
-    keywords: ["Tornado soccer", "Storm the pitch jersey", "Whirlwind speed football", "Nature force sports"]
+    description: `Unleash nature's unstoppable fury with the "Storm the Pitch" shirt. Capturing the raw energy of a Great Plains tornado swirling around the goal. A distinctive piece that combines natural power with modern style, perfect for streetwear or cheering in the stands.
+
+Made from high - quality soft cotton that gives you comfort and excellent breathability all day long, with a durable print that maintains the design's clarity even after repeated washing.
+
+Features:
+Comfortable and light cotton fabric suitable for daily use
+Design inspired by the Great Plains tornado force
+Suitable for streetwear or attending soccer matches
+Modern "Oversized" cut that fits various body types
+High - quality fade - resistant print
+Great choice for personal use or as a unique gift`,
+    metaTitle: "Tornado Force Soccer Jersey | Great Plains Storm Spirit | Folklore FC",
+    metaDescription: "Nature's unstoppable fury. Capturing the raw energy of a Great Plains tornado swirling around the pitch. Whilrwind speed and chaotic power.",
+    altText: "Dramatic storm artwork featuring a massive tornado made of soccer balls over a dark, green stadium field.",
+    keywords: ["Tornado football shirt", "Storm force soccer", "Great Plains sports gear", "Meteorological soccer design"]
   },
   {
     id: 'us-25',
@@ -992,11 +1631,21 @@ export const menList: Product[] = [
     region: 'en',
     gender: 'men',
     category: 'Jersey',
-    description: "Pure, unstoppable force. Featuring the American Bison charging through the net, symbolizing resilience.",
-    metaTitle: "Buffalo Charge Power Jersey | American Resilience | Folklore FC",
-    metaDescription: "Break through every barrier. The Buffalo Charge jersey symbolizes the raw power and resilience of the American spirit on the pitch.",
-    altText: "American Bison charging through a soccer net, woodcut style illustration.",
-    keywords: ["Buffalo soccer jersey", "Resilience football shirt", "Bison charge sports", "American force gear"]
+    description: `Channel pure, unstoppable force with the "Power Play" shirt.Featuring the American Bison charging through the net, symbolizing resilience.A distinctive piece that combines wildlife power with modern style, perfect for streetwear or cheering in the stands.
+
+Made from high - quality soft cotton that gives you comfort and excellent breathability all day long, with a durable print that maintains the design's clarity even after repeated washing.
+
+Features:
+Comfortable and light cotton fabric suitable for daily use
+Design inspired by the American Bison charge
+Suitable for streetwear or attending soccer matches
+Modern "Oversized" cut that fits various body types
+High - quality fade - resistant print
+Great choice for personal use or as a unique gift`,
+    metaTitle: "Buffalo Power Play Jersey | American Bison Resilience | Folklore FC",
+    metaDescription: "Break through every barrier. The Buffalo Power Play jersey symbolizes the raw power and resilient spirit of the American frontier.",
+    altText: "Woodcut-style illustration of an American Bison charging through a soccer net with raw power.",
+    keywords: ["Bison soccer jersey", "American buffalo gear", "Resilient sports fashion", "Wall Street bull style soccer"]
   },
   {
     id: 'us-26',
@@ -1007,11 +1656,21 @@ export const menList: Product[] = [
     region: 'en',
     gender: 'men',
     category: 'Jersey',
-    description: "Taming the game. This creative design features a cowboy riding a soccer ball like a bucking bronco.",
-    metaTitle: "Bronco Ball Western Jersey | Cowboy Legacy Edition | Folklore FC",
-    metaDescription: "Tame the game under the stars. The Bronco Ball jersey is a unique fusion of rodeo thrill and football passion. Cowboy legacy gear.",
-    altText: "Cowboy riding a giant soccer ball like a bucking bronco under a starry night sky.",
-    keywords: ["Bronco soccer", "Cowboy football jersey", "Rodeo legacy shirt", "Western sports art"]
+    description: `Tame the game with the "Bronco Ball" shirt.This creative design features a cowboy riding a soccer ball like a bucking bronco under the stars.A distinctive piece that combines rodeo excitement with modern style, perfect for streetwear or cheering in the stands.
+
+Made from high - quality soft cotton that gives you comfort and excellent breathability all day long, with a durable print that maintains the design's clarity even after repeated washing.
+
+Features:
+Comfortable and light cotton fabric suitable for daily use
+Design inspired by the cowboy rodeo legacy
+Suitable for streetwear or attending soccer matches
+Modern "Oversized" cut that fits various body types
+High - quality fade - resistant print
+Great choice for personal use or as a unique gift`,
+    metaTitle: "Bronco Ball Western Jersey | Cowboy Legacy & Rodeo | Folklore FC",
+    metaDescription: "Tame the game under the stars. A unique fusion of cowboy rodeo legacy and football passion. Built for the reckless who ride the game.",
+    altText: "Cowboy riding a bucking soccer ball like a bronco under a vast starry night sky, western art style.",
+    keywords: ["Bronco football shirt", "Rodeo soccer design", "Cowboy lifestyle jersey", "Night sky western gear"]
   },
   {
     id: 'us-27',
@@ -1022,11 +1681,21 @@ export const menList: Product[] = [
     region: 'en',
     gender: 'men',
     category: 'Jersey',
-    description: "Freedom to play. A colonial soldier delivers a legendary bicycle kick in front of the Liberty Bell.",
-    metaTitle: "Liberty Kick Soccer Jersey | Revolutionary Legacy | Folklore FC",
-    metaDescription: "Celebrate the evolution of US soccer. The Liberty Kick jersey features a historic bicycle kick by a colonial soldier. Freedom to win.",
-    altText: "Colonial soldier performing a bicycle kick with the Liberty Bell in the background, blue and white theme.",
-    keywords: ["Liberty kick soccer", "Revolutionary legacy gear", "Colonial sports shirt", "Bicycle kick art"]
+    description: `Exercise your freedom to play with the "Liberty Kick" shirt.A colonial soldier delivers a legendary bicycle kick in front of the Liberty Bell.A distinctive piece that combines revolutionary heritage with modern style, perfect for streetwear or cheering in the stands.
+
+Made from high - quality soft cotton that gives you comfort and excellent breathability all day long, with a durable print that maintains the design's clarity even after repeated washing.
+
+Features:
+Comfortable and light cotton fabric suitable for daily use
+Design inspired by Revolutionary War history
+Suitable for streetwear or attending soccer matches
+Modern "Oversized" cut that fits various body types
+High - quality fade - resistant print
+Great choice for personal use or as a unique gift`,
+    metaTitle: "Liberty Kick Soccer Jersey | Revolutionary War Art | Folklore FC",
+    metaDescription: "Exercise your freedom to win. Featuring a colonial soldier delivering a legendary bicycle kick in front of the Liberty Bell. Revolutionary heritage.",
+    altText: "Historic-style artwork of a colonial soldier performing a bicycle kick with the Liberty Bell background.",
+    keywords: ["Liberty kick football", "Revolutionary soldier shirt", "Historic bicycle kick gear", "American heritage sports art"]
   },
   {
     id: 'us-28',
@@ -1037,13 +1706,23 @@ export const menList: Product[] = [
     region: 'en',
     gender: 'men',
     category: 'Jersey',
-    description: "The soul of the Southwest. Featuring the iconic Longhorn skull and a frontier striker, honoring the rugged landscapes.",
-    metaTitle: "Desert Striker Longhorn Jersey | Southwest Heritage | Folklore FC",
-    metaDescription: "The soul of the Southwest. The Desert Striker jersey pays tribute to the rugged landscapes and the historic legacy of Western soccer.",
-    altText: "Longhorn skull with a soccer ball between its horns, desert frontier background.",
-    keywords: ["Longhorn soccer jersey", "Southwest sports shirt", "Desert striker gear", "Western heritage football"]
+    description: `Embody the soul of the Southwest with the "Desert Striker" shirt.Featuring the iconic Longhorn skull and a frontier striker, honoring the rugged landscapes.A distinctive piece that combines regional heritage with modern style, perfect for streetwear or cheering in the stands.
+
+Made from high - quality soft cotton that gives you comfort and excellent breathability all day long, with a durable print that maintains the design's clarity even after repeated washing.
+
+Features:
+Comfortable and light cotton fabric suitable for daily use
+Design inspired by the American Southwest and Longhorns
+Suitable for streetwear or attending soccer matches
+Modern "Oversized" cut that fits various body types
+High-quality fade-resistant print
+Great choice for personal use or as a unique gift`,
+    metaTitle: "Desert Striker Longhorn Jersey | Southwest Frontier Spirit | Folklore FC",
+    metaDescription: "Embody the soul of the American Southwest. Featuring the iconic Longhorn skull and a frontier striker, honoring the rugged desert landscapes.",
+    altText: "Stylized Longhorn skull with soccer ball patterns in its horns, set against a desert mesa sunrise.",
+    keywords: ["Longhorn soccer shirt", "Southwest sports gear", "Desert striker fashion", "Texas heritage football"]
   },
-  
+
   // --- اليابان الاحترافية (JA Men - SEO & AI Optimized) ---
   {
     id: 'jp-1',
@@ -1054,11 +1733,21 @@ export const menList: Product[] = [
     region: 'ja',
     gender: 'men',
     category: 'Jersey',
-    description: "ステルスと精度の融合。'シャドウ・ストライカー'は、忍者の俊敏さと現代サッカーの戦術を組み合わせたデザインです。影の中からゴールを狙う、ストリートウェアの真髄を体感してください。",
-    metaTitle: "忍者 サッカーユニフォーム | Shadow Striker Shinobi | Folklore FC",
-    metaDescription: "忍者の俊敏さとサッカー戦術の融合。'シャドウ・ストライカー'限定エディション。影からゴールを狙うストライカーのための究極のストリートウェア。",
-    altText: "忍者の装束をモチーフにしたスタイリッシュなサッカーユニフォーム、背後に手裏剣のグラフィック。",
-    keywords: ["忍者 サッカー", "Shinobi Jersey", "ストリートウェア 日本", "忍者 デザイン Tシャツ"]
+    description: `ステルスと精度の融合。'シャドウ・ストライカー'は、忍者の俊敏さと現代サッカーの戦術を組み合わせたデザインです。影の中からゴールを狙う、ストリートウェアの真髄を体感してください。
+
+最高品質のソフトコットンを使用し、一日中快適な着心地と優れた通気性を提供します。何度洗濯してもデザインの鮮明さを保つ耐久性のあるプリントが施されています。
+
+特徴:
+日常使いに適した快適で軽量なコットン生地
+忍者の隠密性をテーマにしたデザイン
+ストリートウェアやサッカー観戦に最適
+様々な体型にフィットするモダンな「オーバーサイズ」カット
+色あせしにくい高品質プリント
+自分用にも、ユニークなギフトとしても最適`,
+    metaTitle: "シャドウ・ストライカー 忍ジャージー | 忍者の俊敏性と精度 | Folklore FC",
+    metaDescription: "ステルスと精度の融合。シャドウ・ストライカーは、忍の俊敏さと現代サッカーの戦術を融合させています。影から攻撃する者たちのための究極のストリートウェア。",
+    altText: "プレミアムブラックコットンに手裏剣のグラフィックと隠れた忍のモチーフをあしらった、忍装束にインスパイアされたサッカーユニフォーム。",
+    keywords: ["忍者 サッカー ジャージー", "忍 ストライカー ギア", "日本 シャドウ ストリートウェア", "ステルス スポーツ ファッション"]
   },
   {
     id: 'jp-2',
@@ -1069,11 +1758,21 @@ export const menList: Product[] = [
     region: 'ja',
     gender: 'men',
     category: 'Jersey',
-    description: "ネオ東京の未来を纏う。サイバーパンクな美学とサッカー文化が交差する'Tokyo FC 2077'。次世代のフットボールスタイルを切り拓きます。",
-    metaTitle: "サイバーパンク サッカーシャツ | Tokyo FC 2077 | Folklore FC",
-    metaDescription: "未来の東京を歩く。サイバーパンク美学とフットボールの融合。Tokyo FC 2077で、ネオン輝くストリートスタイルを手に入れろ。",
-    altText: "ネオンカラーの回路図が描かれたサイバーパンク風サッカーユニフォーム、東京の夜景をイメージ。",
-    keywords: ["サイバーパンク ファッション", "東京 FC", "Cyberpunk Soccer", "ネオン デザイン シャツ"]
+    description: `ネオ東京の未来を纏う。サイバーパンクな美学とサッカー文化が交差する'Tokyo FC 2077'。次世代のフットボールスタイルを切り拓く、革新的なデザインです。
+
+最高品質のソフトコットンを使用し、一日中快適な着心地と優れた通気性を提供します。何度洗濯してもデザインの鮮明さを保つ耐久性のあるプリントが施されています。
+
+特徴:
+日常使いに適した快適で軽量なコットン生地
+サイバーパンクとネオンカラーの融合
+ストリートウェアやサッカー観戦に最適
+様々な体型にフィットするモダンな「オーバーサイズ」カット
+色あせしにくい高品質プリント
+自分用にも、ユニークなギフトとしても最適`,
+    metaTitle: "東京FC 2077 サイバーパンク ジャージー | ネオ東京ピッチ | Folklore FC",
+    metaDescription: "ネオ東京の未来を纏え。サイバーパンクな美学とハイテクなサッカー文化の融合。次世代のプレーのための高視認性ネオンデザイン。",
+    altText: "ネオンの回路図と光り輝く東京の夜景の美学を特徴とするサイバーパンクスタイルのサッカーユニフォーム。",
+    keywords: ["サイバーパンク サッカー ジャージー", "ネオ東京 サッカーシャツ", "ネオン スポーツ ストリートウェア", "未来の東京FC ギア"]
   },
   {
     id: 'jp-3',
@@ -1084,11 +1783,21 @@ export const menList: Product[] = [
     region: 'ja',
     gender: 'men',
     category: 'Jersey',
-    description: "侍の魂、ピッチに降臨。伝統的な兜（かぶと）に葛飾北斎の波の文様を刻んだデザイン。日本の伝統とサッカーの情熱が融合した一着。",
-    metaTitle: "侍 サッカーユニフォーム | Blue Samurai Kabuto | Folklore FC",
-    metaDescription: "侍の魂を纏う。伝統的な兜と北斎の波をデザインしたBlue Samurai。日本の誇りと情熱をピッチで表現するためのプレミアムシャツ。",
-    altText: "侍の兜と力強い波の文様が融合した紺色のサッカーユニフォーム、和柄のディテール。",
-    keywords: ["侍 ユニフォーム", "Blue Samurai", "和柄 サッカー", "日本伝統 スポーツウェア"]
+    description: `侍の魂、ピッチに降臨。伝統的な兜（かぶと）に葛飾北斎の波の文様を刻んだデザイン。日本の伝統美とサッカーの情熱が融合した、誇り高き一着です。
+
+最高品質のソフトコットンを使用し、一日中快適な着心地と優れた通気性を提供します。何度洗濯してもデザインの鮮明さを保つ耐久性のあるプリントが施されています。
+
+特徴:
+日常使いに適した快適で軽量なコットン生地
+侍の兜と北斎の波をモチーフにした和柄
+ストリートウェアやサッカー観戦に最適
+様々な体型にフィットするモダンな「オーバーサイズ」カット
+色あせしにくい高品質プリント
+自分用にも、ユニークなギフトとしても最適`,
+    metaTitle: "ブルーサムライ 兜ヘリテージ ジャージー | 日本の兜 遺産 | Folklore FC",
+    metaDescription: "ピッチに宿る侍の魂。伝統的な兜のモチーフと北斎の象徴的な波模様を特徴としています。すべての糸に誇りと情熱を込めて。",
+    altText: "ゴールドとホワイトの北斎スタイルの波のディテールと、猛々しいサムライの兜を融合させたディープネイビーのサッカーユニフォーム。",
+    keywords: ["ブルーサムライ ジャージー", "兜 サッカーシャツ", "日本の伝統 スポーツ", "侍の魂 ストリートウェア"]
   },
   {
     id: 'jp-4',
@@ -1099,11 +1808,21 @@ export const menList: Product[] = [
     region: 'ja',
     gender: 'men',
     category: 'Jersey',
-    description: "一撃必殺の美学。ミニマルなシルエットと力強い『蹴』の漢字が、サッカーの本質を表現。日の丸を背負い、技術と精神の極致を目指すプレイヤーに。",
-    metaTitle: "漢字 サッカーTシャツ | Kanji Spirit - The Art of Kick | Folklore FC",
-    metaDescription: "『蹴』の一文字に込められたサッカーの真髄。ミニマルなデザインと力強い筆文字。日本の精神性と技術の極致を表現した一着。",
-    altText: "中央に大きく力強い『蹴』の漢字が筆文字で書かれた、日の丸をイメージした白のサッカーTシャツ。",
-    keywords: ["漢字 Tシャツ", "サッカー 芸術", "Kanji Art Shirt", "ミニマル デザイン 日本"]
+    description: `一撃必殺の美学。ミニマルなシルエットと力強い『蹴』の漢字が、サッカーの本質を表現。日の丸を背負い、技術と精神の極致を目指すプレイヤーに捧げます。
+
+最高品質のソフトコットンを使用し、一日中快適な着心地と優れた通気性を提供します。何度洗濯してもデザインの鮮明さを保つ耐久性のあるプリントが施されています。
+
+特徴:
+日常使いに適した快適で軽量なコットン生地
+力強い漢字『蹴』とミニマルな日の丸デザイン
+ストリートウェアやサッカー観戦に最適
+様々な体型にフィットするモダンな「オーバーサイズ」カット
+色あせしにくい高品質プリント
+自分用にも、ユニークなギフトとしても最適`,
+    metaTitle: "「蹴」の精神 サッカーシャツ | 蹴球の芸術 | Folklore FC",
+    metaDescription: "一文字に込められたサッカーの本質。力強い「蹴」の漢字をあしらったミニマルなデザイン。技術の頂点を目指すプレイヤーのために。",
+    altText: "力強い手書きの「蹴」の漢字と日の丸の赤いアクセントを特徴とするミニマルなホワイトサッカーTシャツ。",
+    keywords: ["漢字 サッカーシャツ", "日本 書道 スポーツ", "ミニマル フットボール Tシャツ", "禅 キック アパレル"]
   },
   {
     id: 'jp-5',
@@ -1114,11 +1833,21 @@ export const menList: Product[] = [
     region: 'ja',
     gender: 'men',
     category: 'Jersey',
-    description: "歴史が動き出す。伝統的な絵巻物をイメージした背景に、城郭を駆け抜ける忍者のサッカーマッチを描写。日本の古き良き美しさと躍動感が調和。",
-    metaTitle: "忍者 城郭 サッカーシャツ | Samurai Blue Shadows | Folklore FC",
-    metaDescription: "絵巻物のようなサッカーマッチ。日本の城郭を舞台に忍者が躍動するアートデザイン。歴史とスポーツが融合した特別な一着。",
-    altText: "日本の城を背景に、忍者がサッカーをしている様子を絵巻物スタイルで描いたグラフィックシャツ。",
-    keywords: ["忍者 城 デザイン", "絵巻物 アート", "Japanese Castle Sportswear", "和風 グラフィックT"]
+    description: `歴史が動き出す。伝統的な絵巻物をイメージした背景に、城郭を駆け抜ける忍者のサッカーマッチを描写。日本の古き良き美しさとスポーツの躍動感が調和した一枚です。
+
+最高品質のソフトコットンを使用し、一日中快適な着心地と優れた通気性を提供します。何度洗濯してもデザインの鮮明さを保つ耐久性のあるプリントが施されています。
+
+特徴:
+日常使いに適した快適で軽量なコットン生地
+絵巻物風の忍者と城郭デザイン
+ストリートウェアやサッカー観戦に最適
+様々な体型にフィットするモダンな「オーバーサイズ」カット
+色あせしにくい高品質プリント
+自分用にも、ユニークなギフトとしても最適`,
+    metaTitle: "城郭の影 忍者ジャージー | 歴史的絵巻物アート | Folklore FC",
+    metaDescription: "動き出す歴史。伝統的な日本の城を背景にした見事な忍者たちの対戦。古代の美とアスリートのエネルギーの調和。 ",
+    altText: "プレミアムライトコットンシャツに描かれた、歴史的な城の近くでの忍者の試合を描いた伝統的な日本の絵巻物風のアートワーク。",
+    keywords: ["忍者 城 ジャージー", "日本の絵巻物 スポーツアート", "歴史的 忍者サッカー", "江戸時代 サッカースタイル"]
   },
   {
     id: 'jp-6',
@@ -1129,11 +1858,21 @@ export const menList: Product[] = [
     region: 'ja',
     gender: 'men',
     category: 'Jersey',
-    description: "国技とサッカーの最強タッグ。力士の圧倒的なパワーをサッカーに融合。富士山と鳥居を背景に、日本独自のスポーツ文化を讃えるデザイン。",
-    metaTitle: "相撲 サッカーユニフォーム | Sumo Striker Japan | Folklore FC",
-    metaDescription: "相撲の力強さをサッカーへ。富士山と鳥居を背負うSumo Striker。日本の国技とフットボールが交差するダイナミックなデザイン。",
-    altText: "富士山と赤い鳥居を背景に、力士が豪快にサッカーボールを蹴るイラストが描かれたシャツ。",
-    keywords: ["相撲 グッズ", "富士山 サッカー", "Sumo Sportswear", "日本文化 Tシャツ"]
+    description: `国技とサッカーの最強タッグ。力士の圧倒的なパワーをサッカーに融合。富士山と鳥居を背景に、日本独自のスポーツ文化を力強く讃えるデザインです。
+
+最高品質のソフトコットンを使用し、一日中快適な着心地と優れた通気性を提供します。何度洗濯してもデザインの鮮明さを保つ耐久性のあるプリントが施されています。
+
+特徴:
+日常使いに適した快適で軽量なコットン生地
+力士、富士山、鳥居の日本的モチーフ
+ストリートウェアやサッカー観戦に最適
+様々な体型にフィットするモダンな「オーバーサイズ」カット
+色あせしにくい高品質プリント
+自分用にも、ユニークなギフトとしても最適`,
+    metaTitle: "相撲ストライカー ジャパン ジャージー | 国家の誇りエディション | Folklore FC",
+    metaDescription: "止められない力。富士山と鳥居を背景に、相撲の力強さとサッカーのスピードを融合。日本の二大スポーツ文化へのオマージュ。",
+    altText: "富士山と赤い鳥居の前でサッカーボールを蹴る力士のダイナミックなイラスト。",
+    keywords: ["相撲 サッカー ジャージー", "富士山 サッカーシャツ", "日本の誇り スポーツ", "ヘビー級 ストライカー アパレル"]
   },
   {
     id: 'jp-7',
@@ -1144,11 +1883,21 @@ export const menList: Product[] = [
     region: 'ja',
     gender: 'men',
     category: 'Jersey',
-    description: "怪獣、ピッチを支配する。スタジアムを圧倒する巨大な怪獣がサッカーボールを掴む。日本のポップカルチャーとサッカーの熱狂がぶつかり合う一枚。",
-    metaTitle: "怪獣 サッカーユニフォーム | Kaiju Domination Titan FC | Folklore FC",
-    metaDescription: "怪獣がスタジアムを襲う！日本のポップカルチャーを象徴する怪獣デザインのサッカーユニフォーム。圧倒的なインパクトでピッチを支配せよ。",
-    altText: "スタジアムを破壊する巨大な怪獣（ゴジラ風）がサッカーボールを鷲掴みにしている迫力あるデザイン。",
-    keywords: ["怪獣 デザイン", "Kaiju Fashion", "特撮 サッカー", "ポップカルチャー シャツ"]
+    description: `怪獣、ピッチを支配する。スタジアムを圧倒する巨大な怪獣がサッカーボールを掴む。日本のポップカルチャーとサッカーの熱狂がぶつかり合う、インパクト絶大のシャツ。
+
+最高品質のソフトコットンを使用し、一日中快適な着心地と優れた通気性を提供します。何度洗濯してもデザインの鮮明さを保つ耐久性のあるプリントが施されています。
+
+特徴:
+日常使いに適した快適で軽量なコットン生地
+日本の特撮怪獣をモチーフにした迫力のデザイン
+ストリートウェアやサッカー観戦に最適
+様々な体型にフィットするモダンな「オーバーサイズ」カット
+色あせしにくい高品質プリント
+自分用にも、ユニークなギフトとしても最適`,
+    metaTitle: "怪獣ドミネーション サッカー ジャージー | Titan FC モンスターアート | Folklore FC",
+    metaDescription: "怪物のような力でアリーナを支配せよ。ライバルを粉砕する巨大な怪獣。日本のポップカルチャーとスタジアムの熱狂の融合。",
+    altText: "満員のスタジアムを背景に、サッカーボールを掴む巨大な街を破壊する怪獣（ゴジラスタイル）。",
+    keywords: ["怪獣 サッカー ジャージー", "モンスター サッカーアート", "日本のポップカルチャー シャツ", "巨大 タイタン スポーツギア"]
   },
   {
     id: 'jp-8',
@@ -1159,11 +1908,21 @@ export const menList: Product[] = [
     region: 'ja',
     gender: 'men',
     category: 'Jersey',
-    description: "禅の精神、円の完成。鳥居と蓮の花に囲まれ、円相（えんそう）の中でボールを操るプレイヤー。日本独自の精神性をストリートスタイルに昇華。",
-    metaTitle: "禅 サッカーシャツ | Zen Football Spirit of Nippon | Folklore FC",
-    metaDescription: "禅の静寂とサッカーの動。円相（Enso）の中に調和を見出すデザイン。日本独自の精神性を纏う、洗練されたストリートウェア。",
-    altText: "円相（筆で描かれた円）の中にサッカープレイヤーと鳥居、蓮の花が描かれた精神的なデザインのシャツ。",
-    keywords: ["禅 ファッション", "円相 デザイン", "Zen Art Soccer", "スピリチュアル スポーツウェア"]
+    description: `禅の精神、円の完成。鳥居と蓮の花に囲まれ、円相（えんそう）の中でボールを操るプレイヤー。日本独自の精神性をストリートスタイルに昇華させた、静寂と動の調和。
+
+最高品質のソフトコットンを使用し、一日中快適な着心地と優れた通気性を提供します。何度洗濯してもデザインの鮮明さを保つ耐久性のあるプリントが施されています。
+
+特徴:
+日常使いに適した快適で軽量なコットン生地
+禅の円相（Enso）と精神性を表現したデザイン
+ストリートウェアやサッカー観戦に最適
+様々な体型にフィットするモダンな「オーバーサイズ」カット
+色あせしにくい高品質プリント
+自分用にも、ユニークなギフトとしても最適`,
+    metaTitle: "禅フットボール 円相ジャージー | 日本の精神 | Folklore FC",
+    metaDescription: "動きの中の調和。円相（禅の円）はピッチ上の完璧なフロー状態を表します。鳥居と蓮の花に囲まれた、洗練された日本のストリートウェア。",
+    altText: "鳥居とサッカー選手を囲む、手書きの円相（禅の円）。精神的で芸術的なミニマリストデザイン。",
+    keywords: ["禅 サッカー ジャージー", "円相 スポーツアート", "日本の精神 ストリートウェア", "フロー状態 サッカーシャツ"]
   },
   {
     id: 'jp-9',
@@ -1174,11 +1933,21 @@ export const menList: Product[] = [
     region: 'ja',
     gender: 'men',
     category: 'Jersey',
-    description: "究極の集中力。マンガのアートスタイルからインスピレーションを得た、青く光る瞳のデザイン。ピッチ上での一瞬の判断力を表現。",
-    metaTitle: "マンガ風 サッカーTシャツ | Manga Focus Blue Eye | Folklore FC",
-    metaDescription: "ブルーロックのような熱狂を。マンガ風の鋭い瞳が勝利への執念を映し出す。究極の集中力を表現したエッジの効いたデザイン。",
-    altText: "マンガのコマ割りのような背景に、青く発光する鋭い瞳がアップで描かれたインパクトのあるシャツ。",
-    keywords: ["マンガ デザイン", "ブルーロック風", "Anime Style Soccer", "瞳 グラフィックT"]
+    description: `究極の集中力。マンガのアートスタイルからインスピレーションを得た、青く光る瞳のデザイン。ピッチ上での一瞬の判断力とエゴを表現した、アニメファン必見の一着。
+
+最高品質のソフトコットンを使用し、一日中快適な着心地と優れた通気性を提供します。何度洗濯してもデザインの鮮明さを保つ耐久性のあるプリントが施されています。
+
+特徴:
+日常使いに適した快適で軽量なコットン生地
+マンガ・アニメスタイルの鋭い瞳のデザイン
+ストリートウェアやサッカー観戦に最適
+様々な体型にフィットするモダンな「オーバーサイズ」カット
+色あせしにくい高品質プリント
+自分用にも、ユニークなギフトとしても最適`,
+    metaTitle: "マンガ・フォーカス 鋭い眼光 シャツ | ブルーロック スタイル | Folklore FC",
+    metaDescription: "ピッチのための究極の集中。強烈なマンガのアートスタイルにインスピレーションを得たデザイン。青く光る瞳が勝利への渇望を映し出す。",
+    altText: "サッカーゴールを映し出す、青く光る瞳のマンガ風接写イラスト。強烈でハイコントラストなデザイン。",
+    keywords: ["マンガ フォーカス サッカー Tシャツ", "ブルーロック スタイル アパレル", "アニメ サッカー ストリートウェア", "鋭い瞳 スポーツシャツ"]
   },
   {
     id: 'jp-10',
@@ -1189,11 +1958,21 @@ export const menList: Product[] = [
     region: 'ja',
     gender: 'men',
     category: 'Jersey',
-    description: "日本忍術、ここに極まる。伝統的な城郭を背景に、空中を舞う忍者のオーバーヘッドキックを描写。サムライブルーの精神と忍の技が融合。",
-    metaTitle: "忍者 オーバーヘッド サッカーシャツ | Osaka Castle Kick | Folklore FC",
-    metaDescription: "大坂城を背景に忍者が舞う！アクロバティックなオーバーヘッドキックを描いた忍者クラン・エディション。サムライブルーの誇りを胸に。",
-    altText: "夜の日本の城を背景に、忍者が空中高く飛び上がりオーバーヘッドキックを決めるダイナミックなデザイン。",
-    keywords: ["忍者 オーバーヘッド", "城郭 サッカー", "Ninja Skills Shirt", "ダイナミック デザイン"]
+    description: `日本忍術、ここに極まる。伝統的な城郭を背景に、空中を舞う忍者のオーバーヘッドキックを描写。サムライブルーの精神と忍の技が融合した、ダイナミックなアクションアート。
+
+最高品質のソフトコットンを使用し、一日中快適な着心地と優れた通気性を提供します。何度洗濯してもデザインの鮮明さを保つ耐久性のあるプリントが施されています。
+
+特徴:
+日常使いに適した快適で軽量なコットン生地
+忍者と城郭のオーバーヘッドキックデザイン
+ストリートウェアやサッカー観戦に最適
+様々な体型にフィットするモダンな「オーバーサイズ」カット
+色あせしにくい高品質プリント
+自分用にも、ユニークなギフトとしても最適`,
+    metaTitle: "大阪城キック ジャージー | オーバーヘッド忍エディション | Folklore FC",
+    metaDescription: "アクロバティックな卓越性。大阪城を背景に、見事なオーバーヘッドキックを放つ忍者。サムライブルーの精神と忍の技の融合。",
+    altText: "伝統的な日本の城を背景に、月明かりの下でバイシクルキックを放つ忍者のダイナミックなアクションシーン。",
+    keywords: ["大阪城 サッカーシャツ", "忍者 オーバーヘッドキック ジャージー", "日本 アクション スポーツギア", "忍 アスリート ストリートウェア"]
   },
   {
     id: 'jp-11',
@@ -1204,11 +1983,21 @@ export const menList: Product[] = [
     region: 'ja',
     gender: 'men',
     category: 'Jersey',
-    description: "伝説の始まり。九尾の狐（きつね）と共にピッチに立つ若きヒーローたち。日本の誇りを胸に戦う姿を描いたアート。",
-    metaTitle: "九尾の狐 サッカーユニフォーム | Kitsune Legends | Folklore FC",
-    metaDescription: "九尾の狐の守護を得て。伝統的な鳥居と現代都市が交差する背景で戦うサムライブルーの伝説。神話と現代が融合したアート作品。",
-    altText: "青い炎を纏った九尾の狐とサッカー選手が並び立つ、幻想的な日本都市の風景グラフィック。",
-    keywords: ["九尾の狐", "Kitsune Art", "妖怪 サッカー", "Legendary Japan Jersey"]
+    description: `伝説の始まり。九尾の狐（きつね）と共にピッチに立つ若きヒーローたち。日本の神話と現代サッカーの誇りを胸に戦う姿を描いた、神秘的なアートワーク。
+
+最高品質のソフトコットンを使用し、一日中快適な着心地と優れた通気性を提供します。何度洗濯してもデザインの鮮明さを保つ耐久性のあるプリントが施されています。
+
+特徴:
+日常使いに適した快適で軽量なコットン生地
+伝説の九尾の狐（Kitsune）モチーフ
+ストリートウェアやサッカー観戦に最適
+様々な体型にフィットするモダンな「オーバーサイズ」カット
+色あせしにくい高品質プリント
+自分用にも、ユニークなギフトとしても最適`,
+    metaTitle: "狐伝説 サッカー ジャージー | 九尾の魂 | Folklore FC",
+    metaDescription: "ピッチの守護者。ストライカーを守る伝説の九尾の狐。日本の神話と現代のサッカーの誇りが見事に融合した神秘的なデザイン。",
+    altText: "ネオン輝く東京を舞台に、サッカー界のレジェンドの傍らに立つ青い炎を纏った狐（狐の霊）のエーテル的なグラフィック。",
+    keywords: ["狐 サッカー ジャージー", "九尾の狐 スポーツアート", "日本の神話 ストリートウェア", "神秘的 フットボール ギア"]
   },
   {
     id: 'jp-12',
@@ -1219,11 +2008,21 @@ export const menList: Product[] = [
     region: 'ja',
     gender: 'men',
     category: 'Jersey',
-    description: "コミックの世界を纏う。巨大ロボット（メカ）と波、マンガのコマ割りをイメージした構成。日本のポップカルチャーを完璧に融合。",
-    metaTitle: "メカ サッカーシャツ | Tokyo Kickoff Manga Panel | Folklore FC",
-    metaDescription: "メカ、波、そしてゴール！マンガのコマ割りスタイルで日本のポップカルチャーを凝縮したTokyo Kickoff。アニメファン必見のユニフォーム。",
-    altText: "巨大ロボット（メカ）が波の中から現れサッカーボールを蹴る様子をマンガのページ風にデザインしたシャツ。",
-    keywords: ["メカ デザイン", "マンガ コマ割り", "Mecha Anime Shirt", "東京 ポップカルチャー"]
+    description: `コミックの世界を纏う。巨大ロボット（メカ）と波、マンガのコマ割りをイメージした構成。日本のポップカルチャーを完璧に融合させた、メカニックデザイン。
+
+最高品質のソフトコットンを使用し、一日中快適な着心地と優れた通気性を提供します。何度洗濯してもデザインの鮮明さを保つ耐久性のあるプリントが施されています。
+
+特徴:
+日常使いに適した快適で軽量なコットン生地
+メカ（ロボット）とマンガコマ割りのデザイン
+ストリートウェアやサッカー観戦に最適
+様々な体型にフィットするモダンな「オーバーサイズ」カット
+色あせしにくい高品質プリント
+自分用にも、ユニークなギフトとしても最適`,
+    metaTitle: "メカ・マンガ・パネル ジャージー | 東京キックオフアート | Folklore FC",
+    metaDescription: "コミックの世界を纏え。クラシックなマンガのコマ割りに、葛飾北斎の波から現れる巨大なメカ（ロボット）。日本のポップカルチャーが完璧に融合。",
+    altText: "葛飾北斎にインスパイアされた波の中を、巨大なメカがサッカーボールを蹴り抜けるコミックページ風のレイアウト。",
+    keywords: ["メカ サッカー ジャージー", "マンガパネル サッカーシャツ", "ロボット スポーツ ストリートウェア", "日本 アニメ ギア"]
   },
   {
     id: 'jp-13',
@@ -1234,11 +2033,21 @@ export const menList: Product[] = [
     region: 'ja',
     gender: 'men',
     category: 'Jersey',
-    description: "勝利への執着、鬼の如く。迫力ある青い鬼（おに）の面がサッカーボールを掴むデザイン。限界を超える強烈なエゴを表現。",
-    metaTitle: "鬼 サッカーユニフォーム | Blue Lock Oni Mask | Folklore FC",
-    metaDescription: "鬼のような執念で勝利を掴め。青い鬼の面をモチーフにしたBlue Lockエディション。ピッチを支配する圧倒的なカリスマ性を表現。",
-    altText: "恐ろしい形相の青い鬼の面が、鋭い爪でサッカーボールを握りしめているダークなデザイン。",
-    keywords: ["鬼の面", "Blue Lock風", "Oni Mask Fashion", "エゴイスト サッカー"]
+    description: `勝利への執着、鬼の如く。迫力ある青い鬼（おに）の面がサッカーボールを掴むデザイン。限界を超える強烈なエゴと闘争心を表現した、アグレッシブなスタイル。
+
+最高品質のソフトコットンを使用し、一日中快適な着心地と優れた通気性を提供します。何度洗濯してもデザインの鮮明さを保つ耐久性のあるプリントが施されています。
+
+特徴:
+日常使いに適した快適で軽量なコットン生地
+迫力ある鬼の面（Oni Mask）デザイン
+ストリートウェアやサッカー観戦に最適
+様々な体型にフィットするモダンな「オーバーサイズ」カット
+色あせしにくい高品質プリント
+自分用にも、ユニークなギフトとしても最適`,
+    metaTitle: "鬼面 デヴォーション ジャージー | ブルーロック インテンシティ | Folklore FC",
+    metaDescription: "勝利への執念。猛々しい青い鬼の面は、ゲームを支配するために必要な不屈のエゴと闘争心を象徴しています。アグレッシブなストリートウェアスタイル。",
+    altText: "鋭い爪でサッカーボールを掴む恐ろしい青い鬼の面。プレミアムジャージーにあしらわれた、ダークでアグレッシブな和風グラフィック。",
+    keywords: ["鬼面 サッカー ジャージー", "ブルーロック サッカー アパレル", "アグレッシブ 日本 ストリートウェア", "デモニック スポーツ ファッション"]
   },
   {
     id: 'jp-14',
@@ -1249,11 +2058,21 @@ export const menList: Product[] = [
     region: 'ja',
     gender: 'men',
     category: 'Jersey',
-    description: "墨絵の魂。力強い筆致で描かれた黒龍がボールを包み込む。日本の伝統的な水墨画の技法を用い、神秘的な力を表現。",
-    metaTitle: "水墨画 龍 サッカーシャツ | Dragon Soul Sumi-e | Folklore FC",
-    metaDescription: "筆致に宿る龍の魂。伝統的な水墨画（Sumi-e）で描かれた黒龍がピッチを舞う。神秘的な強さとしなやかさを兼ね備えた芸術的一着。",
-    altText: "白地に黒い墨で描かれた力強い龍が、サッカーボールに巻き付いている水墨画スタイルのデザイン。",
-    keywords: ["水墨画 龍", "Sumi-e Art", "龍 デザイン シャツ", "日本伝統 アートウェア"]
+    description: `墨絵の魂。力強い筆致で描かれた黒龍がボールを包み込む。日本の伝統的な水墨画の技法を用い、神秘的な力と静謐な美しさを表現した芸術的な一着。
+
+最高品質のソフトコットンを使用し、一日中快適な着心地と優れた通気性を提供します。何度洗濯してもデザインの鮮明さを保つ耐久性のあるプリントが施されています。
+
+特徴:
+日常使いに適した快適で軽量なコットン生地
+伝統的な水墨画（Sumi - e）スタイルの龍
+ストリートウェアやサッカー観戦に最適
+様々な体型にフィットするモダンな「オーバーサイズ」カット
+色あせしにくい高品質プリント
+自分用にも、ユニークなギフトとしても最適`,
+    metaTitle: "ドラゴン・ソウル 墨絵ジャージー | 伝統的な水墨画アート | Folklore FC",
+    metaDescription: "墨の魂。伝統的な水墨画の筆致で描かれた、サッカーボールに絡みつく力強い黒龍。神秘的な強さと芸術的な美しさの融合。",
+    altText: "クリーンなホワイトのプレミアムコットンジャージーに描かれた、サッカーボールの周りを渦巻く芸術的な水墨画の龍。",
+    keywords: ["水墨画 サッカーシャツ", "龍 墨絵ジャージー", "日本の伝統 スポーツ", "芸術的な 禅 フットボール"]
   },
   {
     id: 'jp-15',
@@ -1264,11 +2083,21 @@ export const menList: Product[] = [
     region: 'ja',
     gender: 'men',
     category: 'Jersey',
-    description: "闘魂と美学。繊細に描かれた青龍と舞い散る桜の花。力強さの中にある日本の情緒を表現。ラグジュアリーなデザイン。",
-    metaTitle: "青龍 桜 サッカーユニフォーム | Azure Dragon Sakura | Folklore FC",
-    metaDescription: "青龍の威厳と桜の美学。力強さと繊細さが共存する「Azure Dragon」。洗練された和のストリートスタイルを極める一着。",
-    altText: "鮮やかな青龍と、風に舞うピンクの桜の花びらが調和した豪華なグラフィックサッカーシャツ。",
-    keywords: ["青龍 デザイン", "桜 サッカー", "Luxury Japan Style", "和柄 プレミアム"]
+    description: `闘魂と美学。繊細に描かれた青龍と舞い散る桜の花。力強さの中にある日本の情緒を表現。細部までこだわり抜いた、ラグジュアリーな和風デザインです。
+
+最高品質のソフトコットンを使用し、一日中快適な着心地と優れた通気性を提供します。何度洗濯してもデザインの鮮明さを保つ耐久性のあるプリントが施されています。
+
+特徴:
+日常使いに適した快適で軽量なコットン生地
+青龍と桜の豪華な和柄デザイン
+ストリートウェアやサッカー観戦に最適
+様々な体型にフィットするモダンな「オーバーサイズ」カット
+色あせしにくい高品質プリント
+自分用にも、ユニークなギフトとしても最適`,
+    metaTitle: "蒼龍 桜ジャージー | 雄大な和服スタイル | Folklore FC",
+    metaDescription: "闘志と美的な優雅さの出会い。舞い散る桜の中を泳ぐ繊細な青龍。エリートのためのラグジュアリーな和風ストリートウェア。",
+    altText: "スタイリッシュなネイビーのサッカーシャツにあしらわれた、淡いピンクの桜と絡み合う鮮やかな青龍。",
+    keywords: ["蒼龍 ジャージー", "桜 サッカーシャツ", "日本の花 スポーツ", "エレガントな 和服 ストリートウェア"]
   },
   {
     id: 'jp-16',
@@ -1279,11 +2108,21 @@ export const menList: Product[] = [
     region: 'ja',
     gender: 'men',
     category: 'Jersey',
-    description: "日本の味、ピッチに登場。ラーメンの器の中にサッカー場が広がる遊び心溢れるデザイン。食文化とスポーツを融合させたアート。",
-    metaTitle: "ラーメン サッカーシャツ | Ramen Striker Gourmet | Folklore FC",
-    metaDescription: "ラーメンとサッカーの意外な融合！器の中に広がるフィールドと北斎の波。日本の食文化を愛するサポーターのためのユニークな一着。",
-    altText: "ラーメンのどんぶりの中にサッカー場があり、具材の合間に選手がいるユニークでポップなデザイン。",
-    keywords: ["ラーメン グッズ", "面白い Tシャツ", "Japanese Food Soccer", "ポップアート シャツ"]
+    description: `日本の味、ピッチに登場。ラーメンの器の中にサッカー場が広がる遊び心溢れるデザイン。食文化とスポーツを融合させた、ユーモアとスタイルを兼ね備えたアート。
+
+最高品質のソフトコットンを使用し、一日中快適な着心地と優れた通気性を提供します。何度洗濯してもデザインの鮮明さを保つ耐久性のあるプリントが施されています。
+
+特徴:
+日常使いに適した快適で軽量なコットン生地
+ラーメンとサッカーを融合させたユニークなデザイン
+ストリートウェアやサッカー観戦に最適
+様々な体型にフィットするモダンな「オーバーサイズ」カット
+色あせしにくい高品質プリント
+自分用にも、ユニークなギフトとしても最適`,
+    metaTitle: "ラーメン・ストライカー グルメ ジャージー | 日本のポップアート | Folklore FC",
+    metaDescription: "日本の味をピッチに。ラーメンのどんぶりの中でサッカー場が広がる遊び心溢れるデザイン。ポップアートスタイルで食文化とスポーツを融合。",
+    altText: "湯気の上がるラーメンのどんぶりの中で、麺のアスリートたちが躍動するサッカー場を描いた、風変わりなポップアートデザイン。",
+    keywords: ["ラーメン サッカーシャツ", "グルメ フットボール ジャージー", "日本の食 スポーツアート", "面白い ポップアート サッカー"]
   },
   {
     id: 'jp-17',
@@ -1294,11 +2133,21 @@ export const menList: Product[] = [
     region: 'ja',
     gender: 'men',
     category: 'Jersey',
-    description: "葛飾北斎の傑作がピッチに蘇る。伝説の『神奈川沖浪裏』を背景に、荒波と共にゴールへと舞い上がるサッカーボール。",
-    metaTitle: "北斎 浪裏 サッカーシャツ | The Great Wave Hokusai | Folklore FC",
-    metaDescription: "世界で最も有名な波、神奈川沖浪裏をフィールドへ。北斎の傑作とサッカーの躍動感が融合した、時代を超える芸術的スタイル。",
-    altText: "葛飾北斎の「神奈川沖浪裏」を背景に、巨大な波飛沫と共に飛び出すサッカーボールを描いたデザイン。",
-    keywords: ["北斎 波", "神奈川沖浪裏 Tシャツ", "Great Wave Soccer", "浮世絵 スポーツウェア"]
+    description: `葛飾北斎の傑作がピッチに蘇る。伝説の『神奈川沖浪裏』を背景に、荒波と共にゴールへと舞い上がるサッカーボール。時代を超えた名画を纏う喜びを。
+
+最高品質のソフトコットンを使用し、一日中快適な着心地と優れた通気性を提供します。何度洗濯してもデザインの鮮明さを保つ耐久性のあるプリントが施されています。
+
+特徴:
+日常使いに適した快適で軽量なコットン生地
+葛飾北斎『神奈川沖浪裏』の大波デザイン
+ストリートウェアやサッカー観戦に最適
+様々な体型にフィットするモダンな「オーバーサイズ」カット
+色あせしにくい高品質プリント
+自分用にも、ユニークなギフトとしても最適`,
+    metaTitle: "北斎 大波ジャージー | 傑作のピッチ | Folklore FC",
+    metaDescription: "葛飾北斎の名作が今、蘇る。象徴的な『神奈川沖浪裏』を背景に、伝説的なストライクを放つ。時代を超越したアートを身に纏え。",
+    altText: "葛飾北斎の『神奈川沖浪裏』の砕け散る白い波しぶきの中を、空高く舞い上がるサッカーボール。",
+    keywords: ["北斎 サッカー ジャージー", "神奈川沖浪裏 サッカーシャツ", "日本の浮世絵 スポーツ", "芸術的な サッカーキット"]
   },
   {
     id: 'jp-18',
@@ -1309,11 +2158,21 @@ export const menList: Product[] = [
     region: 'ja',
     gender: 'men',
     category: 'Jersey',
-    description: "武士の魂、不屈の精神。富士山と鳥居を背負い、鎧武者が華麗なハイキックを放つ力強いデザイン。",
-    metaTitle: "鎧武者 ハイキック シャツ | Samurai Spirit Nippon Legends | Folklore FC",
-    metaDescription: "不屈の日本魂。富士山を背に鎧武者がハイキックを放つ。勝利への執念と侍の誇りを凝縮した、最強のストリートウェア。",
-    altText: "赤い鎧を着た武士が、富士山を背景にアクロバティックなハイキックでボールを蹴るイラスト。",
-    keywords: ["侍 ハイキック", "富士山 デザイン", "Samurai Spirit", "日本魂 Tシャツ"]
+    description: `武士の魂、不屈の精神。富士山と鳥居を背負い、鎧武者が華麗なハイキックを放つ力強いデザイン。日本の象徴的な風景と侍スピリットが共鳴します。
+
+最高品質のソフトコットンを使用し、一日中快適な着心地と優れた通気性を提供します。何度洗濯してもデザインの鮮明さを保つ耐久性のあるプリントが施されています。
+
+特徴:
+日常使いに適した快適で軽量なコットン生地
+富士山、鳥居、鎧武者の伝説的デザイン
+ストリートウェアやサッカー観戦に最適
+様々な体型にフィットするモダンな「オーバーサイズ」カット
+色あせしにくい高品質プリント
+自分用にも、ユニークなギフトとしても最適`,
+    metaTitle: "サムライ・スピリット ハイキック ジャージー | 日本の伝説 | Folklore FC",
+    metaDescription: "武士の魂と不屈の精神。富士山を背景に、鎧武者が華麗なハイキックを放つ。日本の象徴的な風景と戦士を讃えよう。",
+    altText: "富士山と赤い鳥居を背景に、アクロバティックなハイキックを披露する鎧武者の詳細なイラスト。",
+    keywords: ["侍 ハイキック ジャージー", "富士山 サッカーシャツ", "武士道 スポーツファッション", "日本の戦士 ストリートウェア"]
   },
   {
     id: 'jp-19',
@@ -1324,11 +2183,21 @@ export const menList: Product[] = [
     region: 'ja',
     gender: 'men',
     category: 'Jersey',
-    description: "妖怪大戦争、キックオフ。鬼、天狗、河童など、伝説の妖怪たちがピッチで繰り広げる超自然的な試合を描写。",
-    metaTitle: "妖怪 サッカーユニフォーム | Yokai Chaos Mythical Match | Folklore FC",
-    metaDescription: "妖怪たちの超自然的マッチ。鬼や天狗がピッチで大暴れするYokai Chaos。日本の伝承とサッカーの熱狂がぶつかり合う一枚。",
-    altText: "鬼、天狗、河童などの日本の妖怪たちが混ざり合ってサッカーの試合をしている賑やかでダークなデザイン。",
-    keywords: ["妖怪 デザイン", "天狗 サッカー", "Mythical Japan Jersey", "妖怪大戦争"]
+    description: `妖怪大戦争、キックオフ。鬼、天狗、河童など、伝説の妖怪たちがピッチで繰り広げる超自然的な試合を描写。日本のフォークロア（伝承）をモダンでカオスなアートに。
+
+最高品質のソフトコットンを使用し、一日中快適な着心地と優れた通気性を提供します。何度洗濯してもデザインの鮮明さを保つ耐久性のあるプリントが施されています。
+
+特徴:
+日常使いに適した快適で軽量なコットン生地
+鬼、天狗、河童などの妖怪オールスターデザイン
+ストリートウェアやサッカー観戦に最適
+様々な体型にフィットするモダンな「オーバーサイズ」カット
+色あせしにくい高品質プリント
+自分用にも、ユニークなギフトとしても最適`,
+    metaTitle: "妖怪カオス ミシカル ジャージー | フォークロア マッチ | Folklore FC",
+    metaDescription: "超自然的な試合の始まり。鬼、天狗、河童がひしめき合うカオスなピッチ。日本の伝説的な妖怪たちをモダンなダークアートで解釈。",
+    altText: "神秘的な森の中で、様々な妖怪（鬼、天狗、河童など）がカオスなサッカーの試合を繰り広げる、複雑でダークなイラスト。",
+    keywords: ["妖怪 サッカー ジャージー", "日本の伝承 スポーツ", "伝説の生き物 フットボール", "ダークアート サッカーシャツ"]
   },
-  
+
 ];

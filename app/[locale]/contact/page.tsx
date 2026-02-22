@@ -138,7 +138,7 @@ export default function ContactPage() {
               </div>
               <div className="flex items-center gap-4 p-5 bg-[#18181b] rounded-2xl border border-[#27272a] hover:border-emerald-500/50 transition-colors">
                 <Phone className="text-emerald-500" size={24} />
-                <span dir="ltr" className="font-semibold">0707230031</span>
+                <span dir="ltr" className="font-semibold">+212707230031</span>
               </div>
               <div className="flex items-center gap-4 p-5 bg-[#18181b] rounded-2xl border border-[#27272a] hover:border-emerald-500/50 transition-colors">
                 <MapPin className="text-emerald-500" size={24} />
