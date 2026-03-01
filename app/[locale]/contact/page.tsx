@@ -142,7 +142,7 @@ export default function ContactPage() {
               </div>
               <div className="flex items-center gap-4 p-5 bg-[#18181b] rounded-2xl border border-[#27272a] hover:border-emerald-500/50 transition-colors">
                 <MapPin className="text-emerald-500" size={24} />
-                <span className="font-semibold">Travessía Prat de la Riba, 91–95</span>
+                <span className="font-semibold">Travessía Prat de la Riba, 91-95, 08849 Sant Climent de Llobregat, Barcelona, Spain</span>
               </div>
             </div>
           </div>

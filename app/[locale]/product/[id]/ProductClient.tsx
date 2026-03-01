@@ -140,31 +140,19 @@ export default function ProductClient({ id, locale }: { id: string, locale: stri
               "@type": "Brand",
               "name": "Folklore FC"
             },
-            // ✅ حل تحذير review و aggregateRating (إضافة تقييم افتراضي أولي)
-            "aggregateRating": {
-              "@type": "AggregateRating",
-              "ratingValue": "5",
-              "reviewCount": "1"
-            },
-            "review": {
-              "@type": "Review",
-              "reviewRating": {
-                "@type": "Rating",
-                "ratingValue": "5",
-                "bestRating": "5"
-              },
-              "author": {
-                "@type": "Person",
-                "name": "Verified Customer"
+            ...(product.reviews && product.reviews.length > 0 ? {
+              "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": (product.reviews.reduce((sum, r) => sum + r.rating, 0) / product.reviews.length).toFixed(1).toString(),
+                "reviewCount": product.reviews.length.toString()
               }
-            },
+            } : {}),
             "offers": {
               "@type": "Offer",
               "url": `https://folklorefc.com/${locale}/product/${product.id}`,
               "priceCurrency": product.currency,
               "price": product.price,
-              // ✅ حل تحذير priceValidUntil (تحديد تاريخ انتهاء العرض)
-              "priceValidUntil": "2026-12-31",
+              "priceValidUntil": new Date(new Date().setFullYear(new Date().getFullYear() + 1)).toISOString().split('T')[0],
               "availability": "https://schema.org/InStock",
               "itemCondition": "https://schema.org/NewCondition",
               "shippingDetails": {
@@ -176,7 +164,7 @@ export default function ProductClient({ id, locale }: { id: string, locale: stri
                 },
                 "shippingDestination": {
                   "@type": "DefinedRegion",
-                  "addressCountry": ["SA", "JP", "US", "FR"]
+                  "addressCountry": ["SA", "JP", "US", "FR", "ES", "AE", "QA", "IT", "DE", "GB"]
                 },
                 "deliveryTime": {
                   "@type": "ShippingDeliveryTime",
@@ -196,17 +184,31 @@ export default function ProductClient({ id, locale }: { id: string, locale: stri
               },
               "hasMerchantReturnPolicy": {
                 "@type": "MerchantReturnPolicy",
-                "applicableCountry": ["SA", "US", "FR", "JP", "AE"], // الدول التي تطبق عليها السياسة
-                // ✅ تصحيح الخطأ: استخدام القيمة النصية الدقيقة التي يطلبها جوجل
+                "applicableCountry": ["SA", "JP", "US", "FR", "ES", "AE", "QA", "IT", "DE", "GB"],
                 "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnPeriod",
                 "merchantReturnDays": 30,
                 "returnMethod": "https://schema.org/ReturnByMail",
                 "returnFees": "https://schema.org/FreeReturn",
-                // ✅ إضافة وقت استرداد المال الذي اخترته (5-7 أيام)
                 "refundType": "https://schema.org/FullRefund",
                 "merchantReturnLink": `https://folklorefc.com/${locale}/shipping`
               }
             }
+          })
+        }}
+      />
+
+      {/* Schema.org Breadcrumb Metadata */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              { "@type": "ListItem", "position": 1, "name": "Home", "item": `https://folklorefc.com/${locale}` },
+              { "@type": "ListItem", "position": 2, "name": "Shop", "item": `https://folklorefc.com/${locale}/shop/${product.gender || 'men'}` },
+              { "@type": "ListItem", "position": 3, "name": product.name, "item": `https://folklorefc.com/${locale}/product/${product.id}` }
+            ]
           })
         }}
       />

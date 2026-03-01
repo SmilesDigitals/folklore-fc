@@ -107,11 +107,7 @@ export default function CartSidebar() {
             <button
               onClick={() => {
                 toggleCart();
-                if (user) {
-                  router.push(`/${locale}/checkout`);
-                } else {
-                  openAuthModal('checkout');
-                }
+                router.push(`/${locale}/checkout`);
               }}
               className="w-full bg-white text-black font-bold py-4 rounded-full flex items-center justify-center gap-2 hover:bg-emerald-500 hover:text-white transition-all"
             >

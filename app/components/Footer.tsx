@@ -191,9 +191,17 @@ export default function Footer() {
 
             </div>
 
-            <div className="max-w-7xl mx-auto mt-12 pt-8 border-t border-[#27272a] flex flex-col md:flex-row justify-between items-center text-xs text-gray-500">
-                <p>&copy; {new Date().getFullYear()} Folklore FC. {t.rights}</p>
-                <p>Travessía Prat de la Riba, 91–95</p>
+            <div className="max-w-7xl mx-auto mt-12 pt-8 border-t border-[#27272a] flex flex-col md:flex-row justify-between items-center text-xs text-gray-500 gap-6">
+                <p className="text-center md:text-left">&copy; {new Date().getFullYear()} Folklore FC. {t.rights}</p>
+                <div className="flex items-center gap-3">
+                    {/* Visa */}
+                    <svg className="h-6 w-auto" viewBox="0 0 32 20" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="32" height="20" rx="4" fill="#18181b" stroke="#27272a" /><path d="M12.8 14H11.2L12.2 7.6H13.8L12.8 14ZM21.9 8.2C21.6 8 21.1 7.8 20.3 7.8C18.7 7.8 17.5 8.7 17.5 10C17.5 11 18.5 11.5 19.3 11.9C20.1 12.3 20.3 12.6 20.3 12.9C20.3 13.5 19.5 13.8 18.8 13.8C17.8 13.8 17.3 13.5 16.7 13.2L16.4 13L16.2 14.3C16.8 14.6 17.7 14.8 18.6 14.8C20.4 14.8 21.6 13.9 21.6 12.5C21.6 11 19.6 10.9 19.6 10.1C19.6 9.8 20 9.4 20.7 9.4C21.2 9.4 21.7 9.5 22 9.7L22.1 9.8L22.4 8.4L21.9 8.2ZM16.9 7.6H15.6C15 7.6 14.6 7.9 14.4 8.5L12.4 14H14.1L14.4 13H16.4L16.6 14H18.1L16.9 7.6ZM14.9 11.7L15.6 9.5L16.1 11.7H14.9ZM25.5 7.6H24.3L22.6 14H24.2L24.5 12.6H26.3L26.5 14H28L25.5 7.6ZM24.8 11.3L25.4 8.9L26 11.3H24.8Z" fill="white" /></svg>
+                    {/* Mastercard */}
+                    <svg className="h-6 w-auto" viewBox="0 0 32 20" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="32" height="20" rx="4" fill="#18181b" stroke="#27272a" /><circle cx="12" cy="10" r="4.5" fill="#FF5F00" /><circle cx="18" cy="10" r="4.5" fill="#EB001B" /><path d="M15 13.3C14.1 12.6 13.5 11.4 13.5 10C13.5 8.6 14.1 7.4 15 6.7C15.9 7.4 16.5 8.6 16.5 10C16.5 11.4 15.9 12.6 15 13.3Z" fill="#F79E1B" /></svg>
+                    {/* PayPal */}
+                    <svg className="h-6 w-auto" viewBox="0 0 32 20" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="32" height="20" rx="4" fill="#18181b" stroke="#27272a" /><path d="M11.6 15H10.1L11.6 5.5H15.9C17.7 5.5 18.8 6.4 18.5 8.1C18.2 10.3 16.6 11.2 14.7 11.2H13.5L12.9 11.2L12.2 15H11.6ZM13.8 10.3H14.5C15.8 10.3 16.8 9.8 17 8.3C17.2 7.3 16.4 6.4 15.2 6.4H12.8L12.3 9.4L13.8 10.3Z" fill="#003087" /><path d="M14.7 11.2H13.5L12.9 11.2L11.8 18H13.2L13.6 15H15.4C17.1 15 18.1 14.1 18.4 12.4C18.6 11.6 18.2 11.2 17.5 11.2C16.3 11.2 15 11.2 14.7 11.2Z" fill="#0079C1" /></svg>
+                </div>
+                <p className="text-center md:text-right">Travessía Prat de la Riba, 91-95, 08849<br /> Sant Climent de Llobregat, Barcelona, Spain</p>
             </div>
         </footer>
     );

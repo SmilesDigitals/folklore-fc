@@ -59,7 +59,7 @@ export default function ReviewForm({ productId, t }: { productId: string, t: any
 
             if (error) throw error;
 
-            setMessage({ type: 'success', text: 'Thank you! Your review has been submitted for approval.' });
+            setMessage({ type: 'success', text: t.success || 'Thank you! Your review has been submitted for approval.' });
             // Reset form
             setRating(0);
             setComment('');
@@ -76,35 +76,6 @@ export default function ReviewForm({ productId, t }: { productId: string, t: any
             setIsSubmitting(false);
         }
     };
-
-    // If user is not logged in, show restricted access view
-    if (!user) {
-        return (
-            <div className="bg-[#18181b] p-8 rounded-3xl border border-[#27272a] shadow-2xl text-center">
-                <div className="flex justify-center mb-4">
-                    <div className="bg-[#27272a] p-4 rounded-full">
-                        <Lock size={32} className="text-gray-400" />
-                    </div>
-                </div>
-                <h3 className="text-2xl font-bold mb-2 text-white">Write a Review</h3>
-                <p className="text-gray-400 mb-6 text-sm max-w-md mx-auto">
-                    Please sign in to share your experience with the community. Verified purchases help us improve.
-                </p>
-
-                <div className="flex flex-col gap-3 justify-center items-center">
-                    <button
-                        onClick={() => openAuthModal()}
-                        className="bg-white text-black font-bold py-3 px-8 rounded-full hover:bg-emerald-500 hover:text-white transition-all w-full max-w-xs"
-                    >
-                        Sign In to Review
-                    </button>
-                    <p className="text-xs text-gray-500">
-                        It only takes a moment!
-                    </p>
-                </div>
-            </div>
-        );
-    }
 
     return (
         <div className="bg-[#18181b] p-8 rounded-3xl border border-[#27272a] shadow-2xl">
@@ -140,8 +111,8 @@ export default function ReviewForm({ productId, t }: { productId: string, t: any
                         <input
                             type="email"
                             value={email}
-                            readOnly
-                            className="w-full bg-[#09090b] border border-[#27272a] rounded-xl p-3.5 text-white placeholder-gray-600 opacity-50 cursor-not-allowed outline-none text-sm"
+                            onChange={(e) => setEmail(e.target.value)}
+                            className="w-full bg-[#09090b] border border-[#27272a] rounded-xl p-3.5 text-white placeholder-gray-600 focus:border-emerald-500 focus:ring-1 focus:ring-emerald-500 transition-all outline-none text-sm"
                             placeholder={user?.email || "your@email.com"}
                             required
                         />
@@ -190,7 +161,7 @@ export default function ReviewForm({ productId, t }: { productId: string, t: any
                             <span className="w-4 h-4 border-2 border-black/30 border-t-black rounded-full animate-spin" />
                             Submitting...
                         </span>
-                    ) : 'Submit Verified Review'}
+                    ) : (t.submit || 'Submit Review')}
                 </button>
             </form>
         </div>

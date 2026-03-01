@@ -28,16 +28,7 @@ export default function CheckoutPage() {
     }
   }, [items, router, loading]);
 
-  // 👇 2. Check auth status
-  useEffect(() => {
-    if (!loading && !user) {
-      // Option A: Open Modal automatically
-      openAuthModal('checkout');
-
-      // Option B: Redirect to login page (if you have one)
-      // router.push('/login?next=/checkout');
-    }
-  }, [user, loading, openAuthModal]);
+  // Guest checkout allowed - no forced login hook anymore.
 
   const [formData, setFormData] = useState({
     firstName: '',
@@ -47,18 +38,20 @@ export default function CheckoutPage() {
     address: '',
     city: '',
     country: '',
-    postalCode: '' // 👈 1. أضفنا هذا الحقل الجديد
+    postalCode: ''
   });
+  const [error, setError] = useState<string | null>(null);
 
   if (items.length === 0) return null;
 
   const handleChange = (e: any) => {
+    if (error) setError(null);
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
   const handleWhatsAppCheckout = () => {
     if (!formData.firstName || !formData.address || !formData.phone) {
-      alert("Please fill in your shipping details first.");
+      setError("Please fill in your First Name, Phone, and Address first.");
       return;
     }
 
@@ -97,10 +90,31 @@ export default function CheckoutPage() {
           <div className="space-y-8">
             <h1 className="text-3xl font-bold mb-2">Checkout</h1>
 
+            {/* Optional Login Banner */}
+            {!loading && !user && (
+              <div className="bg-[#18181b] p-4 rounded-xl border border-emerald-500/30 flex items-center justify-between">
+                <div>
+                  <h3 className="text-sm font-bold text-white">Already have an account?</h3>
+                  <p className="text-xs text-gray-400">Sign in for a faster checkout experience.</p>
+                </div>
+                <button
+                  onClick={() => openAuthModal('checkout')}
+                  className="px-4 py-2 bg-emerald-500/10 text-emerald-500 hover:bg-emerald-500 text-sm font-bold hover:text-white rounded-lg transition-colors"
+                >
+                  Sign In
+                </button>
+              </div>
+            )}
+
             <div className="bg-[#18181b] p-6 rounded-2xl border border-[#27272a]">
               <h2 className="text-xl font-bold mb-6 flex items-center gap-2">
                 <User className="text-emerald-500" /> Shipping Information
               </h2>
+              {error && (
+                <div className="mb-6 bg-red-500/10 border border-red-500/50 text-red-500 px-4 py-3 rounded-lg text-sm font-medium animate-pulse">
+                  {error}
+                </div>
+              )}
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <input name="firstName" placeholder="First Name" onChange={handleChange} className="bg-[#09090b] border border-[#27272a] p-3 rounded-lg w-full text-white outline-none focus:border-emerald-500" />
                 <input name="lastName" placeholder="Last Name" onChange={handleChange} className="bg-[#09090b] border border-[#27272a] p-3 rounded-lg w-full text-white outline-none focus:border-emerald-500" />
@@ -191,9 +205,8 @@ export default function CheckoutPage() {
                     style={{ layout: "vertical", color: "gold", shape: "rect", label: "pay" }}
 
                     createOrder={(data, actions) => {
-                      // التحقق من إدخال الرمز البريدي قبل فتح نافذة الدفع
                       if (!formData.postalCode || !formData.address) {
-                        alert("Please enter Address and Postal Code first!");
+                        setError("Please enter your Address and Postal Code to calculate shipping.");
                         throw new Error("Missing Information");
                       }
 

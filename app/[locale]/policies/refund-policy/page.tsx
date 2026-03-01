@@ -15,38 +15,33 @@ const LEGAL_TEXT: any = {
       We aim to provide a fair, transparent, and customer-friendly return and refund process, as outlined below.</p>
       <p>By placing an order on our website, you agree to this Return & Refund Policy.</p>
 
-      <h2>2. Returns & Exchanges</h2>
-      <p>We accept returns and exchanges under the following conditions:</p>
+      <h2>2. Returns Policy</h2>
+      <p>We only accept returns under the following conditions:</p>
       
-      <h3>✅ Customer-Related Reasons</h3>
-      <p>If the return or exchange is requested due to:</p>
+      <h3>✅ Defective or Damaged Products</h3>
+      <p>Because all products are made-to-order, we only accept returns if the product is:</p>
       <ul>
-        <li>Change of mind</li>
-        <li>Incorrect size or color selected by the customer</li>
-        <li>No longer wishing to keep the product</li>
+        <li>Damaged or defective upon arrival</li>
+        <li>A manufacturing error</li>
+        <li>The incorrect item was sent</li>
       </ul>
-      <p>👉 The customer is responsible for return shipping costs.</p>
+      <p>We do not accept returns for change of mind, buyer’s remorse, or incorrect size selection.</p>
+      <p>👉 Folklore FC will cover all return shipping costs for defective or incorrect items.</p>
 
-      <h3>✅ Our Responsibility</h3>
-      <p>If the return or exchange is due to:</p>
-      <ul>
-        <li>A damaged product</li>
-        <li>A manufacturing defect</li>
-        <li>The wrong item being sent</li>
-      </ul>
-      <p>👉 Folklore FC will cover all return and reshipment costs, and the customer will not be charged any shipping fees.</p>
+      <h2>3. Exchanges</h2>
+      <p>We do not offer direct exchanges. If you receive a defective item, please request a return for a refund, and place a new order.</p>
 
-      <h2>3. Reporting a Return or Exchange</h2>
-      <p>All return or exchange requests must be reported within 7 days of receiving the product.</p>
+      <h2>4. Reporting a Return</h2>
+      <p>All return requests must be reported within 14 days of receiving the product.</p>
       <p>To initiate a request, please contact us at:<br />
       📧 support@folklorefc.com</p>
       <p>Please include:</p>
       <ul>
         <li>Order number</li>
         <li>Clear photos of the product (if damaged or incorrect)</li>
-        <li>A brief explanation of the reason for the return or exchange</li>
+        <li>A brief explanation of the reason for the return</li>
       </ul>
-      <p>Requests submitted after 7 days may not be eligible.</p>
+      <p>Requests submitted after 14 days may not be eligible.</p>
 
       <h2>4. Refunds</h2>
       <p>Once the returned item is received and inspected (if applicable):</p>
@@ -93,38 +88,33 @@ const LEGAL_TEXT: any = {
       نهدف إلى توفير عملية إرجاع واسترداد عادلة وشفافة وصديقة للعملاء، كما هو موضح أدناه.</p>
       <p>بتقديم طلب على موقعنا، فإنك توافق على سياسة الإرجاع والاسترداد هذه.</p>
 
-      <h2>2. الإرجاع والاستبدال</h2>
-      <p>نقبل الإرجاع والاستبدال بموجب الشروط التالية:</p>
+      <h2>2. سياسة الإرجاع</h2>
+      <p>نقبل الإرجاع فقط بموجب الشروط التالية:</p>
       
-      <h3>✅ أسباب تتعلق بالعميل</h3>
-      <p>العميل إذا تم طلب الإرجاع أو الاستبدال بسبب:</p>
+      <h3>✅ المنتجات المعيبة أو التالفة</h3>
+      <p>نظراً لأن جميع المنتجات تصنع حسب الطلب، فإننا نقبل الإرجاع فقط إذا كان المنتج:</p>
       <ul>
-        <li>تغيير الرأي</li>
-        <li>اختيار مقاس أو لون غير صحيح من قبل العميل</li>
-        <li>لم تعد ترغب في الاحتفاظ بالمنتج</li>
-      </ul>
-      <p>👉 العميل مسؤول عن تكاليف شحن الإرجاع.</p>
-
-      <h3>✅ مسؤوليتنا</h3>
-      <p>إذا كان الإرجاع أو الاستبدال بسبب:</p>
-      <ul>
-        <li>منتج تالف</li>
-        <li>عيب في التصنيع</li>
+        <li>تالفاً أو معيباً عند الوصول</li>
+        <li>يحتوي على خطأ في التصنيع</li>
         <li>تم إرسال العنصر الخطأ</li>
       </ul>
-      <p>👉 ستغطي Folklore FC جميع تكاليف الإرجاع وإعادة الشحن، ولن يتم تحميل العميل أي رسوم شحن.</p>
+      <p>لا نقبل الإرجاع بسبب تغيير الرأي، أو الخطأ في اختيار المقاس من قبل العميل.</p>
+      <p>👉 ستغطي Folklore FC جميع تكاليف الشحن المرتجع للعناصر المعيبة أو غير الصحيحة.</p>
 
-      <h2>3. الإبلاغ عن إرجاع أو استبدال</h2>
-      <p>يجب الإبلاغ عن جميع طلبات الإرجاع أو الاستبدال في غضون 7 أيام من استلام المنتج.</p>
+      <h2>3. الاستبدال</h2>
+      <p>نحن لا نقدم خدمة الاستبدال المباشر. إذا تلقيت عنصرًا معيبًا، يرجى طلب إرجاع لاسترداد الأموال، ثم تقديم طلب جديد.</p>
+
+      <h2>4. الإبلاغ عن إرجاع</h2>
+      <p>يجب الإبلاغ عن جميع طلبات الإرجاع في غضون 14 يوماً من استلام المنتج.</p>
       <p>لبدء طلب، يرجى الاتصال بنا على:<br />
       📧 support@folklorefc.com</p>
       <p>يرجى تضمين:</p>
       <ul>
         <li>رقم الطلب</li>
         <li>صور واضحة للمنتج (إذا كان تالفًا أو غير صحيح)</li>
-        <li>شرح موجز لسبب الإرجاع أو الاستبدال</li>
+        <li>شرح موجز لسبب الإرجاع</li>
       </ul>
-      <p>قد لا تكون الطلبات المقدمة بعد 7 أيام مؤهلة.</p>
+      <p>قد لا تكون الطلبات المقدمة بعد 14 يوماً مؤهلة.</p>
 
       <h2>4. الاسترداد</h2>
       <p>بمجرد استلام العنصر المرتجع وفحصه (إن وجد):</p>
@@ -171,38 +161,33 @@ const LEGAL_TEXT: any = {
       Nous visons à fournir un processus de retour et de remboursement équitable, transparent et convivial, comme indiqué ci-dessous.</p>
       <p>En passant une commande sur notre site Web, vous acceptez cette politique de retour et de remboursement.</p>
 
-      <h2>2. Retours et Échanges</h2>
-      <p>Nous acceptons les retours et les échanges dans les conditions suivantes :</p>
+      <h2>2. Politique de Retour</h2>
+      <p>Nous n'acceptons les retours que dans les conditions suivantes :</p>
       
-      <h3>✅ Raisons Liées au Client</h3>
-      <p>Si le retour ou l'échange est demandé en raison de :</p>
+      <h3>✅ Produits Défectueux ou Endommagés</h3>
+      <p>Étant donné que tous les produits sont fabriqués sur commande, nous n'acceptons les retours que si le produit est :</p>
       <ul>
-        <li>Changement d'avis</li>
-        <li>Mauvaise taille ou couleur sélectionnée par le client</li>
-        <li>Ne souhaite plus garder le produit</li>
-      </ul>
-      <p>👉 Le client est responsable des frais d'expédition de retour.</p>
-
-      <h3>✅ Notre Responsabilité</h3>
-      <p>Si le retour ou l'échange est dû à :</p>
-      <ul>
-        <li>Un produit endommagé</li>
-        <li>Un défaut de fabrication</li>
+        <li>Endommagé ou défectueux à l'arrivée</li>
+        <li>Une erreur de fabrication</li>
         <li>Le mauvais article a été envoyé</li>
       </ul>
-      <p>👉 Folklore FC couvrira tous les frais de retour et de réexpédition, et le client ne sera facturé aucun frais d'expédition.</p>
+      <p>Nous n'acceptons pas les retours pour changement d'avis ou sélection de taille incorrecte.</p>
+      <p>👉 Folklore FC couvrira tous les frais d'expédition de retour pour les articles défectueux ou incorrects.</p>
 
-      <h2>3. Signaler un Retour ou un Échange</h2>
-      <p>Toutes les demandes de retour ou d'échange doivent être signalées dans les 7 jours suivant la réception du produit.</p>
+      <h2>3. Échanges</h2>
+      <p>Nous n'offrons pas d'échanges directs. Si vous recevez un article défectueux, veuillez demander un retour pour un remboursement, et passer une nouvelle commande.</p>
+
+      <h2>4. Signaler un Retour</h2>
+      <p>Toutes les demandes de retour doivent être signalées dans les 14 jours suivant la réception du produit.</p>
       <p>Pour initier une demande, veuillez nous contacter à :<br />
       📧 support@folklorefc.com</p>
       <p>Veuillez inclure :</p>
       <ul>
         <li>Numéro de commande</li>
         <li>Des photos claires du produit (si endommagé ou incorrect)</li>
-        <li>Une brève explication de la raison du retour ou de l'échange</li>
+        <li>Une brève explication de la raison du retour</li>
       </ul>
-      <p>Les demandes soumises après 7 jours peuvent ne pas être éligibles.</p>
+      <p>Les demandes soumises après 14 jours peuvent ne pas être éligibles.</p>
 
       <h2>4. Remboursements</h2>
       <p>Une fois l'article retourné reçu et inspecté (le cas échéant) :</p>
@@ -249,38 +234,33 @@ const LEGAL_TEXT: any = {
       Nuestro objetivo es proporcionar un proceso de devolución y reembolso justo, transparente y amigable para el cliente, como se describe a continuación.</p>
       <p>Al realizar un pedido en nuestro sitio web, usted acepta esta Política de Devoluciones y Reembolsos.</p>
 
-      <h2>2. Devoluciones y Cambios</h2>
-      <p>Aceptamos devoluciones y cambios bajo las siguientes condiciones:</p>
+      <h2>2. Política de Devoluciones</h2>
+      <p>Solo aceptamos devoluciones bajo las siguientes condiciones:</p>
       
-      <h3>✅ Razones Relacionadas con el Cliente</h3>
-      <p>Si la devolución o el cambio se solicita debido a:</p>
+      <h3>✅ Productos Defectuosos o Dañados</h3>
+      <p>Dado que todos los productos se fabrican bajo pedido, solo aceptamos devoluciones si el producto:</p>
       <ul>
-        <li>Cambio de opinión</li>
-        <li>Tamaño o color incorrecto seleccionado por el cliente</li>
-        <li>Ya no desea conservar el producto</li>
+        <li>Está dañado o defectuoso a su llegada</li>
+        <li>Tiene un error de fabricación</li>
+        <li>Se envió un artículo incorrecto</li>
       </ul>
-      <p>👉 El cliente es responsable de los costos de envío de devolución.</p>
+      <p>No aceptamos devoluciones por cambio de opinión o selección de tamaño incorrecta.</p>
+      <p>👉 Folklore FC cubrirá todos los costos de envío de devolución de artículos defectuosos o incorrectos.</p>
 
-      <h3>✅ Nuestra Responsabilidad</h3>
-      <p>Si la devolución o el cambio se debe a:</p>
-      <ul>
-        <li>Un producto dañado</li>
-        <li>Un defecto de fabricación</li>
-        <li>Se envió el artículo incorrecto</li>
-      </ul>
-      <p>👉 Folklore FC cubrirá todos los costos de devolución y reenvío, y no se le cobrarán gastos de envío al cliente.</p>
+      <h2>3. Cambios</h2>
+      <p>No ofrecemos cambios directos. Si recibe un artículo defectuoso, solicite una devolución para obtener un reembolso y realice un nuevo pedido.</p>
 
-      <h2>3. Reportar una Devolución o Cambio</h2>
-      <p>Todas las solicitudes de devolución o cambio deben informarse dentro de los 7 días posteriores a la recepción del producto.</p>
+      <h2>4. Reportar una Devolución</h2>
+      <p>Todas las solicitudes de devolución deben informarse dentro de los 14 días posteriores a la recepción del producto.</p>
       <p>Para iniciar una solicitud, contáctenos en:<br />
       📧 support@folklorefc.com</p>
       <p>Por favor incluya:</p>
       <ul>
         <li>Número de pedido</li>
         <li>Fotos claras del producto (si está dañado o es incorrecto)</li>
-        <li>Una breve explicación del motivo de la devolución o cambio</li>
+        <li>Una breve explicación del motivo de la devolución</li>
       </ul>
-      <p>Las solicitudes enviadas después de 7 días pueden no ser elegibles.</p>
+      <p>Las solicitudes enviadas después de 14 días pueden no ser elegibles.</p>
 
       <h2>4. Reembolsos</h2>
       <p>Una vez que se reciba e inspeccione el artículo devuelto (si corresponde):</p>
@@ -327,38 +307,33 @@ const LEGAL_TEXT: any = {
       以下に概説するように、公正で透明性があり、顧客に優しい返品および返金プロセスを提供することを目指しています。</p>
       <p>当社のウェブサイトで注文することにより、この返品および返金ポリシーに同意したものとみなされます。</p>
 
-      <h2>2. 返品・交換</h2>
-      <p>以下の条件下で返品および交換を受け付けます：</p>
+      <h2>2. 返品ポリシー</h2>
+      <p>以下の条件でのみ返品を受け付けます：</p>
       
-      <h3>✅ お客様に関連する理由</h3>
-      <p>返品または交換が以下による場合：</p>
+      <h3>✅ 欠陥品または破損品</h3>
+      <p>すべての製品は受注生産であるため、製品が以下の状態である場合にのみ返品を受け付けます：</p>
       <ul>
-        <li>心変わり</li>
-        <li>お客様が選択したサイズまたは色が間違っている</li>
-        <li>製品を保持したくない</li>
-      </ul>
-      <p>👉 返品の配送料はお客様の負担となります。</p>
-
-      <h3>✅ 当社の責任</h3>
-      <p>返品または交換が以下による場合：</p>
-      <ul>
-        <li>破損した製品</li>
-        <li>製造上の欠陥</li>
+        <li>到着時に破損または欠陥がある</li>
+        <li>製造上のエラーがある</li>
         <li>間違った商品が送られた</li>
       </ul>
-      <p>👉 Folklore FCはすべての返品および再配送料を負担し、お客様に配送料は請求されません。</p>
+      <p>お客様の都合によるキャンセルやサイズ間違いによる返品は受け付けておりません。</p>
+      <p>👉 Folklore FCは、欠陥品または間違った商品の返品送料をすべて負担します。</p>
 
-      <h2>3. 返品または交換の報告</h2>
-      <p>すべての返品または交換の要求は、製品を受け取ってから7日以内に報告する必要があります。</p>
+      <h2>3. 交換</h2>
+      <p>直接の交換は承っておりません。欠陥品を受け取った場合は、返品をリクエストして返金を受け、新しい注文を行ってください。</p>
+
+      <h2>4. 返品の報告</h2>
+      <p>すべての返品リクエストは、製品を受け取ってから14日以内に報告する必要があります。</p>
       <p>リクエストを開始するには、以下までご連絡ください：<br />
       📧 support@folklorefc.com</p>
       <p>以下を含めてください：</p>
       <ul>
         <li>注文番号</li>
         <li>製品の鮮明な写真（破損または間違っている場合）</li>
-        <li>返品または交換の理由の簡単な説明</li>
+        <li>返品の理由の簡単な説明</li>
       </ul>
-      <p>7日後に提出されたリクエストは対象外となる場合があります。</p>
+      <p>14日後に提出されたリクエストは対象外となる場合があります。</p>
 
       <h2>4. 返金</h2>
       <p>返品された商品を受け取り、検査した後（該当する場合）：</p>

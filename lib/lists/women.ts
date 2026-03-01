@@ -24,10 +24,10 @@ Coupe moderne "Oversized" adaptée à toutes les silhouettes
 Impression haute définition résistante à la décoloration
 Excellent choix pour un usage personnel ou comme cadeau unique`,
     // حقول SEO الاحترافية لجوجل والذكاء الاصطناعي
-    metaTitle: "Maillot Victoire de Jeanne | Armure de l'Héroïne Française | Folklore FC",
-    metaDescription: "Affirmez votre force avec le maillot 'Victoire de Jeanne'. Une fusion symbolique entre armure médiévale et fierté du football français. Design artistique premium pour la guerrière moderne.",
-    altText: "Maillot de football pour femme avec un design d'armure médiévale inspiré de Jeanne d'Arc, aux couleurs nationales tricolores.",
-    keywords: ["Maillot foot Jeanne d'Arc", "Maillot foot héroïne française", "Mode sport armure médiévale", "Vêtement femme fierté nationale"]
+    metaTitle: "Acheter Maillot Victoire de Jeanne - Foot Femme | Folklore FC",
+    metaDescription: "Affirmez votre force avec le t-shirt Victoire de Jeanne. Design armure médiévale tricolore pour un look streetwear héroïque. Achetez la fierté française !",
+    altText: "Premium women's streetwear football tee - Joan of Arc medieval armor design by Folklore FC - Front View",
+    keywords: ["Acheter maillot foot femme", "Vêtement femme fierté nationale", "T-shirt foot Jeanne d'Arc", "Mode streetwear héroïque"]
   },
   {
     id: 'wfr-2',
@@ -49,10 +49,10 @@ Idéal pour le streetwear ou les matchs de football
 Coupe moderne "Oversized" adaptée à toutes les silhouettes
 Impression haute définition résistante à la décoloration
 Excellent choix pour un usage personnel ou comme cadeau unique`,
-    metaTitle: "Maillot France Mode Chic | Style Minimaliste Parisien | Folklore FC",
-    metaDescription: "Le chic parisien rencontre le beau jeu. Un maillot 'France Mode' minimaliste pour un look urbain sophistiqué et intemporel. Subtil, élégant et parfaitement français.",
-    altText: "T-shirt de football blanc pour femme avec des lignes épurées bleues et rouges et un logo France Mode chic.",
-    keywords: ["Maillot foot chic parisien", "Mode foot minimaliste", "Maillot femme France Mode", "Vêtement sport urbain sophistiqué"]
+    metaTitle: "Commander T-shirt France Mode Minimaliste - Femme | Folklore FC",
+    metaDescription: "Le chic parisien rencontre le beau jeu. Un t-shirt de foot urbain minimaliste pour femme. Achetez ce classique élégant et soutenez les Bleues avec style.",
+    altText: "Premium women's streetwear football tee - Minimalist French chic lines design by Folklore FC - Front View",
+    keywords: ["Acheter t-shirt foot chic", "Mode foot minimaliste femme", "Streetwear urbain sophistiqué", "Vêtement football élégant Paris"]
   },
   {
     id: 'wfr-3',
@@ -74,10 +74,10 @@ Idéal pour le streetwear ou les matchs de football
 Coupe moderne "Oversized" adaptée à toutes les silhouettes
 Impression haute définition résistante à la décoloration
 Excellent choix pour un usage personnel ou comme cadeau unique`,
-    metaTitle: "Maillot L'Art du Jeu | Style Impressionniste Français | Folklore FC",
-    metaDescription: "Le football devient un art. Inspiré de l'impressionnisme français, ce maillot célèbre la beauté et la vitesse du mouvement avec des touches vibrantes. Pour les âmes artistiques.",
-    altText: "Peinture impressionniste sur un maillot de football représentant le mouvement fluide d'une joueuse avec des couleurs vibrantes.",
-    keywords: ["Maillot foot impressionniste", "Maillot foot art français", "Mode sport artistique", "Vêtement urbain touches vibrantes"]
+    metaTitle: "Acheter Maillot L'Art du Jeu - Impressionnisme Femme | Folklore FC",
+    metaDescription: "Quand l'art impressionniste devient streetwear sportif féminin. Célébrez la vitesse avec ce t-shirt France urbain aux touches éclatantes. Commandez aujourd'hui !",
+    altText: "Premium women's streetwear football tee - French Impressionist art style by Folklore FC - Front View",
+    keywords: ["Acheter maillot vibrantes", "T-shirt sport artistique femme", "Mode foot impressionniste", "Streetwear créatif français"]
   },
   {
     id: 'wfr-4',
@@ -99,10 +99,10 @@ Idéal pour le streetwear ou les matchs de football
 Coupe moderne "Oversized" adaptée à toutes les silhouettes
 Impression haute définition résistante à la décoloration
 Excellent choix pour un usage personnel ou comme cadeau unique`,
-    metaTitle: "Maillot Mona Ultras | Street Art du Louvre | Folklore FC",
-    metaDescription: "La Joconde devient une super-fan ! Un mélange entre l'héritage classique du Louvre et la passion ultra moderne. Osez l'originalité absolue.",
-    altText: "T-shirt blanc pour femme représentant la Mona Lisa avec un maquillage de supporter et une écharpe tricolore Folklore FC.",
-    keywords: ["Maillot foot Mona Lisa", "Mode street art Louvre", "Maillot foot Mona Ultras", "Vêtement sport français original"]
+    metaTitle: "Acheter T-shirt Mona Ultras - Street Art Foot Femme | Folklore FC",
+    metaDescription: "Osez l'originalité avec Mona Ultras. Le classique du Louvre mixé avec l'énergie des supportrices de football. Votre streetwear parisien exclusif est ici !",
+    altText: "Premium women's streetwear football tee - Urban Mona Lisa Ultra street art by Folklore FC - Front View",
+    keywords: ["Acheter maillot Mona Lisa foot", "Vêtement foot femme original", "Mode street art Louvre", "T-shirt supporter étudiante"]
   },
   {
     id: 'wfr-5',
@@ -124,10 +124,10 @@ Idéal pour le streetwear ou les matchs de football
 Coupe moderne "Oversized" adaptée à toutes les silhouettes
 Impression haute définition résistante à la décoloration
 Excellent choix pour un usage personnel ou comme cadeau unique`,
-    metaTitle: "Maillot de Luxe Eau de Victoire | Art du Parfum Parisien | Folklore FC",
-    metaDescription: "L'essence du football français. Conçu d'après les flacons de parfum de luxe parisiens. Sophistication et passion du sport dans une pièce premium.",
-    altText: "Flacon de parfum de luxe en forme de ballon de football avec une étiquette dorée 'Eau de Victoire' sur un t-shirt pour femme.",
-    keywords: ["Maillot foot parfum parisien", "Streetwear foot de luxe", "Mode sport Eau de Victoire", "Équipement foot femme sophistiqué"]
+    metaTitle: "Commander Maillot Eau de Victoire - Luxe Foot Femme | Folklore FC",
+    metaDescription: "Associez glamour parisien et football féminin. Un parfum de victoire et un design doré haut de gamme sur un t-shirt streetwear exquis. Achetez le luxe !",
+    altText: "Premium women's streetwear football tee - Luxury Parisian perfume bottle design by Folklore FC - Front View",
+    keywords: ["Acheter t-shirt foot luxe", "Streetwear féminin sophistiqué", "Mode sport glamour France", "Vêtement Eau de Victoire"]
   },
   {
     id: 'wfr-6',
@@ -149,10 +149,10 @@ Idéal pour le streetwear ou les matchs de football
 Coupe moderne "Oversized" adaptée à toutes les silhouettes
 Impression haute définition résistante à la décoloration
 Excellent choix pour un usage personnel ou comme cadeau unique`,
-    metaTitle: "Maillot National Coq Glorieux | Art Baroque Français | Folklore FC",
-    metaDescription: "Portez fièrement le symbole national. Un design Coq Glorieux avec des motifs baroques et la fierté tricolore. Majestueux, élégant et unique.",
-    altText: "Illustration baroque d'un coq gaulois majestueux bleu et doré sur un ballon de football, texte 'Allez Les Bleues'.",
-    keywords: ["Maillot foot coq baroque", "Maillot symbole national français", "Mode sport Coq Glorieux", "Vêtement femme fierté gauloise"]
+    metaTitle: "Acheter Maillot National Coq Glorieux - Femme | Folklore FC",
+    metaDescription: "Portez fièrement le symbole national avec élégance. Le t-shirt Coq Glorieux offre un design baroque exclusif pour les supportrices françaises. Allez les Bleues !",
+    altText: "Premium women's streetwear football tee - French national rooster baroque design by Folklore FC - Front View",
+    keywords: ["Acheter maillot coq femme", "Vêtement football fierté tricolore", "T-shirt Allez les Bleues", "Streetwear féminin France"]
   },
   {
     id: 'wfr-7',
@@ -174,10 +174,10 @@ Idéal pour le streetwear ou les matchs de football
 Coupe moderne "Oversized" adaptée à toutes les silhouettes
 Impression haute définition résistante à la décoloration
 Excellent choix pour un usage personnel ou comme cadeau unique`,
-    metaTitle: "Maillot Penseur Tacticien | Stratégie et Art de Rodin | Folklore FC",
-    metaDescription: "La stratégie avant tout. 'Le Penseur' de Rodin analysant le terrain. Pour celles qui allient intelligence et passion sur la pelouse. Célébrez l'esprit du jeu.",
-    altText: "Version femme du t-shirt Tacticien avec 'Le Penseur' de Rodin assis sur un ballon de football, flèches tactiques en arrière-plan.",
-    keywords: ["Maillot foot Rodin penseur", "Maillot foot tacticien", "Mode sport art et stratégie", "Vêtement esprit du jeu"]
+    metaTitle: "Commander Maillot Penseur Tacticien - Mode Sport Femme | Folklore FC",
+    metaDescription: "La stratégie avant tout. Mêlant l'Art de Rodin et la passion du foot, ce t-shirt streetwear femme célèbre l'intelligence sur le terrain. Achetez-le vite !",
+    altText: "Premium women's streetwear football tee - Rodin The Thinker tactics design by Folklore FC - Front View",
+    keywords: ["Acheter t-shirt foot femme", "Mode sport tacticien", "Streetwear urbain penseur", "Vêtement foot intelligence France"]
   },
   {
     id: 'wfr-8',
@@ -199,10 +199,10 @@ Idéal pour le streetwear ou les matchs de football
 Coupe moderne "Oversized" adaptée à toutes les silhouettes
 Impression haute définition résistante à la décoloration
 Excellent choix pour un usage personnel ou comme cadeau unique`,
-    metaTitle: "Maillot Excellence Roi Soleil | Style Royal Versailles | Folklore FC",
-    metaDescription: "Régnez sur le terrain. Inspiré par le Roi Soleil et Versailles, avec un emblème doré d'une élégance royale. Visez l'excellence et la suprématie.",
-    altText: "Blason baroque doré orné entourant un ballon de football avec des rayons solaires, design inspiré de Versailles.",
-    keywords: ["Maillot foot Roi Soleil", "Maillot excellence Versailles", "Mode sport royal et doré", "Équipement foot inspiré Louis XIV"]
+    metaTitle: "Acheter Maillot Versailles Roi Soleil - Foot Féminin | Folklore FC",
+    metaDescription: "Régnez sur le terrain avec l'éclat de Versailles. Ce t-shirt mode urbaine pour femme vous donne une élégance royale. Sublimez votre style sport ! ",
+    altText: "Premium women's streetwear football tee - Royal Versailles sun king emblem by Folklore FC - Front View",
+    keywords: ["Acheter maillot doré femme", "Vêtement foot royal France", "Mode streetwear Versailles", "T-shirt chic supporter femme"]
   },
   {
     id: 'wfr-9',
@@ -224,10 +224,10 @@ Idéal pour le streetwear ou les matchs de football
 Coupe moderne "Oversized" adaptée à toutes les silhouettes
 Impression haute définition résistante à la décoloration
 Excellent choix pour un usage personnel ou comme cadeau unique`,
-    metaTitle: "Maillot Planète Petit Prince | Football Poétique Français | Folklore FC",
-    metaDescription: "La poésie du beau jeu. Un hommage mystique et cosmique à l'univers du Petit Prince pour les rêveuses du terrain. Gardez votre âme d'enfant vivante.",
-    altText: "Illustration poétique du Petit Prince debout sur un ballon de football géant dans un ciel étoilé.",
-    keywords: ["Maillot foot Petit Prince", "Mode foot poétique", "Vêtement sport Saint-Exupéry", "Maillot cosmique pour rêveuses"]
+    metaTitle: "Acheter Maillot Planète Petit Prince - Streetwear Femme | Folklore FC",
+    metaDescription: "La poésie d'un chef-d'œuvre français sur un t-shirt de foot. Le design 'Ma Planète' pour les rêveuses d'un streetwear délicat. Livraison express en France.",
+    altText: "Premium women's streetwear football tee - Little Prince cosmic poetic design by Folklore FC - Front View",
+    keywords: ["Acheter t-shirt foot poétique", "Mode femme Petit Prince", "Streetwear parisien délicat", "Vêtement foot rêveuse"]
   },
   {
     id: 'wfr-10',
@@ -249,10 +249,10 @@ Idéal pour le streetwear ou les matchs de football
 Coupe moderne "Oversized" adaptée à toutes les silhouettes
 Impression haute définition résistante à la décoloration
 Excellent choix pour un usage personnel ou comme cadeau unique`,
-    metaTitle: "Maillot Victoire des Mousquetaires | Style Légende Française | Folklore FC",
-    metaDescription: "Un pour tous, tous pour le football. L'esprit des Mousquetaires unissant courage et solidarité sur le terrain. Célébrez l'amitié et le travail d'équipe.",
-    altText: "Blason avec trois épées de mousquetaire croisées derrière un ballon de football, texte 'Tous Pour Un' sur un t-shirt pour femme.",
-    keywords: ["Maillot victoire mousquetaires", "Maillot foot légende française", "Mode sport solidarité", "Équipement fraternité du terrain"]
+    metaTitle: "Commander Maillot Tous Pour Un - Football Féminin | Folklore FC",
+    metaDescription: "Un pour toutes, toutes pour le foot ! Célébrez les Mousquetaires avec ce t-shirt streetwear femme valorisant l'équipe. Achetez le symbole de l'amitié sportive.",
+    altText: "Premium women's streetwear football tee - Three Musketeers legend design by Folklore FC - Front View",
+    keywords: ["Acheter maillot mousquetaires", "T-shirt foot esprit d'équipe", "Mode urbaine solidarité femme", "Streetwear légende française"]
   },
   {
     id: 'wfr-11',
@@ -274,10 +274,10 @@ Idéal pour le streetwear ou les matchs de football
 Coupe moderne "Oversized" adaptée à toutes les silhouettes
 Impression haute définition résistante à la décoloration
 Excellent choix pour un usage personnel ou comme cadeau unique`,
-    metaTitle: "Maillot Frenchie FC Bouledogue | Support Parisien Cool | Folklore FC",
-    metaDescription: "Affichez votre style cool avec Frenchie FC. Un bouledogue français branché pour une touche d'humour et de mode urbaine. L'accessoire indispensable pour un look parisien décontracté.",
-    altText: "Bouledogue français avec des lunettes de soleil et un petit maillot de football numéro 10 sur un t-shirt streetwear pour femme.",
-    keywords: ["Maillot Frenchie FC bouledogue", "Mode sport parisienne cool", "Maillot support bouledogue", "Vêtement foot urbain branché"]
+    metaTitle: "Acheter Maillot Frenchie FC Bouledogue - Mode Urbaine | Folklore FC",
+    metaDescription: "Le pur style parisien décontracté. Un bouledogue branché pour afficher votre amour du foot avec humour et mode urbaine. Votre indispensable vestiaire !",
+    altText: "Premium women's streetwear football tee - Cool French bulldog Parisian style by Folklore FC - Front View",
+    keywords: ["Acheter t-shirt bouledogue france", "Mode sport urbaine parisienne", "Streetwear décontracté femme", "Maillot Frenchie supporter"]
   },
 
   // --- أمريكا الاحترافية (EN Women - SEO & AI Optimized) ---
@@ -301,10 +301,10 @@ Suitable for streetwear or attending soccer matches
 Modern "Oversized" cut that fits various body types
 High-quality fade-resistant print
 Great choice for personal use or as a unique gift`,
-    metaTitle: "Liberty FC Women's Soccer Graphic Tee | NYC Street Art Style | Folklore FC",
-    metaDescription: "Light the way with Liberty FC. A bold street-art tribute to American freedom and soccer passion. Featuring the Statue of Liberty with a flaming soccer ball. Urban chic for women.",
+    metaTitle: "Buy Liberty FC Women's Soccer Graphic Tee | Folklore FC",
+    metaDescription: "Light the way with Liberty FC. A bold street-art tribute to American freedom and soccer passion. Featuring the Statue of Liberty. Buy your urban chic tee today!",
     altText: "Artistic graffiti design of the Statue of Liberty holding a flaming soccer ball on a premium white women's t-shirt.",
-    keywords: ["NYC soccer streetwear", "Statue of Liberty graphic tee", "Urban football fashion", "American freedom sports shirt"]
+    keywords: ["Buy NYC soccer streetwear", "Statue of Liberty graphic tee", "Urban women's football fashion", "American freedom sports shirt sale"]
   },
   {
     id: 'wus-2',
@@ -326,10 +326,10 @@ Suitable for streetwear or attending soccer matches
 Modern "Oversized" cut that fits various body types
 High-quality fade-resistant print
 Great choice for personal use or as a unique gift`,
-    metaTitle: "Rosie's Pitch Soccer Jersey | Women's Empowerment & Strength | Folklore FC",
-    metaDescription: "We Can Play It! An empowering tribute to Rosie the Riveter and the strength of women in soccer. Vintage Americana meets modern streetwear performance.",
+    metaTitle: "Buy Rosie's Pitch Soccer Jersey - Women's Empowerment | Folklore FC",
+    metaDescription: "We Can Play It! An empowering tribute to Rosie the Riveter and the strength of women in soccer. Vintage Americana meets modern streetwear performance. Shop now!",
     altText: "Retro-style illustration of Rosie the Riveter in a soccer kit, flexing a bicep with a ball, vintage poster aesthetic.",
-    keywords: ["Women's empowerment jersey", "Rosie the Riveter soccer", "Vintage Americana sports", "Feminist football shirt"]
+    keywords: ["Buy women's empowerment jersey", "Rosie the Riveter soccer shirt", "Vintage Americana sports gear", "Feminist football apparel sale"]
   },
   {
     id: 'wus-3',
@@ -351,10 +351,10 @@ Suitable for streetwear or attending soccer matches
 Modern "Oversized" cut that fits various body types
 High-quality fade-resistant print
 Great choice for personal use or as a unique gift`,
-    metaTitle: "Break The Game Rock & Roll Soccer Shirt | Rebel Style | Folklore FC",
-    metaDescription: "Rock the field with 'Break The Game'. A high-energy design blending American rock heritage with the beautiful game. Perfect for the edgy, rebellious fan.",
+    metaTitle: "Buy Break The Game Rock & Roll Soccer Shirt | Folklore FC",
+    metaDescription: "Rock the field! A high-energy design blending American rock heritage with the beautiful game. Perfect for the edgy, rebellious fan. Order your premium streetwear now!",
     altText: "Gritty silhouette of a rock star smashing a guitar against a soccer ball on a white premium t-shirt.",
-    keywords: ["Rock and roll football shirt", "Edgy streetwear women", "Alternative soccer jersey", "Rebel style football USA"]
+    keywords: ["Buy Rock and roll football shirt", "Edgy streetwear women", "Alternative soccer jersey sale", "Rebel style football USA apparel"]
   },
   {
     id: 'wus-4',
@@ -376,10 +376,10 @@ Suitable for streetwear or attending soccer matches
 Modern "Oversized" cut that fits various body types
 High-quality fade-resistant print
 Great choice for personal use or as a unique gift`,
-    metaTitle: "Hollywood Walk of Fame Soccer Jersey | Golden Legend Art | Folklore FC",
-    metaDescription: "Walk among legends. Inspired by Hollywood's iconic stars, featuring a golden soccer cleat immortalized. Celebrity glamour meets urban football style.",
+    metaTitle: "Buy Hollywood Walk of Fame Soccer Jersey - Golden Legend | Folklore FC",
+    metaDescription: "Walk among legends. Inspired by Hollywood's iconic stars, featuring an immortalized golden soccer cleat. Celebrity glamour meets urban football style. Buy yours today!",
     altText: "Iconic Hollywood walk of fame star featuring a golden soccer cleat and movie spotlights on a dark jersey.",
-    keywords: ["Hollywood soccer design", "LA streetwear fashion", "Golden cleat shirt", "Celebrity football culture"]
+    keywords: ["Buy Hollywood soccer design", "LA streetwear fashion sale", "Golden cleat shirt", "Celebrity women's football culture"]
   },
   {
     id: 'wus-5',
@@ -401,10 +401,10 @@ Suitable for streetwear or attending soccer matches
 Modern "Oversized" cut that fits various body types
 High-quality fade-resistant print
 Great choice for personal use or as a unique gift`,
-    metaTitle: "Buffalo Charge Soccer Jersey | American Frontier Resilience | Folklore FC",
-    metaDescription: "Channel the raw power of the frontier. The Buffalo Charge jersey celebrates resilience and strength with a majestic bison design. Authentic American sports spirit.",
+    metaTitle: "Buy Buffalo Charge Soccer Jersey - American Frontier | Folklore FC",
+    metaDescription: "Channel the raw power of the frontier. The Buffalo Charge jersey celebrates resilience with a majestic bison design. Authentic American sports spirit. Shop now!",
     altText: "Powerful woodcut illustration of an American bison charging at a vintage soccer ball, frontier spirit theme.",
-    keywords: ["American Bison football", "Wild West streetwear", "Resilient sports gear", "Frontier heritage shirt"]
+    keywords: ["Buy American Bison football shirt", "Wild West streetwear women", "Resilient sports gear sale", "Frontier heritage apparel"]
   },
   {
     id: 'wus-6',
@@ -426,10 +426,10 @@ Suitable for streetwear or attending soccer matches
 Modern "Oversized" cut that fits various body types
 High-quality fade-resistant print
 Great choice for personal use or as a unique gift`,
-    metaTitle: "Muscle Car Power Striker Jersey | Classic American Speed | Folklore FC",
-    metaDescription: "Feel the speed. Inspired by legendary American muscle cars, the Power Striker jersey is built for the fastest players who live the automotive soul.",
+    metaTitle: "Buy Muscle Car Power Striker Jersey - American Speed | Folklore FC",
+    metaDescription: "Feel the speed. Inspired by legendary American muscle cars, the Power Striker jersey is built for the fastest players with automotive soul. Order your premium tee today!",
     altText: "Vibrant red classic muscle car with burning soccer ball headlights bursting through a stadium net.",
-    keywords: ["Classic car soccer shirt", "American muscle sports", "Speed football gear", "Automotive culture streetwear"]
+    keywords: ["Buy classic car soccer shirt", "American muscle sports gear", "Speed football apparel sale", "Automotive culture streetwear women"]
   },
   {
     id: 'wus-7',
@@ -451,10 +451,10 @@ Suitable for streetwear or attending soccer matches
 Modern "Oversized" cut that fits various body types
 High-quality fade-resistant print
 Great choice for personal use or as a unique gift`,
-    metaTitle: "Hollywood Goals Glamour Jersey | Red Carpet Icon Style | Folklore FC",
-    metaDescription: "Where soccer meets high-fashion glamour. A tribute to silver screen icons and red carpet elegance. Be the icon of the game in this exclusive piece.",
+    metaTitle: "Buy Hollywood Goals Glamour Jersey - Red Carpet | Folklore FC",
+    metaDescription: "Where soccer meets high-fashion glamour. A tribute to silver screen icons and red carpet elegance. Be the icon of the game in this exclusive streetwear piece. Buy now!",
     altText: "Stylized Marilyn Monroe icon in a soccer pose on a red carpet with paparazzi flashes and Hollywood typography.",
-    keywords: ["Feminine glamour soccer", "Marilyn Monroe football shirt", "Vintage Hollywood fashion", "Red carpet sports style"]
+    keywords: ["Buy feminine glamour soccer shirt", "Marilyn Monroe football apparel", "Vintage Hollywood fashion", "Red carpet sports style sale"]
   },
   {
     id: 'wus-8',
@@ -476,10 +476,10 @@ Suitable for streetwear or attending soccer matches
 Modern "Oversized" cut that fits various body types
 High-quality fade-resistant print
 Great choice for personal use or as a unique gift`,
-    metaTitle: "Retro 50s Diner Soccer Shirt | Goal Diner Nostalgia | Folklore FC",
-    metaDescription: "Serving goals daily! A nostalgic 1950s American diner design for the fun-loving fan. Retro roller-skating waitress aesthetic meets modern football fashion.",
+    metaTitle: "Buy Retro 50s Diner Soccer Shirt - Goal Diner | Folklore FC",
+    metaDescription: "Serving goals daily! Get this nostalgic 1950s American diner design for the fun-loving fan. Retro roller-skating waitress aesthetic meets modern football fashion. Shop now!",
     altText: "Vibrant neon 'Goal Diner' illustration with a waitress on roller skates kicking a ball amidst flying milkshakes.",
-    keywords: ["1950s diner sports shirt", "Retro Americana soccer", "Nostalgic football tee", "Vintage waitress design kit"]
+    keywords: ["Buy 1950s diner sports shirt", "Retro Americana soccer women", "Nostalgic football tee sale", "Vintage waitress design kit"]
   },
   {
     id: 'wus-9',
@@ -501,10 +501,10 @@ Suitable for streetwear or attending soccer matches
 Modern "Oversized" cut that fits various body types
 High-quality fade-resistant print
 Great choice for personal use or as a unique gift`,
-    metaTitle: "Minimalist Lady Liberty Soccer Shirt | NYC Line Art Design | Folklore FC",
-    metaDescription: "Clean, modern, and iconic. Our NYC line art jersey features a minimalist Lady Liberty balancing the game. Perfect for high-end urban streetwear sets.",
+    metaTitle: "Buy Minimalist Lady Liberty Soccer Shirt - NYC Line Art | Folklore FC",
+    metaDescription: "Clean, modern, and iconic. Our NYC line art jersey features a minimalist Lady Liberty balancing the game. Perfect for high-end urban streetwear sets. Order today!",
     altText: "Elegant minimalist line art of Lady Liberty holding a soccer ball on a premium women's white t-shirt.",
-    keywords: ["Minimalist NYC soccer", "Lady Liberty line art", "High-end urban streetwear", "Artistic football tee"]
+    keywords: ["Buy minimalist NYC soccer shirt", "Lady Liberty line art tee", "High-end urban streetwear women", "Artistic football apparel sale"]
   },
   {
     id: 'wus-10',
@@ -526,10 +526,10 @@ Suitable for streetwear or attending soccer matches
 Modern "Oversized" cut that fits various body types
 High-quality fade-resistant print
 Great choice for personal use or as a unique gift`,
-    metaTitle: "Hip Hop Street Sound FC Jersey | Boombox Lioness Art | Folklore FC",
-    metaDescription: "Represent the city's rhythm. A powerful crowned lioness on a vintage boombox, merging hip-hop culture with modern football beats. Urban pride.",
+    metaTitle: "Buy Hip Hop Street Sound FC Jersey - Boombox Lioness | Folklore FC",
+    metaDescription: "Represent the city's rhythm. Get this powerful crowned lioness on a vintage boombox, merging hip-hop culture with modern football beats. Urban pride streetwear. Shop now!",
     altText: "Urban graffiti style artwork of a crowned lioness sitting on a boombox with soccer ball speakers.",
-    keywords: ["Hip hop football style", "Lioness urban streetwear", "Boombox soccer graphic", "NYC hip hop heritage shirt"]
+    keywords: ["Buy hip hop football style", "Lioness urban streetwear women", "Boombox soccer graphic tee", "NYC hip hop heritage shirt sale"]
   },
   {
     id: 'wus-11',
@@ -551,10 +551,10 @@ Suitable for streetwear or attending soccer matches
 Modern "Oversized" cut that fits various body types
 High-quality fade-resistant print
 Great choice for personal use or as a unique gift`,
-    metaTitle: "USA Varsity Soccer Eagle Jersey | American Campus Heritage | Folklore FC",
-    metaDescription: "Classic American campus look. High-impact varsity eagle design celebrating US soccer excellence and collegiate athletic pride. Authentic spirit.",
+    metaTitle: "Buy USA Varsity Soccer Eagle Jersey - American Campus | Folklore FC",
+    metaDescription: "Classic American campus look. High-impact varsity eagle design celebrating US soccer excellence and collegiate athletic pride. Authentic spirit streetwear. Find yours here!",
     altText: "Varsity-style crest featuring a powerful bald eagle in a jersey, collegiate typography USA on a sports shirt.",
-    keywords: ["Varsity soccer USA", "American Eagle gear", "College style football", "Campus heritage streetwear"]
+    keywords: ["Buy varsity soccer USA shirt", "American Eagle sports gear", "College style football apparel", "Campus heritage streetwear sale"]
   },
   {
     id: 'wus-12',
@@ -576,10 +576,10 @@ Suitable for streetwear or attending soccer matches
 Modern "Oversized" cut that fits various body types
 High-quality fade-resistant print
 Great choice for personal use or as a unique gift`,
-    metaTitle: "Wild West Wanted Soccer Shirt | Cowboy Game Thief Art | Folklore FC",
-    metaDescription: "The most wanted striker in the West. Unique vintage outlaw poster design for the dangerously talented. Legendary Wild West style.",
+    metaTitle: "Buy Wild West Wanted Soccer Shirt - Cowboy Game Thief | Folklore FC",
+    metaDescription: "The most wanted striker in the West. Get the unique vintage outlaw poster design for the dangerously talented. Legendary Wild West style streetwear. Order now!",
     altText: "Vintage 'Wanted' poster aesthetic featuring a female cowboy holding a golden soccer ball on a brown t-shirt.",
-    keywords: ["Wild West soccer art", "Cowboy wanted poster shirt", "Outlaw sports fashion", "Vintage American desert kit"]
+    keywords: ["Buy Wild West soccer art", "Cowboy wanted poster shirt", "Outlaw sports fashion women", "Vintage American desert kit sale"]
   },
   {
     id: 'wus-13',
@@ -601,10 +601,10 @@ Suitable for streetwear or attending soccer matches
 Modern "Oversized" cut that fits various body types
 High-quality fade-resistant print
 Great choice for personal use or as a unique gift`,
-    metaTitle: "Outlaw Striker Cowboy Skull Jersey | Rebel Western Style | Folklore FC",
-    metaDescription: "Fearless and gritty. The Outlaw Striker design represents the tough rebel spirit of the frontier. Bold, gothic western streetwear for winners.",
+    metaTitle: "Buy Outlaw Striker Cowboy Skull Jersey - Rebel | Folklore FC",
+    metaDescription: "Fearless and gritty. The Outlaw Striker design represents the tough rebel spirit of the frontier. Bold, gothic western streetwear for winners. Buy yours today!",
     altText: "Cowboy skull with hat and crossed revolvers firing smoking soccer balls, gritty dark western aesthetic.",
-    keywords: ["Skull soccer streetwear", "Western rebel football", "Gothic Americana fashion", "Smoking gun sports shirt"]
+    keywords: ["Buy skull soccer streetwear", "Western rebel football apparel", "Gothic Americana fashion", "Smoking gun sports shirt sale"]
   },
 
   // --- اليابان الاحترافية (JA Women - SEO & AI Optimized) ---
@@ -628,10 +628,10 @@ Great choice for personal use or as a unique gift`,
 様々な体型にフィットするモダンな「オーバーサイズ」カット
 色あせしにくい高品質プリント
 自分用にも、ユニークなギフトとしても最適`,
-    metaTitle: "フロストクイーン 雪女ジャージー | 空霊なる氷の支配 | Folklore FC",
-    metaDescription: "ピッチに降り立つ雪の伝説。雪女にインスパイアされた「氷の抱擁」ジャージーは、冷徹なコントロールと空霊的な美しさを象徴しています。プレミアムな日本のストリートウェア。",
-    altText: "スタイリッシュなブラックのウィメンズジャージーに描かれた、サッカーボールを凍らせる雪女の、心に響く美しいイラスト。",
-    keywords: ["フロストクイーン サッカーシャツ", "雪女 サッカー ジャージー", "日本の神話 スポーツ", "氷テーマ ストリートウェア ウィメンズ"]
+    metaTitle: "氷の抱擁 雪女ジャージを購入 - フロストクイーン | Folklore FC",
+    metaDescription: "ピッチを凍りつかせる美しさ。雪女伝説にインスパイアされた、圧倒的にクールなサッカーストリートウェア。洗練された冬のスタイルを手に入れよう。今すぐ購入！",
+    altText: "Premium women's streetwear football tee - Japanese Yuki-Onna snow woman frost queen design by Folklore FC - Front View",
+    keywords: ["雪女 サッカーシャツ 購入", "フロストクイーン スポーツウェア", "冬の神話 ストリートスタイル", "クール レディース ジャージ"]
   },
   {
     id: 'wja-2',
@@ -653,10 +653,10 @@ Great choice for personal use or as a unique gift`,
 様々な体型にフィットするモダンな「オーバーサイズ」カット
 色あせしにくい高品質プリント
 自分用にも、ユニークなギフトとしても最適`,
-    metaTitle: "龍神 オーシャン・ガーディアン ジャージー | 深海の威厳 | Folklore FC",
-    metaDescription: "深淵からの力。オーシャン・ガーディアン・ジャージーは、ゲームを守護する龍神を特徴としています。神秘的な水の精神とアスリートの強さの融合。",
-    altText: "鮮やかなブルーのグラフィックTシャツに描かれた、深い海の中でサッカーボールの周りを渦巻く壮大な青龍（龍神）。",
-    keywords: ["龍神 サッカー ジャージー", "オーシャン・ガーディアン サッカーシャツ", "日本の龍 スポーツ", "海の神話 ストリートウェア"]
+    metaTitle: "オーシャン・ガーディアン 龍神ジャージを購入 | Folklore FC",
+    metaDescription: "海洋の力とサッカースピリットの融合。雄大な龍神が描かれた深海のサッカーストリートウェア。神秘的でエレガントなプレースタイルを表現。注文はこちら！",
+    altText: "Premium women's streetwear football tee - Japanese Ryujin sea dragon ocean guardian design by Folklore FC - Front View",
+    keywords: ["龍神 サッカーシャツ 購入", "海神 ストリートウェア", "日本の龍 スポーツアパレル", "神秘的 レディース ジャージ"]
   },
   {
     id: 'wja-3',
@@ -678,10 +678,10 @@ Great choice for personal use or as a unique gift`,
 様々な体型にフィットするモダンな「オーバーサイズ」カット
 色あせしにくい高品質プリント
 自分用にも、ユニークなギフトとしても最適`,
-    metaTitle: "九尾の狐 霊的ジャージー | 神秘的なフィールドの魔法 | Folklore FC",
-    metaDescription: "賢く、魅力的で、止められない。狐の精神を宿し、ディフェンスを出し抜こう。伝承とアーバンファッションの完璧な融合。",
-    altText: "ダークなプレミアムジャージーに描かれた、9つの光る尾を持ち、女性ストライカーを取り囲む神秘的な狐の霊。",
-    keywords: ["九尾の狐 サッカーシャツ", "狐 霊的サッカー ジャージー", "日本の神秘 スポーツ", "伝承 インスパイア ストリートウェア"]
+    metaTitle: "霊的支配 九尾の狐ジャージを購入 - ミステリアス | Folklore FC",
+    metaDescription: "ピッチを妖艶に支配せよ。九尾の狐の霊的な力を表現した、魅惑的なサッカーストリートウェア。相手を翻弄するプレースタイルに最適。今すぐ購入！",
+    altText: "Premium women's streetwear football tee - Japanese Nine-tailed Fox Kitsune spirit design by Folklore FC - Front View",
+    keywords: ["九尾の狐 サッカーシャツ 購入", "霊的 ストリートウェア", "日本の伝承 スポーツファッション", "ミステリアスな レディース ウェア"]
   },
   {
     id: 'wja-4',
@@ -703,10 +703,10 @@ Great choice for personal use or as a unique gift`,
 様々な体型にフィットするモダンな「オーバーサイズ」カット
 色あせしにくい高品質プリント
 自分用にも、ユニークなギフトとしても最適`,
-    metaTitle: "ネオン・ストライカー サイバー・ピッチ ジャージー | 東京サイバーパンク | Folklore FC",
-    metaDescription: "東京の夜、未来のゴール。サイバー・ピッチ・ジャージーは、新宿のネオンエネルギーを捉えています。現代のアーバンアスリートのためのハイテク美学。",
-    altText: "光り輝くサッカーボールを抱えたサイバーパンクな女性アスリートと、未来的なネオンシティ（東京）の背景。",
-    keywords: ["サイバーパンク サッカー ジャージー", "東京ネオン サッカーシャツ", "ハイテンスポーツ ファッション", "アーバン フューチャリズム ストリートウェア"]
+    metaTitle: "ネオン・ストライカー サイバーパンクシャツを購入 | Folklore FC",
+    metaDescription: "ネオ東京の夜を駆け抜ける。サイバーパンクな都市風景と強烈なスポーツエネルギーが融合した、未来派サッカーストリートウェア。購入はこちら！",
+    altText: "Premium women's streetwear football tee - Tokyo neon cyberpunk futuristic striker design by Folklore FC - Front View",
+    keywords: ["サイバーパンク サッカーシャツ 購入", "ネオ東京 ストリートウェア", "ネオン スポーツアパレル", "未来派 レディース ジャージ"]
   },
   {
     id: 'wja-5',
@@ -728,10 +728,10 @@ Great choice for personal use or as a unique gift`,
 様々な体型にフィットするモダンな「オーバーサイズ」カット
 色あせしにくい高品質プリント
 自分用にも、ユニークなギフトとしても最適`,
-    metaTitle: "折り鶴の優雅さ ジャージー | 精密さと幸運 | Folklore FC",
-    metaDescription: "一折一折に勝利を込めて。折り紙の繊細な芸術と折り鶴の象徴にインスパイアされたデザイン。機敏なプレーヤーのための優雅な一着。",
-    altText: "明るい色のサッカーTシャツにあしらわれた、巨大な金色の折り鶴と複雑な紙のパターンの芸術的なデザイン。",
-    keywords: ["折り紙 サッカーシャツ", "折り鶴 サッカー ジャージー", "日本の工芸 スポーツ", "エレガントな 和服 ストリートウェア"]
+    metaTitle: "折り鶴の奇跡 ジャージを購入 - 和服エレガンス | Folklore FC",
+    metaDescription: "伝統工芸と女子サッカーの美しい共鳴。繊細な折り紙のアートワークが施された、エレガントなストリートウェア。勝利への願いをフィールドへ。今すぐ注文！",
+    altText: "Premium women's streetwear football tee - Japanese Origami paper crane art design by Folklore FC - Front View",
+    keywords: ["折り紙 サッカーシャツ 購入", "折り鶴 ストリートウェア", "日本の伝統 スポーツ", "エレガント レディース アパレル"]
   },
   {
     id: 'wja-6',
@@ -753,10 +753,10 @@ Great choice for personal use or as a unique gift`,
 様々な体型にフィットするモダンな「オーバーサイズ」カット
 色あせしにくい高品質プリント
 自分用にも、ユニークなギフトとしても最適`,
-    metaTitle: "祭りの炎 ジャージー | 情熱的な火の鼓動 | Folklore FC",
-    metaDescription: "日本の祭りのエネルギーでスタジアムに火を灯そう。伝統的な提灯と情熱的な火の文様を特徴としています。祭りの魂を身に纏え。",
-    altText: "祭りの提灯を背景に、着物姿で燃え盛るサッカーボールを蹴る女性の鮮やかなイラスト。",
-    keywords: ["祭り サッカーシャツ", "火 スポーツ ジャージー", "伝統的な祭り サッカー", "鮮やかな 日本のストリートウェア"]
+    metaTitle: "炎の舞 祭りジャージを購入 - 情熱のファイヤー | Folklore FC",
+    metaDescription: "スタジアムに祝祭の火を灯せ！日本の夏祭りの熱気と炎をデザインした、情熱的でダイナミックなサッカーストリートウェア。今すぐ購入して応援を盛り上げよう！",
+    altText: "Premium women's streetwear football tee - Japanese summer festival fire flare design by Folklore FC - Front View",
+    keywords: ["祭り サッカーシャツ 購入", "炎 スポーツウェア", "日本の夏 ストリートスタイル", "情熱的 レディース ジャージ"]
   },
   {
     id: 'wja-7',
@@ -778,10 +778,10 @@ Great choice for personal use or as a unique gift`,
 様々な体型にフィットするモダンな「オーバーサイズ」カット
 色あせしにくい高品質プリント
 自分用にも、ユニークなギフトとしても最適`,
-    metaTitle: "雷神 ストーム・ゴッデス ジャージー | 雷撃のパワー | Folklore FC",
-    metaDescription: "雷鳴とともに天から舞い降りる。雷神の怒りがあらゆるシュートに力を与える。電光石火のスピードと爆発的なエネルギーを持つプレーヤーのために。",
-    altText: "ダイナミックなスポーツシャツに描かれた、雷太鼓を持ち、雷を帯びたサッカーボールを蹴る雷神の力強いイラスト。",
-    keywords: ["雷神 サッカー ジャージー", "嵐の女神 サッカーシャツ", "雷 スポーツ", "日本の神 ストリートウェア"]
+    metaTitle: "雷神 ストーム・ジャージを購入 - 雷撃のパワー | Folklore FC",
+    metaDescription: "フィールドに轟く雷鳴。雷神の怒りと電光石火のスピードを表現した、パワフルなサッカーストリートウェア。爆発的なエネルギーを持つプレイヤーへ。注文はこちら！",
+    altText: "Premium women's streetwear football tee - Japanese Raijin storm goddess lightning design by Folklore FC - Front View",
+    keywords: ["雷神 サッカーシャツ 購入", "ストーム ストリートウェア", "雷 スポーツアパレル", "日本の神話 レディース ジャージ"]
   },
   {
     id: 'wja-8',
@@ -803,10 +803,10 @@ Great choice for personal use or as a unique gift`,
 様々な体型にフィットするモダンな「オーバーサイズ」カット
 色あせしにくい高品質プリント
 自分用にも、ユニークなギフトとしても最適`,
-    metaTitle: "書道のキック ジャージー | アーティスティックな墨の動き | Folklore FC",
-    metaDescription: "ピッチはあなたのキャンバス。伝統的な書道にインスパイアされたジャージーは、流動的な動きと力強い芸術的表現を象徴しています。",
-    altText: "ホワイトのジャージーに、巨大な筆でサッカーボールを描く女性をモノクロの書道スタイルで描いたイラスト。",
-    keywords: ["書道 サッカーシャツ", "カリグラフィー サッカー ジャージー", "芸術的な日本のスポーツ", "墨アート ストリートウェア"]
+    metaTitle: "書道キック アートジャージを購入 - 魂の筆 | Folklore FC",
+    metaDescription: "ピッチというキャンバスに魂を描く。日本独自の書道アートとスポーツが融合した、アーティスティックなストリートウェア。静寂の中の強さを表現。今すぐ購入！",
+    altText: "Premium women's streetwear football tee - Japanese calligraphy strike ink art design by Folklore FC - Front View",
+    keywords: ["書道 サッカーシャツ 購入", "墨アート ストリートウェア", "日本の伝統 スポーツ", "芸術的 レディース ジャージ"]
   },
   {
     id: 'wja-9',
@@ -828,10 +828,10 @@ Great choice for personal use or as a unique gift`,
 様々な体型にフィットするモダンな「オーバーサイズ」カット
 色あせしにくい高品質プリント
 自分用にも、ユニークなギフトとしても最適`,
-    metaTitle: "着物の優雅さ 浮世絵ジャージー | 浮世の美 | Folklore FC",
-    metaDescription: "フィールド上の時代を超越したエレガンス。着物の優雅な美学とスポーツのダイナミックな鼓動を融合させた、着る日本アートの傑作。",
-    altText: "プレミアムジャージーに描かれた、色鮮やかな着物を着て優雅にサッカーボールを蹴る女性の浮世絵風イラスト。",
-    keywords: ["浮世絵 サッカーシャツ", "着物 サッカー ジャージー", "日本の伝統 アート スポーツ", "エレガントな 和装 ストリートウェア"]
+    metaTitle: "着物エレガンス 浮世絵ジャージを購入 | Folklore FC",
+    metaDescription: "日本の伝統美が息づく最高傑作。浮世絵の優美な着物姿とサッカーの躍動感が融合したサッカーストリートウェア。ピッチ上で際立つエレガンスを。購入はこちら！",
+    altText: "Premium women's streetwear football tee - Japanese Ukiyo-e kimono grace beauty design by Folklore FC - Front View",
+    keywords: ["浮世絵 サッカーシャツ 購入", "着物風 ストリートウェア", "日本の美 レトロ スポーツ", "エレガント レディース ウェア"]
   },
   {
     id: 'wja-10',
@@ -853,10 +853,10 @@ Great choice for personal use or as a unique gift`,
 様々な体型にフィットするモダンな「オーバーサイズ」カット
 色あせしにくい高品質プリント
 自分用にも、ユニークなギフトとしても最適`,
-    metaTitle: "アーバン・レベル スケバン ジャージー | 不良ストライカーの態度 | Folklore FC",
-    metaDescription: "ルールを壊し、ピッチを支配せよ。日本のスケバン文化にインスパイアされた、反抗とストリートの態度を象徴するジャージー。激しい精神を持つプレーヤーのために。",
-    altText: "落書きだらけの壁を背に、サッカーボールを持つスケバンスタイルの生徒を描いた、粗削りなイラスト。",
-    keywords: ["スケバン サッカーシャツ", "アーバン レベル サッカー ジャージー", "日本のストリート 態度 ギア", "デリンクエント スタイル ストリートウェア"]
+    metaTitle: "アーバンレベル スケバンジャージを購入 - 反骨精神 | Folklore FC",
+    metaDescription: "ストリートのルールは自分で決める！日本のスケバン文化にインスパイアされた、反抗的でエッジの効いたサッカーストリートウェア。強い意志を持つあなたへ。今すぐ注文！",
+    altText: "Premium women's streetwear football tee - Japanese Sukeban urban rebel graffiti design by Folklore FC - Front View",
+    keywords: ["スケバン サッカーシャツ 購入", "アーバンレベル ストリートウェア", "ヤンキーファッション スポーツ", "エッジ レディース ジャージ"]
   },
   {
     id: 'wja-11',
@@ -878,10 +878,10 @@ Great choice for personal use or as a unique gift`,
 様々な体型にフィットするモダンな「オーバーサイズ」カット
 色あせしにくい高品質プリント
 自分用にも、ユニークなギフトとしても最適`,
-    metaTitle: "桜嵐 ピンクジャージー | 渦巻く花のパワー | Folklore FC",
-    metaDescription: "勝利の旋風。桜嵐ジャージーは、スピードと空霊的な強さを表すダイナミックな桜の花びらを特徴としています。春の嵐のようにフィールドを掴め。",
-    altText: "ウィメンズストライカーを包み込むピンクの桜の花びらとサッカーボールの幻想的なグラフィック。",
-    keywords: ["桜 サッカー ジャージー", "ピンク 桜シャツ", "日本の花 スポーツファッション", "鮮やかな 桜 ストリートウェア"]
+    metaTitle: "桜嵐 ピンクジャージを購入 - スピードと美学 | Folklore FC",
+    metaDescription: "嵐のようなスピードでピッチを舞う桜吹雪。神話的な美しさとダイナミックな動きを表現したピンクのサッカーストリートウェア。フィールドを席巻せよ！購入はこちら！",
+    altText: "Premium women's streetwear football tee - Japanese Sakura storm cherry blossom pink design by Folklore FC - Front View",
+    keywords: ["桜 サッカーシャツ 購入", "ピンク 桜吹雪 アパレル", "日本の花 ストリートウェア", "エレガント レディース スポーツ"]
   },
   {
     id: 'wja-12',
@@ -903,10 +903,10 @@ Great choice for personal use or as a unique gift`,
 様々な体型にフィットするモダンな「オーバーサイズ」カット
 色あせしにくい高品質プリント
 自分用にも、ユニークなギフトとしても最適`,
-    metaTitle: "侍の勇気 女武芸者ジャージー | 装甲の優雅さ | Folklore FC",
-    metaDescription: "戦士の魂。女武芸者にインスパイアされたこのジャージーは、ピッチ上での名誉と決意を表す甲冑をテーマにしたデザインを採用しています。",
-    altText: "扇子を持ち、サッカーボールを巧みに操る、赤い甲冑に身を包んだ女性の素晴らしいイラスト。",
-    keywords: ["女武芸者 サッカーシャツ", "侍の甲冑 サッカー ジャージー", "日本の戦士 スポーツ", "名誉と勇気 ストリートウェア"]
+    metaTitle: "侍の勇気 女武芸者ジャージを購入 - 日本の戦士 | Folklore FC",
+    metaDescription: "戦士の魂を胸に。女武芸者の鎧をモチーフにした、誇り高き精神を持つプレイヤーのためのサッカーストリートウェア。揺るぎない覚悟でピッチへ。今すぐ注文！",
+    altText: "Premium women's streetwear football tee - Japanese Samurai armor female warrior Onna-Bugeisha design by Folklore FC - Front View",
+    keywords: ["女武芸者 サッカーシャツ 購入", "侍 アーマー ストリートウェア", "日本の戦士 スポーツアパレル", "武士道 レディース ジャージ"]
   },
   {
     id: 'wja-13',
@@ -928,10 +928,10 @@ Great choice for personal use or as a unique gift`,
 様々な体型にフィットするモダンな「オーバーサイズ」カット
 色あせしにくい高品質プリント
 自分用にも、ユニークなギフトとしても最適`,
-    metaTitle: "着物ストライカー なでしこジャージー | 月光の神秘 | Folklore FC",
-    metaDescription: "なでしこの精神。月明かりの下で伝統的な和服を着たストライカーを特徴とする神秘的なデザインで、内なる強さと優雅さを表しています。",
-    altText: "満月の下、伝統的な日本の風景の中でサッカーボールを蹴る着物姿の女性の神秘的なイラスト。",
-    keywords: ["なでしこ サッカー ジャージー", "着物ストライカー サッカーシャツ", "月光の日本のスポーツ", "エレガントな 和服 ファッション"]
+    metaTitle: "月光ストライカー なでしこジャージを購入 - 日本の誇り | Folklore FC",
+    metaDescription: "「大和なでしこ」の強さとしなやかさを表現した神秘的なストリートウェア。月明かりの下の伝統的な和装ストライカーが、あなたの内なる強さを引き出します。購入はこちら！",
+    altText: "Premium women's streetwear football tee - Japanese Nadeshiko Kimono striker moonlight design by Folklore FC - Front View",
+    keywords: ["なでしこ サッカーシャツ 購入", "着物 ストライカー アパレル", "日本の誇り ストリートウェア", "エレガント レディース スポーツ"]
   },
   {
     id: 'wja-14',
@@ -953,10 +953,10 @@ Great choice for personal use or as a unique gift`,
 様々な体型にフィットするモダンな「オーバーサイズ」カット
 色あせしにくい高品質プリント
 自分用にも、ユニークなギフトとしても最適`,
-    metaTitle: "栄光の刃 カタナ ジャージー | 精密ストライク アート | Folklore FC",
-    metaDescription: "刃のように鋭く。栄光の刃ジャージーは、ディフェンスを切り裂くために必要な精密さと鋭さを象徴する刀アートを特徴としています。",
-    altText: "プレミアムジャージーにあしらわれた、ブラックの円の中でサッカーボールを切り裂くパープルの刀のクールなイラスト。",
-    keywords: ["刀 サッカーシャツ", "栄光の刃 サッカー ジャージー", "日本の刀 スポーツアート", "精密ストライク ストリートウェア"]
+    metaTitle: "侍の栄光 カタナ・アートジャージを購入 - ピッチの刀 | Folklore FC",
+    metaDescription: "ディフェンスを切り裂く一撃。日本刀の鋭さを表現した、精密で力強いサッカーストリートウェア。切れ味鋭いプレースタイルで栄光を掴み取れ。今すぐ購入！",
+    altText: "Premium women's streetwear football tee - Japanese Katana blade sword precise strike design by Folklore FC - Front View",
+    keywords: ["刀 サッカーシャツ 購入", "カタナ アート ストリートウェア", "精密ストライク スポーツ", "剣士 レディース ジャージ"]
   },
 
   // --- السعودية الاحترافية (AR Women - SEO & AI Optimized) ---
@@ -981,10 +981,10 @@ Great choice for personal use or as a unique gift`,
 قصة عصرية "Oversized" تناسب مختلف الأذواق
 طباعة عالية الجودة مقاومة للتلاشي
 خيار رائع للاستخدام الشخصي أو كهدية مميزة`,
-    metaTitle: "تيشيرت فخر النخلة | التراث الوطني السعودي | فوكلور إف سي",
-    metaDescription: "تألقي بفخر المملكة. مزيج فريد بين رمز النخلة الوطني ولمسة معدنية عصرية. ملابس شارع سعودية فاخرة للمشجعة الأنيقة.",
-    altText: "تيشيرت رياضي نسائي أسود يتميز بشعار نخلة معدني مدمج مع كرة قدم بأسلوب فني سعودي.",
-    keywords: ["تيشيرت نخلة سعودية", "تيشيرت تراث وطني", "ملابس شارع نسائية السعودية", "موضة رياضية فخر الرياض"]
+    metaTitle: "شراء تيشيرت فخر النخلة - تراث وطني | Folklore FC",
+    metaDescription: "تألقي بفخر المملكة. مزيج فريد بين رمز النخلة الوطني ولمسة معدنية عصرية. ملابس شارع فاخرة للمشجعة الأنيقة. تسوقي الآن!",
+    altText: "Premium women's streetwear football tee - Metallic Saudi Palm tree emblem with soccer ball by Folklore FC - Front View",
+    keywords: ["شراء تيشيرت نخلة نسائي", "تيشيرت تراث وطني سعودي", "ملابس ستريت وير الرياض", "تسوق أزياء رياضية فخمة"]
   },
   {
     id: 'wsa-2',
@@ -1006,10 +1006,10 @@ Great choice for personal use or as a unique gift`,
 قصة عصرية "Oversized" تناسب مختلف الأذواق
 طباعة عالية الجودة مقاومة للتلاشي
 خيار رائع للاستخدام الشخصي أو كهدية مميزة`,
-    metaTitle: "تيشيرت جرافيتي سيوف النصر | أسلوب القوة السعودي | فوكلور إف سي",
-    metaDescription: "ارتدِ رمز القوة. يتميز بسيوف عربية متقاطعة وكرة قدم بأسلوب الجرافيتي. تصميم جريء يدمج الفخر الوطني والطاقة الحضرية.",
-    altText: "تيشيرت نسائي أبيض مع رسم جرافيتي أخضر نابض بالحياة لسيوف عربية متقاطعة وكرة قدم.",
-    keywords: ["تيشيرت سيوف سعودية", "قميص كرة قدم جرافيتي السعودية", "ملابس رياضية سيوف النصر", "موضة نسائية لليوم الوطني"]
+    metaTitle: "شراء تيشيرت جرافيتي سيوف النصر - قوة سعودية | Folklore FC",
+    metaDescription: "ارتدي رمز القوة. تيشيرت يجمع سيوف عربية متقاطعة بأسلوب الجرافيتي. تصميم جريء يدمج الفخر الوطني والطاقة. اطلبيه اليوم!",
+    altText: "Premium women's streetwear football tee - Green graffiti crossed Arabian swords and soccer ball by Folklore FC - Front View",
+    keywords: ["شراء تيشيرت سيوف للبنات", "ملابس جرافيتي السعودية", "أزياء رياضية سيوف النصر", "موضة اليوم الوطني نسائية"]
   },
   {
     id: 'wsa-3',
@@ -1031,10 +1031,10 @@ Great choice for personal use or as a unique gift`,
 قصة عصرية "Oversized" تناسب مختلف الأذواق
 طباعة عالية الجودة مقاومة للتلاشي
 خيار رائع للاستخدام الشخصي أو كهدية مميزة`,
-    metaTitle: "تيشيرت قلب السدو | شغف الثقافة السعودية | فوكلور إف سي",
-    metaDescription: "أحبِ اللعبة من خلال التراث. مستوحى من أنماط نسج السدو التقليدية في تصميم قلب دافئ. اندماج متطور بين الحرفية السعودية والرياضة العالمية.",
-    altText: "تيشيرت نسائي أسود فاخر يحمل شعار قلب كبير يتميز بأنماط السدو باللونين الأحمر والأسود وكرة قدم في المنتصف.",
-    keywords: ["تيشيرت نمط السدو", "تيشيرت نسائي سعودي تقليدي", "كرة قدم تراثية ثقافية", "ملابس شارع مستوحاة من الحرف السعودية"]
+    metaTitle: "شراء تيشيرت قلب السدو - شغف الثقافة | Folklore FC",
+    metaDescription: "أحبي اللعبة بتراثك. مستوحى من أنماط نسج السدو التقليدية في تصميم قلب دافئ. اندماج أصيل بين الحرفية والرياضة. تسوقي المجموعة الحصرية!",
+    altText: "Premium women's streetwear football tee - Traditional Saudi Sadu pattern heart with soccer ball by Folklore FC - Front View",
+    keywords: ["شراء تيشيرت سدو نسائي", "ملابس سعودية تقليدية للبنات", "كرة قدم تراثية ثقافية", "أزياء مستوحاة من الحرف"]
   },
   {
     id: 'wsa-4',
@@ -1056,10 +1056,10 @@ Great choice for personal use or as a unique gift`,
 قصة عصرية "Oversized" تناسب مختلف الأذواق
 طباعة عالية الجودة مقاومة للتلاشي
 خيار رائع للاستخدام الشخصي أو كهدية مميزة`,
-    metaTitle: "تيشيرت عزم الملاعب | طموح المرأة السعودية | فوكلور إف سي",
-    metaDescription: "للمرأة التي لا تعرف حدوداً. مستوحى من إرادة الرياضيات السعوديات، يتميز بلمسات هندسية ترمز إلى الطموح والقوة.",
-    altText: "تيشيرت نسائي أبيض مع صورة ظلية خضراء للاعبة كرة قدم سعودية وخط 'عزم' هندسي.",
-    keywords: ["تيشيرت تمكين المرأة السعودية", "قميص كرة قدم للاعبة أنثى", "ملابس رياضية لطموح المرأة", "موضة رؤية 2030 السعودية"]
+    metaTitle: "شراء تيشيرت عزم الملاعب - طموح المرأة | Folklore FC",
+    metaDescription: "للمرأة التي لا تعرف حدوداً. تصميم مستوحى من إرادة الرياضيات السعوديات، تبرز طموحك وقوتك بالملاعب. تسوقي أرقى أزياء ستريت وير!",
+    altText: "Premium women's streetwear football tee - Saudi female football player geometric silhouette by Folklore FC - Front View",
+    keywords: ["شراء تيشيرت تمكين الرياضة", "ملابس لاعبة كرة قدم بنات", "أزياء طموح السعودية", "موضة رؤية 2030 رياضية"]
   },
   {
     id: 'wsa-5',
@@ -1081,10 +1081,10 @@ Great choice for personal use or as a unique gift`,
 قصة عصرية "Oversized" تناسب مختلف الأذواق
 طباعة عالية الجودة مقاومة للتلاشي
 خيار رائع للاستخدام الشخصي أو كهدية مميزة`,
-    metaTitle: "تيشيرت فن الهجوم بالخط العربي | أسلوب المهاجم السعودي | فوكلور إف سي",
-    metaDescription: "فن التسديد. دمج حركة اللاعب مع الخط العربي الانسيابي والمتطاير بأسلوب الفنتازيا. موضة رياضية ديناميكية للمشجع المبدع.",
-    altText: "تيشيرت رياضي نسائي أسود مع صورة ظلية للاعبة تقفز محاطة بحروف عربية فنية وانسيابية.",
-    keywords: ["تيشيرت فن الهجوم", "تيشيرت خطاط المهاجم", "قميص كرة قدم فنتازيا عربي", "موضة سعودية نسائية متمكنة"]
+    metaTitle: "شراء تيشيرت فن الهجوم خط عربي - دقة الهجوم | Folklore FC",
+    metaDescription: "فن التسديد والإبداع. دمج حركة اللاعبة مع الخط العربي الانسيابي والمتطاير. موضة رياضية ديناميكية تتحدث عنك. اطلبيه اليوم للحصول على التميز!",
+    altText: "Premium women's streetwear football tee - Female striker silhouette with dynamic Arabic calligraphy by Folklore FC - Front View",
+    keywords: ["شراء تيشيرت خط عربي نسائي", "تيشيرت اللاعبة المهاجمة", "قمصان فنتازيا عربية", "موضة سعودية رياضية"]
   },
   {
     id: 'wsa-6',
@@ -1106,10 +1106,10 @@ Great choice for personal use or as a unique gift`,
 قصة عصرية "Oversized" تناسب مختلف الأذواق
 طباعة عالية الجودة مقاومة للتلاشي
 خيار رائع للاستخدام الشخصي أو كهدية مميزة`,
-    metaTitle: "تيشيرت رؤية المستقبل | فن الطموح السعودي | فوكلور إف سي",
-    metaDescription: "انظري إلى المستقبل بكل ثقة. يتميز بعيون البطلة الغامضة والمركزة، مما يمثل الغموض والطموح داخل وخارج الملعب.",
-    altText: "تيشيرت نسائي أبيض يظهر عيون امرأة مركزة من خلال برقع فني مكون من شبكة وخطوط خضراء.",
-    keywords: ["تيشيرت رؤية السعودية", "تيشيرت عين البطل", "أسلوب سعودي عصري للنساء", "ملابس رياضية رؤية 2030"]
+    metaTitle: "شراء تيشيرت رؤية المستقبل - فن الطموح | Folklore FC",
+    metaDescription: "انظري إلى المستقبل بكل ثقة. يتميز بعيون البطلة الغامضة والمركزة. تسوقي ملابس الطموح والستريت وير الأكثر مبيعًا!",
+    altText: "Premium women's streetwear football tee - Intense Saudi female eyes looking through modern burqa design by Folklore FC - Front View",
+    keywords: ["شراء تيشيرت رؤية السعودية", "ملابس رياضية عين البطلة", "أسلوب سعودي عصري للنساء", "تسوق أزياء رؤية 2030"]
   },
   {
     id: 'wsa-7',
@@ -1131,10 +1131,10 @@ Great choice for personal use or as a unique gift`,
 قصة عصرية "Oversized" تناسب مختلف الأذواق
 طباعة عالية الجودة مقاومة للتلاشي
 خيار رائع للاستخدام الشخصي أو كهدية مميزة`,
-    metaTitle: "تيشيرت مجد العصر الذهبي | إصدار النصر السعودي | فوكلور إف سي",
-    metaDescription: "احتفلي بإنجازاتك. قميص العصر الذهبي الأيقوني يكرم تاريخ البطولات النسائية السعودية. قطعة ملكية للمشجع المتميز.",
-    altText: "تيشيرت رياضي نسائي أسود مع رسم ذهبي لامع لرياضية وكلمة 'مجد' بخط عربي عريض.",
-    keywords: ["تيشيرت العصر الذهبي", "تيشيرت نصر كرة قدم السعودية", "موضة رياضية ذهبية لامعة", "ملابس نسائية سعودية متميزة"]
+    metaTitle: "شراء تيشيرت مجد العصر الذهبي - إصدار النصر | Folklore FC",
+    metaDescription: "احتفلي بإنجازاتك. قميص العصر الذهبي الأيقوني يكرم تاريخ البطولات النسائية السعودية. قطعة ملكية للمشجعة المتميزة. اطلبيه الآن!",
+    altText: "Premium women's streetwear football tee - Golden majestic female athlete silhouette by Folklore FC - Front View",
+    keywords: ["شراء تيشيرت العصر الذهبي", "أزياء رياضية ذهبية لامعة", "تسوق ملابس نسائية سعودية", "تيشيرت نصر كرة قدم"]
   },
   {
     id: 'wsa-8',
@@ -1156,10 +1156,10 @@ Great choice for personal use or as a unique gift`,
 قصة عصرية "Oversized" تناسب مختلف الأذواق
 طباعة عالية الجودة مقاومة للتلاشي
 خيار رائع للاستخدام الشخصي أو كهدية مميزة`,
-    metaTitle: "تيشيرت انطلاقة الفجر الجديد | السرعة الديناميكية السعودية | فوكلور إف سي",
-    metaDescription: "زخم لا يتوقف. يجسد السرعة والانسيابية بخطوط زرقاء وسوداء ديناميكية تحيط باللاعبة. مثالي للروح النشطة والمليئة بالطاقة.",
-    altText: "تيشيرت رياضي نسائي أبيض يتميز بالحركة الانسيابية عالية السرعة للاعبة في خطوط طاقة زرقاء نابضة بالحياة.",
-    keywords: ["تيشيرت الفجر الجديد", "تيشيرت سرعة كرة قدم السعودية", "ملابس رياضية طاقة ديناميكية", "ملابس نمط حياة نشط السعودية"]
+    metaTitle: "شراء تيشيرت انطلاقة الفجر الجديد - السرعة السعودية | Folklore FC",
+    metaDescription: "زخم لا يتوقف. يجسد السرعة والانسيابية بخطوط زرقاء وسوداء ديناميكية تحيط باللاعبة. مثالي للروح النشطة. تسوقي أفضل التيشيرتات!",
+    altText: "Premium women's streetwear football tee - High-speed dynamic female player movement in blue energy lines by Folklore FC - Front View",
+    keywords: ["شراء تيشيرت الفجر الجديد", "أزياء سرعة كرة قدم الرياض", "ملابس رياضية طاقة ديناميكية", "تسوق ملابس شارع للبنات"]
   },
   {
     id: 'wsa-9',
@@ -1181,10 +1181,10 @@ Great choice for personal use or as a unique gift`,
 قصة عصرية "Oversized" تناسب مختلف الأذواق
 طباعة عالية الجودة مقاومة للتلاشي
 خيار رائع للاستخدام الشخصي أو كهدية مميزة`,
-    metaTitle: "تيشيرت ثبات بنمط الحناء | الأناقة التكتيكية السعودية | فوكلور إف سي",
-    metaDescription: "حيث يلتقي الذكاء بالجمال. دمج أنماط الحناء التقليدية مع المخططات التكتيكية لكرة القدم. مصمم للاعبة التي تخطط لنصرها بأسلوب خاص.",
-    altText: "تيشيرت نسائي أسود يظهر يداً عليها نقوش حناء معقدة تمسك بمخططات لعب كرة قدم تكتيكية.",
-    keywords: ["تيشيرت نمط الحناء", "تيشيرت ثبات تكتيكي", "فن رياضي سعودي تقليدي", "موضة كرة قدم سعودية أنيقة"]
+    metaTitle: "شراء تيشيرت ثبات بنمط الحناء - أناقة تكتيكية | Folklore FC",
+    metaDescription: "حيث يلتقي الذكاء بالجمال. دمج أنماط الحناء التقليدية مع المخططات التكتيكية. مصمم للاعبة التي تخطط لفوزها. اطلبي تيشرت الحناء اليوم!",
+    altText: "Premium women's streetwear football tee - Traditional henna hand holding tactical football plans by Folklore FC - Front View",
+    keywords: ["شراء تيشيرت نمط الحناء", "موضة رياضية سعودية أنيقة", "فن رياضي تقليدي نسائي", "تيشيرت ثبات تكتيكي للبنات"]
   },
   {
     id: 'wsa-10',
@@ -1206,10 +1206,10 @@ Great choice for personal use or as a unique gift`,
 قصة عصرية "Oversized" تناسب مختلف الأذواق
 طباعة عالية الجودة مقاومة للتلاشي
 خيار رائع للاستخدام الشخصي أو كهدية مميزة`,
-    metaTitle: "تيشيرت درع الطاقة الدفاعي | إصدار الصمود السعودي | فوكلور إف سي",
-    metaDescription: "كوني الحصن الذي لا ينكسر. تصميم قوي يتميز بلاعبة دفاع مع درع طاقة متوهج. يمثل الاستقرار والقيادة في الملعب.",
-    altText: "تيشيرت نسائي أبيض يصور مداهنة سعودية تصد انفجاراً بدرع طاقة يشبه الزجاج.",
-    keywords: ["تيشيرت درع الدفاع", "تيشيرت طاقة كرة قدم السعودية", "ملابس رياضية لمدافعة أنثى", "ملابس حصن الملعب"]
+    metaTitle: "شراء تيشيرت درع الطاقة الدفاعي - صمود سعودي | Folklore FC",
+    metaDescription: "كوني الحصن الذي لا ينكسر. تصميم قوي يتميز بلاعبة دفاع مع درع طاقة متوهج. يمثل الاستقرار والقيادة في الملعب. تسوقيه الآن!",
+    altText: "Premium women's streetwear football tee - Saudi female defender blocking energy blast with shield by Folklore FC - Front View",
+    keywords: ["شراء تيشيرت درع الدفاع", "ملابس طاقة كرة قدم نسائية", "أزياء رياضية لمدافعة", "تيشيرت حصن الملعب للفتيات"]
   },
   {
     id: 'wsa-11',
@@ -1231,10 +1231,10 @@ Great choice for personal use or as a unique gift`,
 قصة عصرية "Oversized" تناسب مختلف الأذواق
 طباعة عالية الجودة مقاومة للتلاشي
 خيار رائع للاستخدام الشخصي أو كهدية مميزة`,
-    metaTitle: "تيشيرت فخر الصقر | إصدار الحدة السعودي | فوكلور إف سي",
-    metaDescription: "حلقي بدقة. مستوحى من الصقر العربي، رمز السرعة والرؤية الثاقبة. لمسات ذهبية فاخرة للرياضية السعودية الملكية.",
-    altText: "تيشيرت رياضي نسائي أسود مع رسم ذهبي لصقر جارح يهاجم كرة قدم وكلمة 'صقر' بخط أنيق.",
-    keywords: ["تيشيرت صقر عربي", "تيشيرت صقر جارح سعودي", "ملابس رياضية ذهبية فاخرة", "موضة سعودية نسائية ملكية"]
+    metaTitle: "شراء تيشيرت فخر الصقر السعودي | إصدار الحدة | Folklore FC",
+    metaDescription: "حلقي بدقة وسرعة. مستوحى من الصقر العربي بلمسات ذهبية فاخرة للرياضية الملكية. تسوقي ملابس الشموخ ستريت وير الآن!",
+    altText: "Premium women's streetwear football tee - Majestic Saudi Falcon with golden accents attacking soccer ball by Folklore FC - Front View",
+    keywords: ["شراء تيشيرت صقر عربي", "ملابس رياضية ذهبية فاخرة", "تيشيرت صقر جارح سعودي", "موضة سعودية نسائية ملكية"]
   },
   {
     id: 'wsa-12',
@@ -1256,10 +1256,10 @@ Great choice for personal use or as a unique gift`,
 قصة عصرية "Oversized" تناسب مختلف الأذواق
 طباعة عالية الجودة مقاومة للتلاشي
 خيار رائع للاستخدام الشخصي أو كهدية مميزة`,
-    metaTitle: "تيشيرت قبضة من حديد بالكرة الذهبية | فن حراسة المرمى السعودي | فوكلور إف سي",
-    metaDescription: "سيطري على المرمى. يتميز بحارسة مرمى تسيطر على كرة ذهبية سائلة. تعبير عن القوة والسيطرة المطلقة للمرأة التي تقود اللعبة.",
-    altText: "تيشيرت نسائي أبيض يظهر يدي حارسة مرمى تمسك بكرة قدم ذهبية سائلة مع خط 'قبضة من حديد'.",
-    keywords: ["تيشيرت حارس مرمى قبضة حديدية", "تيشيرت كرة قدم ذهبية", "موضة رياضية لقائدة سعودية", "إكسسوارات مرمى سعودية متميزة"]
+    metaTitle: "شراء تيشيرت قبضة من حديد حارسة المرمى | Folklore FC",
+    metaDescription: "سيطري على المرمى. يتميز بحارسة مرمى تسيطر على كرة ذهبية سائلة. تعبير عن القوة والسيطرة المطلقة. اطلبيه اليوم وكوني القائدة!",
+    altText: "Premium women's streetwear football tee - Female goalkeeper hands holding liquid gold soccer ball by Folklore FC - Front View",
+    keywords: ["شراء تيشيرت حارسة مرمى", "أزياء رياضية لقائدة سعودية", "تيشيرت كرة قدم ذهبية", "إكسسوارات مرمى ستريت وير"]
   },
   {
     id: 'wsa-13',
@@ -1281,10 +1281,10 @@ Great choice for personal use or as a unique gift`,
 قصة عصرية "Oversized" تناسب مختلف الأذواق
 طباعة عالية الجودة مقاومة للتلاشي
 خيار رائع للاستخدام الشخصي أو كهدية مميزة`,
-    metaTitle: "تيشيرت فخر المملكة الوطني | ألوان التراث السعودي | فوكلور إف سي",
-    metaDescription: "ارتدي فخرك. تصميم وطني كلاسيكي يدمج السيوف والنخلة السعودية مع كرة القدم بألوان الأخضر والذهبي الملكي الفني.",
-    altText: "تيشيرت رياضي نسائي أسود مع شعار سعودي مركزي باللونين الأخضر والذهبي يتكون من سيوف ونخلة وكرة قدم.",
-    keywords: ["تيشيرت فخر السعودية", "تيشيرت كرة قدم وطني سعودي", "إكسسوارات سيوف ونخلة تراثية", "ملابس مشجعين سعودية رسمية"]
+    metaTitle: "شراء تيشيرت فخر المملكة الوطني السيفين والنخلة | Folklore FC",
+    metaDescription: "ارتدي فخرك. تصميم وطني كلاسيكي يدمج السيوف والنخلة مع كرة القدم بألوان الأخضر والذهبي. تسوقي أزياء المشجعين الرسمية!",
+    altText: "Premium women's streetwear football tee - Green and Gold Saudi emblem swords and palm tree with soccer ball by Folklore FC - Front View",
+    keywords: ["شراء تيشيرت فخر السعودية", "ملابس اليوم الوطني نسائية", "تيشيرت سيوف ونخلة", "تسوق ملابس مشجعين سعودية"]
   },
   {
     id: 'wsa-14',
@@ -1306,10 +1306,10 @@ Great choice for personal use or as a unique gift`,
 قصة عصرية "Oversized" تناسب مختلف الأذواق
 طباعة عالية الجودة مقاومة للتلاشي
 خيار رائع للاستخدام الشخصي أو كهدية مميزة`,
-    metaTitle: "تيشيرت نبض الحناء والشغف | روح الرياضة السعودية | فوكلور إف سي",
-    metaDescription: "إيقاع الملعب. تصميم عاطفي يربط قلب الإنسان بكرة القدم من خلال خطوط الحناء المعقدة. يجسد الروح العميقة للرياضة السعودية.",
-    altText: "تيشيرت نسائي أبيض مع قلب بشري فني بأسلوب الحناء يحتضن كرة قدم بأسلوب أنثوي رقيق.",
-    keywords: ["تيشيرت نبض الحناء", "تيشيرت شغف كرة قدم السعودية", "إكسسوارات قلب حناء فنية", "موضة روح الرياضة السعودية"]
+    metaTitle: "شراء تيشيرت نبض الحناء شغف كرة القدم | Folklore FC",
+    metaDescription: "إيقاع الملعب. تصميم عاطفي يربط قلب الإنسان بكرة القدم من خلال خطوط الحناء المعقدة. يجسد روح الرياضة. اطلبيه لأناقة مميزة!",
+    altText: "Premium women's streetwear football tee - Human heart outlined with delicate henna holding a soccer ball by Folklore FC - Front View",
+    keywords: ["شراء تيشيرت نبض الحناء", "تيشيرت شغف كرة قدم السعودية", "ملابس قلب حناء فني", "موضة الرياض الرياضية"]
   },
   {
     id: 'wsa-15',
@@ -1331,10 +1331,10 @@ Great choice for personal use or as a unique gift`,
 قصة عصرية "Oversized" تناسب مختلف الأذواق
 طباعة عالية الجودة مقاومة للتلاشي
 خيار رائع للاستخدام الشخصي أو كهدية مميزة`,
-    metaTitle: "تيشيرت طموح المركز القاتل | فن الدقة السعودي | فوكلور إف سي",
-    metaDescription: "التركيز على الهدف. يصور نظرة اللاعبة الحاسمة من خلال برقع فني عصري محاط بعاصفة من الجسيمات. الدقة تلتقي بالهوية.",
-    altText: "تيشيرت نسائي أبيض يظهر العيون الحادة للاعبة خلف برقع عصري مع دوامة من جسيمات كرة القدم.",
-    keywords: ["تيشيرت تركيز قاتل", "تيشيرت طموح البطل", "موضة رياضية سعودية دقيقة", "ملابس حضرية مستوحاة من البرقع"]
+    metaTitle: "شراء تيشيرت تركيز قاتل - طموح ودقة | Folklore FC",
+    metaDescription: "التركيز على الهدف. يصور نظرة اللاعبة الحاسمة من خلال برقع فني عصري محاط بعاصفة من الجسيمات. تسوقي أرقى تصاميم الستريت وير!",
+    altText: "Premium women's streetwear football tee - Saudi female intense eyes through modern burqa and particle storm by Folklore FC - Front View",
+    keywords: ["شراء تيشيرت تركيز قاتل", "ملابس حضرية مستوحاة من البرقع", "تيشيرت طموح البطل بنات", "موضة رياضية سعودية دقيقة"]
   },
 
 
@@ -1359,10 +1359,10 @@ Adecuado para streetwear o asistir a partidos de fútbol
 Corte moderno "Oversized" que se adapta a diferentes gustos
 Impresión de alta calidad resistente a la decoloración
 Excelente opción para uso personal o como regalo único`,
-    metaTitle: "Camiseta de Fútbol Danza Flamenca | Pura Pasión | Folklore FC",
-    metaDescription: "Siente la fuerza del arte con Pura Pasión. La elegancia del flamenco se traslada al terreno de juego en un diseño que captura el espíritu indomable de España. Baila hacia la victoria.",
-    altText: "Ilustración artística de una bailaora de flamenco con un vestido rojo y amarillo transformándose en llamas alrededor de un balón de fútbol.",
-    keywords: ["Camiseta fútbol flamenco", "Ropa deportiva danza española", "Pura Pasión fútbol", "Streetwear artístico España"]
+    metaTitle: "Comprar Camiseta Danza Flamenca Mujer | Pura Pasión | Folklore FC",
+    metaDescription: "Siente la fuerza del arte con Pura Pasión. Camiseta streetwear de mujer inspirada en el flamenco. Elegancia y espíritu indomable de España. ¡Compra ahora!",
+    altText: "Premium women's streetwear football tee - Spanish flamenco dancer fire design by Folklore FC - Front View",
+    keywords: ["Comprar camiseta flamenco mujer", "Ropa streetwear danza española", "Moda urbana fútbol femenino", "Camiseta artística España"]
   },
   {
     id: 'wes-2',
@@ -1384,10 +1384,10 @@ Adecuado para streetwear o asistir a partidos de fútbol
 Corte moderno "Oversized" que se adapta a diferentes gustos
 Impresión de alta calidad resistente a la decoloración
 Excelente opción para uso personal o como regalo único`,
-    metaTitle: "Camiseta Ritmo en el Área | Arte Tacón y Balón | Folklore FC",
-    metaDescription: "El latido del juego. Inspirado en el calzado tradicional del baile español, simbolizando precisión y gracia. Un estilo único que resuena en la arena.",
-    altText: "Ilustración vibrante de un zapato de flamenco rojo con lunares golpeando un balón de fútbol, diseño artístico y rítmico.",
-    keywords: ["Camiseta fútbol ritmo", "Danza española fútbol", "Equipación Tacón y Balón", "Moda deportiva creativa España"]
+    metaTitle: "Comprar Camiseta Ritmo en el Área - Tacón y Balón | Folklore FC",
+    metaDescription: "El latido del juego. Camiseta streetwear de mujer inspirada en el calzado tradicional español. Precisión y gracia en la arena. Expresa tu estilo único hoy.",
+    altText: "Premium women's streetwear football tee - Spanish flamenco shoe and football design by Folklore FC - Front View",
+    keywords: ["Comprar camiseta ritmo mujer", "Streetwear danza fútbol femenina", "Moda deportiva creativa", "Camiseta España mujer"]
   },
   {
     id: 'wes-3',
@@ -1409,10 +1409,10 @@ Adecuado para streetwear o asistir a partidos de fútbol
 Corte moderno "Oversized" que se adapta a diferentes gustos
 Impresión de alta calidad resistente a la decoloración
 Excelente opción para uso personal o como regalo único`,
-    metaTitle: "Camiseta de Fútbol Rebelde Flamenca | Estilo Caos Rítmico | Folklore FC",
-    metaDescription: "Rompe las reglas con estilo. Una audaz fusión de estética punk y tradición española para las jugadoras rebeldes que marcan su propio ritmo. Actitud indomable.",
-    altText: "Diseño estilo graffiti de una bailaora de flamenco con botas militares y alambre de espino alrededor de un balón de fútbol.",
-    keywords: ["Camiseta rebelde flamenca", "Fútbol español punk", "Camiseta fútbol alternativa", "Streetwear con actitud"]
+    metaTitle: "Comprar Camiseta Rebelde Flamenca - Caos Rítmico | Folklore FC",
+    metaDescription: "Rompe las reglas con estilo. Camiseta streetwear punk y tradición española para jugadoras rebeldes. Actitud indomable en el campo. ¡Destaca tu estilo!",
+    altText: "Premium women's streetwear football tee - Spanish punk graffiti flamenco dancer by Folklore FC - Front View",
+    keywords: ["Comprar camiseta rebelde flamenca", "Ropa urbana punk España", "Moda streetwear alternativa mujer", "Camiseta fútbol actitud"]
   },
   {
     id: 'wes-4',
@@ -1434,10 +1434,10 @@ Adecuado para streetwear o asistir a partidos de fútbol
 Corte moderno "Oversized" que se adapta a diferentes gustos
 Impresión de alta calidad resistente a la decoloración
 Excelente opción para uso personal o como regalo único`,
-    metaTitle: "Camiseta Ecuestre La Nobleza | Gracia Andaluza | Folklore FC",
-    metaDescription: "Galopa hacia el triunfo con La Nobleza. Inspirado en la elegancia ecuestre andaluza, representando distinción y firmeza en el terreno de juego.",
-    altText: "Ilustración clásica de una mujer con traje de amazona sobre un caballo blanco pisando un balón de fútbol, elegante herencia española.",
-    keywords: ["Camiseta ecuestre andaluza", "Camiseta fútbol Nobleza", "Ropa estilo hípico español", "Moda deportiva elegante"]
+    metaTitle: "Comprar Camiseta La Nobleza - Gracia Andaluza Mujer | Folklore FC",
+    metaDescription: "Galopa hacia el triunfo con La Nobleza. Camiseta streetwear inspirada en la elegancia ecuestre andaluza para reinas del campo. Nobleza y estilo premium.",
+    altText: "Premium women's streetwear football tee - Spanish Andalusian equestrian grace design by Folklore FC - Front View",
+    keywords: ["Comprar camiseta hípica andaluza", "Ropa streetwear Nobleza mujer", "Moda deportiva elegante", "Camiseta ecuestre España"]
   },
   {
     id: 'wes-5',
@@ -1459,10 +1459,10 @@ Adecuado para streetwear o asistir a partidos de fútbol
 Corte moderno "Oversized" que se adapta a diferentes gustos
 Impresión de alta calidad resistente a la decoloración
 Excelente opción para uso personal o como regalo único`,
-    metaTitle: "Camiseta de Fútbol Azulejo Floral | Arte Cerámico Español | Folklore FC",
-    metaDescription: "Tradición en tu piel. Los patrones clásicos de la cerámica española se mezclan con rosas frescas y el pulso dinámico del deporte. Arte arquitectónico en movimiento.",
-    altText: "Balón de fútbol rodeado de rosas púrpuras sobre un fondo de azulejos tradicionales de cerámica azul rotos.",
-    keywords: ["Diseño fútbol azulejo", "Camiseta floral española", "Streetwear arte cerámico", "Ropa deportiva modernista"]
+    metaTitle: "Comprar Camiseta Azulejo Floral - Arte Cerámico Mujer | Folklore FC",
+    metaDescription: "Tradición en tu piel. Camiseta streetwear con patrones de cerámica española y rosas frescas. Arte arquitectónico dinámico para la mujer moderna. ¡Pídela ya!",
+    altText: "Premium women's streetwear football tee - Spanish ceramic tile and roses design by Folklore FC - Front View",
+    keywords: ["Comprar camiseta floral española", "Streetwear azulejo mujer", "Moda arte cerámico", "Camiseta deportiva modernista"]
   },
   {
     id: 'wes-6',
@@ -1484,10 +1484,10 @@ Adecuado para streetwear o asistir a partidos de fútbol
 Corte moderno "Oversized" que se adapta a diferentes gustos
 Impresión de alta calidad resistente a la decoloración
 Excelente opción para uso personal o como regalo único`,
-    metaTitle: "Camiseta de Fútbol Pasión Eterna | Estilo Sagrado Corazón | Folklore FC",
-    metaDescription: "Eleva tu amor por el juego. Un diseño místico que transforma el balón en un símbolo de devoción sagrada. Para quienes juegan con el alma.",
-    altText: "Balón de fútbol estilo sagrado corazón en llamas con una corona de espinas y una daga, rodeado de rosas rojas y encaje.",
-    keywords: ["Fútbol sagrado corazón", "Camiseta fútbol mística", "Arte deportivo espiritual", "Ropa de devoción española"]
+    metaTitle: "Comprar Camiseta Pasión Eterna - Sagrado Corazón Mujer | Folklore FC",
+    metaDescription: "Eleva tu amor por el juego. Camiseta streetwear femenina mística que transforma el balón en una devoción sagrada. Para quienes juegan con el alma. ¡Compra hoy!",
+    altText: "Premium women's streetwear football tee - Spanish Sacred Heart football mystic design by Folklore FC - Front View",
+    keywords: ["Comprar camiseta mística mujer", "Ropa streetwear Sagrado Corazón", "Moda espiritual España", "Camiseta fútbol pasión"]
   },
   {
     id: 'wes-7',
@@ -1509,10 +1509,10 @@ Adecuado para streetwear o asistir a partidos de fútbol
 Corte moderno "Oversized" que se adapta a diferentes gustos
 Impresión de alta calidad resistente a la decoloración
 Excelente opción para uso personal o como regalo único`,
-    metaTitle: "Camiseta Abanico Soplo de Victoria | Elegancia Española | Folklore FC",
-    metaDescription: "Elegancia en movimiento. Inspirado en el icónico abanico español, simbolizando la brisa de victoria que traes al equipo. Equipación urbana sofisticada.",
-    altText: "Abanico de encaje español mostrado detrás de un balón de fútbol en movimiento con pétalos negros flotando en el aire.",
-    keywords: ["Camiseta fútbol abanico", "Diseño deportivo abanico", "Moda fútbol elegante", "Streetwear herencia tradicional"]
+    metaTitle: "Comprar Camiseta Mujer Soplo de Victoria - Abanico | Folklore FC",
+    metaDescription: "Elegancia en movimiento. Camiseta streetwear inspirada en el abanico español que trae la victoria a tu equipo. Equipación urbana sofisticada. ¡Compra la tuya!",
+    altText: "Premium women's streetwear football tee - Spanish fan victory breeze design by Folklore FC - Front View",
+    keywords: ["Comprar camiseta abanico mujer", "Moda fútbol elegante España", "Streetwear herencia tradicional", "Camiseta deportiva mujer"]
   },
   {
     id: 'wes-8',
@@ -1534,10 +1534,10 @@ Adecuado para streetwear o asistir a partidos de fútbol
 Corte moderno "Oversized" que se adapta a diferentes gustos
 Impresión de alta calidad resistente a la decoloración
 Excelente opción para uso personal o como regalo único`,
-    metaTitle: "Camiseta de Fútbol La Conquista | Herencia Gran Galeón | Folklore FC",
-    metaDescription: "Navega hacia la gloria. Inspirado en los históricos galeones españoles, transformando balones de fútbol en velas que te impulsan hacia la victoria. Espíritu histórico.",
-    altText: "Galeón español navegando con velas de balones de fútbol vintage sobre olas doradas, tema marítimo aventurero.",
-    keywords: ["Camiseta conquista española", "Fútbol Velas al Viento", "Camiseta historia marítima", "Ropa deportiva gran galeón"]
+    metaTitle: "Comprar Camiseta La Conquista Mujer - Gran Galeón | Folklore FC",
+    metaDescription: "Navega hacia la gloria. Inspirada en los galeones españoles históricos, esta camiseta streetwear de mujer te impulsa a la victoria. ¡Pide tu diseño exclusivo!",
+    altText: "Premium women's streetwear football tee - Spanish galleon maritime heritage design by Folklore FC - Front View",
+    keywords: ["Comprar camiseta conquista mujer", "Fútbol historia marítima", "Ropa streetwear galeón español", "Moda deportiva histórica"]
   },
   {
     id: 'wes-9',
@@ -1559,10 +1559,10 @@ Adecuado para streetwear o asistir a partidos de fútbol
 Corte moderno "Oversized" que se adapta a diferentes gustos
 Impresión de alta calidad resistente a la decoloración
 Excelente opción para uso personal o como regalo único`,
-    metaTitle: "Camiseta de Fútbol Castañuelas Españolas | Victoria Rítmica | Folklore FC",
-    metaDescription: "¡El sonido del triunfo! Inspirado en las castañuelas tradicionales y el pulso rítmico de los goles españoles. Una fusión única de música y energía deportiva.",
-    altText: "Diseño artístico con dos castañuelas de madera golpeando un balón de fútbol con chispas musicales y líneas de vibración.",
-    keywords: ["Equipación castañuelas", "Camiseta fútbol rítmica", "Estilo fútbol musical", "Streetwear tradicional España"]
+    metaTitle: "Comprar Camiseta Ritmo Victorioso - Castañuelas | Folklore FC",
+    metaDescription: "¡El sonido del triunfo! Fusión única de castañuelas tradicionales y energía deportiva. Camiseta streetwear de mujer para celebrar cada gol. ¡Compra aquí!",
+    altText: "Premium women's streetwear football tee - Spanish castanets rhythmic victory design by Folklore FC - Front View",
+    keywords: ["Comprar camiseta castañuelas mujer", "Ropa streetwear rítmica", "Estilo fútbol musical España", "Moda deportiva tradicional"]
   },
   {
     id: 'wes-10',
@@ -1584,10 +1584,10 @@ Adecuado para streetwear o asistir a partidos de fútbol
 Corte moderno "Oversized" que se adapta a diferentes gustos
 Impresión de alta calidad resistente a la decoloración
 Excelente opción para uso personal o como regalo único`,
-    metaTitle: "Camiseta El Toro Fuerza Indomable | Icono Español | Folklore FC",
-    metaDescription: "Valiente y resistente. El icónico toro español fusionado con la pasión por el fútbol. Una declaración poderosa para las jugadoras que mandan en la arena.",
-    altText: "Cabeza de toro artística moderna con cuernos majestuosos rompiendo una red de fútbol con salpicaduras de pintura roja y negra.",
-    keywords: ["Fútbol toro español", "Camiseta fuerza indomable", "Moda deportiva bravura", "Camiseta icónica deportes España"]
+    metaTitle: "Comprar Camiseta El Toro Mujer - Fuerza Indomable | Folklore FC",
+    metaDescription: "Valiente y resistente. Camiseta streetwear de mujer con el icónico toro español. Una declaración de fuerza para las que mandan en la arena. ¡Haz tu pedido ya!",
+    altText: "Premium women's streetwear football tee - Spanish bull fierce strength design by Folklore FC - Front View",
+    keywords: ["Comprar camiseta toro mujer", "Moda streetwear indomable", "Camiseta fútbol fuerza", "Ropa icono deportivo España"]
   },
   {
     id: 'wes-11',
@@ -1609,10 +1609,10 @@ Adecuado para streetwear o asistir a partidos de fútbol
 Corte moderno "Oversized" que se adapta a diferentes gustos
 Impresión de alta calidad resistente a la decoloración
 Excelente opción para uso personal o como regalo único`,
-    metaTitle: "Camiseta de Fútbol La Reina Matadora | Maestría y Elegancia | Folklore FC",
-    metaDescription: "Controla el juego con gracia. Inspirado en la maestría de la matadora bajo presión. Esta camiseta celebra la elegancia, el coraje y el triunfo en la arena.",
-    altText: "Matadora en un traje de luces tradicional realizando un pase con una muleta roja y un balón de fútbol, elegante ilustración.",
-    keywords: ["Camiseta matadora fútbol", "Ropa traje de luces", "Equipación elegancia española", "Estilo Reina del Ruedo"]
+    metaTitle: "Comprar Camiseta La Reina Matadora - Fútbol Mujer | Folklore FC",
+    metaDescription: "Controla el juego con gracia. Camiseta streetwear de mujer que celebra la elegancia y el coraje de la matadora española. Reina del campo. ¡Compra la tuya!",
+    altText: "Premium women's streetwear football tee - Spanish elegant female matador design by Folklore FC - Front View",
+    keywords: ["Comprar camiseta matadora mujer", "Ropa streetwear traje luces", "Moda elegancia española", "Camiseta fútbol Reina"]
   },
   {
     id: 'wes-12',
@@ -1634,10 +1634,10 @@ Adecuado para streetwear o asistir a partidos de fútbol
 Corte moderno "Oversized" que se adapta a diferentes gustos
 Impresión de alta calidad resistente a la decoloración
 Excelente opción para uso personal o como regalo único`,
-    metaTitle: "Camiseta Rebelde por Siempre | Escudo Urbano España | Folklore FC",
-    metaDescription: "Orgullo y rebelión. Una versión moderna del escudo heráldico, adornado con graffiti urbano y rosas. Defiende tu identidad con estilo rebelde.",
-    altText: "Escudo metálico con un balón de fútbol central, decorado con coloridos graffiti y vibrantes rosas púrpuras.",
-    keywords: ["Fútbol heráldico urbano", "Camiseta graffiti español", "Moda deportiva rebelde", "Streetwear identidad mujer"]
+    metaTitle: "Comprar Camiseta Rebelde por Siempre - Escudo Urbano | Folklore FC",
+    metaDescription: "Orgullo y rebelión. Camiseta streetwear con heráldica moderna, graffiti y rosas. Defiende tu identidad con este estilo rebelde exclusivo. ¡Compra hoy!",
+    altText: "Premium women's streetwear football tee - Spanish urban graffiti crest roses design by Folklore FC - Front View",
+    keywords: ["Comprar camiseta escudo urbano", "Ropa streetwear graffiti mujer", "Moda deportiva rebelde", "Camiseta identidad mujer España"]
   },
   {
     id: 'wes-13',
@@ -1659,10 +1659,10 @@ Adecuado para streetwear o asistir a partidos de fútbol
 Corte moderno "Oversized" que se adapta a diferentes gustos
 Impresión de alta calidad resistente a la decoloración
 Excelente opción para uso personal o como regalo único`,
-    metaTitle: "Camiseta de Fútbol Danza de la Victoria | Silueta Flamenca | Folklore FC",
-    metaDescription: "Gracia y pasión desbordante. Con una silueta artística de una bailaora flamenca dominando el balón. Estética deportiva sofisticada.",
-    altText: "Silueta negra minimalista de una bailaora de flamenco con una voluminosa falda roja posada sobre un balón de fútbol dorado.",
-    keywords: ["Camiseta silueta flamenca", "Danza victoria fútbol", "Camiseta artística española", "Equipación deportiva sofisticada"]
+    metaTitle: "Comprar Camiseta Danza de la Victoria - Bailaora | Folklore FC",
+    metaDescription: "Gracia y pasión desbordante. Camiseta streetwear de mujer con silueta de bailaora flamenca. Estética deportiva sofisticada. ¡Compra tu camiseta exclusiva hoy!",
+    altText: "Premium women's streetwear football tee - Spanish flamenco dancer silhouette design by Folklore FC - Front View",
+    keywords: ["Comprar camiseta bailaora mujer", "Fútbol danza victoria", "Camiseta streetwear artística", "Ropa deportiva mujer España"]
   },
   {
     id: 'wes-14',
@@ -1684,10 +1684,10 @@ Adecuado para streetwear o asistir a partidos de fútbol
 Corte moderno "Oversized" que se adapta a diferentes gustos
 Impresión de alta calidad resistente a la decoloración
 Excelente opción para uso personal o como regalo único`,
-    metaTitle: "Camiseta Guitarra Española Toque Mágico | Gol Rítmico | Folklore FC",
-    metaDescription: "Armonía y maestría técnica. Inspirado en la guitarra clásica española y el toque legendario de los iconos nacionales. Música y deporte en sintonía perfecta.",
-    altText: "Cuerdas de guitarra envolviendo elegantemente un balón de fútbol dorado con notas musicales y salpicaduras de pintura azul.",
-    keywords: ["Fútbol guitarra española", "Camiseta toque mágico", "Ropa deportiva musical", "Camiseta maestría técnica"]
+    metaTitle: "Comprar Camiseta Toque Mágico - Guitarra Española | Folklore FC",
+    metaDescription: "Armonía y maestría técnica. Camiseta streetwear inspirada en la guitarra clásica española y el fútbol. Música y deporte en sintonía perfecta. ¡Consíguela ya!",
+    altText: "Premium women's streetwear football tee - Spanish classical guitar football design by Folklore FC - Front View",
+    keywords: ["Comprar camiseta guitarra española", "Moda fútbol mujer", "Ropa streetwear musical", "Camiseta gol rítmico España"]
   },
   {
     id: 'wes-15',
@@ -1709,10 +1709,10 @@ Adecuado para streetwear o asistir a partidos de fútbol
 Corte moderno "Oversized" que se adapta a diferentes gustos
 Impresión de alta calidad resistente a la decoloración
 Excelente opción para uso personal o como regalo único`,
-    metaTitle: "Camiseta Mantón de Manila Nueva Era | España Cyberpunk | Folklore FC",
-    metaDescription: "Tradición rediseñada. Inspirado en el icónico mantón de Manila con un toque cyberpunk y bordados florales brillantes. El futuro de la moda deportiva.",
-    altText: "Balón de fútbol envuelto en un mantón de seda púrpura con patrones florales brillantes y flecos de seda dinámicos.",
-    keywords: ["Camiseta mantón de Manila", "Camiseta española cyberpunk", "Deporte urbano de lujo", "Fútbol floral tradicional"]
+    metaTitle: "Comprar Camiseta Mantón de Manila - Nueva Era | Folklore FC",
+    metaDescription: "Tradición rediseñada. Camiseta streetwear de mujer inspirada en el icónico mantón de Manila con un toque cyberpunk. El futuro de la moda deportiva. ¡Compra aquí!",
+    altText: "Premium women's streetwear football tee - Spanish Manila shawl cyberpunk design by Folklore FC - Front View",
+    keywords: ["Comprar camiseta mantón Manila", "Streetwear cyberpunk España", "Moda urbana fútbol", "Ropa deportiva lujo mujer"]
   },
   {
     id: 'wes-16',
@@ -1734,10 +1734,10 @@ Adecuado para streetwear o asistir a partidos de fútbol
 Corte moderno "Oversized" que se adapta a diferentes gustos
 Impresión de alta calidad resistente a la decoloración
 Excelente opción para uso personal o como regalo único`,
-    metaTitle: "Camiseta La Furia Roja Toro en Carga | Orgullo España | Folklore FC",
-    metaDescription: "Siente la furia española. Un diseño poderoso de un toro cargando con la bufanda de la selección nacional. Determinación y garra para la victoria.",
-    altText: "Toro bravo cargando hacia un balón mientras lleva una bufanda roja y amarilla de la selección española, estilo artístico dinámico.",
-    keywords: ["Equipación La Furia Roja", "Camiseta selección española fútbol", "Arte deportivo toro en carga", "Ropa orgullo español"]
+    metaTitle: "Comprar Camiseta La Furia Roja - Toro en Carga | Folklore FC",
+    metaDescription: "Siente la furia española. Camiseta streetwear de mujer con diseño de toro en carga. Determinación y garra para la victoria. ¡Demuestra tu fuerza, pídela ahora!",
+    altText: "Premium women's streetwear football tee - Spanish charging bull La Roja design by Folklore FC - Front View",
+    keywords: ["Comprar camiseta toro carga", "Ropa streetwear España mujer", "Selección española fútbol", "Moda deportiva orgullo"]
   },
   {
     id: 'wes-17',
@@ -1759,10 +1759,10 @@ Adecuado para streetwear o asistir a partidos de fútbol
 Corte moderno "Oversized" que se adapta a diferentes gustos
 Impresión de alta calidad resistente a la decoloración
 Excelente opción para uso personal o como regalo único`,
-    metaTitle: "Camiseta de Fútbol Don Quijote | Honor y Sueños | Folklore FC",
-    metaDescription: "Lucha hasta el final con Don Quijote del Área. Inspirado en Cervantes, este diseño muestra a una caballera moderna enfrentando gigantes por la gloria. Honor y valentía.",
-    altText: "Dibujo a tinta de un caballero andante a caballo enfrentándose a un balón de fútbol gigante, estilo de ilustración clásica de Cervantes.",
-    keywords: ["Fútbol Don Quijote", "Ropa literatura española", "Camiseta honor en el fútbol", "Moda deportiva caballero épico"]
+    metaTitle: "Comprar Camiseta Don Quijote Mujer - Honor y Sueños | Folklore FC",
+    metaDescription: "Lucha hasta el final. Camiseta streetwear inspirada en Don Quijote para caballeras modernas. Honor y valentía en el campo y la calle. ¡Compra tu estilo único!",
+    altText: "Premium women's streetwear football tee - Spanish Don Quixote female knight design by Folklore FC - Front View",
+    keywords: ["Comprar camiseta Don Quijote", "Streetwear literatura española", "Moda deportiva mujer", "Camiseta fútbol honor España"]
   },
   {
     id: 'wes-18',
@@ -1784,10 +1784,10 @@ Adecuado para streetwear o asistir a partidos de fútbol
 Corte moderno "Oversized" que se adapta a diferentes gustos
 Impresión de alta calidad resistente a la decoloración
 Excelente opción para uso personal o como regalo único`,
-    metaTitle: "Camiseta de Fútbol Herradura de Gloria | Suerte y Fuerza | Folklore FC",
-    metaDescription: "Atrae la victoria con Herradura de Gloria. La suerte de la herradura y la pasión del clavel español se unen para darte fuerza y fortuna. Un amuleto de estilo.",
-    altText: "Herradura dorada antigua liberando claveles rojos vibrantes alrededor de un balón de fútbol, símbolo de suerte y belleza.",
-    keywords: ["Camiseta clavel español", "Camiseta suerte en el deporte", "Equipación fútbol herradura", "Moda deportiva tradicional España"]
+    metaTitle: "Comprar Camiseta Herradura de Gloria - Suerte y Fuerza | Folklore FC",
+    metaDescription: "Atrae la victoria. Camiseta streetwear con diseño de herradura y clavel español. Símbolo de fuerza y fortuna. Un amuleto de estilo para la mujer moderna.",
+    altText: "Premium women's streetwear football tee - Spanish horseshoe and carnation lucky design by Folklore FC - Front View",
+    keywords: ["Comprar camiseta herradura gloria", "Ropa streetwear clavel español", "Moda fútbol suerte", "Camiseta amuleto mujer"]
   },
   {
     id: 'wes-19',
@@ -1809,10 +1809,10 @@ Adecuado para streetwear o asistir a partidos de fútbol
 Corte moderno "Oversized" que se adapta a diferentes gustos
 Impresión de alta calidad resistente a la decoloración
 Excelente opción para uso personal o como regalo único`,
-    metaTitle: "Camiseta de Fútbol Danza Explosiva | Pop Art Flamenco | Folklore FC",
-    metaDescription: "Explosión artística con Danza Explosiva. Un torbellino de color y arte urbano que redefine el espíritu del flamenco y la calle. Para jugadoras creativas.",
-    altText: "Bailaora de flamenco en estilo pop-art rodeada de patrones hexagonales amarillos y salpicaduras de pintura rosa sobre una camiseta blanca.",
-    keywords: ["Equipación flamenco pop art", "Camiseta caos creativo", "Streetwear fútbol colorido", "Moda deportiva de vanguardia"]
+    metaTitle: "Comprar Camiseta Danza Explosiva - Pop Art | Folklore FC",
+    metaDescription: "Explosión artística. Camiseta streetwear de mujer con un torbellino de color y arte urbano. Redefine el estilo flamenco. ¡Compra tu camiseta creativa hoy!",
+    altText: "Premium women's streetwear football tee - Spanish flamenco pop art colorful design by Folklore FC - Front View",
+    keywords: ["Comprar camiseta pop art", "Moda streetwear flamenco", "Fútbol colorido España", "Camiseta urbana mujer artística"]
   },
   {
     id: 'wes-20',
@@ -1834,10 +1834,10 @@ Adecuado para streetwear o asistir a partidos de fútbol
 Corte moderno "Oversized" que se adapta a diferentes gustos
 Impresión de alta calidad resistente a la decoloración
 Excelente opción para uso personal o como regalo único`,
-    metaTitle: "Camiseta de Fútbol Mosaico de Gaudí | Legado Modernista | Folklore FC",
-    metaDescription: "Arte en movimiento. Un homenaje al genio de Antoni Gaudí y al arte del mosaico trencadís, con colores vibrantes y formas orgánicas. Pieza deportiva arquitectónica única.",
-    altText: "Balón de fútbol diseñado en estilo mosaico trencadís colorido con salamandras modernistas (el dragón de Gaudí) a su alrededor.",
-    keywords: ["Camiseta fútbol Gaudí", "Moda Barcelona trencadís", "Camiseta modernismo español", "Arte arquitectónico para vestir"]
+    metaTitle: "Comprar Camiseta Legado Modernista - Mosaico Gaudí | Folklore FC",
+    metaDescription: "Arte en movimiento. Camiseta streetwear inspirada en el mosaico de Gaudí. Colores vibrantes y diseño arquitectónico para la mujer moderna. ¡Haz tu pedido ya!",
+    altText: "Premium women's streetwear football tee - Spanish Gaudí mosaic art modernism design by Folklore FC - Front View",
+    keywords: ["Comprar camiseta mosaico Gaudí", "Ropa streetwear modernista España", "Moda arte Barcelona", "Camiseta fútbol estilo Gaudí"]
   },
   {
     id: 'wes-21',
@@ -1859,10 +1859,10 @@ Adecuado para streetwear o asistir a partidos de fútbol
 Corte moderno "Oversized" que se adapta a diferentes gustos
 Impresión de alta calidad resistente a la decoloración
 Excelente opción para uso personal o como regalo único`,
-    metaTitle: "Camiseta de Vitral de Pasión | Catedral Gótica | Folklore FC",
-    metaDescription: "Devoción y belleza con Vitral de Pasión. Inspirado en los majestuosos rosetones de las catedrales españolas, donde el fútbol se convierte en una fe sagrada. Ilumina el juego.",
-    altText: "Rosetón de catedral gótica con cristales de colores rompiéndose alrededor de un balón de fútbol central, místico y divino.",
-    keywords: ["Equipación catedral española", "Camiseta arquitectura gótica", "Fútbol fe sagrada", "Ropa deportiva de lujo artística"]
+    metaTitle: "Comprar Camiseta Vitral de Pasión - Catedral Gótica | Folklore FC",
+    metaDescription: "Devoción y belleza. Camiseta streetwear de mujer inspirada en los rosetones de las catedrales góticas españolas. Ilumina tu juego. ¡Compra la tuya!",
+    altText: "Premium women's streetwear football tee - Spanish gothic cathedral stained glass design by Folklore FC - Front View",
+    keywords: ["Comprar camiseta vitral gótico", "Ropa streetwear arte sacro", "Moda deportiva catedral", "Camiseta fe España mujer"]
   },
   {
     id: 'wes-22',
@@ -1884,10 +1884,10 @@ Adecuado para streetwear o asistir a partidos de fútbol
 Corte moderno "Oversized" que se adapta a diferentes gustos
 Impresión de alta calidad resistente a la decoloración
 Excelente opción para uso personal o como regalo único`,
-    metaTitle: "Camiseta de Fútbol Matadora Cyberpunk | Lidia Futuro | Folklore FC",
-    metaDescription: "El futuro de la tauromaquia. Estética cyberpunk fusionada con la valentía de la arena, presentando a una matadora robótica domando la competición. La innovación se une a la tradición.",
-    altText: "Matadora robótica con una capa de alta tecnología frente a un cráneo de toro en llamas y un balón de fútbol futurista.",
-    keywords: ["Camiseta matadora cyberpunk", "Equipación española futurista", "Moda deportiva agresiva", "Estilo fútbol de alta tecnología"]
+    metaTitle: "Comprar Camiseta Matadora Cyberpunk - Lidia Futuro | Folklore FC",
+    metaDescription: "El futuro de la tauromaquia. Camiseta streetwear cyberpunk para mujer. Innovación y valentía en una matadora robótica. ¡Equípate con lo último en moda!",
+    altText: "Premium women's streetwear football tee - Spanish cyberpunk robotic matador design by Folklore FC - Front View",
+    keywords: ["Comprar camiseta cyberpunk España", "Streetwear futurista mujer", "Moda deportiva matadora", "Camiseta fútbol alta tecnología"]
   },
 
 
