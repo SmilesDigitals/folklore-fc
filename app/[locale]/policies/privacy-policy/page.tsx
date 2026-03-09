@@ -18,7 +18,7 @@ const LEGAL_TEXT: any = {
       <p>Folklore FC is responsible for processing your personal data.</p>
       <p><strong>Contact Information:</strong><br />
       Email: support@folklorefc.com<br />
-      Address: Travessía Prat de la Riba, 91–95</p>
+      Address: 11025 Westlake Dr, Charlotte, NC 28273, Charlotte, North Carolina</p>
 
       <h2>3. Countries We Serve</h2>
       <p>We operate internationally and primarily serve customers in the following countries: United States (USA), France (FR), Spain (ES), Japan (JP), and Saudi Arabia (KSA).</p>
@@ -105,7 +105,7 @@ const LEGAL_TEXT: any = {
       <p>Folklore FC هي المسؤولة عن معالجة بياناتك الشخصية.</p>
       <p><strong>معلومات الاتصال:</strong><br />
       البريد الإلكتروني: support@folklorefc.com<br />
-      العنوان: Travessía Prat de la Riba, 91–95</p>
+      العنوان: 11025 Westlake Dr, Charlotte, NC 28273, Charlotte, North Carolina</p>
 
       <h2>3. الدول التي نخدمها</h2>
       <p>نحن نعمل دوليًا ونخدم العملاء بشكل أساسي في البلدان التالية: الولايات المتحدة (USA)، فرنسا (FR)، إسبانيا (ES)، اليابان (JP)، والمملكة العربية السعودية (KSA).</p>
@@ -192,7 +192,7 @@ const LEGAL_TEXT: any = {
       <p>Folklore FC est responsable du traitement de vos données personnelles.</p>
       <p><strong>Coordonnées :</strong><br />
       E-mail : support@folklorefc.com<br />
-      Adresse : Travessía Prat de la Riba, 91–95</p>
+      Adresse : 11025 Westlake Dr, Charlotte, NC 28273, Charlotte, North Carolina</p>
 
       <h2>3. Pays Que Nous Servons</h2>
       <p>Nous opérons à l'international et servons principalement des clients dans les pays suivants : États-Unis (USA), France (FR), Espagne (ES), Japon (JP) et Arabie Saoudite (KSA).</p>
@@ -279,7 +279,7 @@ const LEGAL_TEXT: any = {
       <p>Folklore FC es responsable del procesamiento de sus datos personales.</p>
       <p><strong>Información de Contacto:</strong><br />
       Correo electrónico: support@folklorefc.com<br />
-      Dirección: Travessía Prat de la Riba, 91–95</p>
+      Dirección: 11025 Westlake Dr, Charlotte, NC 28273, Charlotte, North Carolina</p>
 
       <h2>3. Países Que Servimos</h2>
       <p>Operamos internacionalmente y servimos principalmente a clientes en los siguientes países: Estados Unidos (USA), Francia (FR), España (ES), Japón (JP) y Arabia Saudita (KSA).</p>
@@ -366,7 +366,7 @@ const LEGAL_TEXT: any = {
       <p>Folklore FCは、お客様の個人データの処理に責任を負います。</p>
       <p><strong>連絡先情報：</strong><br />
       メール：support@folklorefc.com<br />
-      住所：Travessía Prat de la Riba, 91–95</p>
+      住所：11025 Westlake Dr, Charlotte, NC 28273, Charlotte, North Carolina</p>
 
       <h2>3. サービス提供国</h2>
       <p>私たちは国際的に事業を展開しており、主に以下の国の顧客にサービスを提供しています：アメリカ合衆国（USA）、フランス（FR）、スペイン（ES）、日本（JP）、およびサウジアラビア（KSA）。</p>

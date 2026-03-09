@@ -201,7 +201,7 @@ export default function Footer() {
                     {/* PayPal */}
                     <svg className="h-6 w-auto" viewBox="0 0 32 20" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="32" height="20" rx="4" fill="#18181b" stroke="#27272a" /><path d="M11.6 15H10.1L11.6 5.5H15.9C17.7 5.5 18.8 6.4 18.5 8.1C18.2 10.3 16.6 11.2 14.7 11.2H13.5L12.9 11.2L12.2 15H11.6ZM13.8 10.3H14.5C15.8 10.3 16.8 9.8 17 8.3C17.2 7.3 16.4 6.4 15.2 6.4H12.8L12.3 9.4L13.8 10.3Z" fill="#003087" /><path d="M14.7 11.2H13.5L12.9 11.2L11.8 18H13.2L13.6 15H15.4C17.1 15 18.1 14.1 18.4 12.4C18.6 11.6 18.2 11.2 17.5 11.2C16.3 11.2 15 11.2 14.7 11.2Z" fill="#0079C1" /></svg>
                 </div>
-                <p className="text-center md:text-right">Travessía Prat de la Riba, 91-95, 08849<br /> Sant Climent de Llobregat, Barcelona, Spain</p>
+                <p className="text-center md:text-right">11025 Westlake Dr, Charlotte, NC 28273<br /> Charlotte, North Carolina</p>
             </div>
         </footer>
     );
